@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { FONTS } from "@/assets/fonts";
+import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
   title: "SonaQode",
@@ -16,7 +18,11 @@ export default function RootLayout({
       lang="en"
       className={`${FONTS.clashDisplay.variable} ${FONTS.poppins.variable}`}
     >
-      <body suppressHydrationWarning={true}>{children}</body>
+      <body suppressHydrationWarning={true} className="relative">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
