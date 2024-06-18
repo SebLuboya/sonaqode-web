@@ -1,0 +1,9 @@
+export { default as AboutBanner } from "./about-banner.png";
+export { default as CyberSecurity } from "./cyber-security.png";
+export { default as DataAnalytics } from "./data-analytics.png";
+export { default as GlobalReach } from "./global-reach.png";
+export { default as HomeBanner } from "./home-banner.png";
+export { default as HowWeWork } from "./how-we-work.png";
+export { default as OurClients1 } from "./our-clients-1.png";
+export { default as SoftwareDevelopment } from "./software-development.png";
+export { default as WomanStanding } from "./woman-standing.png";

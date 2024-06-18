@@ -1,0 +1,14 @@
+export { default as Admin } from "./admin.png";
+export { default as Affordable } from "./affordable.png";
+export { default as Approach } from "./approach.png";
+export { default as Client } from "./client.png";
+export { default as Extension } from "./extension.png";
+export { default as FacebookIcon } from "./facebook-icon.svg";
+export { default as Focus } from "./focus.png";
+export { default as GithubIcon } from "./github-icon.svg";
+export { default as LinkedInIcon } from "./linkedIn-icon.svg";
+export { default as Project } from "./project.png";
+export { default as Schedule } from "./schedule.png";
+export { default as SonaqodeDarkIcon } from "./sonaqode-dark-icon.png";
+export { default as SonaqodeIcon } from "./sonaqode-icon.png";
+export { default as Transparent } from "./transparent.png";
