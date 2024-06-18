@@ -56,7 +56,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 z-10 w-full pt-8 px-6">
-      <div className="w-full max-w-[1260px] mx-auto h-28 flex flex-row items-center justify-between px-8 bg-black/60 rounded-3xl text-white backdrop-blur-md">
+      <div className="w-full max-w-[1280px] mx-auto h-28 flex flex-row items-center justify-between px-8 bg-black/60 rounded-3xl text-white backdrop-blur-md">
         <Image
           src={SonaqodeDarkIcon}
           className="h-[70px] w-auto"

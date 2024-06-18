@@ -1,6 +1,4 @@
-import { HomeBanner } from "@/assets/images";
 import HomeImageCarosel from "@/components/homeImageCarosel";
-import Image from "next/image";
 
 export default function Home() {
   return (
