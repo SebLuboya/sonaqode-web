@@ -154,26 +154,26 @@ const sections = [
 
 const Methodolody = () => {
   return (
-    <section className="pt-28">
-      <div className="relative w-full max-w-[1210px] min-h-[650px] mx-auto flex flex-row gap-10">
+    <section className="pt-16 lg:pt-28 px-5">
+      <div className="relative w-full lg:max-w-[1210px] min-h-[650px] mx-auto flex flex-col lg:flex-row gap-10">
         {sections.map((section, idx) => (
           <div key={section.label} className="flex flex-1 flex-col gap-20">
             <div
               className={cn(
-                "flex flex-col items-center p-9 py-14 gap-7 rounded-[100px]",
+                "flex flex-col items-center p-4 lg:p-9 pt-10 lg:py-14 gap-4 lg:gap-7 rounded-[50px] lg:rounded-[100px]",
                 section.bgcolor,
               )}
             >
               <div className="flex flex-col items-center gap-1 min-h-[200px]">
-                <h2 className="font-clash text-[40px] font-medium leading-[30px]">
+                <h2 className="font-clash text-3xl lg:text-[40px] font-medium leading-[30px]">
                   {section.label}
                 </h2>
-                <p className="text-lg">{section.subLabel}</p>
-                <p className="text-center text-balance font-light mt-3">
+                <p className="text-sm lg:text-lg">{section.subLabel}</p>
+                <p className="text-sm lg:text-base text-center text-balance font-light mt-3">
                   {section.desc}
                 </p>
               </div>
-              <div className="w-full flex flex-col bg-white p-10 pr-7 pb-7 gap-5 rounded-[70px]">
+              <div className="w-full flex flex-col bg-white p-4 lg:p-10 pt-7 lg:pr-7 lg:pb-7 gap-5 rounded-3xl lg:rounded-[70px]">
                 {section.features.map((feature) => (
                   <div
                     key={feature.label}
@@ -192,7 +192,7 @@ const Methodolody = () => {
                       />
                     </div>
 
-                    <p className="font-light">
+                    <p className="font-light text-sm lg:text-base">
                       <span className="font-semibold">
                         {feature.label.split(":")[0]}
                       </span>
@@ -200,7 +200,7 @@ const Methodolody = () => {
                     </p>
                   </div>
                 ))}
-                <p className="text-center font-medium">
+                <p className="text-sm lg:text-base text-center font-medium">
                   We sign NDA for all our projects
                 </p>
               </div>
@@ -219,7 +219,7 @@ const Methodolody = () => {
                   key={benefit.label}
                   className="flex flex-row items-center gap-5  bg-white rounded-[40px]"
                 >
-                  <div className="w-20 h-full shrink-0 flex flex-col gap-3 items-center justify-center">
+                  <div className="w-16 lg:w-20 h-full shrink-0 flex flex-col gap-3 items-center justify-center">
                     <div
                       className={cn(
                         "w-0.5 flex-1 flex bg-gray-300",
@@ -228,7 +228,7 @@ const Methodolody = () => {
                     ></div>
                     <Image
                       src={benefit.circle}
-                      className="w-20 h-20 shrink-0"
+                      className="w-16 lg:w-20 h-16 lg:h-20 shrink-0"
                       alt="icon"
                     />
                     <div
@@ -244,10 +244,12 @@ const Methodolody = () => {
                       i === 0 && "pt-0",
                     )}
                   >
-                    <h3 className="text-xl font-semibold mb-1">
+                    <h3 className="text-base lg:text-xl font-semibold mb-1">
                       {benefit.label}
                     </h3>
-                    <p className="text-gray-600">{benefit.desc}</p>
+                    <p className="text-sm lg:text-base text-gray-600">
+                      {benefit.desc}
+                    </p>
                   </div>
                 </div>
               ))}

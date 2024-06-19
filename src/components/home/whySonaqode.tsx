@@ -32,19 +32,19 @@ const whys = [
 
 const WhySonaqode = () => {
   return (
-    <section className="pt-28">
-      <div className="relative w-full max-w-[1210px] min-h-[650px] mx-auto py-16 px-4 rounded-[100px] bg-sona-lightBlue">
-        <div className="max-w-[922px] mx-auto flex flex-col items-center">
-          <h2 className="font-clash text-[50px] font-semibold leading-[60px]">
+    <section className="pt-16 lg:pt-28 px-5">
+      <div className="relative w-full max-w-[1210px] min-h-[650px] mx-auto pt-16 lg:py-16 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+        <div className="w-full lg:max-w-[922px] mx-auto flex flex-col items-center">
+          <h2 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
             Why SonaQode
           </h2>
-          <p className="text-gray-600 text-center text-balance mt-3">
+          <p className="text-gray-600 text-sm lg:text-base text-center text-balance leading-5 mt-3">
             Sonaqode is synonymous with top-class quality and reliability. Our
             team of specialists has extensive experience in various verticals
             and is always ready to address any challenges of your business
             promptly.
           </p>
-          <div className="w-full grid grid-cols-2 grid-rows-2 mt-14 gap-12">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 mt-14 gap-5 lg:gap-12">
             {whys.map((why) => (
               <div
                 key={why.label}
@@ -59,8 +59,12 @@ const WhySonaqode = () => {
                   <Image src={why.icon} className="w-8 h-8" alt="icon" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-1">{why.label}</h3>
-                  <p className="text-gray-600">{why.desc}</p>
+                  <h3 className="text-base lg:text-xl font-semibold mb-1">
+                    {why.label}
+                  </h3>
+                  <p className="text-sm lg:text-base text-gray-600">
+                    {why.desc}
+                  </p>
                 </div>
               </div>
             ))}

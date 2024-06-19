@@ -5,7 +5,6 @@ import {
   SoftwareDevelopment,
 } from "@/assets/images";
 import { cn } from "@/utils";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -39,29 +38,20 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="flex flex-col items-center gap-8 pt-28">
+    <section className="flex flex-col items-center gap-8 px-5 pt-24 lg:pt-28">
       <h2 className="font-clash text-[50px] font-semibold leading-[60px]">
         Our Services
       </h2>
-      <div className="relative w-full max-w-[1210px] mx-auto flex flex-row justify-between">
+      <div className="relative w-full lg:max-w-[1210px] mx-auto flex flex-col items-center gap-11 lg:flex-row justify-between">
         {services.map((service) => (
           <div
             key={service.label}
             className={cn(
-              "relative flex w-full h-auto max-w-[30%] flex-col aspect-[4/5] rounded-[10%] overflow-clip",
+              "relative flex w-full h-auto max-w-[400px] lg:max-w-[30%] flex-col aspect-[4/5] rounded-[10%] overflow-clip",
               service.color,
             )}
           >
-            <motion.div
-              whileHover={{
-                translateY: "-50%",
-              }}
-              transition={{
-                type: "tween",
-                duration: 0.2,
-              }}
-              className="absolute flex flex-col w-full h-full"
-            >
+            <div className="absolute flex flex-col w-full h-full hover:translate-y-[-50%] duration-200">
               <div className="w-full shrink-0 h-4/5">
                 <Image
                   src={service.image}
@@ -87,7 +77,7 @@ const OurServices = () => {
                   </Link>
                 </div>
               </div>
-            </motion.div>
+            </div>
           </div>
         ))}
       </div>
