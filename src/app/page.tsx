@@ -1,9 +1,10 @@
 import { HowWeWork, WomanStanding } from "@/assets/images";
+import Image from "next/image";
 import HomeImageCarosel from "@/components/misc/homeImageCarosel";
 import OurServices from "@/components/home/ourServices";
-import Image from "next/image";
 import WhySonaqode from "@/components/home/whySonaqode";
 import Methodolody from "@/components/home/methodolody";
+import OurClients from "@/components/home/ourClients";
 
 export default function Home() {
   return (
@@ -85,6 +86,7 @@ export default function Home() {
         </div>
       </section>
       <Methodolody />
+      <OurClients />
     </main>
   );
 }

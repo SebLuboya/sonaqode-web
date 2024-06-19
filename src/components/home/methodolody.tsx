@@ -156,58 +156,102 @@ const Methodolody = () => {
   return (
     <section className="pt-28">
       <div className="relative w-full max-w-[1210px] min-h-[650px] mx-auto flex flex-row gap-10">
-        {sections.map((section) => (
-          <div
-            key={section.label}
-            className={cn(
-              "flex flex-1 flex-col items-center p-9 py-14 gap-7 rounded-[100px]",
-              section.bgcolor,
-            )}
-          >
-            <div className="flex flex-col items-center gap-1 min-h-[200px]">
-              <h2 className="font-clash text-[40px] font-medium leading-[30px]">
-                {section.label}
-              </h2>
-              <p className="text-lg">{section.subLabel}</p>
-              <p className="text-center text-balance font-light mt-3">
-                {section.desc}
-              </p>
-            </div>
-            <div className="w-full flex flex-col bg-white p-10 pr-7 pb-7 gap-5 rounded-[70px]">
-              {section.features.map((feature) => (
-                <div
-                  key={feature.label}
-                  className="flex items-center gap-3 bg-white"
-                >
-                  <div
-                    className={cn(
-                      "w-10 h-10 rounded-full shrink-0 flex items-center justify-center",
-                      feature.color,
-                    )}
-                  >
-                    <Image src={feature.icon} className="w-8 h-8" alt="icon" />
-                  </div>
-
-                  <p className="font-light">
-                    <span className="font-semibold">
-                      {feature.label.split(":")[0]}
-                    </span>
-                    :{feature.label.split(":")[1]}
-                  </p>
-                </div>
-              ))}
-              <p className="text-center font-medium">
-                We sign NDA for all our projects
-              </p>
-            </div>
-            <button
+        {sections.map((section, idx) => (
+          <div key={section.label} className="flex flex-1 flex-col gap-20">
+            <div
               className={cn(
-                "w-[190px] h-14 bg-white hover:text-white duration-75 rounded-full",
-                section.btnClass,
+                "flex flex-col items-center p-9 py-14 gap-7 rounded-[100px]",
+                section.bgcolor,
               )}
             >
-              Subscribe
-            </button>
+              <div className="flex flex-col items-center gap-1 min-h-[200px]">
+                <h2 className="font-clash text-[40px] font-medium leading-[30px]">
+                  {section.label}
+                </h2>
+                <p className="text-lg">{section.subLabel}</p>
+                <p className="text-center text-balance font-light mt-3">
+                  {section.desc}
+                </p>
+              </div>
+              <div className="w-full flex flex-col bg-white p-10 pr-7 pb-7 gap-5 rounded-[70px]">
+                {section.features.map((feature) => (
+                  <div
+                    key={feature.label}
+                    className="flex items-center gap-3 bg-white"
+                  >
+                    <div
+                      className={cn(
+                        "w-10 h-10 rounded-full shrink-0 flex items-center justify-center",
+                        feature.color,
+                      )}
+                    >
+                      <Image
+                        src={feature.icon}
+                        className="w-8 h-8"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <p className="font-light">
+                      <span className="font-semibold">
+                        {feature.label.split(":")[0]}
+                      </span>
+                      :{feature.label.split(":")[1]}
+                    </p>
+                  </div>
+                ))}
+                <p className="text-center font-medium">
+                  We sign NDA for all our projects
+                </p>
+              </div>
+              <button
+                className={cn(
+                  "w-[190px] h-14 bg-white hover:text-white duration-75 rounded-full",
+                  section.btnClass,
+                )}
+              >
+                Subscribe
+              </button>
+            </div>
+            <div className="flex flex-col">
+              {section.benefits.map((benefit, i) => (
+                <div
+                  key={benefit.label}
+                  className="flex flex-row items-center gap-5  bg-white rounded-[40px]"
+                >
+                  <div className="w-20 h-full shrink-0 flex flex-col gap-3 items-center justify-center">
+                    <div
+                      className={cn(
+                        "w-0.5 flex-1 flex bg-gray-300",
+                        i === 0 && "opacity-0",
+                      )}
+                    ></div>
+                    <Image
+                      src={benefit.circle}
+                      className="w-20 h-20 shrink-0"
+                      alt="icon"
+                    />
+                    <div
+                      className={cn(
+                        "w-0.5 flex-1 flex bg-gray-300",
+                        i === section.benefits.length - 1 && "opacity-0",
+                      )}
+                    ></div>
+                  </div>
+                  <div
+                    className={cn(
+                      idx === 0 ? "py-5" : "py-10",
+                      i === 0 && "pt-0",
+                    )}
+                  >
+                    <h3 className="text-xl font-semibold mb-1">
+                      {benefit.label}
+                    </h3>
+                    <p className="text-gray-600">{benefit.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
