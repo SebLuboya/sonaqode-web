@@ -1,7 +1,9 @@
-import { WomanStanding } from "@/assets/images";
+import { HowWeWork, WomanStanding } from "@/assets/images";
 import HomeImageCarosel from "@/components/misc/homeImageCarosel";
 import OurServices from "@/components/home/ourServices";
 import Image from "next/image";
+import WhySonaqode from "@/components/home/whySonaqode";
+import Methodolody from "@/components/home/methodolody";
 
 export default function Home() {
   return (
@@ -54,6 +56,35 @@ export default function Home() {
         </div>
       </section>
       <OurServices />
+      <WhySonaqode />
+      <section className="pt-28">
+        <div className="relative w-full max-w-[1210px] min-h-[650px] mx-auto flex flex-row items-end pb-16 pl-16 rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
+          <Image
+            src={HowWeWork}
+            alt="how-we-work"
+            className="object-cover z-[1]"
+            layout="fill"
+          />
+          <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>
+          <div className="w-3/6 flex flex-col gap-10 h-full z-[3]">
+            <div className="flex flex-col gap-2">
+              <h2 className="font-clash text-[50px] font-semibold leading-[60px] mb-3">
+                How We Work
+              </h2>
+              <p className="font-light text-balance">
+                We recognise the unique needs of every business, understanding
+                that a one-size-fits-all approach is inadequate. That&apos;s why
+                we emphasize simplicity and flexibility in our engagements,
+                tailored to your convenience on demand.
+              </p>
+            </div>
+            <button className="max-w-[190px] h-[60px] rounded-full bg-white text-sona-blue hover:bg-sona-blue hover:text-white duration-150">
+              Learn more
+            </button>
+          </div>
+        </div>
+      </section>
+      <Methodolody />
     </main>
   );
 }

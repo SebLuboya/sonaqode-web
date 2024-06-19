@@ -1,0 +1,9 @@
+export { default as Pink100 } from "./pink-100.svg";
+export { default as Pink25 } from "./pink-25.svg";
+export { default as Pink50 } from "./pink-50.svg";
+export { default as Pink75 } from "./pink-75.svg";
+export { default as Purple100 } from "./purple-100.svg";
+export { default as Purple20 } from "./purple-20.svg";
+export { default as Purple40 } from "./purple-40.svg";
+export { default as Purple60 } from "./purple-60.svg";
+export { default as Purple80 } from "./purple-80.svg";
