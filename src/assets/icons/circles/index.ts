@@ -1,3 +1,7 @@
+export { default as Blue100 } from "./blue-100.svg";
+export { default as Blue25 } from "./blue-25.svg";
+export { default as Blue50 } from "./blue-50.svg";
+export { default as Blue75 } from "./blue-75.svg";
 export { default as Pink100 } from "./pink-100.svg";
 export { default as Pink25 } from "./pink-25.svg";
 export { default as Pink50 } from "./pink-50.svg";
