@@ -104,6 +104,7 @@ export default function AboutUs() {
             alt="how-we-work"
             className="object-cover z-[1]"
             layout="fill"
+            placeholder="blur"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>
           <div className="lg:w-[620px] w-full flex flex-col gap-8 lg:gap-10 h-full z-[3]">

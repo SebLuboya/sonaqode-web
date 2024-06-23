@@ -64,8 +64,9 @@ export default function Home() {
             alt="how-we-work"
             className="object-cover z-[1]"
             layout="fill"
+            placeholder="blur"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-[2]"></div>
           <div className="lg:w-3/6 w-full flex flex-col gap-8 lg:gap-10 h-full z-[3]">
             <div className="flex flex-col gap-2">
               <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-1 lg:mb-3">

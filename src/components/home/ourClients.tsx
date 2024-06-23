@@ -41,6 +41,7 @@ const OurClients = () => {
                   className="object-cover"
                   layout="fill"
                   alt="clint"
+                  placeholder="blur"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-end gap-1.5 pb-16 bg-black/50 text-white opacity-0 hover:opacity-100 duration-200">
                   <p className="font-clash text-center font-medium text-lg lg:text-2xl">
