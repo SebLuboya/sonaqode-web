@@ -6,6 +6,7 @@ import WhySonaqode from "@/components/home/whySonaqode";
 import Methodolody from "@/components/home/methodolody";
 import OurClients from "@/components/home/ourClients";
 import Button from "@/components/misc/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
               progress and uncovering opportunities.
             </p>
           </div>
-          <Button>Learn more</Button>
+          <Link href="/about">
+            <Button>Learn more</Button>
+          </Link>
         </div>
       </section>
       <section className="pt-11 lg:pt-28 px-5">
@@ -44,9 +47,11 @@ export default function Home() {
                 business to new heights.
               </p>
             </div>
-            <Button className="hover:bg-white hover:text-sona-blue bg-sona-blue text-white">
-              Learn more
-            </Button>
+            <Link href="/about">
+              <Button className="hover:bg-white hover:text-sona-blue bg-sona-blue text-white">
+                Learn more
+              </Button>
+            </Link>
           </div>
           <Image
             src={WomanStanding}
@@ -79,7 +84,9 @@ export default function Home() {
                 tailored to your convenience on demand.
               </p>
             </div>
-            <Button>Learn more</Button>
+            <Link href="/about">
+              <Button>Learn more</Button>
+            </Link>
           </div>
         </div>
       </section>

@@ -8,24 +8,27 @@ import React, { useState } from "react";
 const data = [
   {
     question: "When can we start our work?",
-    answers:
+    answer:
       "There is no need for delay! Take action immediately. Browse and subscribe or send us your request, and we will promptly get in touch with you.",
   },
   {
     question: "How will I track the progress of my project?",
-    answers: "",
+    answer:
+      "We utilize various project management tools such as Jira, Notion, GitHub, and others to offer transparent visibility to all stakeholders regarding project progress and developer tasks. These tools enable us to monitor the scope of work, budget, assignments, and ensure alignment with our goals.",
   },
   {
     question: "Where is SonaQode based?",
-    answers: "",
+    answer:
+      "Our headquarters are located in London, UK, while a majority of our developers and engineers operate from Accra, Ghana. We are committed to recruiting top-notch specialists from various countries across the African continent, enabling us to deliver exceptional remote work.",
   },
   {
     question: "How do you safeguard my intellectual property?",
-    answers: "",
+    answer:
+      "We guarantee comprehensive intellectual property (IP) protection through our Non-Disclosure Agreements (NDAs) and Master Service Agreements (MSAs). As a software development service provider, we operate on a work-for-hire basis, ensuring that our clients retain complete legal ownership of all intellectual property",
   },
   {
     question: "Can you tell me more about your hiring process?",
-    answers: "",
+    answer: "",
   },
 ];
 
@@ -78,9 +81,37 @@ const FaqItem = ({
           animate={{ height: isOpen ? "auto" : 0 }}
           className="overflow-clip"
         >
-          <p className="text-sm lg:text-base font-light pt-1.5 lg:pt-2">
-            {answer}
-          </p>
+          {answer !== "" ? (
+            <p className="text-sm lg:text-base font-light pt-1.5 lg:pt-2">
+              {answer}
+            </p>
+          ) : (
+            <div className="space-y-2 text-sm lg:text-base font-light pt-1.5 lg:pt-2">
+              <p>
+                CV review: We assess candidates&apos; qualifications and invite
+                those with relevant skills for an interview with a recruiter.
+              </p>
+              <p>
+                English test: Language proficiency is crucial for our work, so
+                we conduct an English assessment.
+              </p>
+              <p>
+                Interview & skill evaluation: Candidates undergo an in-person
+                interview with our project manager, who evaluates their hard and
+                soft skills.
+              </p>
+              <p>
+                Reference check: After successful completion of previous stages,
+                we request at least two to three professional references from
+                the candidate.
+              </p>
+              <p>
+                Final interview: A final interview with our CEO is conducted. If
+                both parties are satisfied, the candidate is offered a full team
+                membership.
+              </p>
+            </div>
+          )}
         </motion.div>
       </div>
     </div>

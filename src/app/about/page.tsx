@@ -30,7 +30,7 @@ export default function AboutUs() {
             <h1 className="font-clash text-2xl lg:text-[56px] font-semibold lg:leading-[68px] lg:w-[634px]">
               About US
             </h1>
-            <p className="text-sm lg:max-w-[680px] font-light">
+            <p className="text-sm lg:text-base lg:max-w-[680px] font-light">
               Sonaqode is a tech professional staffing company built to help
               businesses scale and grow. We empower you with efficient,
               on-demand access to top-tier talents who seamlessly integrate,
@@ -40,7 +40,6 @@ export default function AboutUs() {
               the pitfalls of traditional outsourcing.
             </p>
           </div>
-          <Button>Learn more</Button>
         </div>
       </section>
       <section className="pt-16 lg:pt-28 px-5">

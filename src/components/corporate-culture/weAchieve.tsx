@@ -18,7 +18,7 @@ const whys = [
   },
   {
     label: "Amplifying Talents",
-    desc: "We support diverse talent to excel in their fields and become value-driven role models and leaders who uplift and inspire their communities. These achievements are facilitated by offering individuals free opportunities for networking, internships, and development.",
+    desc: "We support diverse talent to excel in their fields and become value-driven role models and leaders who uplift and inspire their communities. These achievements are facilitated by offering individuals free opportunities for networking, internships, and personal development.",
     color: "bg-[#FFD556]",
     icon: Creativity,
   },
