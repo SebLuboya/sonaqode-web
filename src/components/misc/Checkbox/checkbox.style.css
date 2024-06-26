@@ -1,0 +1,29 @@
+.main {
+  @apply relative flex cursor-pointer items-start;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.geekmark {
+  @apply absolute left-0 h-5 w-5 rounded-md border border-gray-300 duration-100;
+}
+
+.main:hover input ~ .geekmark {
+  @apply border-gray-500;
+}
+
+.main input:checked ~ .geekmark {
+  @apply bg-sona-blue border-sona-blue;
+}
+
+.geekmark:after {
+  @apply absolute left-1/2 top-1/2 hidden h-3 w-3 -translate-x-1/2 -translate-y-[30%] place-content-center text-sm text-white content-[''];
+}
+
+/* Display checkmark when checked */
+.main input:checked ~ .geekmark:after {
+  @apply grid font-bold place-content-center;
+  content: url("checkmark.svg");
+}

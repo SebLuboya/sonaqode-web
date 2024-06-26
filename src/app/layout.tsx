@@ -18,7 +18,10 @@ export default function RootLayout({
       lang="en"
       className={`${FONTS.clashDisplay.variable} ${FONTS.poppins.variable}`}
     >
-      <body suppressHydrationWarning={true} className="relative">
+      <body
+        suppressHydrationWarning={true}
+        className="relative min-h-screen flex flex-col justify-between"
+      >
         <Header />
         {children}
         <Footer />
