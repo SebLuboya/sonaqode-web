@@ -21,6 +21,7 @@ const config: Config = {
         sona: {
           blue: "#0E6BA4",
           lightBlue: "#E6F2FF",
+          lightdBlue: "#c5e0ff",
           purple: "#9747FF ",
           midPurple: "#8581FF",
           lightPurple: "#CDCBFF",

@@ -42,7 +42,7 @@ const OurServices = () => {
       <h2 className="font-clash text-[50px] font-semibold leading-[60px]">
         Our Services
       </h2>
-      <div className="relative w-full lg:max-w-[1210px] mx-auto flex flex-col items-center gap-11 lg:flex-row justify-between">
+      <div className="relative w-full lg:max-w-[1260px] mx-auto flex flex-col items-center gap-11 lg:flex-row justify-between">
         {services.map((service) => (
           <div
             key={service.label}

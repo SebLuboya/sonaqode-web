@@ -5,7 +5,7 @@ import { cn } from "@/utils";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 
-const data = [
+const faqData = [
   {
     question: "When can we start our work?",
     answer:
@@ -32,10 +32,10 @@ const data = [
   },
 ];
 
-const Faq = () => {
+const Faq = ({ data = faqData }) => {
   return (
     <section className="py-16 lg:py-28 px-5">
-      <div className="relative w-full max-w-[1210px] flex flex-col lg:gap-10 mx-auto pt-12 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+      <div className="relative w-full max-w-[1260px] flex flex-col lg:gap-10 mx-auto pt-12 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
         <div className="w-full lg:max-w-[930px] mx-auto flex flex-col gap-8 items-center">
           <h2 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
             Frequently Asked Questions

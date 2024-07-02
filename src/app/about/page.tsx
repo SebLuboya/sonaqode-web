@@ -43,7 +43,7 @@ export default function AboutUs() {
         </div>
       </section>
       <section className="pt-16 lg:pt-28 px-5">
-        <div className="relative w-full max-w-[1210px] flex flex-col lg:flex-row gap-5 lg:gap-8 mx-auto">
+        <div className="relative w-full max-w-[1260px] flex flex-col lg:flex-row gap-5 lg:gap-8 mx-auto">
           <div className="w-full bg-[#CDCBFF] flex flex-col rounded-[40px] p-8 gap-5">
             <div className="flex flex-row items-center gap-3">
               <div
@@ -97,7 +97,7 @@ export default function AboutUs() {
       <OurValues />
       <HowItWorks />
       <section className="pt-16 lg:pt-28 px-5">
-        <div className="relative w-full lg:max-w-[1210px] min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
+        <div className="relative w-full lg:max-w-[1260px] min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
           <Image
             src={GlobalReach}
             alt="how-we-work"

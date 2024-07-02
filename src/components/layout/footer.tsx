@@ -51,7 +51,7 @@ const Footer = () => {
           Let’s Build Something Great Together
         </p>
       </div>
-      <div className="w-full lg:max-w-[1210px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-0 justify-between py-10">
+      <div className="w-full lg:max-w-[1260px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-0 justify-between py-10">
         <Image
           src={SonaqodeDarkIcon}
           className="h-[70px] w-auto"
@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full max-w-[1210px] mx-auto flex items-center justify-center py-8 border-t">
+      <div className="w-full max-w-[1260px] mx-auto flex items-center justify-center py-8 border-t">
         <p className="">© 2024 SonaQode. All rights reserved.</p>
       </div>
     </footer>

@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </section>
       <section className="pt-11 lg:pt-28 px-5">
-        <div className="relative w-full lg:max-w-[1210px] min-h-[650px] mx-auto flex flex-col gap-10 lg:flex-row items-end pt-10 px-4 lg:pb-16 lg:pl-16 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+        <div className="relative w-full lg:max-w-[1260px] min-h-[650px] mx-auto flex flex-col gap-10 lg:flex-row items-end pt-10 px-4 lg:pb-16 lg:pl-16 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
           <div className="w-full lg:w-3/5 flex flex-col gap-10 h-full">
             <div className="flex flex-col gap-2">
               <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-3">
@@ -63,7 +63,7 @@ export default function Home() {
       <OurServices />
       <WhySonaqode />
       <section className="pt-16 lg:pt-28 px-5">
-        <div className="relative w-full lg:max-w-[1210px] min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
+        <div className="relative w-full lg:max-w-[1260px] min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
           <Image
             src={HowWeWork}
             alt="how-we-work"

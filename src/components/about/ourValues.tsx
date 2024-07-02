@@ -52,10 +52,10 @@ const whys = [
 const OurValues = () => {
   return (
     <section className="pt-16 lg:pt-28 px-5">
-      <div className="relative w-full max-w-[1210px] min-h-[650px] mx-auto pt-16 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
-        <div className="w-full lg:max-w-[922px] mx-auto flex flex-col items-center">
+      <div className="relative w-full max-w-[1260px] min-h-[650px] mx-auto pt-16 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+        <div className="w-full lg:max-w-[1100px] mx-auto flex flex-col items-center">
           <h2 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
-            Why SonaQode
+            Our Values
           </h2>
           <p className="text-gray-600 text-sm lg:text-base text-center text-balance leading-5 mt-3">
             Sonaqode is synonymous with top-class quality and reliability. Our

@@ -28,7 +28,7 @@ const steps = [
 const HowItWorks = () => {
   return (
     <section className="pt-16 lg:pt-28 px-5">
-      <div className="relative w-full max-w-[1210px] flex flex-col lg:gap-10 mx-auto pt-12 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+      <div className="relative w-full max-w-[1260px] flex flex-col lg:gap-10 mx-auto pt-12 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
         <div className="w-full lg:max-w-[1098px] mx-auto flex flex-col gap-8 items-center">
           <h2 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
             How It Works

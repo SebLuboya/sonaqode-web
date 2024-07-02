@@ -20,7 +20,7 @@ const clients = [
 const OurClients = () => {
   return (
     <section className="py-16 lg:py-28 px-5">
-      <div className="relative w-full lg:max-w-[1210px] lg:min-h-[650px] mx-auto py-8 lg:py-16 px-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+      <div className="relative w-full lg:max-w-[1260px] lg:min-h-[650px] mx-auto py-8 lg:py-16 px-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
         <div className="w-full lg:max-w-[986px] mx-auto flex flex-col items-center">
           <h2 className="font-clash text-3xl lg:text-[50px] font-semibold leading-[60px]">
             Our Clients

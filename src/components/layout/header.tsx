@@ -4,7 +4,7 @@ import ChevronDown from "@/assets/icons/glyphs/ChevronDown";
 import CloseIcon from "@/assets/icons/glyphs/CloseIcon";
 import Menu from "@/assets/icons/glyphs/Menu";
 import { cn } from "@/utils";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -71,7 +71,7 @@ const Header = () => {
             <li
               key={link.label}
               className={cn(
-                "text-sm flex flex-row items-center gap-1 hover:text-[#0E6BA4] duration-75 cursor-pointer",
+                "text-sm flex flex-row items-center gap-1 hover:text-[#c5e0ff] duration-100 cursor-pointer",
                 isActive(link.link ?? "none") && "text-[#0E6BA4]",
               )}
             >
@@ -83,44 +83,63 @@ const Header = () => {
                   onMouseLeave={() => setIsHovering(false)}
                   className="relative flex flex-row items-center gap-1"
                 >
-                  <p className="text-sm lg:text-base">{link.label}</p>
+                  <p className="">{link.label}</p>
                   <ChevronDown />
-                  {isHovering && (
-                    <div className="absolute top-2 left-1/2 -translate-x-1/2 pt-6 cursor-default">
-                      <div className="w-[300px] bg-white flex flex-col gap-2 py-4 px-4 rounded-2xl">
-                        {link.sub.map((sub) => (
-                          <Link
-                            key={sub.label}
-                            href={sub.link}
-                            className={cn(
-                              "hover:bg-gray-50 rounded-md",
-                              isActive(sub.link) && "bg-gray-100",
-                            )}
-                          >
-                            <div
+                  <AnimatePresence>
+                    {isHovering && (
+                      <motion.div
+                        initial={{
+                          opacity: 0,
+                          top: 16,
+                        }}
+                        animate={{
+                          opacity: 1,
+                          top: 8,
+                        }}
+                        exit={{
+                          opacity: 0,
+                          top: 16,
+                        }}
+                        transition={{
+                          duration: 0.13,
+                        }}
+                        className="absolute top-2 left-1/2 -translate-x-1/2 pt-6 cursor-default"
+                      >
+                        <div className="w-[300px] bg-white flex flex-col gap-2 py-4 px-4 rounded-2xl">
+                          {link.sub.map((sub) => (
+                            <Link
+                              key={sub.label}
+                              href={sub.link}
                               className={cn(
-                                "flex flex-row items-center gap-2 p-2 rounded-md text-black",
+                                "hover:bg-gray-50 rounded-md",
+                                isActive(sub.link) && "bg-gray-100",
                               )}
                             >
                               <div
                                 className={cn(
-                                  "w-10 h-10 flex items-center justify-center rounded-full",
-                                  sub.color,
+                                  "flex flex-row items-center gap-2 p-2 rounded-md text-black",
                                 )}
                               >
-                                <Image
-                                  src={sub.icon}
-                                  className="w-6 h-6"
-                                  alt="icon"
-                                />
+                                <div
+                                  className={cn(
+                                    "w-10 h-10 flex items-center justify-center rounded-full",
+                                    sub.color,
+                                  )}
+                                >
+                                  <Image
+                                    src={sub.icon}
+                                    className="w-6 h-6"
+                                    alt="icon"
+                                  />
+                                </div>
+                                <p>{sub.label}</p>
                               </div>
-                              <p>{sub.label}</p>
-                            </div>
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                            </Link>
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </button>
               )}
             </li>
@@ -192,7 +211,7 @@ const Header = () => {
                       onClick={() => setIsOpen(false)}
                       className={cn(
                         "hover:bg-sona-blue/10 rounded-md",
-                        isActive(sub.link) && "bg-gray-100",
+                        isActive(sub.link) && "bg-sona-blue/10",
                       )}
                     >
                       <div

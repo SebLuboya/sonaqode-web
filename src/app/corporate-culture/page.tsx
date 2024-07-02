@@ -43,7 +43,7 @@ export default function CorporateCulture() {
         </div>
       </section>
       <section className="pt-16 lg:pt-28 px-5">
-        <div className="relative w-full max-w-[1210px] flex flex-col lg:flex-row gap-6 lg:gap-10 mx-auto py-12 pb-5 lg:py-14 px-4 lg:px-14 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+        <div className="relative w-full max-w-[1260px] flex flex-col lg:flex-row gap-6 lg:gap-10 mx-auto py-12 pb-5 lg:py-14 px-4 lg:px-14 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
           <div className="flex flex-1 flex-col gap-1.5 lg:gap-6 justify-center">
             <h2 className="font-clash text-2xl lg:text-5xl font-semibold">
               People
