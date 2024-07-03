@@ -9,9 +9,11 @@ import Faq from "@/components/about/faq";
 import {
   AngleBrackets,
   CodeFolder,
+  CurlyBrackets,
   Figma,
   ItSupport,
   Js,
+  ManSocialMedia,
   QaTesting,
   VideoEditor,
   Vscode,
@@ -194,12 +196,28 @@ export default function SoftwareDevelopmentPage() {
         <div className="h-20 md:h-24 lg:h-28 shrink-0 mb-6 lg:mb-6"></div>
         <div
           className={cn(
-            "relative w-full max-w-[1260px] flex flex-col lg:flex-row gap-6 lg:gap-10 mx-auto py-12 pb-5 lg:py-14 px-4 lg:px-14 rounded-[50px] lg:rounded-[100px]",
+            "relative w-full max-w-[1260px] flex flex-col items-center lg:items-stretch lg:flex-row gap-6 lg:gap-10 mx-auto py-12 pb-5 lg:py-14 px-4 lg:px-14 rounded-[50px] lg:rounded-[100px]",
             CONSTS.bg,
           )}
         >
-          <div className="flex flex-1 flex-col justify-between">
-            <div></div>
+          <div className="flex flex-1 flex-col gap-2 justify-between">
+            <div className="flex flex-1 relative min-h-[140px] lg:]min-h-[180px]">
+              <Image
+                src={CurlyBrackets}
+                className="absolute -top-5 left-0 w-20 lg:w-24 h-20 lg:h-24 -rotate-12 object-contain"
+                alt="floating_icon"
+              />
+              <Image
+                src={Js}
+                className="absolute bottom-0 left-1/2 -translate-x-1/2 w-20 lg:w-24 h-20 lg:h-24 object-contain"
+                alt="floating_icon"
+              />
+              <Image
+                src={ManSocialMedia}
+                className="absolute -top-5 right-0 w-20 lg:w-24 h-20 lg:h-24 -rotate-12 object-contain"
+                alt="floating_icon"
+              />
+            </div>
             <div className="flex flex-col gap-1.5 lg:gap-2 justify-center">
               <h2 className="font-clash text-2xl lg:text-5xl font-semibold">
                 Software Development

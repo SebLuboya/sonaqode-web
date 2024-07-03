@@ -22,11 +22,10 @@ const Services = ({
       <h2 className="font-clash text-2xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
         {`${sectionTitle} Services`}
       </h2>
-      <div className="relative w-full lg:max-w-[1260px] mx-auto grid grid-cols-1 lg:grid-cols-3 items-center gap-11 lg:flex-row justify-between">
+      <div className="relative w-full lg:max-w-[1260px] mx-auto grid grid-cols-1 lg:grid-cols-3 place-items-center gap-11 lg:flex-row">
         {data.map((service) => (
-          <div className="pt-20 h-full">
+          <div key={service.title} className="pt-20 h-full">
             <div
-              key={service.title}
               className={cn(
                 "relative w-full h-full flex flex-col px-5 pb-5 pt-20 gap-5 items-center max-w-[400px] rounded-[10%] bg-sona-lightBlue",
               )}

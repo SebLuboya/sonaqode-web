@@ -1,3 +1,4 @@
+export { default as Analytics } from "./analytics.png";
 export { default as AngleBrackets } from "./angle-brackets.png";
 export { default as Automation } from "./automation.png";
 export { default as BarChart } from "./bar-chart.png";
@@ -11,8 +12,13 @@ export { default as DataScience } from "./data-science.png";
 export { default as Figma } from "./figma.png";
 export { default as ItSupport } from "./it-support.png";
 export { default as Js } from "./js.png";
+export { default as Lock } from "./lock.png";
 export { default as ManSocialMedia } from "./man-social-media.png";
+export { default as Mysql } from "./mysql.png";
 export { default as Password } from "./password.png";
+export { default as PoliceBadge } from "./police-badge.png";
+export { default as Protect } from "./protect.png";
+export { default as Python } from "./python.png";
 export { default as QaTesting } from "./qa-testing.png";
 export { default as SecurityWindow } from "./security-window.png";
 export { default as Security } from "./security.png";

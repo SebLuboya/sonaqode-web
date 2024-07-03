@@ -2,7 +2,10 @@ import React from "react";
 import {
   Cloud,
   DataAdmin,
+  Lock,
   Password,
+  PoliceBadge,
+  Protect,
   Security,
   SecurityWindow,
   TwoStep,
@@ -171,7 +174,23 @@ export default function CyberSecurityPage() {
           )}
         >
           <div className="flex flex-1 flex-col justify-between">
-            <div></div>
+            <div className="flex flex-1 relative min-h-[140px] lg:]min-h-[180px]">
+              <Image
+                src={PoliceBadge}
+                className="absolute -top-5 left-0 w-20 lg:w-24 h-20 lg:h-24 -rotate-12 object-contain"
+                alt="floating_icon"
+              />
+              <Image
+                src={Protect}
+                className="absolute bottom-0 left-1/2 -translate-x-1/2 w-20 lg:w-24 h-20 lg:h-24 object-contain"
+                alt="floating_icon"
+              />
+              <Image
+                src={Lock}
+                className="absolute -top-5 right-0 w-20 lg:w-24 h-20 lg:h-24 -rotate-12 object-contain"
+                alt="floating_icon"
+              />
+            </div>
             <div className="flex flex-col gap-1.5 lg:gap-2 justify-center">
               <h2 className="font-clash text-2xl lg:text-5xl font-semibold">
                 Cyber Security
