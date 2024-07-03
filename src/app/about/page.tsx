@@ -33,11 +33,11 @@ export default function AboutUs() {
             <p className="text-sm lg:text-base lg:max-w-[680px] font-light">
               Sonaqode is a tech professional staffing company built to help
               businesses scale and grow. We empower you with efficient,
-              on-demand access to top-tier talents who seamlessly integrate,
-              innovate with fresh ideas, and deliver exceptional results
-              swiftly, mirroring the dedication of your in-house team. Our focus
-              is on optimising budgets, accelerating scaling, and sidestepping
-              the pitfalls of traditional outsourcing.
+              on-demand access to top-tier talents who seamlessly integrate and
+              innovate with fresh ideas, delivering exceptional results swiftly
+              and mirroring the dedication of your in-house team. Our focus is
+              on optimising budgets, accelerating scaling, and sidestepping the
+              pitfalls of traditional outsourcing.
             </p>
           </div>
         </div>

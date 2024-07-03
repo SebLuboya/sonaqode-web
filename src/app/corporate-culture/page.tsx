@@ -48,7 +48,7 @@ export default function CorporateCulture() {
             <h2 className="font-clash text-2xl lg:text-5xl font-semibold">
               People
             </h2>
-            <p className="text-base lg:text-xl font-light">
+            <p className="text-base lg:text-lg font-light">
               We cultivate a supportive and inclusive working environment that
               embodies our mission and values. We commit to continual
               improvement and development, believing in the power of

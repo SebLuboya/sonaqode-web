@@ -38,7 +38,7 @@ const WhySonaqode = () => {
           <h2 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
             Why SonaQode
           </h2>
-          <p className="text-gray-600 text-sm lg:text-base text-center text-balance leading-5 mt-3">
+          <p className="text-gray-600 text-sm lg:text-base text-center text-balance font-light leading-5 mt-3">
             Sonaqode is synonymous with top-class quality and reliability. Our
             team of specialists has extensive experience in various verticals
             and is always ready to address any challenges of your business
@@ -62,7 +62,7 @@ const WhySonaqode = () => {
                   <h3 className="text-base lg:text-xl font-semibold mb-1">
                     {why.label}
                   </h3>
-                  <p className="text-sm lg:text-base text-gray-600">
+                  <p className="text-sm lg:text-base font-light text-gray-600">
                     {why.desc}
                   </p>
                 </div>

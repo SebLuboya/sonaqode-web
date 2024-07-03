@@ -36,15 +36,13 @@ export default function Home() {
               <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-3">
                 We provide top-tier tech professionals
               </h2>
-              <p className="font-light text-sm lg:text-xl text-gray-500 text-balance leading-[27px]">
-                We are dedicated to providing top-tier tech professionals who
-                deliver the solutions that your business needs to continue
-                growing, innovating, and evolving. From start-ups to growing
-                businesses, we have designed a comprehensive model that is
-                adapted and hassle-free, aligning your business goals with
-                dedicated experts. Making Sonaqode an invaluable partner in
-                building a resilient extended workforce and propelling your
-                business to new heights.
+              <p className="font-light text-sm lg:text-lg text-gray-500 text-balance leading-[27px]">
+                We help you build a resilient extended remote workforce by
+                connecting you with top-tier tech professionals efficiently. We
+                deliver value solutions that drive your business growth and
+                innovation, propelling it to new heights. From start-ups to
+                growing businesses, our comprehensive, hassle-free model aligns
+                your business goals with dedicated experts.
               </p>
             </div>
             <Link href="/about">

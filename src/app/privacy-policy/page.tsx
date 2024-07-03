@@ -101,11 +101,11 @@ export default function PrivacyPolicy() {
       <section className="flex flex-col items-end w-full px-6">
         <div className="h-20 md:h-24 lg:h-28 shrink-0 mb-11 lg:mb-12"></div>
         <div className="w-full max-w-[1260px] flex flex-col lg:gap-10 mx-auto pt-12 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
-          <div className="w-full mx-auto flex flex-col gap-8 items-center">
+          <div className="w-full mx-auto flex flex-col gap-8 items-center lg:px-10">
             <h1 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
-              Frequently Asked Questions
+              Privacy Policy
             </h1>
-            <p className="text-balance text-center text-sm lg:text-lg font-light">
+            <p className="text-center text-sm lg:text-lg font-light">
               We greatly appreciate your visit to our website, and thank you for
               your interest in our company, our products, and our web pages. We
               take your privacy seriously and are committed to protecting your

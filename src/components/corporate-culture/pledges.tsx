@@ -72,16 +72,16 @@ const PledgeBox = (pledge: (typeof data)[0]) => {
         placeholder="blur"
       />
       <div className="absolute flex flex-col text-white text-center text-balance px-4 items-center justify-center gap-4 top-0 left-0 w-full h-full bg-black/30 z-[1]">
-        <LayoutGroup>
-          <motion.p
-            key={`${pledge.label}-lab`}
-            layout
-            className="font-clash font-semibold text-4xl lg:text-5xl"
-          >
-            {pledge.label}
-          </motion.p>
-          <AnimatePresence mode="wait">
-            {isHovering ? (
+        <AnimatePresence mode="wait">
+          {isHovering ? (
+            <LayoutGroup>
+              <motion.p
+                key={`${pledge.label}-lab`}
+                layout
+                className="font-clash font-semibold text-4xl lg:text-5xl"
+              >
+                {pledge.label}
+              </motion.p>
               <motion.div
                 key={pledge.desc}
                 initial={{
@@ -100,7 +100,16 @@ const PledgeBox = (pledge: (typeof data)[0]) => {
               >
                 {pledge.desc}
               </motion.div>
-            ) : (
+            </LayoutGroup>
+          ) : (
+            <LayoutGroup>
+              <motion.p
+                key={`${pledge.label}-lab`}
+                layout
+                className="font-clash font-semibold text-4xl lg:text-5xl"
+              >
+                {pledge.label}
+              </motion.p>
               <motion.div
                 key={pledge.sublabel}
                 initial={{
@@ -119,9 +128,9 @@ const PledgeBox = (pledge: (typeof data)[0]) => {
               >
                 {pledge.sublabel}
               </motion.div>
-            )}
-          </AnimatePresence>
-        </LayoutGroup>
+            </LayoutGroup>
+          )}
+        </AnimatePresence>
       </div>
     </motion.div>
   );

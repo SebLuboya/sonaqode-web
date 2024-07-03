@@ -25,7 +25,7 @@ const OurClients = () => {
           <h2 className="font-clash text-3xl lg:text-[50px] font-semibold leading-[60px]">
             Our Clients
           </h2>
-          <p className="text-sm lg:text-base text-gray-600 text-center text-balance mt-3">
+          <p className="text-sm lg:text-base text-gray-600 text-center text-balance font-light mt-3">
             Our goal is to establish the relationships of mutual trust. We
             support clients from all industries, understanding their unique
             challenges and requirements faced throughout business stages.

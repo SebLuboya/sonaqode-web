@@ -56,7 +56,7 @@ const WeAchieve = () => {
                   <h3 className="text-base lg:text-xl font-semibold mb-1">
                     {why.label}
                   </h3>
-                  <p className="text-sm lg:text-base text-gray-600">
+                  <p className="text-sm lg:text-base font-light text-gray-600">
                     {why.desc}
                   </p>
                 </div>
