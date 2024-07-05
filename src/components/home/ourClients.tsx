@@ -55,7 +55,7 @@ const OurClients = () => {
             ))}
           </div>
           <button className="w-[190px] h-[60px] rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150">
-            Let&apos;s Talk
+            Let&apos;s Connect
           </button>
         </div>
       </div>

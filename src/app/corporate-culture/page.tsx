@@ -14,7 +14,7 @@ export const metadata = {
 export default function CorporateCulture() {
   return (
     <main className="w-screen min-h-screen">
-      <section className="relative flex items-end h-[630px] lg:h-[900px] w-full bg-gray-200 text-white z-[1] pb-16 lg:pb-28 px-6">
+      <section className="relative flex items-end h-[630px] lg:h-screen w-full bg-gray-200 text-white z-[1] pb-16 lg:pb-28 px-6">
         <Image
           src={GlobalReach}
           alt="about-banner"

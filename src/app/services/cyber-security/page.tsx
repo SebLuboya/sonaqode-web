@@ -204,9 +204,11 @@ export default function CyberSecurityPage() {
                 team to develop and implement comprehensive security strategies
                 aligned with your organisation&apos;s goals.
               </p>
-              <Button className={cn("mt-2", CONSTS.text, CONSTS.hoverbg)}>
-                See services
-              </Button>
+              <a href="#services">
+                <Button className={cn("mt-2", CONSTS.text, CONSTS.hoverbg)}>
+                  See services
+                </Button>
+              </a>
             </div>
           </div>
           <Image

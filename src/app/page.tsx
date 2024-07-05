@@ -11,7 +11,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="w-screen min-h-screen">
-      <section className="relative flex items-end h-[630px] lg:h-[900px] w-full bg-gray-200 text-white z-[1] pb-16 lg:pb-28 px-6">
+      <section className="relative flex items-end h-[630px] lg:h-screen w-full bg-gray-200 text-white z-[1] pb-16 lg:pb-28 px-6">
         <HomeImageCarosel />
         <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>
         <div className="flex flex-col gap-9 lg:gap-16 z-[3] w-full lg:max-w-[1260px] mx-auto">

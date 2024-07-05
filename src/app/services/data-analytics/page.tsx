@@ -191,9 +191,12 @@ export default function DataAndAnalytics() {
                 and processes to supercharge operations with targeted insights,
                 liberating your teams from repetitive processes.
               </p>
-              <Button className={cn("mt-2", CONSTS.text, CONSTS.hoverbg)}>
-                See services
-              </Button>
+
+              <a href="#services">
+                <Button className={cn("mt-2", CONSTS.text, CONSTS.hoverbg)}>
+                  See services
+                </Button>
+              </a>
             </div>
           </div>
           <Image

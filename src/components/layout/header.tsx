@@ -61,11 +61,13 @@ const Header = () => {
   return (
     <header className="fixed top-0 z-10 w-full pt-4 lg:pt-8 px-4 lg:px-6">
       <div className="w-full max-w-[1280px] mx-auto h-20 md:h-24 lg:h-28 flex flex-row items-center justify-between px-4 md:px-6 lg:px-8 bg-black/60 rounded-3xl text-white backdrop-blur-md">
-        <Image
-          src={SonaqodeDarkIcon}
-          className="h-10 lg:h-[70px] w-auto"
-          alt="sonaqode-dark-icon"
-        />
+        <Link href="/">
+          <Image
+            src={SonaqodeDarkIcon}
+            className="h-10 lg:h-[70px] w-auto"
+            alt="sonaqode-dark-icon"
+          />
+        </Link>
         <ul className="hidden lg:flex flex-row gap-4 lg:gap-7 items-center">
           {links.map((link) => (
             <li

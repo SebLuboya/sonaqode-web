@@ -39,7 +39,7 @@ const Pledges = () => {
           <h2 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
             Pledges
           </h2>
-          <p className="text-gray-600 text-sm lg:text-base text-center font-light text-balance leading-5 mt-3">
+          <p className="text-base lg:text-lg font-light text-center text-balance leading-5 mt-3">
             Our company&apos;s commitments are aligned with several United
             Nations Sustainable Development Goals (SDGs), a set of 17 objectives
             designed to promote global peace and prosperity.

@@ -13,13 +13,13 @@ import React from "react";
 
 const data = [
   {
-    label: "Culture",
-    icon: Globe,
+    label: "Education",
+    icon: Education,
     image: Comm1,
   },
   {
-    label: "Education",
-    icon: Education,
+    label: "Culture",
+    icon: Globe,
     image: Comm2,
   },
   {
@@ -40,9 +40,9 @@ const OurImpact = () => {
       <div className="relative w-full max-w-[1260px] min-h-[650px] mx-auto pt-16 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
         <div className="w-full lg:max-w-[1000px] mx-auto flex flex-col items-center">
           <h2 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
-            Our Impact On community
+            Our Impact On Community
           </h2>
-          <p className="text-gray-600 font-light text-sm lg:text-base text-center leading-5 mt-3">
+          <p className="text-base lg:text-lg font-light text-center leading-5 mt-3">
             Only through collaborative efforts can we generate a ripple effect
             of prosperity and well-being for all members of the communities we
             impact. We accomplish this by actively supporting individuals and

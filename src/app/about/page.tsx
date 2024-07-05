@@ -15,7 +15,7 @@ export const metadata = {
 export default function AboutUs() {
   return (
     <main className="w-screen min-h-screen">
-      <section className="relative flex items-end h-[630px] lg:h-[900px] w-full bg-gray-200 text-white z-[1] pb-16 lg:pb-28 px-6">
+      <section className="relative flex items-end h-[630px] lg:h-screen w-full bg-gray-200 text-white z-[1] pb-16 lg:pb-28 px-6">
         <Image
           src={AboutBanner}
           alt="about-banner"
@@ -28,7 +28,7 @@ export default function AboutUs() {
         <div className="flex flex-col gap-9 lg:gap-16 z-[3] w-full lg:max-w-[1260px] mx-auto">
           <div className="flex flex-col gap-2">
             <h1 className="font-clash text-2xl lg:text-[56px] font-semibold lg:leading-[68px] lg:w-[634px]">
-              About US
+              About Us
             </h1>
             <p className="text-sm lg:text-base lg:max-w-[680px] font-light">
               Sonaqode is a tech professional staffing company built to help
@@ -106,12 +106,12 @@ export default function AboutUs() {
             placeholder="blur"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>
-          <div className="lg:w-[620px] w-full flex flex-col gap-8 lg:gap-10 h-full z-[3]">
+          <div className="lg:w-[790px] w-full flex flex-col gap-8 lg:gap-10 h-full z-[3]">
             <div className="flex flex-col gap-2">
               <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-1 lg:mb-3">
                 Global Reach
               </h2>
-              <p className="text-sm lg:text-base font-light text-balance">
+              <p className="text-sm lg:text-lg font-light text-balance">
                 With our roots in the UK we cater to the needs of global
                 entities. Continuously learning from our clients, our mature
                 collaboration strategies enable us to overcome geographic,

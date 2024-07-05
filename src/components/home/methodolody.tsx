@@ -210,7 +210,7 @@ const Methodolody = () => {
                   section.btnClass,
                 )}
               >
-                {idx === 0 ? "get a Quote" : "Subscibe"}
+                {idx === 0 ? "Get a Quote" : "Subscibe"}
               </button>
             </div>
             <div className="flex flex-col">
