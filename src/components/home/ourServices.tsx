@@ -11,7 +11,7 @@ import React from "react";
 
 const services = [
   {
-    label: "Software Developement",
+    label: "Software Development",
     image: SoftwareDevelopment,
     desc: "At Sonaqode, we understand that developing robust and scalable software solutions is the backbone of every successful business. That's why we offer you access to our talented and highly skilled software engineers.",
     link: "/services/software-development",
@@ -29,7 +29,7 @@ const services = [
   {
     label: "Cyber Security",
     image: CyberSecurity,
-    desc: "At Sonaqode we offer top-tier cybersecurity specialists who are dedicated to safeguarding your company's digital assets, minimizing the risk of cyber threats, and ensuring the confidentiality and integrity of your data.",
+    desc: "At Sonaqode we offer top-tier cybersecurity specialists who are dedicated to safeguarding your company's digital assets, minimising the risk of cyber threats, and ensuring the confidentiality and integrity of your data.",
     link: "/services/cyber-security",
     color: "bg-sona-lightGreen",
     btncolor: "bg-sona-midGreen",

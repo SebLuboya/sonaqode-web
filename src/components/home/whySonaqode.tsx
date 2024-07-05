@@ -17,7 +17,7 @@ const whys = [
     icon: Transparent,
   },
   {
-    label: "focus on Quality",
+    label: "Focus on Quality",
     desc: "Driving excellence, continuously improving efficiency, and aligning practices with a commitment to long-term success.",
     color: "bg-[#FFD556]",
     icon: Focus,
@@ -40,7 +40,7 @@ const WhySonaqode = () => {
           </h2>
           <p className="text-gray-600 text-sm lg:text-base text-center text-balance font-light leading-5 mt-3">
             Sonaqode is synonymous with top-class quality and reliability. Our
-            team of specialists has extensive experience in various verticals
+            team of specialists have extensive experience in various verticals
             and is always ready to address any challenges of your business
             promptly.
           </p>

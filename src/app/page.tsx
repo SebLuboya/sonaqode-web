@@ -78,7 +78,7 @@ export default function Home() {
               <p className="font-light text-balance">
                 We recognise the unique needs of every business, understanding
                 that a one-size-fits-all approach is inadequate. That&apos;s why
-                we emphasize simplicity and flexibility in our engagements,
+                we emphasise simplicity and flexibility in our engagements,
                 tailored to your convenience on demand.
               </p>
             </div>

@@ -75,7 +75,7 @@ const data = [
   {
     title: "Mobile App Developer",
     description:
-      "Our team of experienced developers is skilled in creating high-quality captivating mobile apps, both functional and engaging compatible for iOS and Android. Using the latest technologies and tailored approach to ensure that your apps meet the specific needs.",
+      "Our team of experienced developers are skilled in creating high-quality captivating mobile apps, both functional and engaging compatible for iOS and Android. Using the latest technologies and tailored approach to ensure that your apps meet the specific needs.",
     price: 3090,
     partTime: 2190,
     icon: AngleBrackets,
@@ -90,7 +90,7 @@ const data = [
   {
     title: "Full Stack Developer",
     description:
-      "Experienced web developers can build high-performance, modern web applications from the ground up. Our full-stack developers are highly proficient in both Front-end and Back-end technologies. Delivering fully customized web apps tailored to your precise requirements, with expertise to ensure excellent performance end-to-end solutions that are both reliable and scalable.",
+      "Experienced web developers can build high-performance, modern web applications from the ground up. Our full-stack developers are highly proficient in both Front-end and Back-end technologies. Delivering fully customised web apps tailored to your precise requirements, with expertise to ensure excellent performance end-to-end solutions that are both reliable and scalable.",
     price: 3090,
     partTime: 2190,
     icon: Vscode,
@@ -152,7 +152,7 @@ const data = [
   {
     title: "Video Content Editor",
     description:
-      "Talented video editors actively cultivate creative and collaborative partnerships with design managers and marketing teams, working together to conceptualize and craft captivating animations, motion graphics, and multimedia content that seamlessly aligns with the company's brand and objectives. They skilfully execute edits that are both current and captivating, drawing upon their versatile expertise in commercial, corporate, and documentary formats.",
+      "Talented video editors actively cultivate creative and collaborative partnerships with design managers and marketing teams, working together to conceptualise and craft captivating animations, motion graphics, and multimedia content that seamlessly aligns with the company's brand and objectives. They skilfully execute edits that are both current and captivating, drawing upon their versatile expertise in commercial, corporate, and documentary formats.",
     price: 1799,
     partTime: 1189,
     icon: VideoEditor,
@@ -168,7 +168,7 @@ const data = [
   {
     title: "QA Tester",
     description:
-      "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting-edge technologies and adhering to industry-leading testing standards. Collaborating with top-notch QA and test automation engineers, going above and beyond to emphasize that quality assurance extends far beyond delivering software devoid of bugs.",
+      "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting-edge technologies and adhering to industry-leading testing standards. Collaborating with top-notch QA and test automation engineers, going above and beyond to emphasise that quality assurance extends far beyond delivering software devoid of bugs.",
     price: 2690,
     partTime: 1690,
     icon: QaTesting,

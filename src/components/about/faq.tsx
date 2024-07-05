@@ -14,7 +14,7 @@ const faqData = [
   {
     question: "How will I track the progress of my project?",
     answer:
-      "We utilize various project management tools such as Jira, Notion, GitHub, and others to offer transparent visibility to all stakeholders regarding project progress and developer tasks. These tools enable us to monitor the scope of work, budget, assignments, and ensure alignment with our goals.",
+      "We utilise various project management tools such as Jira, Notion, GitHub, and others to offer transparent visibility to all stakeholders regarding project progress and developer tasks. These tools enable us to monitor the scope of work, budget, assignments, and ensure alignment with our goals.",
   },
   {
     question: "Where is SonaQode based?",

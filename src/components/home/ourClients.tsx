@@ -2,6 +2,7 @@
 import { OurClients1, OurClients2 } from "@/assets/images";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const clients = [
   {
@@ -26,9 +27,9 @@ const OurClients = () => {
             Our Clients
           </h2>
           <p className="text-sm lg:text-base text-gray-600 text-center text-balance font-light mt-3">
-            Our goal is to establish the relationships of mutual trust. We
-            support clients from all industries, understanding their unique
-            challenges and requirements faced throughout business stages.
+            Our goal is to establish relationships of mutual trust. We support
+            clients from all industries, understanding the unique challenges and
+            requirements they face throughout various business stages.
           </p>
           <div className="flex flex-col lg:flex-row items-center lg:items-start w-full gap-6 lg:gap-10 my-8 lg:my-16">
             {clients.map((item) => (
@@ -54,9 +55,11 @@ const OurClients = () => {
               </div>
             ))}
           </div>
-          <button className="w-[190px] h-[60px] rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150">
-            Let&apos;s Connect
-          </button>
+          <Link href={"/contact"}>
+            <button className="w-[190px] h-[60px] rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150">
+              Let&apos;s Connect
+            </button>
+          </Link>
         </div>
       </div>
     </section>

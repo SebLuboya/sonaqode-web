@@ -21,7 +21,7 @@ const steps = [
   {
     circle: Blue100,
     label: "Appraisal",
-    desc: "We understand the value of user insight. Our team assesses the achievement of your engagement against outlined requirements, evaluating performance and other functionalities. This ensures it continues to meet your changing requirements and maximizes its positive impact on your processes, guaranteeing quality and long-term reliability.",
+    desc: "We understand the value of user insight. Our team assesses the achievement of your engagement against outlined requirements, evaluating performance and other functionalities. This ensures it continues to meet your changing requirements and maximises its positive impact on your processes, guaranteeing quality and long-term reliability.",
   },
 ];
 

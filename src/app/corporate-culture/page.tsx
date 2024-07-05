@@ -29,7 +29,7 @@ export default function CorporateCulture() {
             <h1 className="font-clash text-2xl lg:text-[56px] font-semibold lg:leading-[68px] lg:w-[634px]">
               Corporate Culture
             </h1>
-            <p className="text-sm lg:max-w-[680px] font-light">
+            <p className="text-sm lg:text-lg lg:max-w-[680px] font-light">
               At Sonaqode, we integrate corporate social responsibility into our
               corporate strategy to enrich the lives of our team members and
               uplift the communities where we operate. Therefore, we actively

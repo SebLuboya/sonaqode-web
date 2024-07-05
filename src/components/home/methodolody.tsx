@@ -200,7 +200,12 @@ const Methodolody = () => {
                     </p>
                   </div>
                 ))}
-                <p className="text-sm lg:text-base text-center font-medium">
+                <p
+                  className={cn(
+                    "text-sm lg:text-base text-center font-medium",
+                    idx === 1 && "opacity-0",
+                  )}
+                >
                   We sign NDA for all our projects
                 </p>
               </div>
@@ -210,7 +215,7 @@ const Methodolody = () => {
                   section.btnClass,
                 )}
               >
-                {idx === 0 ? "Get a Quote" : "Subscibe"}
+                {idx === 0 ? "Get a Quote" : "Subscribe"}
               </button>
             </div>
             <div className="flex flex-col">
