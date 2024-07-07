@@ -21,7 +21,7 @@ import {
 import Services from "@/components/services/services";
 
 export const metadata = {
-  title: "Software Development – SonaQode",
+  title: "Software Development – sonaqode",
 };
 
 const CONSTS = {
@@ -226,10 +226,10 @@ export default function SoftwareDevelopmentPage() {
               />
             </div>
             <div className="flex flex-col gap-1.5 lg:gap-2 justify-center">
-              <h2 className="font-clash text-2xl lg:text-5xl font-semibold">
+              <h2 className="font-clash text-2xl md:text-4xl xl:text-5xl font-semibold">
                 Software Development
               </h2>
-              <p className="lg:text-lg text-sm font-light">
+              <p className="md:text-base xl:text-lg text-sm font-light">
                 Connect with our skilled tech specialists, ready to expedite
                 your your objectives. Whether it&apos;s customising a running
                 developing prototype applications, or implementing complex
@@ -248,7 +248,7 @@ export default function SoftwareDevelopmentPage() {
           </div>
           <Image
             src={SoftwareDevelopment}
-            className="h-auto w-full max-w-[530px] aspect-[550/530] object-cover rounded-3xl lg:rounded-[58px]"
+            className="h-auto w-full max-w-[440px] xl:max-w-[530px] aspect-[550/530] object-cover rounded-3xl lg:rounded-[58px]"
             alt="people"
           />
         </div>

@@ -3,19 +3,18 @@ import { AboutBanner, GlobalReach } from "@/assets/images";
 import Faq from "@/components/about/faq";
 import HowItWorks from "@/components/about/howItWorks";
 import OurValues from "@/components/about/ourValues";
-import Button from "@/components/misc/button";
 import { cn } from "@/utils";
 import Image from "next/image";
 import React from "react";
 
 export const metadata = {
-  title: "About Us – SonaQode",
+  title: "About Us – sonaqode",
 };
 
 export default function AboutUs() {
   return (
     <main className="w-screen min-h-screen">
-      <section className="relative flex items-end h-[630px] lg:h-screen w-full bg-gray-200 text-white z-[1] pb-16 lg:pb-28 px-6">
+      <section className="relative flex items-end h-[630px] lg:h-screen w-full bg-gray-200 text-white z-[1] pb-16 xl:pb-28 px-6">
         <Image
           src={AboutBanner}
           alt="about-banner"
@@ -27,10 +26,10 @@ export default function AboutUs() {
         <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-[2]"></div>
         <div className="flex flex-col gap-9 lg:gap-16 z-[3] w-full lg:max-w-[1260px] mx-auto">
           <div className="flex flex-col gap-2">
-            <h1 className="font-clash text-2xl lg:text-[56px] font-semibold lg:leading-[68px] lg:w-[634px]">
+            <h1 className="font-clash text-2xl md:text-4xl xl:text-[56px] font-semibold xl:leading-[68px] md:w-[400px] xl:w-[634px]">
               About Us
             </h1>
-            <p className="text-sm lg:text-lg lg:max-w-[680px] font-light">
+            <p className="text-sm md:text-base xl:text-lg md:max-w-[550px] xl:max-w-[680px] font-light">
               Sonaqode is a tech professional staffing company built to help
               businesses scale and grow. We empower you with efficient,
               on-demand access to top-tier talents who seamlessly integrate and
@@ -97,7 +96,7 @@ export default function AboutUs() {
       <OurValues />
       <HowItWorks />
       <section className="pt-16 lg:pt-28 px-5">
-        <div className="relative w-full lg:max-w-[1260px] min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
+        <div className="relative w-full lg:max-w-[1260px] md:min-h-[550px] xl:min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
           <Image
             src={GlobalReach}
             alt="how-we-work"

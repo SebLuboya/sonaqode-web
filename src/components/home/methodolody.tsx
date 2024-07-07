@@ -20,6 +20,7 @@ import {
 import { cn } from "@/utils";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const sections = [
   {
@@ -165,7 +166,7 @@ const Methodolody = () => {
               )}
             >
               <div className="flex flex-col items-center gap-1 min-h-[200px]">
-                <h2 className="font-clash text-3xl lg:text-[40px] font-medium leading-[30px]">
+                <h2 className="font-clash text-3xl lg:text-[40px] font-medium leading-[30px] text-center">
                   {section.label}
                 </h2>
                 <p className="text-sm lg:text-lg">{section.subLabel}</p>
@@ -209,14 +210,29 @@ const Methodolody = () => {
                   We sign NDA for all our projects
                 </p>
               </div>
-              <button
-                className={cn(
-                  "w-[190px] h-14 bg-white hover:text-white duration-75 rounded-full",
-                  section.btnClass,
-                )}
-              >
-                {idx === 0 ? "Get a Quote" : "Subscribe"}
-              </button>
+              {idx === 0 ? (
+                <Link href={"/get-a-quote"}>
+                  <button
+                    className={cn(
+                      "w-[190px] h-14 bg-white hover:text-white duration-75 rounded-full",
+                      section.btnClass,
+                    )}
+                  >
+                    Get a Quote
+                  </button>
+                </Link>
+              ) : (
+                <a href={"#our-services"}>
+                  <button
+                    className={cn(
+                      "w-[190px] h-14 bg-white hover:text-white duration-75 rounded-full",
+                      section.btnClass,
+                    )}
+                  >
+                    Get a Quote
+                  </button>
+                </a>
+              )}
             </div>
             <div className="flex flex-col">
               {section.benefits.map((benefit, i) => (

@@ -38,11 +38,14 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="flex flex-col items-center gap-8 px-5 pt-24 lg:pt-28">
+    <section
+      id="our-services"
+      className="flex flex-col items-center gap-8 px-5 pt-24 lg:pt-28"
+    >
       <h2 className="font-clash text-[50px] font-semibold leading-[60px]">
         Our Services
       </h2>
-      <div className="relative w-full lg:max-w-[1260px] mx-auto flex flex-col items-center gap-11 lg:flex-row justify-between">
+      <div className="relative w-full lg:max-w-[1260px] mx-auto flex flex-col items-center gap-11 md:gap-8 xl:gap-11 lg:flex-row justify-between">
         {services.map((service) => (
           <div
             key={service.label}
@@ -62,10 +65,14 @@ const OurServices = () => {
               </div>
               <div className={cn("w-full shrink-0 h-[70%]", service.color)}>
                 <div className="w-full h-[28.6%] flex items-center justify-center">
-                  <p className="text-xl font-medium">{service.label}</p>
+                  <p className="text-xl md:text-lg xl:text-xl font-medium">
+                    {service.label}
+                  </p>
                 </div>
                 <div className="flex flex-col items-center h-[71.4%] justify-between px-7 pb-7">
-                  <p className="text-sm text-center">{service.desc}</p>
+                  <p className="text-sm md:text-xs xl:text-sm text-center">
+                    {service.desc}
+                  </p>
                   <Link
                     href={service.link}
                     className={cn(

@@ -3,9 +3,10 @@ import "./globals.css";
 import { FONTS } from "@/assets/fonts";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
+import Providers from "@/app/providers";
 
 export const metadata: Metadata = {
-  title: "SonaQode",
+  title: "sonaqode - Aligning Talent",
 };
 
 export default function RootLayout({
@@ -23,7 +24,7 @@ export default function RootLayout({
         className="relative min-h-screen flex flex-col justify-between"
       >
         <Header />
-        {children}
+        <Providers>{children}</Providers>
         <Footer />
       </body>
     </html>

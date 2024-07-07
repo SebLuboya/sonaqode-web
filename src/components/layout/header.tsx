@@ -60,11 +60,11 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 z-10 w-full pt-4 lg:pt-8 px-4 lg:px-6">
-      <div className="w-full max-w-[1280px] mx-auto h-20 md:h-24 lg:h-28 flex flex-row items-center justify-between px-4 md:px-6 lg:px-8 bg-black/60 rounded-3xl text-white backdrop-blur-md">
+      <div className="w-full max-w-[1280px] mx-auto h-20 md:h-24 xl:h-28 flex flex-row items-center justify-between px-4 md:px-6 lg:px-8 bg-black/60 rounded-3xl text-white backdrop-blur-md">
         <Link href="/">
           <Image
             src={SonaqodeDarkIcon}
-            className="h-10 lg:h-[70px] w-auto"
+            className="h-10 xl:h-[70px] w-auto"
             alt="sonaqode-dark-icon"
           />
         </Link>
@@ -149,7 +149,7 @@ const Header = () => {
         </ul>
         <Link
           href="/get-a-quote"
-          className="w-[170px] h-11 lg:h-[50px] hidden lg:flex items-center justify-center rounded-full bg-white text-sona-blue hover:bg-sona-blue hover:text-white duration-150"
+          className="w-[150px] xl:w-[170px] h-11 xl:h-[50px] hidden lg:flex items-center justify-center rounded-full bg-white text-sona-blue hover:bg-sona-blue hover:text-white duration-150"
         >
           Get a Quote
         </Link>

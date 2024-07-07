@@ -8,7 +8,7 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Contact Us – SonaQode",
+  title: "Contact Us – sonaqode",
 };
 
 export default function ContactUs() {

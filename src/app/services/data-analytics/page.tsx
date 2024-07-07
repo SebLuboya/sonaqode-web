@@ -19,7 +19,7 @@ import HowToInitiate from "@/components/services/howToInitiate";
 import Faq from "@/components/about/faq";
 
 export const metadata = {
-  title: "Data & Analytics – SonaQode",
+  title: "Data & Analytics – sonaqode",
 };
 
 const CONSTS = {
@@ -180,10 +180,10 @@ export default function DataAndAnalytics() {
               />
             </div>
             <div className="flex flex-col gap-1.5 lg:gap-2 justify-center">
-              <h2 className="font-clash text-2xl lg:text-5xl font-semibold">
+              <h2 className="font-clash text-2xl md:text-4xl xl:text-5xl font-semibold">
                 Data & Analytics
               </h2>
-              <p className="lg:text-lg text-sm font-light">
+              <p className="md:text-base xl:text-lg text-sm font-light">
                 Leverage the power of data with our analysts and engineers to
                 turn data into value. Competent in delivering analytics
                 solutions that help you process and interpret your data assets,
@@ -201,7 +201,7 @@ export default function DataAndAnalytics() {
           </div>
           <Image
             src={DataAnalytics}
-            className="h-auto w-full max-w-[530px] aspect-[550/530] object-cover rounded-3xl lg:rounded-[58px]"
+            className="h-auto w-full max-w-[440px] xl:max-w-[530px] aspect-[550/530] object-cover rounded-3xl lg:rounded-[58px]"
             alt="people"
           />
         </div>

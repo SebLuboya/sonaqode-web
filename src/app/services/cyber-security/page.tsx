@@ -20,7 +20,7 @@ import HowToInitiate from "@/components/services/howToInitiate";
 import Faq from "@/components/about/faq";
 
 export const metadata = {
-  title: "Cyber Security – SonaQode",
+  title: "Cyber Security – sonaqode",
 };
 
 const CONSTS = {
@@ -192,10 +192,10 @@ export default function CyberSecurityPage() {
               />
             </div>
             <div className="flex flex-col gap-1.5 lg:gap-2 justify-center">
-              <h2 className="font-clash text-2xl lg:text-5xl font-semibold">
+              <h2 className="font-clash text-2xl md:text-4xl xl:text-5xl font-semibold">
                 Cyber Security
               </h2>
-              <p className="lg:text-lg text-sm font-light">
+              <p className="md:text-base xl:text-lg text-sm font-light">
                 Safeguard your digital assets with dedicated experts poised to
                 proactively identify and respond to threats. Fortify your
                 defense with layers of security measures integrated at every
@@ -213,7 +213,7 @@ export default function CyberSecurityPage() {
           </div>
           <Image
             src={CyberSecurity}
-            className="h-auto w-full max-w-[530px] aspect-[550/530] object-cover rounded-3xl lg:rounded-[58px]"
+            className="h-auto w-full max-w-[440px] xl:max-w-[530px] aspect-[550/530] object-cover rounded-3xl lg:rounded-[58px]"
             alt="people"
           />
         </div>

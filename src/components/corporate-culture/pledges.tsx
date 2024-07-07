@@ -8,7 +8,7 @@ const data = [
   {
     label: "SDG 8",
     sublabel: "Decent Work and Economic Growth",
-    desc: "At the core of our organisation are people, and their well-being is our utmost priority. We strive to foster open discussions about mental health, promote work-life balance, incentivize healthy habits, and engage you with exciting wellness initiatives.",
+    desc: "We commit to investing in training and professional qualifications to empower team members to advance into senior and higher-paying roles. Additionally, we will bolster the growth of our operational digital economy by enhancing citizen services and facilitating improved access to online services.",
     image: Sdg1,
   },
   {

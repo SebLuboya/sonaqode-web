@@ -11,15 +11,15 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="w-screen min-h-screen">
-      <section className="relative flex items-end h-[630px] lg:h-screen w-full bg-gray-200 text-white z-[1] pb-16 lg:pb-28 px-6">
+      <section className="relative flex items-end h-[630px] lg:h-screen w-full bg-gray-200 text-white z-[1] pb-16 xl:pb-28 px-6">
         <HomeImageCarosel />
         <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>
-        <div className="flex flex-col gap-9 lg:gap-16 z-[3] w-full lg:max-w-[1260px] mx-auto">
+        <div className="flex flex-col gap-9 xl:gap-16 z-[3] w-full xl:max-w-[1260px] mx-auto">
           <div className="flex flex-col gap-2">
-            <h1 className="font-clash text-2xl lg:text-[56px] font-semibold lg:leading-[68px] lg:w-[634px]">
+            <h1 className="font-clash text-2xl md:text-4xl xl:text-[56px] font-semibold xl:leading-[68px] md:w-[400px] xl:w-[634px]">
               Empowered by tech. Powered by talent.
             </h1>
-            <p className="lg:max-w-[507px] font-light">
+            <p className="md:max-w-[450px] xl:max-w-[507px] font-light">
               We help organisations integrate remote support, accelerating
               progress and uncovering opportunities.
             </p>
@@ -30,13 +30,13 @@ export default function Home() {
         </div>
       </section>
       <section className="pt-11 lg:pt-28 px-5">
-        <div className="relative w-full lg:max-w-[1260px] min-h-[650px] mx-auto flex flex-col gap-10 lg:flex-row items-end pt-10 px-4 lg:pb-16 lg:pl-16 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+        <div className="relative w-full xl:max-w-[1260px] min-h-[550px] xl:min-h-[650px] mx-auto flex flex-col gap-10 lg:flex-row items-end pt-10 px-4 lg:pb-16 lg:pl-16 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
           <div className="w-full lg:w-3/5 flex flex-col gap-10 h-full">
             <div className="flex flex-col gap-2">
-              <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-3">
+              <h2 className="font-clash text-3xl md:text-4xl xl:text-[50px] font-semibold xl:leading-[60px] mb-3">
                 We provide top-tier tech professionals
               </h2>
-              <p className="font-light text-sm lg:text-lg text-gray-500 text-balance leading-[27px]">
+              <p className="font-light text-sm md:text-base xl:text-lg text-gray-500 text-balance leading-[27px]">
                 We help you build a resilient extended remote workforce by
                 connecting you with top-tier tech professionals efficiently. We
                 deliver value solutions that drive your business growth and
@@ -54,14 +54,14 @@ export default function Home() {
           <Image
             src={WomanStanding}
             alt="woman-standing"
-            className="lg:absolute w-full h-auto lg:h-[600px] lg:w-auto bottom-0 right-4"
+            className="lg:absolute w-full h-auto md:h-[500px] xl:h-[600px] lg:w-auto bottom-0 right-4"
           />
         </div>
       </section>
       <OurServices />
       <WhySonaqode />
       <section className="pt-16 lg:pt-28 px-5">
-        <div className="relative w-full lg:max-w-[1260px] min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
+        <div className="relative w-full lg:max-w-[1260px] md:min-h-[550px] xl:min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
           <Image
             src={HowWeWork}
             alt="how-we-work"
