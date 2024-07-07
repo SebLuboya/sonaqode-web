@@ -16,6 +16,7 @@ export { default as GithubIcon } from "./github-icon.svg";
 export { default as Goal } from "./goal.png";
 export { default as Graduation } from "./graduation.png";
 export { default as Handshake } from "./handshake.png";
+export { default as InstagramLogoIcon } from "./instagram-logo-icon.png";
 export { default as LinkedInIcon } from "./linkedIn-icon.svg";
 export { default as Password } from "./password.png";
 export { default as Progress } from "./progress.png";

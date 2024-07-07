@@ -1,10 +1,10 @@
-import { SonaqodeDarkIcon } from "@/assets/icons";
+import { InstagramLogoIcon, SonaqodeDarkIcon } from "@/assets/icons";
 import FacebookIcon from "@/assets/icons/glyphs/FacebookIcon";
-import GithubIcon from "@/assets/icons/glyphs/GithubIcon";
 import LinkedInIcon from "@/assets/icons/glyphs/LinkedInIcon";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import InstagramIcon from "@/assets/icons/glyphs/InstagramIcon";
 
 const links = [
   {
@@ -75,9 +75,21 @@ const Footer = () => {
           <p>London, England</p>
           <a href="mailto:info@sonaqode.co.uk">info@sonaqode.co.uk</a>
           <div className="flex flex-row gap-4">
-            <LinkedInIcon />
+            <a
+              href="https://www.linkedin.com/company/sonaqode/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
             <FacebookIcon />
-            <GithubIcon />
+            <a
+              href="https://www.instagram.com/sonaqode?igsh=MXUyc285OW9kMTh6dg%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image src={InstagramLogoIcon} alt={"ig"} className={"h-6 w-6"} />
+            </a>
           </div>
         </div>
       </div>
