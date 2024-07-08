@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Privacy Policy – sonaqode",
+  title: "Privacy Policy – Sonaqode",
 };
 
 const data = [

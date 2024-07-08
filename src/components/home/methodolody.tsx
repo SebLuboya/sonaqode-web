@@ -229,7 +229,7 @@ const Methodolody = () => {
                       section.btnClass,
                     )}
                   >
-                    Get a Quote
+                    Subscribe
                   </button>
                 </a>
               )}

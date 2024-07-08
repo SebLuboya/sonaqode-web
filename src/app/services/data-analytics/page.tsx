@@ -19,7 +19,7 @@ import HowToInitiate from "@/components/services/howToInitiate";
 import Faq from "@/components/about/faq";
 
 export const metadata = {
-  title: "Data & Analytics – sonaqode",
+  title: "Data & Analytics – Sonaqode",
 };
 
 const CONSTS = {
@@ -76,7 +76,7 @@ const data = [
   {
     title: "Data Engineer",
     description:
-      "Enhance your data accessibility, accuracy, and utilisation, driving better decision-making, operational efficiency, and innovation within the business. They specialise in designing, building, and maintaining the systems and infrastructure. Creating data pipelines, ensuring that data is collected efficiently, transformed into a usable format, and made available for analysis.",
+      "Our data engineers design, build, and maintain the data infrastructure and architecture necessary to collect, store, process, and analyse data. They enable real-time data processing, personalise customer experiences, and inform decision-making, making their role vital to any data-driven organisation. Skilled in a diverse range of frameworks and tools, they drive the efficiency and effectiveness of your organisation’s data ecosystem.",
     price: 2690,
     icon: DataEngineer,
     list: [
@@ -91,7 +91,7 @@ const data = [
   {
     title: "Data Analyst",
     description:
-      "Transforming raw data into actionable insights empowers businesses to make smarter decisions, optimize operations, better understand their customers, and stay competitive in a data-driven environment. They are experts in using various tools and techniques to interpret data patterns, trends, and correlations, ultimately providing actionable recommendations.\n",
+      "Unlock the potential of raw data by transforming it into valuable insights that enhance decision-making, improve efficiency, and drive business growth. Our talented data analysts excel in interpreting data, generating reports, and creating visualisations, helping businesses stay competitive, gain deeper understanding of customers and markets, and adapt their strategies accordingly. Optimise operations, ensuring sustained success and profitability.",
     price: 2390,
     icon: BarChart,
     list: [
@@ -106,7 +106,7 @@ const data = [
   {
     title: "Data Scientist",
     description:
-      "Collecting, analysing, and interpreting complex data to inform business decisions and strategies, combining skills in programming, statistics, data visualisation, and domain expertise to extract valuable insights from large and diverse datasets. Data scientists use various tools and techniques, including machine learning and artificial intelligence, to uncover patterns, trends, and correlations within the data.\n",
+      "Discover patterns, trends, and correlations in data that reveal insights into customer behavior, market trends, and operational performance. Our data scientists excel in data analysis, predictive modeling, and strategic insights, empowering businesses to optimise operations, innovate products and services, enhance customer experiences, and mitigate risks, thereby maintaining a competitive edge in the market.",
     price: 2590,
     icon: DataScience,
     list: [
@@ -121,7 +121,7 @@ const data = [
   {
     title: "Business Intelligence Analyst",
     description:
-      "Leverage data effectively, drive data-driven decision making, and improve performance across various areas. Our talented analyst's are able to harness the power of your data to gain a deeper understanding of your business. Employing analytical tools and techniques, uncovering trends, patterns, and correlations within data. Identifying market gaps and develop strategies based on objective information. Helping you stay ahead in a competitive market.",
+      "Harness the power of data effectively, drive data-driven decision-making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information. This helps businesses maintain a competitive edge in the market.",
     price: 2490,
     icon: BusinessIntelligence,
     list: [
@@ -136,7 +136,7 @@ const data = [
   {
     title: "Automation Engineer",
     description:
-      "Automate and streamline your processes, tasks, and workflows. Reduce manual, repetitive tasks by leveraging tools and systems that can perform them automatically. With highly competent engineers, business automation can transform your business. Increased efficiency, allows you to focus on more valuable and strategic activities, Cost savings, Improved accuracy ensuring better data management, insights and mitigate risks.",
+      "Streamline your processes with our dedicated automation engineers. Leverage their proficiency in designing and implementing automated systems to optimise workflows, drive efficiency, enhance quality, and maintain competitiveness in a rapidly evolving market. Utilising cutting-edge technologies and a commitment to innovation, our specialists are ready to revolutionise your workflow.",
     price: 2590,
     icon: Automation,
     list: [

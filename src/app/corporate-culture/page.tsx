@@ -8,7 +8,7 @@ import Image from "next/image";
 import React from "react";
 
 export const metadata = {
-  title: "Corporate Culture – sonaqode",
+  title: "Corporate Culture – Sonaqode",
 };
 
 export default function CorporateCulture() {
@@ -39,7 +39,6 @@ export default function CorporateCulture() {
               dedication to building a thriving workforce.
             </p>
           </div>
-          <Button>Learn more</Button>
         </div>
       </section>
       <section className="pt-16 lg:pt-28 px-5">

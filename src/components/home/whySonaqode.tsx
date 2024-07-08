@@ -24,7 +24,7 @@ const whys = [
   },
   {
     label: "Team Extension",
-    desc: "Linking you with top-tier talents, seamlessly integrating them into your team, and enabling immediate contributions.",
+    desc: "Connecting you with top-tier talents, seamlessly integrating them into your team, and enabling immediate contributions.",
     color: "bg-[#B4E7FF]",
     icon: Extension,
   },

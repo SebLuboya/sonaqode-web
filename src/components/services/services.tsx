@@ -86,7 +86,7 @@ const Services = ({
               </div>
               <div className="w-full flex flex-col gap-1.5">
                 <p className="font-medium text-xl">{service.title}</p>
-                <p className="font-light">{service.description}</p>
+                <p className="font-light text-[15px]">{service.description}</p>
               </div>
               <div className="flex flex-1 items-end">
                 <Button

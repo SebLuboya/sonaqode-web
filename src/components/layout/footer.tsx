@@ -4,7 +4,6 @@ import LinkedInIcon from "@/assets/icons/glyphs/LinkedInIcon";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import InstagramIcon from "@/assets/icons/glyphs/InstagramIcon";
 
 const links = [
   {

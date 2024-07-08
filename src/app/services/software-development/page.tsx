@@ -21,7 +21,7 @@ import {
 import Services from "@/components/services/services";
 
 export const metadata = {
-  title: "Software Development – sonaqode",
+  title: "Software Development – Sonaqode",
 };
 
 const CONSTS = {
@@ -75,7 +75,7 @@ const data = [
   {
     title: "Mobile App Developer",
     description:
-      "Our team of experienced developers are skilled in creating high-quality captivating mobile apps, both functional and engaging compatible for iOS and Android. Using the latest technologies and tailored approach to ensure that your apps meet the specific needs.",
+      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top-notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
     price: 3090,
     partTime: 2190,
     icon: AngleBrackets,
@@ -90,7 +90,7 @@ const data = [
   {
     title: "Full Stack Developer",
     description:
-      "Experienced web developers can build high-performance, modern web applications from the ground up. Our full-stack developers are highly proficient in both Front-end and Back-end technologies. Delivering fully customised web apps tailored to your precise requirements, with expertise to ensure excellent performance end-to-end solutions that are both reliable and scalable.",
+      "Access skilled web developers who can construct high-performance, modern web applications from scratch. Our full-stack developers excel in both Front-end and Back-end technologies, delivering fully customised web apps that meet your precise requirements. They ensure excellent performance and provide end-to-end solutions that are reliable and scalable.",
     price: 3090,
     partTime: 2190,
     icon: Vscode,
@@ -105,7 +105,7 @@ const data = [
   {
     title: "Frontend Developer",
     description:
-      "Our front-end developers master a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach boosts engagement and accessibility, tailored to your unique brand needs. Highly motivated, they seamlessly collaborate and cohesively communicate, introducing innovative solutions and features that differentiate the business from competitors.",
+      "Our front-end developers excel in mastering a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They actively design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach enhances engagement and accessibility, customized to meet your unique brand needs. Motivated by innovation, they collaborate seamlessly to implement creative solutions and features.",
     price: 2690,
     partTime: 1275,
     icon: Js,
@@ -121,7 +121,7 @@ const data = [
   {
     title: "Backend Developer",
     description:
-      "Access back-end developers ready to be deployed into your project to provide powerful architecture and enhanced performance. Experienced and versatile, they build secure, scalable, and durable server-side solutions using the latest tools and technologies such as Java, Python, Node.js, Ruby, and more. Thier expertise in SQL and NoSQL databases, guaranteeing consistent data flow, ensuring the delivery of unbeatable back-end systems that work flawlessly and meet every business requirement.",
+      "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server-side solutions using cutting-edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
     price: 2690,
     partTime: 1275,
     icon: CodeFolder,
@@ -137,7 +137,7 @@ const data = [
   {
     title: "UI/UX Designer",
     description:
-      "Designers will create innovative designs for all applications, websites and software. Engaging fresh authentic visually stunning interfaces that will propel your product above from the competition. working to understand your needs and goals, and delivering designs that will help attract and increase users engagement and loyalty.",
+      "Our innovative designers excel at crafting intuitive designs for applications, software, and websites that are visually appealing, highly functional, and user-friendly. They conduct user research, design interactions, create visuals, and perform usability testing to ensure the product meets user needs and expectations. This process provides your business with a competitive advantage, fosters brand loyalty, and increases engagement.",
     price: 2090,
     partTime: 1390,
     icon: Figma,
@@ -152,7 +152,7 @@ const data = [
   {
     title: "Video Content Editor",
     description:
-      "Talented video editors actively cultivate creative and collaborative partnerships with design managers and marketing teams, working together to conceptualise and craft captivating animations, motion graphics, and multimedia content that seamlessly aligns with the company's brand and objectives. They skilfully execute edits that are both current and captivating, drawing upon their versatile expertise in commercial, corporate, and documentary formats.",
+      "Talented video editors actively cultivate creative and collaborative partnerships to conceptualise captivating animations, motion graphics, and multimedia content that seamlessly align with the company's brand and objectives. They skillfully execute edits that are both current and captivating, drawing upon their versatile expertise in commercial, corporate, and documentary formats.",
     price: 1799,
     partTime: 1189,
     icon: VideoEditor,
@@ -183,7 +183,7 @@ const data = [
   {
     title: "IT Support Engineer",
     description:
-      "IT specialists offers an all-encompassing range of technical support services catered to your employees, customers, and partners. We provide thorough maintenance, vigilant monitoring, seamless upgrades, and timely corrective measures. By optimising your IT services, assuring smooth and efficient infrastructure operations, allowing you to prioritise your primary business objectives.",
+      "Our IT Engineers provide comprehensive technical support, collaborating with cross-functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilize appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem-solving and proactively identify and implement improvements to enhance overall performance.",
     price: 899,
     partTime: 549,
     icon: ItSupport,

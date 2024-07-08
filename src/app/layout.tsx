@@ -6,7 +6,7 @@ import Footer from "@/components/layout/footer";
 import Providers from "@/app/providers";
 
 export const metadata: Metadata = {
-  title: "sonaqode - Aligning Talent",
+  title: "Sonaqode - Aligning Talent",
 };
 
 export default function RootLayout({

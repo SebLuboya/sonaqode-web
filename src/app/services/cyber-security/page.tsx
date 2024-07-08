@@ -20,7 +20,7 @@ import HowToInitiate from "@/components/services/howToInitiate";
 import Faq from "@/components/about/faq";
 
 export const metadata = {
-  title: "Cyber Security – sonaqode",
+  title: "Cyber Security – Sonaqode",
 };
 
 const CONSTS = {
@@ -73,7 +73,7 @@ const data = [
   {
     title: "Application Security Engineer",
     description:
-      "Safeguard software applications from cyber threats, ensuring data protection, maintaining business reputation, and reducing financial risks associated with security breaches. Identifying and addressing potential vulnerabilities and weaknesses that could be exploited by malicious actors. Their expertise contributes to a more secure and resilient business environment.\n",
+      "Secure software applications from threats throughout their development lifecycle. Our engineers play a vital role in protecting your business’s applications, ensuring regulatory compliance, and maintaining customer trust. They excel in application security practices, software development, and risk management. Their expertise fortifies a more secure and resilient business environment.",
     price: 2990,
     icon: SecurityWindow,
     list: [
@@ -88,7 +88,7 @@ const data = [
   {
     title: "Cloud Security Specialist",
     description:
-      "Ensuring the security of an organisation's data, applications, and infrastructure that are hosted in cloud environments. Cloud security specialists design, implement, and manage security measures and protocols to protect sensitive information, prevent unauthorised access, and mitigate risks associated with cloud computing.",
+      "Cloud Security Engineers are committed to safeguarding your organisation's cloud computing environment. They concentrate on defending cloud infrastructure, data, and applications against potential threats and vulnerabilities. Proficient in designing and implementing comprehensive cloud security strategies, they craft security architectures that align with your business goals and compliance requirements.",
     price: 3190,
     icon: Cloud,
     list: [
@@ -103,7 +103,7 @@ const data = [
   {
     title: "Cyber Security Engineer",
     description:
-      "Design, implement, and maintain security measures and protocols to protect computer systems, networks, and digital assets from cyber threats, attacks, and unauthorised access. They work to identify vulnerabilities, develop strategies to mitigate risks, and respond to security incidents to ensure the overall security posture of the organisation.",
+      "Protect your organisation’s systems, networks, data, and digital assets from cyber threats. Our security engineers excel in identifying vulnerabilities, devising strategies to mitigate risks, and responding to security incidents to enhance the organisation's overall security posture. They leverage digital forensics tools and methodologies and are well-versed in developing security policies and procedures.",
     price: 2990,
     icon: TwoStep,
     list: [
@@ -118,7 +118,7 @@ const data = [
   {
     title: "Data Administrator",
     description:
-      "Managing and overseeing data assets, this role involves tasks related to data governance, data quality, data security, and data lifecycle management. It ensures that data is accurate, accessible, and properly utilized across the organization. Their efforts result in improved data quality, compliance adherence, better decision-making, and enhanced operational efficiency.\n",
+      "Effectively manage your data infrastructure with our experts, who actively maintain the security, integrity, and performance of your company's databases, ensuring secure and optimal data storage. They bolster efficient operations and informed decision-making, enabling businesses to achieve cost savings, scalability, and flexibility while ensuring compliance. Through the use of progressive and efficient DB management systems, we facilitate optimal outcomes for your business.",
     price: 1499,
     icon: DataAdmin,
     list: [
@@ -148,7 +148,7 @@ const data = [
   {
     title: "Penetration Tester",
     description:
-      "Access and simulate cyberattacks on systems, networks, and applications to identify vulnerabilities and weaknesses. The goal is to assess the security measures in place and provide recommendations to strengthen defenses against real-world cyber threats. Their expertise enhances cybersecurity measures, prevents data breaches, and improves overall risk management.\n",
+      "Enhance the security of your system, application, or network by employing our Penetration Tester. Protect your business-critical data from hackers and proactively prevent security breaches and vulnerabilities. Customise testing styles to effortlessly meet your unique requirements. They excel in analysing complex systems, pinpointing weaknesses, and adeptly employing both manual testing techniques and automated tools.",
     price: 2890,
     icon: Password,
     list: [

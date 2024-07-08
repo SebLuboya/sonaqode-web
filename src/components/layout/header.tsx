@@ -64,7 +64,7 @@ const Header = () => {
         <Link href="/">
           <Image
             src={SonaqodeDarkIcon}
-            className="h-10 xl:h-[70px] w-auto"
+            className="h-14 xl:h-[70px] w-auto"
             alt="sonaqode-dark-icon"
           />
         </Link>

@@ -4,7 +4,7 @@ import React from "react";
 import QuoteForm from "@/components/forms/quote";
 
 export const metadata = {
-  title: "Get A Quote – sonaqode",
+  title: "Get A Quote – Sonaqode",
 };
 
 export default function GetAQuote() {

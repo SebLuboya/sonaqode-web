@@ -57,11 +57,10 @@ const OurValues = () => {
           <h2 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
             Our Values
           </h2>
-          <p className="text-gray-600 text-sm lg:text-base text-center text-balance font-light leading-5 mt-3">
-            Sonaqode is synonymous with top-class quality and reliability. Our
-            team of specialists has extensive experience in various verticals
-            and is always ready to address any challenges of your business
-            promptly.
+          <p className="text-gray-600 text-sm lg:text-base text-center font-light max-w-[920px] leading-5 mt-3">
+            We embody our values, driving us forward and defining our stance. We
+            actively drive every team member to achieve results and advance our
+            progress.
           </p>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 mt-14 gap-5 lg:gap-12">
             {whys.map((why) => (

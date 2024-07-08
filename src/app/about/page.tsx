@@ -8,7 +8,7 @@ import Image from "next/image";
 import React from "react";
 
 export const metadata = {
-  title: "About Us – sonaqode",
+  title: "About Us – Sonaqode",
 };
 
 export default function AboutUs() {
