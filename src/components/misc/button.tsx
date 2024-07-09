@@ -12,7 +12,7 @@ const Button = ({ label, isLoading = false, ...props }: ButtonProps) => {
     <button
       {...props}
       className={cn(
-        "w-[130px] md:w-[150px] xl:w-[190px] h-11 xl:h-[60px] text-sm lg:text-base rounded-full bg-white text-sona-blue hover:bg-sona-blue hover:text-white duration-150",
+        "flex items-center justify-center w-[130px] md:w-[150px] xl:w-[190px] h-11 xl:h-[60px] text-sm lg:text-base rounded-full bg-white text-sona-blue hover:bg-sona-blue hover:text-white duration-150",
         props.className,
       )}
     >

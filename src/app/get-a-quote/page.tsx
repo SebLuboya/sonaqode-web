@@ -1,7 +1,7 @@
 import { GetQuoteBanner } from "@/assets/images";
 import Image from "next/image";
 import React from "react";
-import QuoteForm from "@/components/forms/quote";
+import QuoteForm from "@/components/forms/quoteForm";
 
 export const metadata = {
   title: "Get A Quote – Sonaqode",

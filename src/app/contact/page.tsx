@@ -1,11 +1,7 @@
 import { ContactBanner } from "@/assets/images";
-import { Checkbox } from "@/components/misc/Checkbox";
-import { Input } from "@/components/misc/Input";
-import TextArea from "@/components/misc/TextArea";
-import Button from "@/components/misc/button";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import ContactForm from "@/components/forms/contactForm";
 
 export const metadata = {
   title: "Contact Us – Sonaqode",
@@ -32,62 +28,7 @@ export default function ContactUs() {
               Please complete the details below.
             </p>
           </div>
-          <div className="flex flex-col gap-6 w-full">
-            <div>
-              <Input label="Name" placeholder="Full Name" className="w-full" />
-            </div>
-            <div>
-              <Input
-                label="Company name"
-                placeholder="Company name"
-                className="w-full"
-              />
-            </div>
-            <div>
-              <Input
-                label="Email Address"
-                type="email"
-                placeholder="you@yourcompany.com"
-                className="w-full"
-              />
-            </div>
-            <div>
-              <Input
-                label="Phone number"
-                placeholder="+44 (555) 000-0000"
-                className="w-full"
-              />
-            </div>
-            <div>
-              <Input
-                label="Subject"
-                placeholder="How can we help you?"
-                className="w-full"
-              />
-            </div>
-            <div>
-              <TextArea
-                label="Message"
-                className="w-full min-h-36"
-                placeholder="Tell us about your project..."
-              />
-            </div>
-            <div className="flex flex-row gap-1">
-              <Checkbox
-                labelText="You agree to our friendly"
-                labelClassName="text-white font-light"
-              />
-              <Link
-                href="/privacy-policy"
-                className="text-white font-light underline underline-offset-2"
-              >
-                privacy policy.
-              </Link>
-            </div>
-            <Button className="w-full lg:w-full h-12 lg:h-12 mt-8 hover:bg-white hover:text-sona-blue bg-sona-blue text-white ">
-              Send Message
-            </Button>
-          </div>
+          <ContactForm />
         </section>
       </section>
     </main>

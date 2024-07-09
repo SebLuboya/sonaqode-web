@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import { Input } from "@/components/misc/Input";
 import TextArea from "@/components/misc/TextArea";
@@ -10,18 +9,13 @@ import Button from "@/components/misc/button";
 import { useForm } from "react-hook-form";
 import { useMutation } from "react-query";
 import toast from "react-hot-toast";
-
-type FormInput = {
-  name: string;
-  companyName: string;
-  email: string;
-  phone: string;
-  subject: string;
-  description: string;
-};
+import { QuoteFormInput } from "@/types";
+import axios from "axios";
+import { isDev } from "@/utils";
 
 const QuoteForm = () => {
   const [hasAgreed, setHasAgreed] = useState(false);
+  const [file, setFile] = useState<File | undefined>();
 
   const {
     register,
@@ -29,26 +23,23 @@ const QuoteForm = () => {
     setValue,
     reset,
     formState: { errors },
-  } = useForm<FormInput>();
+  } = useForm<QuoteFormInput>();
 
   const { mutate, isLoading } = useMutation({
     mutationKey: ["get-a-quote"],
-    mutationFn: async (data: FormInput) => {
+    mutationFn: async (data: QuoteFormInput) => {
       const formData = new FormData();
       Object.entries(data).forEach(([key, value]) => {
         formData.append(key, value);
       });
-
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        body: formData,
-      });
-
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
+      if (file) {
+        formData.append("file", file);
       }
-
-      return response.json();
+      return axios.post("/api/quote", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
     },
     onSuccess: () => {
       toast.success("Form submitted successfully", {
@@ -61,8 +52,10 @@ const QuoteForm = () => {
         },
       });
       reset();
+      setFile(undefined);
     },
     onError: (error) => {
+      toast.error("There was an error submitting form. Try again!");
       console.error(error);
     },
   });
@@ -72,20 +65,22 @@ const QuoteForm = () => {
       onSubmit={handleSubmit((data) => mutate(data))}
       className="relative flex flex-col gap-6 w-full"
     >
-      <Button
-        type="button"
-        onClick={() => {
-          setValue("name", "John Doe");
-          setValue("companyName", "Sonaqode");
-          setValue("email", "brian@briannewton.dev");
-          setValue("phone", "+44 (555) 000-0000");
-          setValue("subject", "Company Webpage");
-          setValue("description", "Super Secret");
-        }}
-        className={"absolute top-0 -right-[50%]"}
-      >
-        Fill Form
-      </Button>
+      {isDev && (
+        <Button
+          type="button"
+          onClick={() => {
+            setValue("name", "John Doe");
+            setValue("companyName", "Sonaqode");
+            setValue("email", "brian@briannewton.dev");
+            setValue("phone", "+44 (555) 000-0000");
+            setValue("subject", "Company Webpage");
+            setValue("description", "Super Secret");
+          }}
+          className={"absolute top-0 -right-[50%]"}
+        >
+          Fill Form
+        </Button>
+      )}
       <div>
         <Input
           label="Name"
@@ -141,7 +136,13 @@ const QuoteForm = () => {
           {...register("description", { required: "description is required" })}
         />
       </div>
-      <SingleImageDropzone className="w-full h-28 rounded-md" />
+      <SingleImageDropzone
+        className="w-full h-28 rounded-md"
+        value={file}
+        onChange={(file) => {
+          setFile(file);
+        }}
+      />
       <div className="flex flex-row gap-1">
         <Checkbox
           labelText="You agree to our friendly"
@@ -159,7 +160,7 @@ const QuoteForm = () => {
       <Button
         disabled={!hasAgreed || isLoading}
         isLoading={isLoading}
-        className="w-full lg:w-full h-12 lg:h-12 mt-8 hover:bg-white  hover:text-sona-blue bg-sona-blue text-white disabled:hover:bg-sona-blue disabled:hover:text-white disabled:opacity-80"
+        className="w-full lg:w-full xl:w-full h-12 lg:h-12 mt-8 hover:bg-white hover:text-sona-blue bg-sona-blue text-white disabled:hover:bg-sona-blue disabled:hover:text-white disabled:opacity-80"
       >
         Send Message
       </Button>
