@@ -93,7 +93,7 @@ const sections = [
   {
     label: "Monthly Subscription",
     subLabel: "Hourly Based, Ongoing Contract",
-    desc: "A subscription-based, on-demand service connects you with developers and engineers who achieve genuine results within a set monthly package of hours, ensuring flexibility and convenience through regular communication with assigned team members and project managers.",
+    desc: "Utilise our subscription-based, on-demand service that connects you with developers and engineers who deliver genuine results within a set monthly package of hours. Experience flexibility and convenience through regular communication with assigned team members and project managers.",
     bgcolor: "bg-sona-lightPink",
     btnClass: "hover:bg-sona-pink text-sona-pink",
     features: [

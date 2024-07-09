@@ -31,6 +31,13 @@ const CONSTS = {
 };
 
 const assist = [
+  "System Analysis and Design",
+  "Database Management",
+  "Bug Fixing",
+  "Software Updates and Patches",
+  "Automated, Manual and Integration testing",
+  "Prototyping",
+  "Security Audits",
   "Saas Development",
   "API Integration",
   "Maintenance and Support",
@@ -105,7 +112,7 @@ const data = [
   {
     title: "Frontend Developer",
     description:
-      "Our front-end developers excel in mastering a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They actively design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach enhances engagement and accessibility, customized to meet your unique brand needs. Motivated by innovation, they collaborate seamlessly to implement creative solutions and features.",
+      "Our front-end developers excel in mastering a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They actively design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach enhances engagement and accessibility, customised to meet your unique brand needs. Motivated by innovation, they collaborate seamlessly to implement creative solutions and features.",
     price: 2690,
     partTime: 1275,
     icon: Js,
@@ -113,7 +120,7 @@ const data = [
       "Education: University Graduate, Degree",
       "Experience: Min 3 years in respective role / industry",
       "Tech tools: HTML5, Sass, CSS3, JavaScript (ES6+), React, Angular, Vue.js, jQuery, npm",
-      "Tech tools: HTML/CSS Proficiency, JavaScript Expertise, Frameworks and Libraries, Responsive Design and Cross-Browser Compatibility, Performance Optimisation, User Experience (UX) Principles.",
+      "Skills: HTML/CSS Proficiency, JavaScript Expertise, Frameworks and Libraries, Responsive Design and Cross-Browser Compatibility, Performance Optimisation, User Experience (UX) Principles.",
       "Communication: Your preferred communication channel",
       "Language: Fluent English Speaking & Writing",
     ],
@@ -129,7 +136,7 @@ const data = [
       "Education: University Graduate, Degree",
       "Experience: Min 3 years in respective role / industry",
       "Tech tools: Node.js, Python, Ruby on Rails, Laravel, Symfony, ASP.NET Core, SQL/NoSQL Databases, GitHub/GitLab/Bitbucket, RESTful APIs",
-      "Tech tools: Proficiency in Server-Side Languages, Database Management, API Development &Integration, Scalability &Reliability, Problem-Solving & Analytical Thinking, Security Best Practices.",
+      "Skills: Proficiency in Server-Side Languages, Database Management, API Development &Integration, Scalability &Reliability, Problem-Solving & Analytical Thinking, Security Best Practices.",
       "Communication: Your preferred communication channel",
       "Language: Fluent English Speaking & Writing",
     ],

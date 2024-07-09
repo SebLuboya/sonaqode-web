@@ -24,7 +24,7 @@ const whys = [
   },
   {
     label: "Supporting Charitable Causes",
-    desc: "As part of our mission to positively impact work, people, and the planet, we actively support charitable causes and none profit organizations. This includes staging fundraising events and providing material assistance to orphanages and children's facilities in various regions where we are present.",
+    desc: "As part of our mission to positively impact work, people, and the planet, we actively support charitable causes and none profit organisations. This includes staging fundraising events and providing material assistance to orphanages and children's facilities in various regions where we are present.",
     color: "bg-[#B4E7FF]",
     icon: Support,
   },

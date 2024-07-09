@@ -41,7 +41,7 @@ const assist = [
   "Implementation of secure coding practices and industry best practices.",
   "Incident response planning and disaster recovery strategies.",
   "Design and implementation of robust security architectures for cloud environments.",
-  "Comprehensive security solutions tailored to your organization's needs.",
+  "Comprehensive security solutions tailored to your organisation's needs.",
 ];
 
 const faqData = [

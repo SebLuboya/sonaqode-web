@@ -33,7 +33,7 @@ export default function Home() {
         <div className="relative w-full xl:max-w-[1260px] min-h-[550px] xl:min-h-[650px] mx-auto flex flex-col gap-10 lg:flex-row items-end pt-10 px-4 lg:pb-16 lg:pl-16 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
           <div className="w-full lg:w-3/5 flex flex-col gap-10 h-full">
             <div className="flex flex-col gap-2">
-              <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-3">
+              <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] capitalize mb-3">
                 We provide top-tier tech professionals
               </h2>
               <p className="font-light text-sm lg:text-[17px] text-gray-500 leading-[27px]">
