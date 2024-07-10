@@ -133,7 +133,7 @@ const data = [
   {
     title: "Cyber Security Analyst",
     description:
-      "Engaging a skilled Cybersecurity Analyst significantly benefits your business by mitigating security risks, protecting sensitive data, ensuring regulatory compliance, and maintaining the trust of your customers. Their expertise helps safeguard your digital assets enabling you to focus on core business activities without constantly worrying about cyber threats.",
+      "Our Cyber Security Analysts are committed to safeguarding digital assets against multiple evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. With a deep understanding of the cybersecurity landscape and strong problem-solving abilities, they excel at analysing and interpreting security data. They adeptly monitor and analyse security systems, scrutinising network traffic, identifying anomalies, and promptly responding to potential security incidents. They actively communicate and collaborate with various stakeholders, including IT teams and legal departments, providing timely updates on investigation progress and coordinating efforts to restore normalcy to affected systems.",
     price: 2990,
     icon: Security,
     list: [

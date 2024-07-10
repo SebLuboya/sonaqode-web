@@ -50,14 +50,14 @@ const assist = [
 
 const faqData = [
   {
-    question: "Is SonaQode the best place to hire web developers?",
+    question: "Is Sonaqode the best place to hire developers?",
     answer:
-      "Certainly, we believe we are exceptional in providing services. However, to remain objective, we consistently strive to deliver world-class standard services. Our commitment goes beyond meeting expectations, as we prioritise client satisfaction. You can review testimonials from our clients to ensure you are selecting the right software partner.",
+      "Certainly, we believe we excel in providing services. However, to remain objective, we continually strive to deliver world-class standards. Our commitment surpasses meeting expectations; we prioritise client satisfaction.",
   },
   {
-    question: "How do your engineers developers ensure code quality?",
+    question: "How do your engineers and developers ensure code quality?",
     answer:
-      "We prioritize delivering high-quality, efficient, and reliable code. Our rigorous code review process involves multiple reviewers to carefully inspect for errors or omissions. This ensures that any problems are caught and corrected before code release.",
+      "We prioritise delivering high-quality, efficient, and reliable code. Our rigorous code review process engages multiple reviewers to meticulously detect errors or omissions. This guarantees that any issues are identified and resolved before the code is released.",
   },
   {
     question:
@@ -69,12 +69,6 @@ const faqData = [
     question: "Can SonaQode build a Minimum Viable Product (MVP)?",
     answer:
       "Our software engineers have the capability to rapidly develop a minimum viable product (MVP) for your company, tailored to meet project requirements and timeline.",
-  },
-  {
-    question:
-      "What Benefits Can I Get If I Hire Your Web App Developers for My Startup?",
-    answer:
-      "Our team of dedicated senior developers/engineers is always ready to collaborate with customers to achieve optimal results. With extensive experience in working with startups, we follow Agile and Lean methodologies to ensure fast delivery and optimize workflow for market success. Additionally, we carefully select technologies that will benefit your business.Moreover, our solutions are cost-effective and profitable. If you are looking to optimize your investment and allocate funds to other areas of your startup, our services are tailored for you!",
   },
 ];
 

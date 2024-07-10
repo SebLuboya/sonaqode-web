@@ -26,7 +26,7 @@ const sections = [
   {
     label: "Scrum Team",
     subLabel: "Agile Methodology",
-    desc: "For bespoke projects requiring continuous iterations, development is conducted in two-week sprints. With each sprint, we deliver tangible progress updates, enabling ongoing monitoring of the project's advancement.",
+    desc: "As your dedicated partner, we fulfil all your bespoke business needs, from ideation and prototyping to launch and ongoing maintenance. For bespoke projects requiring continuous iterations, we develop in two-week sprints. With each sprint, we deliver a finished working product increment.",
     bgcolor: "bg-sona-lightPurple",
     btnClass: "hover:bg-sona-purple text-sona-purple",
 

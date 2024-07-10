@@ -26,10 +26,6 @@ const faqData = [
     answer:
       "We guarantee comprehensive intellectual property (IP) protection through our Non-Disclosure Agreements (NDAs) and Master Service Agreements (MSAs). As a software development service provider, we operate on a work-for-hire basis, ensuring that our clients retain complete legal ownership of all intellectual property",
   },
-  {
-    question: "Can you tell me more about your hiring process?",
-    answer: "",
-  },
 ];
 
 const Faq = ({ data = faqData }) => {
@@ -81,37 +77,9 @@ const FaqItem = ({
           animate={{ height: isOpen ? "auto" : 0 }}
           className="overflow-clip"
         >
-          {answer !== "" ? (
-            <p className="text-sm lg:text-base font-light pt-1.5 lg:pt-2">
-              {answer}
-            </p>
-          ) : (
-            <div className="space-y-2 text-sm lg:text-base font-light pt-1.5 lg:pt-2">
-              <p>
-                CV review: We assess candidates&apos; qualifications and invite
-                those with relevant skills for an interview with a recruiter.
-              </p>
-              <p>
-                English test: Language proficiency is crucial for our work, so
-                we conduct an English assessment.
-              </p>
-              <p>
-                Interview & skill evaluation: Candidates undergo an in-person
-                interview with our project manager, who evaluates their hard and
-                soft skills.
-              </p>
-              <p>
-                Reference check: After successful completion of previous stages,
-                we request at least two to three professional references from
-                the candidate.
-              </p>
-              <p>
-                Final interview: A final interview with our CEO is conducted. If
-                both parties are satisfied, the candidate is offered a full team
-                membership.
-              </p>
-            </div>
-          )}
+          <p className="text-sm lg:text-base font-light pt-1.5 lg:pt-2">
+            {answer}
+          </p>
         </motion.div>
       </div>
     </div>
