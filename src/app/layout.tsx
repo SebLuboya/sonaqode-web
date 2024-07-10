@@ -7,6 +7,21 @@ import Providers from "@/app/providers";
 
 export const metadata: Metadata = {
   title: "Sonaqode - Aligning Talent",
+  metadataBase: new URL("https://sonaqode.co.uk"),
+  keywords: [
+    "sonaqode",
+    "software",
+    "development",
+    "agency",
+    "software development",
+    "cyber security",
+    "data analytics",
+    "corporate culture",
+  ],
+  openGraph: {
+    description: "Sonaqode is a software development agency based in the UK.",
+    images: [""],
+  },
 };
 
 export default function RootLayout({
