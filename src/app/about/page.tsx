@@ -61,8 +61,8 @@ export default function AboutUs() {
             </div>
             <div>
               <p className="text-sm lg:text-lg text-gray-600">
-                Our mission is to spearhead and propel digital services through
-                AI and Technology from Africa to the world.
+                To spearhead and propel digital services through AI and
+                Technology from Africa to the world.
               </p>
             </div>
           </div>

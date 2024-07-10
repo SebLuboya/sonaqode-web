@@ -80,7 +80,7 @@ const sections = [
       },
       {
         label: "Development",
-        desc: "Once all project specifics are agreed upon, we formalize our commitment by signing an MSA. Now, we assemble a robust delivery team and begin building your product. This phase focuses on coding, rigorous testing, and transforming your concept into a tangible reality.",
+        desc: "Once all project specifics are agreed upon, we formalise our commitment by signing an MSA. Now, we assemble a robust delivery team and begin building your product. This phase focuses on coding, rigorous testing, and transforming your concept into a tangible reality.",
         circle: Purple80,
       },
       {

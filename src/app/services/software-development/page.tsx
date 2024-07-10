@@ -184,7 +184,7 @@ const data = [
   {
     title: "IT Support Engineer",
     description:
-      "Our IT Engineers provide comprehensive technical support, collaborating with cross-functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilize appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem-solving and proactively identify and implement improvements to enhance overall performance.",
+      "Our IT Engineers provide comprehensive technical support, collaborating with cross-functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem-solving and proactively identify and implement improvements to enhance overall performance.",
     price: 899,
     partTime: 549,
     icon: ItSupport,

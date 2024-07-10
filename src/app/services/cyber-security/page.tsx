@@ -54,7 +54,7 @@ const faqData = [
     question:
       "What type of business can request managed cybersecurity services from you?",
     answer:
-      "We prioritize security for all clients. We work with companies willing to adopt effective security solutions to protect their data, reputation, and clients. Our expertise extends to heavily-regulated industries like fintech and healthcare, ensuring compliance with specific safety requirements and guidelines.",
+      "We prioritise security for all clients. We work with companies willing to adopt effective security solutions to protect their data, reputation, and clients. Our expertise extends to heavily-regulated industries like fintech and healthcare, ensuring compliance with specific safety requirements and guidelines.",
   },
   {
     question: "What is SonaQode's policy to ensure confidentiality?",
