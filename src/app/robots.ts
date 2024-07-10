@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { baseUrl } from "@/utils";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -16,6 +17,6 @@ export default function robots(): MetadataRoute.Robots {
         "/services/data-analytics",
       ],
     },
-    sitemap: "https://sonaqode.co.uk/sitemap.xml",
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
+import { baseUrl } from "@/utils";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://sonaqode.co.uk";
   return [
     {
       url: baseUrl,

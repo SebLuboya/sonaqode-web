@@ -4,11 +4,12 @@ import { FONTS } from "@/assets/fonts";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import Providers from "@/app/providers";
+import { baseUrl } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Sonaqode - Aligning Talent",
   description: "Sonaqode is a software development agency based in the UK.",
-  metadataBase: new URL("https://sonaqode.co.uk"),
+  metadataBase: new URL(baseUrl),
   keywords: [
     "sonaqode",
     "software",
