@@ -39,7 +39,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
           <img
             alt="Sonaqode Logo"
             height="40"
-            src="https://sonaqode-web.vercel.app/apple-touch-icon.png"
+            src="https://www.sonaqode.co.uk/apple-touch-icon.png"
             style={{
               display: "block",
               outline: "none",
