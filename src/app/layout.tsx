@@ -8,7 +8,8 @@ import { baseUrl } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Sonaqode - Aligning Talent",
-  description: "Sonaqode is a software development agency based in the UK.",
+  description:
+    "Sonaqode is a tech professional staffing company built to help businesses scale and grow.",
   metadataBase: new URL(baseUrl),
   keywords: [
     "sonaqode",
@@ -22,7 +23,8 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Sonaqode - Aligning Talent",
-    description: "Sonaqode is a software development agency based in the UK.",
+    description:
+      "Sonaqode is a tech professional staffing company built to help businesses scale and grow.",
   },
 };
 

@@ -28,15 +28,15 @@ const links = [
     content: [
       {
         label: "Cybersecurity",
-        link: "/cyber-security",
+        link: "/services/cyber-security",
       },
       {
         label: "Data Analytics",
-        link: "/data-analytics",
+        link: "/services/data-analytics",
       },
       {
         label: "Software Development",
-        link: "/software-development",
+        link: "/services/software-development",
       },
     ],
   },
