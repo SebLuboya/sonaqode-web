@@ -7,5 +7,5 @@ export function cn(...inputs: ClassValue[]) {
 
 export const isDev = process.env.NODE_ENV === "development";
 
-// export const baseUrl = "https://sonaqode.co.uk";
-export const baseUrl = "https://sonaqode-web.vercel.app";
+export const baseUrl = "https://www.sonaqode.co.uk";
+// export const baseUrl = "https://sonaqode-web.vercel.app";

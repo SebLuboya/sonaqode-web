@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
   // @ts-ignore
   const { data, error } = await resend.emails.send({
     from: "Sonaqode <notif@sonaqode.co.uk>",
-    to: ["dragonbrian33@gmail.com", "info@sonaqode.co.uk"],
+    to: ["info@sonaqode.co.uk"],
     subject: `Sonaqode Quote Enquiry - ${form.subject}`,
     react: EmailTemplate({
       name: form.name,
