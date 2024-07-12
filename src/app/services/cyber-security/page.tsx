@@ -124,7 +124,7 @@ const data = [
     list: [
       "Education: University Graduate, Degree",
       "Experience: Min 4 years in respective role/Industry.",
-      "Tech tools: DBMS, NoSQL, IBM Guardium, Python, Imperva SecureSphere, Symantec NetBackup, PowerShell, Dell EMC Avamar, New Relic, SolarWinds Database Performance Analyzer, Erwin Data Modeler",
+      "Tech tools: DBMS, NoSQL, IBM Guardium, Python, Imperva SecureSphere, Symantec NetBackup, PowerShell, Dell EMC Avamar, New Relic, SolarWinds Database Performance Analyzer, Erwin Data Modeler",
       "Skills: Database Design & Architecture, SQL Proficiency, Database Performance Tuning, Data Security & Compliance, Data Integration,ETL, Monitoring & Troubleshooting, Data Modeling & Design, Cloud Database Services.",
       "Communication: Your preferred communication channel",
       "Language: Fluent English Speaking & Writing",
@@ -133,7 +133,7 @@ const data = [
   {
     title: "Cyber Security Analyst",
     description:
-      "Our Cyber Security Analysts are committed to safeguarding digital assets against multiple evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. With a deep understanding of the cybersecurity landscape and strong problem-solving abilities, they excel at analysing and interpreting security data. They adeptly monitor and analyse security systems, scrutinising network traffic, identifying anomalies, and promptly responding to potential security incidents. They actively communicate and collaborate with various stakeholders, including IT teams and legal departments, providing timely updates on investigation progress and coordinating efforts to restore normalcy to affected systems.",
+      "Our Cyber Security Analysts safeguard digital assets against evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. Leveraging a deep understanding of the cybersecurity landscape and strong problem-solving abilities, they monitor and analyse security systems, scrutinise network traffic, identify anomalies, and promptly respond to potential security incidents.",
     price: 2990,
     icon: Security,
     list: [
