@@ -43,12 +43,12 @@ const links = [
     ],
   },
   {
-    label: "Contact Us",
-    link: "/contact",
-  },
-  {
     label: "Corporate Culture",
     link: "/corporate-culture",
+  },
+  {
+    label: "Contact Us",
+    link: "/contact",
   },
 ];
 

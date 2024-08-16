@@ -63,7 +63,7 @@ const QuoteForm = () => {
   return (
     <form
       onSubmit={handleSubmit((data) => mutate(data))}
-      className="relative flex flex-col gap-6 w-full"
+      className="relative flex flex-col gap-6 w-full lg:w-[600px]"
     >
       {isDev && (
         <Button
