@@ -264,7 +264,7 @@ export const softwareData: IService[] = [
   {
     title: "Frontend Developer",
     description:
-      "Our front-end developers excel in mastering a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They actively design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach enhances engagement and accessibility, customised to meet your unique brand needs. Motivated by innovation, they collaborate seamlessly to implement creative solutions and features.",
+      "Our front-end developers excel in mastering a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They actively design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach enhances engagement and accessibility, customised to meet your unique brand needs.",
     price: 2690,
     partTime: 1275,
     icon: ServiceIcon.Js,
@@ -955,7 +955,7 @@ export const analyticesData: IService[] = [
   {
     title: "Business Intelligence Analyst",
     description:
-      "Harness the power of data effectively, drive data-driven decision-making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information. This helps businesses maintain a competitive edge in the market.",
+      "Harness the power of data effectively, drive data-driven decision-making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information.",
     price: 2490,
     icon: ServiceIcon.BusinessIntelligence,
     image: ServiceImage.BusinessIntelligenceAnalyst,

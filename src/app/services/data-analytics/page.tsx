@@ -30,10 +30,8 @@ const CONSTS = {
 
 const assist = [
   "Data-driven strategy development tailored to your business needs.",
-  "Data quality management and governance.",
   "Advanced analytics and predictive modeling.",
   "Data warehouse management.",
-  "Data visualisation and reporting for actionable insights.",
   "Data analysis and interpretation.",
   "Domain expertise across various industries.",
   "Statistical modeling and hypothesis testing.",
@@ -41,7 +39,6 @@ const assist = [
   "Data visualisation and dashboard creation.",
   "Data integration and ETL (Extract, Transform, Load) processes.",
   "Data organisation and structuring for optimal efficiency.",
-  "Data quality and security.",
   "Data backup and recovery solutions.",
   "Data integrity and quality management.",
 ];
@@ -121,7 +118,7 @@ const data = [
   {
     title: "Business Intelligence Analyst",
     description:
-      "Harness the power of data effectively, drive data-driven decision-making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information. This helps businesses maintain a competitive edge in the market.",
+      "Harness the power of data effectively, drive data-driven decision-making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information.",
     price: 2490,
     icon: BusinessIntelligence,
     list: [

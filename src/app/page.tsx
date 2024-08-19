@@ -37,12 +37,12 @@ export default function Home() {
                 We provide top-tier tech professionals
               </h2>
               <p className="font-light text-sm lg:text-[17px] text-gray-500 leading-[27px]">
-                We help you build a resilient extended remote workforce by
-                connecting you with top-tier tech professionals efficiently. We
-                deliver value solutions that drive your business growth and
-                innovation, propelling it to new heights. From start-ups to
-                growing businesses, our comprehensive, hassle-free model aligns
-                your business goals with dedicated experts.
+                We connect you with top-tier tech professionals to build a
+                resilient, extended remote workforce. Our value-driven solutions
+                accelerate growth and innovation, propelling your business to
+                new heights. From start-ups to established enterprises, we align
+                your goals with expert teams and professionals through our
+                seamless, comprehensive model.
               </p>
             </div>
             <Link href="/about">

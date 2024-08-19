@@ -106,7 +106,7 @@ const data = [
   {
     title: "Frontend Developer",
     description:
-      "Our front-end developers excel in mastering a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They actively design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach enhances engagement and accessibility, customised to meet your unique brand needs. Motivated by innovation, they collaborate seamlessly to implement creative solutions and features.",
+      "Our front-end developers excel in mastering a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They actively design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach enhances engagement and accessibility, customised to meet your unique brand needs.",
     price: 2690,
     partTime: 1275,
     icon: Js,
