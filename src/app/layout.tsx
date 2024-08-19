@@ -40,7 +40,7 @@ export default function RootLayout({
     >
       <body
         suppressHydrationWarning={true}
-        className="relative min-h-screen flex flex-col justify-between"
+        className="relative min-h-screen flex flex-col justify-between overflow-x-clip"
       >
         <Header />
         <Providers>{children}</Providers>
