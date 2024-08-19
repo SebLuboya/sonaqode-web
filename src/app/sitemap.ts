@@ -1,7 +1,28 @@
 import type { MetadataRoute } from "next";
 import { baseUrl } from "@/utils";
+import { analyticesData, cyberData, softwareData } from "@/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const sweServices: MetadataRoute.Sitemap = softwareData.map((item) => ({
+    url: `${baseUrl}/services/software-development/${item.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`,
+    lastModified: new Date(),
+    changeFrequency: "yearly",
+  }));
+
+  const analyticsServices: MetadataRoute.Sitemap = analyticesData.map(
+    (item) => ({
+      url: `${baseUrl}/services/data-analytics/${item.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+    }),
+  );
+
+  const cyberServices: MetadataRoute.Sitemap = cyberData.map((item) => ({
+    url: `${baseUrl}/services/cyber-security/${item.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`,
+    lastModified: new Date(),
+    changeFrequency: "yearly",
+  }));
+
   return [
     {
       url: baseUrl,
@@ -46,5 +67,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "yearly",
     },
+    ...analyticsServices,
+    ...sweServices,
+    ...cyberServices,
   ];
 }

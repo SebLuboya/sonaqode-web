@@ -129,7 +129,7 @@ const data = [
     list: [
       "Education: University Graduate, Degree",
       "Experience: Min 3 years in respective role / industry",
-      "Tech tools: Node.js, Python, Ruby on Rails, Laravel, Symfony, ASP.NET Core, SQL/NoSQL Databases, GitHub/GitLab/Bitbucket, RESTful APIs",
+      "Tech tools: Node.js, Python, Ruby on Rails, Laravel, Symfony, ASP.NET Core, SQL/NoSQL Databases, GitHub/GitLab/Bitbucket, RESTful APIs",
       "Skills: Proficiency in Server-Side Languages, Database Management, API Development &Integration, Scalability &Reliability, Problem-Solving & Analytical Thinking, Security Best Practices.",
       "Communication: Your preferred communication channel",
       "Language: Fluent English Speaking & Writing",
@@ -254,7 +254,11 @@ export default function SoftwareDevelopmentPage() {
           />
         </div>
       </section>
-      <Services data={data} sectionTitle="Software Development" />
+      <Services
+        data={data}
+        sectionTitle="Software Development"
+        section="software-development"
+      />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
       <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
       <Faq data={faqData} />

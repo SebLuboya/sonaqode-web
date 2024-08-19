@@ -218,7 +218,11 @@ export default function CyberSecurityPage() {
           />
         </div>
       </section>
-      <Services data={data} sectionTitle="Cyber Security" />
+      <Services
+        data={data}
+        sectionTitle="Cyber Security"
+        section="cyber-security"
+      />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
       <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
       <Faq data={faqData} />

@@ -1,15 +1,18 @@
 "use client";
 import React, { useState } from "react";
-import { cn } from "@/utils";
+import { cn, isDev } from "@/utils";
 import Image, { StaticImageData } from "next/image";
 import Button from "@/components/misc/button";
 import Checkicon from "@/assets/icons/glyphs/Checkicon";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 
 const Services = ({
+  section,
   sectionTitle = "Software Development",
   data = [],
 }: {
+  section: string;
   sectionTitle?: string;
   data?: {
     title: string;
@@ -53,6 +56,7 @@ const Services = ({
                   ></div>
                   <ServiceInfoCard
                     service={service}
+                    section={section}
                     setShowModal={setShowModal}
                   />
                 </motion.div>
@@ -71,6 +75,16 @@ const Services = ({
                   placeholder="blur"
                 />
               </div>
+              <button
+                className={cn("hidden", isDev && "block")}
+                onClick={async () => {
+                  await navigator.clipboard.writeText(
+                    service.title.replaceAll(" ", "-").toLowerCase(),
+                  );
+                }}
+              >
+                {service.title.replaceAll(" ", "-").toLowerCase()}
+              </button>
               <div className="w-fit h-12 flex items-center justify-center px-4 rounded-full bg-sona-blue">
                 <p className="text-white">
                   {
@@ -108,6 +122,7 @@ export default Services;
 
 const ServiceInfoCard = ({
   service,
+  section,
   setShowModal,
 }: {
   service: {
@@ -118,6 +133,7 @@ const ServiceInfoCard = ({
     icon: StaticImageData;
     list: string[];
   };
+  section: string;
   setShowModal: (value: string) => void;
 }) => {
   const [activeTab, setActiveTab] = useState("40");
@@ -185,14 +201,13 @@ const ServiceInfoCard = ({
           );
         })}
       </div>
-      <Button
-        className={"mt-6"}
-        onClick={() => {
-          setShowModal("");
-        }}
+      <Link
+        href={`/services/${section}/${service.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`}
       >
-        Subscribe
-      </Button>
+        <Button className={"mt-6"} onClick={() => {}}>
+          Subscribe
+        </Button>
+      </Link>
     </div>
   );
 };

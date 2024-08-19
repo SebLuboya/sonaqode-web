@@ -206,7 +206,11 @@ export default function DataAndAnalytics() {
           />
         </div>
       </section>
-      <Services data={data} sectionTitle="Data & Analytics" />
+      <Services
+        data={data}
+        sectionTitle="Data & Analytics"
+        section="data-analytics"
+      />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
       <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
       <Faq data={faqData} />
