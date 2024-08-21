@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { baseUrl } from "@/utils";
-import { analyticesData, cyberData, softwareData } from "@/data";
+import { cyberData } from "@/data/cyberData";
+import { analyticesData } from "@/data/analyticesData";
+import { softwareData } from "@/data/softwareData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sweServices: MetadataRoute.Sitemap = softwareData.map((item) => ({
