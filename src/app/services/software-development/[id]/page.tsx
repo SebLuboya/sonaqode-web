@@ -6,6 +6,7 @@ import KeyDeliverables from "@/components/services/details/keyDeliverables";
 import SkillSets from "@/components/services/details/skillSets";
 import { getServiceData } from "@/data";
 import NotFound from "next/dist/client/components/not-found-error";
+import KeysAndSkills from "@/components/services/details/keysAndSkills";
 
 const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
   const service = getServiceData(params.id);
@@ -73,9 +74,8 @@ const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
           </div>
         </div>
       </section>
-      <SkillSets service={service} />
       <Subscribe service={service} />
-      <KeyDeliverables service={service} />
+      <KeysAndSkills service={service} />
     </main>
   );
 };

@@ -10,10 +10,12 @@ export const Accordian = ({
   title,
   values,
   initialOpen = false,
+  className,
 }: {
   title: string;
   values: item[];
   initialOpen?: boolean;
+  className?: string;
 }) => {
   const [isOpen, setIsOpen] = useState(initialOpen);
 
@@ -23,6 +25,7 @@ export const Accordian = ({
       className={cn(
         "flex flex-row items-start gap-5 lg:gap-6 p-6 lg:p-8 rounded-[30px] cursor-pointer duration-150",
         isOpen && "bg-white",
+        className,
       )}
     >
       <button onClick={() => setIsOpen((prev) => !prev)}>
