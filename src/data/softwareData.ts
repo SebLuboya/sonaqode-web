@@ -232,17 +232,17 @@ export const softwareData: IService[] = [
           "Performance Optimisation: Knowledge of techniques to improve website speed and responsiveness.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Problem-solving: Ability to find creative solutions to technical challenges.",
-          "Attention to detail: Ensuring pixel-perfect designs and accurate code.",
-          "Communication: Effectively collaborating with designers, back-end developers, and stakeholders.",
-          "User-centricity: Understanding user needs and designing accordingly.",
-          "Experience with different frameworks and libraries: Adaptability to different technologies.",
-          "Collaboration with design teams: Understanding design principles and working closely with other designers.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Problem-solving: Ability to find creative solutions to technical challenges.",
+      //     "Attention to detail: Ensuring pixel-perfect designs and accurate code.",
+      //     "Communication: Effectively collaborating with designers, back-end developers, and stakeholders.",
+      //     "User-centricity: Understanding user needs and designing accordingly.",
+      //     "Experience with different frameworks and libraries: Adaptability to different technologies.",
+      //     "Collaboration with design teams: Understanding design principles and working closely with other designers.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -311,16 +311,16 @@ export const softwareData: IService[] = [
           "Cloud platforms: Familiar with AWS, Azure, and GCP for deployment and scaling.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Problem-solving: Ability to analyse complex issues and find effective solutions.",
-          "System design: Proficient in designing scalable and efficient backend systems.",
-          "Data analysis: Strong understanding of data and the ability to derive insights from it.",
-          "Communication: Effectively collaborating with front-end developers and other team members.",
-          "Security: Strong knowledge of security best practices to protect data.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Problem-solving: Ability to analyse complex issues and find effective solutions.",
+      //     "System design: Proficient in designing scalable and efficient backend systems.",
+      //     "Data analysis: Strong understanding of data and the ability to derive insights from it.",
+      //     "Communication: Effectively collaborating with front-end developers and other team members.",
+      //     "Security: Strong knowledge of security best practices to protect data.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -454,16 +454,16 @@ export const softwareData: IService[] = [
           "File Formats and Codecs: Understanding different video formats and their characteristics.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Storytelling: Ability to craft a compelling narrative through visual and audio elements.",
-          "Creativity: Bringing fresh ideas and innovative approaches to video editing.",
-          "Attention to Detail: Ensuring accuracy and consistency throughout the editing process.",
-          "Time Management: Ability to meet deadlines while maintaining high-quality output.",
-          "Collaboration: Working effectively with directors, producers, and other team members.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Storytelling: Ability to craft a compelling narrative through visual and audio elements.",
+      //     "Creativity: Bringing fresh ideas and innovative approaches to video editing.",
+      //     "Attention to Detail: Ensuring accuracy and consistency throughout the editing process.",
+      //     "Time Management: Ability to meet deadlines while maintaining high-quality output.",
+      //     "Collaboration: Working effectively with directors, producers, and other team members.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -525,16 +525,16 @@ export const softwareData: IService[] = [
           "Programming languages: Good knowledge of Python, Java programming languages.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Analytical Thinking: Identifying potential issues and root causes.",
-          "Attention to Detail: Thoroughness in testing to uncover defects.",
-          "Communication: Effectively conveying test results and issues.",
-          "Problem-solving: Finding solutions to complex testing challenges.",
-          "Teamwork: Collaborating with developers, project managers, and other stakeholders.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Analytical Thinking: Identifying potential issues and root causes.",
+      //     "Attention to Detail: Thoroughness in testing to uncover defects.",
+      //     "Communication: Effectively conveying test results and issues.",
+      //     "Problem-solving: Finding solutions to complex testing challenges.",
+      //     "Teamwork: Collaborating with developers, project managers, and other stakeholders.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -604,15 +604,15 @@ export const softwareData: IService[] = [
           "Network management: Familiar with network management tools and concepts, such as DNS, DHCP, TCP/IP, and VPN.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Problem-solving: Ability to diagnose and resolve technical issues efficiently.",
-          "Customer Service: Excellent communication and interpersonal skills, providing clear and helpful explanations to users.",
-          "Time Management: Prioritising tasks and managing multiple requests.",
-          "Attention to Detail: Accurate documentation of issues and solutions.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Problem-solving: Ability to diagnose and resolve technical issues efficiently.",
+      //     "Customer Service: Excellent communication and interpersonal skills, providing clear and helpful explanations to users.",
+      //     "Time Management: Prioritising tasks and managing multiple requests.",
+      //     "Attention to Detail: Accurate documentation of issues and solutions.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [

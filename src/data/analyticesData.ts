@@ -27,16 +27,16 @@ export const analyticesData: IService[] = [
           "Data Quality: Ensuring data accuracy, completeness, and consistency.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Problem-solving: Identifying and resolving data-related challenges.",
-          "Analytical Thinking: Breaking down complex problems into smaller, manageable components.",
-          "Communication: Effectively conveying technical information to both technical and non-technical audiences.",
-          "Collaboration: Collaboratively working with data scientists, analysts, and business stakeholders.",
-          "Attention to Detail: Ensuring data accuracy and consistency.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Problem-solving: Identifying and resolving data-related challenges.",
+      //     "Analytical Thinking: Breaking down complex problems into smaller, manageable components.",
+      //     "Communication: Effectively conveying technical information to both technical and non-technical audiences.",
+      //     "Collaboration: Collaboratively working with data scientists, analysts, and business stakeholders.",
+      //     "Attention to Detail: Ensuring data accuracy and consistency.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -103,16 +103,16 @@ export const analyticesData: IService[] = [
           "Data Mining: Adept at extracting valuable information from large datasets.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Problem-solving: Ability to identify data-driven solutions to business challenges.",
-          "Critical thinking: Ability to analyse data to uncover trends and patterns.",
-          "Business acumen: Understanding the business context and how data can impact decisions.",
-          "Communication: Clearly present findings to both technical and non-technical audiences through visualizations and narratives.",
-          "Attention to detail: Ensuring data accuracy and consistency.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Problem-solving: Ability to identify data-driven solutions to business challenges.",
+      //     "Critical thinking: Ability to analyse data to uncover trends and patterns.",
+      //     "Business acumen: Understanding the business context and how data can impact decisions.",
+      //     "Communication: Clearly present findings to both technical and non-technical audiences through visualizations and narratives.",
+      //     "Attention to detail: Ensuring data accuracy and consistency.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -187,15 +187,15 @@ export const analyticesData: IService[] = [
           "Cloud Computing: Familiar with cloud platforms AWS, Azure, GCP for data storage and processing.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Problem-solving: Ability to break down complex problems into solvable components.",
-          "Critical Thinking: Ability to analyse data to uncover insights and trends.",
-          "Communication: Effectively conveying complex findings to both technical and non-technical audiences.",
-          "Business Acumen: Understanding business goals and translating them into data-driven solutions.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Problem-solving: Ability to break down complex problems into solvable components.",
+      //     "Critical Thinking: Ability to analyse data to uncover insights and trends.",
+      //     "Communication: Effectively conveying complex findings to both technical and non-technical audiences.",
+      //     "Business Acumen: Understanding business goals and translating them into data-driven solutions.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -263,16 +263,16 @@ export const analyticesData: IService[] = [
           "Database Management: Knowledge of database systems SQL, NoSQL for data extraction and management.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Business Acumen: Understanding business operations, KPIs, and how data can impact them.",
-          "Problem-solving: Ability to identify data-driven solutions to business challenges.",
-          "Communication: Effectively conveying insights to both technical and non-technical audiences.",
-          "Storytelling: Ability to present data in a clear and compelling narrative.",
-          "Attention to Detail: Ensuring data accuracy and consistency.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Business Acumen: Understanding business operations, KPIs, and how data can impact them.",
+      //     "Problem-solving: Ability to identify data-driven solutions to business challenges.",
+      //     "Communication: Effectively conveying insights to both technical and non-technical audiences.",
+      //     "Storytelling: Ability to present data in a clear and compelling narrative.",
+      //     "Attention to Detail: Ensuring data accuracy and consistency.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -340,16 +340,16 @@ export const analyticesData: IService[] = [
           "Cloud Platforms: Familiar with cloud platforms AWS, Azure, GCP for cloud-based automation.",
         ],
       },
-      {
-        title: "Skills",
-        values: [
-          "Problem-solving: Ability to identify automation opportunities and develop solutions.",
-          "Analytical Thinking: Breaking down complex processes into automatable steps.",
-          "Attention to Detail: Ensuring automation scripts are accurate and reliable.",
-          "Communication: Effectively conveying technical information to both technical and non-technical stakeholders.",
-          "Teamwork: Effectively collaborate with development, QA, and operations teams.",
-        ],
-      },
+      // {
+      //   title: "Skills",
+      //   values: [
+      //     "Problem-solving: Ability to identify automation opportunities and develop solutions.",
+      //     "Analytical Thinking: Breaking down complex processes into automatable steps.",
+      //     "Attention to Detail: Ensuring automation scripts are accurate and reliable.",
+      //     "Communication: Effectively conveying technical information to both technical and non-technical stakeholders.",
+      //     "Teamwork: Effectively collaborate with development, QA, and operations teams.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
