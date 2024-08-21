@@ -19,7 +19,7 @@ export const cyberData: IService[] = [
         title: "Technical Skills",
         values: [
           "Programming Languages: Proficient in Java, Python, C++, and Ruby to understand code vulnerabilities.",
-          "Security Testing: Expertise in vulnerability assessment tools (Burp Suite, OWASP ZAP) and penetration testing methodologies.",
+          "Security Testing: Expertise in vulnerability assessment tools Burp Suite, OWASP ZAPand penetration testing methodologies.",
           "Cryptography: Understanding encryption algorithms, key management, and secure communication protocols.",
           "Web Application Firewalls: Knowledge of WAF configuration and management.",
           "Secure Coding Practices: Proficient in writing secure code and identifying vulnerabilities.",
@@ -58,7 +58,7 @@ export const cyberData: IService[] = [
         title: "Security Implementation and Remediation",
         values: [
           "Vulnerability Remediation: Developing and implementing fixes for identified vulnerabilities.",
-          "Security Controls Implementation: Implementing security controls and mechanisms (e.g., authentication, authorisation, encryption).",
+          "Security Controls Implementation: Implementing security controls and mechanisms e.g., authentication, authorisation, encryption.",
         ],
       },
       {
@@ -96,7 +96,7 @@ export const cyberData: IService[] = [
           "Cryptography: Knowledge of encryption algorithms, key management, and secure communication protocols.",
           "Security Tools: Proficient in security tools like vulnerability scanners, intrusion detection systems, and SIEM.",
           "Scripting: Skills in Python, Bash, and PowerShell.",
-          "Compliance: Understanding industry standards and regulations (GDPR, HIPAA, PCI DSS).",
+          "Compliance: Understanding industry standards and regulations GDPR, HIPAA, PCI DSS.",
           "Identity and Access Management: Managing user identities and access controls.",
         ],
       },
@@ -136,7 +136,7 @@ export const cyberData: IService[] = [
       {
         title: "Compliance and Governance",
         values: [
-          "Compliance Framework Implementation: Ensuring adherence to industry regulations (e.g., GDPR, HIPAA, PCI DSS).",
+          "Compliance Framework Implementation: Ensuring adherence to industry regulations e.g., GDPR, HIPAA, PCI DSS.",
           "Security Policy Development: Creating and maintaining security policies and procedures.",
         ],
       },
@@ -157,7 +157,7 @@ export const cyberData: IService[] = [
     image: ServiceImage.CyberSecurityEngineer,
     roles: [
       "Our expert cybersecurity engineers bolster IT teams by proactively identifying and neutralizing cyber threats. Rigorous security assessments ensure comprehensive protection for your organization. By reducing data breaches, enhancing brand reputation, and minimising financial loss, we provide a competitive advantage rather than just reactive security measures. Sonaqode's engineers excel in threat intelligence, vulnerability management, incident response, and digital forensics to make your organisation cyber-resilient. \n",
-      "They prioritise threat detection and response, optimising security controls to enhance system protection, applying a keen eye for detail and a commitment to producing outstanding security postures that meet your business objectives. Enlist dedicated engineers who are highly experienced in tools like vulnerability scanners, intrusion detection systems, and security information and event management (SIEM), with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, blockchain, and cloud security to achieve top-notch security outcomes. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
+      "They prioritise threat detection and response, optimising security controls to enhance system protection, applying a keen eye for detail and a commitment to producing outstanding security postures that meet your business objectives. Enlist dedicated engineers who are highly experienced in tools like vulnerability scanners, intrusion detection systems, and security information and event management SIEM), with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, blockchain, and cloud security to achieve top-notch security outcomes. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
     ],
     skillSet: [
       {
@@ -169,7 +169,7 @@ export const cyberData: IService[] = [
           "Cryptography: Understanding encryption algorithms, key management, and secure communication protocols.",
           "Security Tools: Proficiency in security tools like firewalls, intrusion detection systems, and vulnerability scanners.",
           "Incident Response: Experience in handling security incidents and conducting investigations.",
-          "Cloud Security: Understanding cloud security concepts and platforms (AWS, Azure, GCP).",
+          "Cloud Security: Understanding cloud security concepts and platforms AWS, Azure, GCP.",
         ],
       },
       {
@@ -178,7 +178,7 @@ export const cyberData: IService[] = [
           "Penetration Testing: Experience conducting vulnerability assessments and penetration tests.",
           "Digital Forensics: Investigating cyber incidents to gather evidence.",
           "Risk Assessment: Evaluating security risks and implementing mitigation strategies.",
-          "Compliance: Understanding industry regulations (GDPR, HIPAA, PCI DSS).",
+          "Compliance: Understanding industry regulations GDPR, HIPAA, PCI DSS.",
         ],
       },
     ],
@@ -193,7 +193,7 @@ export const cyberData: IService[] = [
       {
         title: "Security Implementation and Maintenance",
         values: [
-          "Security Controls Implementation: Deploying security controls (firewalls, intrusion detection systems, etc.).",
+          "Security Controls Implementation: Deploying security controls firewalls, intrusion detection systems, etc..",
           "Security Configuration Management: Ensuring systems and applications are configured securely.",
           "Vulnerability Management: Identifying, assessing, and mitigating vulnerabilities.",
         ],
@@ -261,7 +261,7 @@ export const cyberData: IService[] = [
         values: [
           "Data Governance Framework: Developing and implementing data governance policies and standards.",
           "Data Classification: Categorising data based on sensitivity and value.",
-          "Compliance Adherence: Ensuring compliance with data protection regulations (GDPR, CCPA, etc.).",
+          "Compliance Adherence: Ensuring compliance with data protection regulations GDPR, CCPA, etc..",
         ],
       },
       {
@@ -282,7 +282,7 @@ export const cyberData: IService[] = [
       {
         title: "Data Infrastructure and Operations",
         values: [
-          "Data Storage Management: Managing data storage infrastructure (databases, data lakes).",
+          "Data Storage Management: Managing data storage infrastructure databases, data lakes.",
           "Data Backup and Recovery: Implementing data backup and recovery procedures.",
         ],
       },
@@ -317,7 +317,7 @@ export const cyberData: IService[] = [
           "Penetration Testing: Experience conducting vulnerability assessments and penetration tests.",
           "Digital Forensics: Investigating cyber incidents to gather evidence.",
           "Risk Assessment: Evaluating security risks and implementing mitigation strategies.",
-          "Compliance: Understanding industry regulations (e.g., GDPR, HIPAA, PCI DSS).",
+          "Compliance: Understanding industry regulations e.g., GDPR, HIPAA, PCI DSS.",
         ],
       },
     ],

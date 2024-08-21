@@ -52,9 +52,9 @@ export const analyticesData: IService[] = [
       {
         title: "Data Infrastructure and Pipelines",
         values: [
-          "Data Ingestion: Developing pipelines to extract data from various sources (databases, APIs, files).",
+          "Data Ingestion: Developing pipelines to extract data from various sources databases, APIs, files.",
           "Data Transformation: Cleaning, transforming, and standardising data for analysis.",
-          "Data Storage: Designing and implementing data storage solutions (data warehouses, data lakes).",
+          "Data Storage: Designing and implementing data storage solutions data warehouses, data lakes.",
           "Data Pipelines: Building automated data pipelines for efficient data movement and processing.",
         ],
       },
@@ -75,7 +75,7 @@ export const analyticesData: IService[] = [
       {
         title: "Cloud Integration and Optimisation",
         values: [
-          "Cloud Integration: Integrating data solutions with cloud platforms (AWS, GCP, Azure).",
+          "Cloud Integration: Integrating data solutions with cloud platforms AWS, GCP, Azure.",
           "Cost Optimization: Optimising data storage and processing costs.",
         ],
       },
@@ -96,10 +96,10 @@ export const analyticesData: IService[] = [
       {
         title: "Essential Technical Skills",
         values: [
-          "Data Manipulation: Proficient in SQL, Python (with libraries like Pandas, NumPy).",
-          "Data Visualisation: Ability to create compelling visualisations using tools like Tableau, Power BI, or Python libraries (Matplotlib, Seaborn).",
-          "Statistical Analysis: Strong analytical skills using statistical methods and tools like Python (with libraries like NumPy, Pandas), R, or Excel to draw meaningful insights.",
-          "Data Modeling: Ability to structure data for analysis (e.g. data warehousing, data marts).",
+          "Data Manipulation: Proficient in SQL, Python with libraries like Pandas, NumPy.",
+          "Data Visualisation: Ability to create compelling visualisations using tools like Tableau, Power BI, or Python libraries Matplotlib, Seaborn.",
+          "Statistical Analysis: Strong analytical skills using statistical methods and tools like Python with libraries like NumPy, Pandas), R, or Excel to draw meaningful insights.",
+          "Data Modeling: Ability to structure data for analysis e.g. data warehousing, data marts.",
           "Data Mining: Adept at extracting valuable information from large datasets.",
         ],
       },
@@ -117,7 +117,7 @@ export const analyticesData: IService[] = [
         title: "Experience",
         values: [
           "Data analysis projects: Demonstrating practical experience in data-driven problem-solving.",
-          "Industry-specific knowledge: Understanding data from various domains (e.g. Finance, marketing, healthcare).",
+          "Industry-specific knowledge: Understanding data from various domains e.g. Finance, marketing, healthcare.",
           "Data visualisation and storytelling: Creating impactful visualizations and narratives.",
           "Data cleaning and preparation: Experience handling messy and incomplete data.",
           "Business intelligence tools: Proficiency in using BI tools for data exploration and reporting.",
@@ -128,21 +128,21 @@ export const analyticesData: IService[] = [
       {
         title: "Data Collection and Preparation",
         values: [
-          "Data Gathering: Collecting data from various sources (databases, spreadsheets, APIs).",
+          "Data Gathering: Collecting data from various sources databases, spreadsheets, APIs.",
           "Data Cleaning: Ensuring data accuracy, consistency, and completeness.",
         ],
       },
       {
         title: "Data Exploration and Analysis",
         values: [
-          "Exploratory Data Analysis (EDA): Discovering patterns, trends, and anomalies within data.",
+          "Exploratory Data Analysis EDA): Discovering patterns, trends, and anomalies within data.",
           "Statistical Analysis: Applying statistical methods to extract meaningful insights.",
         ],
       },
       {
         title: "Data Visualisation",
         values: [
-          "Data Visualisation: Creating visual representations of data (charts, graphs, dashboards).",
+          "Data Visualisation: Creating visual representations of data charts, graphs, dashboards.",
           "Storytelling: Communicating data insights effectively through visualisations.",
         ],
       },
@@ -181,10 +181,10 @@ export const analyticesData: IService[] = [
           "Statistics and Probability: Strong foundation in statistical methods, hypothesis testing, and probability theory.",
           "Machine Learning: Expertise in various algorithms, including supervised, unsupervised, and reinforcement learning.",
           "Data Munging and Cleaning: Proficiency in handling messy data, including data cleaning, transformation, and exploration.",
-          "Data Visualisation: Ability to create compelling visualisations using tools like Python libraries (Matplotlib, Seaborn) or specialised software (Tableau, Power BI).",
+          "Data Visualisation: Ability to create compelling visualisations using tools like Python libraries Matplotlib, Seaborn or specialised software Tableau, Power BI.",
           "Big Data Technologies: Knowledge of tools like Hadoop, Spark, and cloud-based data platforms.",
           "Database Management: Proficiency in SQL.",
-          "Cloud Computing: Familiar with cloud platforms (AWS, Azure, GCP) for data storage and processing.",
+          "Cloud Computing: Familiar with cloud platforms AWS, Azure, GCP for data storage and processing.",
         ],
       },
       {
@@ -201,7 +201,7 @@ export const analyticesData: IService[] = [
         values: [
           "Data modeling and analysis projects: Experience in building predictive models and deriving actionable insights.",
           "Machine learning: Ability to build and deploy predictive models.",
-          "Industry-specific knowledge: Understanding data within various domains (e.g. Finance, healthcare, marketing).",
+          "Industry-specific knowledge: Understanding data within various domains e.g. Finance, healthcare, marketing.",
           "Data engineering experience: Experience with working with large datasets and building data pipelines.",
           "Cloud platform usage: Leveraging cloud-based data services for efficient data processing.",
           "Data visualisation: Creating effective visualisations to communicate findings efficiently.",
@@ -257,10 +257,10 @@ export const analyticesData: IService[] = [
         title: "Technical Skills",
         values: [
           "Data Analysis: Proficient in SQL for data querying and manipulation with knowledge of Python or R for advanced data analysis.",
-          "Data Visualisation: Ability to create compelling and informative visualisations using tools like Tableau, Power BI, or Python libraries (Matplotlib, Seaborn).",
+          "Data Visualisation: Ability to create compelling and informative visualisations using tools like Tableau, Power BI, or Python libraries Matplotlib, Seaborn.",
           "Data Modeling: Ability to comprehend data structures and relationships, enabling effective analysis.",
-          "BI Tools: Expertise in using BI tools (Tableau, Power BI, Qlik) for data exploration, reporting, and dashboard creation.",
-          "Database Management: Knowledge of database systems (SQL, NoSQL) for data extraction and management.",
+          "BI Tools: Expertise in using BI tools Tableau, Power BI, Qlik for data exploration, reporting, and dashboard creation.",
+          "Database Management: Knowledge of database systems SQL, NoSQL for data extraction and management.",
         ],
       },
       {
@@ -289,7 +289,7 @@ export const analyticesData: IService[] = [
         title: "Data Analysis and Reporting",
         values: [
           "Data Exploration: Discovering patterns, trends, and anomalies within data sets.",
-          "Data Visualisation: Creating clear and informative data visualisations (charts, graphs).",
+          "Data Visualisation: Creating clear and informative data visualisations charts, graphs.",
           "Dashboards: Developing interactive dashboards for real-time data monitoring.",
           "Ad-hoc Reports: Generating custom reports based on specific business needs.",
         ],
@@ -305,7 +305,7 @@ export const analyticesData: IService[] = [
         title: "Business Insights and Recommendations",
         values: [
           "Data-Driven Insights: Providing actionable recommendations based on data analysis.",
-          "KPIs and Metrics: Defining and tracking key performance indicators (KPIs) to measure business success.",
+          "KPIs and Metrics: Defining and tracking key performance indicators KPIs to measure business success.",
         ],
       },
       {
@@ -333,11 +333,11 @@ export const analyticesData: IService[] = [
         title: "Essential Technical Skills",
         values: [
           "Programming: Proficient in Python, Java, C#, or JavaScript for scripting and developing automation frameworks.",
-          "Automation Tools: Competent in using automation tools like Selenium, Appium, UiPath, or Robotic Process Automation (RPA) platforms.",
-          "Testing Frameworks: Good knowledge of testing frameworks (JUnit, TestNG, pytest) for creating and executing test cases.",
+          "Automation Tools: Competent in using automation tools like Selenium, Appium, UiPath, or Robotic Process Automation RPA platforms.",
+          "Testing Frameworks: Good knowledge of testing frameworks JUnit, TestNG, pytest for creating and executing test cases.",
           "Scripting Languages: Proficiency in scripting languages like PowerShell, Bash for system automation.",
-          "Continuous Integration/Continuous Delivery (CI/CD): Good understanding of CI/CD pipelines and tools (Jenkins, GitLab, Azure DevOps).",
-          "Cloud Platforms: Familiar with cloud platforms (AWS, Azure, GCP) for cloud-based automation.",
+          "Continuous Integration/Continuous Delivery CI/CD): Good understanding of CI/CD pipelines and tools Jenkins, GitLab, Azure DevOps.",
+          "Cloud Platforms: Familiar with cloud platforms AWS, Azure, GCP for cloud-based automation.",
         ],
       },
       {
@@ -356,7 +356,7 @@ export const analyticesData: IService[] = [
           "Automation Framework Development: Creating reusable automation frameworks.",
           "Test Automation: Designing and implementing test automation suites.",
           "Process Automation: Automating repetitive tasks and workflows.",
-          "Cloud Platforms: Experience with cloud-based automation tools and services (AWS, Azure, GCP).",
+          "Cloud Platforms: Experience with cloud-based automation tools and services AWS, Azure, GCP.",
           "DevOps Practices: Understanding DevOps principles and implementing automation solutions within a DevOps culture.",
         ],
       },

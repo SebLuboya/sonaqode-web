@@ -43,9 +43,11 @@ const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
                 aligned with your organisation&apos;s goals.
               </p>
             </div>
-            <button className="w-[190px] h-[60px] rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150 mt-6">
-              Subscribe
-            </button>
+            <a href="#subscribe">
+              <button className="w-[190px] h-[60px] rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150 mt-6">
+                Subscribe
+              </button>
+            </a>
           </div>
           <Image
             src={service.image}

@@ -42,26 +42,26 @@ export const softwareData: IService[] = [
       {
         title: "Technical Skills",
         values: [
-          "Programming languages: Proficiency in Swift (for iOS) and Kotlin (for Android). Knowledge of cross-platform frameworks like React Native or Flutter is also valuable.",
+          "Programming languages: Proficient in Swift for iOS and Kotlin for Android. Knowledge of cross-platform frameworks like React Native or Flutter is also valuable.",
           "Platform-specific knowledge: Deep understanding of iOS and Android ecosystems, including design guidelines, APIs, and development tools.",
           "UI/UX design: Ability to create visually appealing and user-friendly interfaces. Knowledge of design principles and tools is beneficial.",
-          "Mobile development frameworks: Proficient in using native development kits (Xcode for iOS, Android Studio for Android) and cross-platform frameworks.",
+          "Mobile development frameworks: Proficient in using native development kits Xcode for iOS, Android Studio for Android and cross-platform frameworks.",
           "API integration: Skilled in integrating with backend services and third-party APIs.",
           "Database management: Good understanding of mobile-friendly databases like SQLite and cloud-based solutions.",
-          "Version control: Proficient in Git and GitHub ,managing code changes and collaboration.",
+          "Version control: Proficient in Git and GitHub, managing code changes and collaboration.",
           "Testing and debugging: Ability to write comprehensive test cases and effectively troubleshoot issues.",
           "Performance optimisation: Knowledge of techniques to improve app speed, responsiveness, and battery life.",
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Problem-solving: Ability to break down complex problems into smaller, manageable steps.",
-          "Communication: Effective collaboration with designers, backend developers, and other team members.",
-          "Time management: Ability to meet deadlines and prioritise tasks efficiently.",
-          "Adaptability: Staying updated with the latest mobile development trends and technologies.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Problem-solving: Ability to break down complex problems into smaller, manageable steps.",
+      //     "Communication: Effective collaboration with designers, backend developers, and other team members.",
+      //     "Time management: Ability to meet deadlines and prioritise tasks efficiently.",
+      //     "Adaptability: Staying updated with the latest mobile development trends and technologies.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
@@ -73,65 +73,38 @@ export const softwareData: IService[] = [
     ],
     keyDeliverables: [
       {
-        title: "Project Planning and Requirements Analysis",
+        title: "Core Functionalities",
         values: [
-          "Detailed project plan outlining timelines, milestones, and deliverables.",
-          "Comprehensive understanding and documentation of business requirements and objectives.",
-          "Initial concept development and feasibility assessment.",
+          "App Architecture: Designing the overall structure and framework of the app, including the user interface (UI) and user experience (UX).",
+          "Core Features Development: Building the primary functions and features as outlined in the app's requirements.",
         ],
       },
       {
-        title: "Design and Prototyping",
+        title: "Design and User Experience",
         values: [
-          "UI design that aligns with the business's brand and target audience.",
-          "UX design to ensure intuitive navigation and usability.",
-          "Creation of wireframes, mockups, and interactive prototypes.",
+          "User Interface (UI) Design: Creating the visual elements and layout of the app's interface.",
+          "User Experience (UX) Design: Ensuring the app is user-friendly and intuitive.",
         ],
       },
       {
-        title: "Development",
+        title: "Technical Implementation",
         values: [
-          "Implementation of front-end and back-end functionalities.",
-          "Integration of necessary APIs, third-party services, and backend systems.",
-          "Adherence to coding standards, scalability considerations, and performance optimisation.",
+          "Code Development: Writing clean, efficient, and maintainable code for the app's functionality.",
+          "API Integration: Integrating with external APIs or services as required by the app's functionality.",
+          "Performance Optimisation: Ensuring the app runs smoothly and efficiently on various devices.",
         ],
       },
       {
         title: "Testing and Quality Assurance",
         values: [
-          "Comprehensive testing throughout the development lifecycle, including unit testing, integration testing, and acceptance testing.",
-          "Performance testing to ensure the app functions smoothly under various conditions.",
+          "Unit Testing: Creating and executing tests for individual code components.",
+          "App Testing: Conducting thorough testing to identify and fix bugs and errors.",
         ],
       },
       {
-        title: "Deployment and Release Management",
+        title: "Deployment and Maintenance",
         values: [
-          "Preparation of the app for deployment to relevant app stores (App Store, Google Play).",
-          "Configuration of deployment pipelines and release management strategies.",
-        ],
-      },
-      {
-        title: "Documentation",
-        values: [
-          "Technical documentation of the app's architecture, codebase, and APIs.",
-          "Maintenance documentation outlining procedures for updates, backups, and troubleshooting.",
-        ],
-      },
-      {
-        title: "Post-Launch Support and Maintenance",
-        values: [
-          "Monitoring app performance and analytics to identify areas for improvement.",
-          "Providing ongoing support for bug fixes, updates, and feature enhancements.",
-          "Addressing user feedback and ensuring continuous improvement of the app.",
-        ],
-      },
-      {
-        title: "Security and Compliance",
-        values: [
-          "Implementation of security measures to protect user data.",
-          "Regular security audits and vulnerability assessments.",
-          "Integration of secure authentication and data encryption practices.",
-          "Participation in project meetings, sprint reviews, and retrospectives.",
+          "App Submission: Preparing and submitting the app to app stores Apple App Store, Google Play Store.",
         ],
       },
     ],
@@ -163,9 +136,9 @@ export const softwareData: IService[] = [
           {
             title: "Back-End Development",
             values: [
-              "Programming languages: Proficient in Node.js, Python (with frameworks like Django, Flask), Ruby (with Ruby on Rails), Java.",
-              "Databases: SQL (MySQL, PostgreSQL, SQLite) and NoSQL (MongoDB, Cassandra).",
-              "Server-side frameworks: Express.js (Node.js), Django/Flask (Python), Ruby on Rails (Ruby), Spring (Java).",
+              "Programming languages: Proficient in Node.js, Python with frameworks like Django, Flask, Ruby on Rails, Java.",
+              "Databases: SQL MySQL, PostgreSQL, SQLite and NoSQL MongoDB, Cassandra.",
+              "Server-side frameworks: Express.js Node.js, Django/Flask Python, Ruby on Rails Ruby, Spring Java.",
             ],
           },
           {
@@ -179,21 +152,21 @@ export const softwareData: IService[] = [
           },
         ],
       },
-      {
-        title: "Soft Skills",
-        values: [
-          "Problem-solving: Ability to break down complex issues and find effective solutions.",
-          "Design thinking: Understanding user needs and creating intuitive user experiences.",
-          "Communication: Effectively collaborating with different teams and stakeholders.",
-          "Time management: Ability to prioritise tasks and meet deadlines.",
-          "Adaptability: Staying updated with the latest technologies and trends.",
-        ],
-      },
+      // {
+      //   title: "Soft Skills",
+      //   values: [
+      //     "Problem-solving: Ability to break down complex issues and find effective solutions.",
+      //     "Design thinking: Understanding user needs and creating intuitive user experiences.",
+      //     "Communication: Effectively collaborating with different teams and stakeholders.",
+      //     "Time management: Ability to prioritise tasks and meet deadlines.",
+      //     "Adaptability: Staying updated with the latest technologies and trends.",
+      //   ],
+      // },
       {
         title: "Experience",
         values: [
           "Agile development methodologies: Strong understanding of Agile frameworks.",
-          "Cloud platforms: Familiar with cloud services (AWS, Azure, GCP) for deployment and scaling.",
+          "Cloud platforms: Familiar with cloud services AWS, Azure, GCP for deployment and scaling.",
           "DevOps practices: Knowledge of infrastructure as code, continuous integration/continuous delivery.",
           "UI/UX design: Understanding of user experience principles to create intuitive interfaces.",
         ],
@@ -201,63 +174,33 @@ export const softwareData: IService[] = [
     ],
     keyDeliverables: [
       {
-        title: "Server-side Logic",
+        title: "Front-end Development",
         values: [
-          "Developing the core business logic and functionalities of the application.",
+          "User Interface (UI) Design: Creating the visual elements and layout of the application.",
+          "User Experience (UX) Design: Ensuring the application is user-friendly and intuitive.",
+          "Front-end Development: Building the client-side of the application using technologies like HTML, CSS, and JavaScript.",
         ],
       },
       {
-        title: "API Development",
+        title: "Back-end Development",
         values: [
-          "Creating robust and efficient Application Programming Interfaces (APIs) for communication between the front-end and back-end.",
+          "Server-side Logic: Developing the core functionality and business logic of the application.",
+          "API Development: Creating and maintaining APIs for communication between the front-end and back-end.",
+          "Database Management: Designing and managing the database for storing and retrieving data.",
         ],
       },
       {
-        title: "Database Design and Management",
+        title: "Full-Stack Integration",
         values: [
-          "Designing and implementing the database schema to store and retrieve application data effectively.",
+          "Integration: Integrating the front-end and back-end components to create a cohesive application.",
+          "Deployment: Deploying the application to production environments.",
         ],
       },
       {
-        title: "Data Integration",
+        title: "Quality Assurance and Maintenance",
         values: [
-          "Integrating data from various sources and formats into the application's database.",
-        ],
-      },
-      {
-        title: "Security Implementation",
-        values: [
-          "Developing security measures to protect user data and application integrity.",
-        ],
-      },
-      {
-        title: "Performance Optimization",
-        values: [
-          "Identifying and resolving performance bottlenecks to ensure optimal application speed and responsiveness.",
-        ],
-      },
-      {
-        title: "Scalability",
-        values: [
-          "Designing the backend infrastructure to handle increasing user loads and data volumes.",
-        ],
-      },
-      {
-        title: "Code Documentation",
-        values: [
-          "Writing clear and concise documentation to explain the codebase for maintainability and collaboration.",
-        ],
-      },
-      {
-        title: "Deployment and Maintenance",
-        values: [
-          "Deploying the application to production environments and providing ongoing maintenance and support.",
-        ],
-      },
-      {
-        title: "Testing and Debugging",
-        values: [
-          "Writing unit and integration tests to ensure code quality and identifying and fixing defects.",
+          "Testing: Writing and executing unit, integration, and end-to-end tests.",
+          "Maintenance: Providing ongoing maintenance and support for the application.",
         ],
       },
     ],
@@ -283,7 +226,7 @@ export const softwareData: IService[] = [
           "CSS Preprocessors: Experience with Sass or Less for efficient styling.",
           "Responsive Design: Ability to create websites that adapt to different screen sizes.",
           "Cross-browser Compatibility: Ensuring websites function correctly across various browsers.",
-          "Accessibility: Understanding and implementing accessibility standards (WCAG).",
+          "Accessibility: Understanding and implementing accessibility standards WCAG.",
           "Version Control: Proficient in Git and GitHub.",
           "Testing and Debugging: Ability to write tests and effectively troubleshoot issues to ensure code quality.",
           "Performance Optimisation: Knowledge of techniques to improve website speed and responsiveness.",
@@ -359,7 +302,7 @@ export const softwareData: IService[] = [
         title: "Technical Skills",
         values: [
           "Programming languages: Proficient in Python, Java, Ruby, Node.js, and PHP.",
-          "Databases: Strong understanding of both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB, Cassandra) databases.",
+          "Databases: Strong understanding of both SQL MySQL, PostgreSQL and NoSQL MongoDB, Cassandra databases.",
           "Server-side frameworks: Experienced with Django, Flask, Ruby on Rails, Express.js.",
           "API development: Ability to build RESTful or GraphQL APIs for data exchange.",
           "Data structures and algorithms: A good understanding of core data structures and algorithms for efficient problem-solving.",
@@ -393,7 +336,7 @@ export const softwareData: IService[] = [
         title: "Core Functionalities",
         values: [
           "Server-side Logic: Developing the core business logic and functionalities of the application.",
-          "API Development: Creating robust and efficient Application Programming Interfaces (APIs) for communication between the front-end and back-end.",
+          "API Development: Creating robust and efficient Application Programming Interfaces APIs for communication between the front-end and back-end.",
           "Database Design and Management: Designing and implementing the database schema to store and retrieve application data effectively.",
         ],
       },
@@ -415,7 +358,7 @@ export const softwareData: IService[] = [
       {
         title: "Deployment and Maintenance",
         values: [
-          "Deployment Scripts: Creating scripts for deploying the application to different environments (development, testing, production).",
+          "Deployment Scripts: Creating scripts for deploying the application to different environments development, testing, production.",
           "Code Documentation: Writing clear and concise documentation to explain the codebase for maintainability and collaboration.",
         ],
       },
@@ -543,7 +486,7 @@ export const softwareData: IService[] = [
       {
         title: "Content Creation and Adaptation",
         values: [
-          "Video Formatting: Adjusting video for different platforms (e.g., social media, websites).",
+          "Video Formatting: Adjusting video for different platforms e.g., social media, websites.",
           "Subtitles and Captions: Adding subtitles or captions for accessibility and language adaptation.",
           "Video Optimization: Compressing video files for efficient delivery without compromising quality.",
         ],
@@ -552,7 +495,7 @@ export const softwareData: IService[] = [
         title: "Project Management and Collaboration",
         values: [
           "Asset Management: Organising and managing video files and assets.",
-          "Collaboration: Working effectively with other team members (e.g., producers, directors).",
+          "Collaboration: Working effectively with other team members e.g., producers, directors.",
           "Deliverables: Providing final video files in required formats and specifications.",
         ],
       },
@@ -574,7 +517,7 @@ export const softwareData: IService[] = [
       {
         title: "Technical Skills",
         values: [
-          "Testing methodologies: Good understanding of various testing types (functional, non-functional, integration) and ability to appropriately apply them.",
+          "Testing methodologies: Good understanding of various testing types functional, non-functional, integration and ability to appropriately apply them.",
           "Test case creation: Developing comprehensive test cases to cover all possible scenarios.",
           "Defect tracking: Using bug tracking tools to report and manage defects.",
           "Automation testing: Proficient in Selenium, Appium for efficient testing.",
@@ -655,7 +598,7 @@ export const softwareData: IService[] = [
           "Software Troubleshooting: Proficient in resolving software issues and conflicts.",
           "Network Troubleshooting: Understanding of network fundamentals and ability to diagnose network problems.",
           "Operating Systems: Proficient in Windows, macOS, and Linux environments.",
-          "Application Support: Knowledge of common software applications (Office suite, email).",
+          "Application Support: Knowledge of common software applications Office suite, email.",
           "Remote Support Tools: Proficiency in using tools like TeamViewer or Remote Desktop, troubleshoot issues remotely and efficiently guiding users through technical issues.",
           "Ticketing Systems: Experience with help desk software for issue tracking.",
           "Network management: Familiar with network management tools and concepts, such as DNS, DHCP, TCP/IP, and VPN.",
@@ -675,7 +618,7 @@ export const softwareData: IService[] = [
         values: [
           "Help desk or technical support role: Practical experience in handling user issues.",
           "Customer service industry: Experience in dealing with customers and resolving complaints.",
-          "Technical documentation: Creating clear and concise knowledge base articles using Microsoft Office (Word, Excel) or Google Workspace (Docs, Sheets).",
+          "Technical documentation: Creating clear and concise knowledge base articles using Microsoft Office Word, Excel or Google Workspace Docs, Sheets.",
         ],
       },
     ],

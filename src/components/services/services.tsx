@@ -103,13 +103,11 @@ const Services = ({
                 <p className="font-light text-[15px]">{service.description}</p>
               </div>
               <div className="flex flex-1 items-end">
-                <Button
-                  onClick={() => {
-                    setShowModal(service.title);
-                  }}
+                <Link
+                  href={`/services/${section}/${service.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`}
                 >
-                  View
-                </Button>
+                  <Button>View</Button>
+                </Link>
               </div>
             </div>
           </div>
