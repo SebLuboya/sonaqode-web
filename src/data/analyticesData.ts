@@ -98,7 +98,7 @@ export const analyticesData: IService[] = [
         values: [
           "Data Manipulation: Proficient in SQL, Python with libraries like Pandas, NumPy.",
           "Data Visualisation: Ability to create compelling visualisations using tools like Tableau, Power BI, or Python libraries Matplotlib, Seaborn.",
-          "Statistical Analysis: Strong analytical skills using statistical methods and tools like Python with libraries like NumPy, Pandas), R, or Excel to draw meaningful insights.",
+          "Statistical Analysis: Strong analytical skills using statistical methods and tools like Python with libraries like NumPy, Pandas, R, or Excel to draw meaningful insights.",
           "Data Modeling: Ability to structure data for analysis e.g. data warehousing, data marts.",
           "Data Mining: Adept at extracting valuable information from large datasets.",
         ],
@@ -135,7 +135,7 @@ export const analyticesData: IService[] = [
       {
         title: "Data Exploration and Analysis",
         values: [
-          "Exploratory Data Analysis EDA): Discovering patterns, trends, and anomalies within data.",
+          "Exploratory Data Analysis: Discovering patterns, trends, and anomalies within data.",
           "Statistical Analysis: Applying statistical methods to extract meaningful insights.",
         ],
       },
@@ -150,7 +150,7 @@ export const analyticesData: IService[] = [
         title: "Reporting and Insights",
         values: [
           "Data Reports: Generating regular and ad-hoc reports.",
-          "Key Performance Indicators (KPIs): Developing and tracking KPIs.",
+          "Key Performance Indicators: Developing and tracking KPIs.",
           "Data-Driven Recommendations: Providing actionable insights based on data analysis.",
         ],
       },
@@ -336,7 +336,7 @@ export const analyticesData: IService[] = [
           "Automation Tools: Competent in using automation tools like Selenium, Appium, UiPath, or Robotic Process Automation RPA platforms.",
           "Testing Frameworks: Good knowledge of testing frameworks JUnit, TestNG, pytest for creating and executing test cases.",
           "Scripting Languages: Proficiency in scripting languages like PowerShell, Bash for system automation.",
-          "Continuous Integration/Continuous Delivery CI/CD): Good understanding of CI/CD pipelines and tools Jenkins, GitLab, Azure DevOps.",
+          "Continuous Integration/Continuous Delivery: Good understanding of CI/CD pipelines and tools Jenkins, GitLab, Azure DevOps.",
           "Cloud Platforms: Familiar with cloud platforms AWS, Azure, GCP for cloud-based automation.",
         ],
       },

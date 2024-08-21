@@ -75,15 +75,15 @@ export const softwareData: IService[] = [
       {
         title: "Core Functionalities",
         values: [
-          "App Architecture: Designing the overall structure and framework of the app, including the user interface (UI) and user experience (UX).",
+          "App Architecture: Designing the overall structure and framework of the app, including the user interface and user experience.",
           "Core Features Development: Building the primary functions and features as outlined in the app's requirements.",
         ],
       },
       {
         title: "Design and User Experience",
         values: [
-          "User Interface (UI) Design: Creating the visual elements and layout of the app's interface.",
-          "User Experience (UX) Design: Ensuring the app is user-friendly and intuitive.",
+          "User Interface Design: Creating the visual elements and layout of the app's interface.",
+          "User Experience Design: Ensuring the app is user-friendly and intuitive.",
         ],
       },
       {
@@ -176,8 +176,8 @@ export const softwareData: IService[] = [
       {
         title: "Front-end Development",
         values: [
-          "User Interface (UI) Design: Creating the visual elements and layout of the application.",
-          "User Experience (UX) Design: Ensuring the application is user-friendly and intuitive.",
+          "User Interface Design: Creating the visual elements and layout of the application.",
+          "User Experience Design: Ensuring the application is user-friendly and intuitive.",
           "Front-end Development: Building the client-side of the application using technologies like HTML, CSS, and JavaScript.",
         ],
       },
@@ -262,10 +262,10 @@ export const softwareData: IService[] = [
         ],
       },
       {
-        title: "User Experience (UX) Focused",
+        title: "User Experience Focused",
         values: [
-          "User Interface (UI) Design: Creating the visual elements and layout of the website or application.",
-          "User Experience (UX) Design: Ensuring the website or application is user-friendly and intuitive.",
+          "User Interface Design: Creating the visual elements and layout of the website or application.",
+          "User Experience Design: Ensuring the website or application is user-friendly and intuitive.",
           "Responsive Design: Developing websites that adapt to different screen sizes and devices.",
         ],
       },

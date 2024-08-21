@@ -157,7 +157,7 @@ export const cyberData: IService[] = [
     image: ServiceImage.CyberSecurityEngineer,
     roles: [
       "Our expert cybersecurity engineers bolster IT teams by proactively identifying and neutralizing cyber threats. Rigorous security assessments ensure comprehensive protection for your organization. By reducing data breaches, enhancing brand reputation, and minimising financial loss, we provide a competitive advantage rather than just reactive security measures. Sonaqode's engineers excel in threat intelligence, vulnerability management, incident response, and digital forensics to make your organisation cyber-resilient. \n",
-      "They prioritise threat detection and response, optimising security controls to enhance system protection, applying a keen eye for detail and a commitment to producing outstanding security postures that meet your business objectives. Enlist dedicated engineers who are highly experienced in tools like vulnerability scanners, intrusion detection systems, and security information and event management SIEM), with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, blockchain, and cloud security to achieve top-notch security outcomes. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
+      "They prioritise threat detection and response, optimising security controls to enhance system protection, applying a keen eye for detail and a commitment to producing outstanding security postures that meet your business objectives. Enlist dedicated engineers who are highly experienced in tools like vulnerability scanners, intrusion detection systems, and security information and event management, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, blockchain, and cloud security to achieve top-notch security outcomes. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
     ],
     skillSet: [
       {
@@ -269,7 +269,7 @@ export const cyberData: IService[] = [
         values: [
           "Data Access Controls: Implementing and managing access controls to protect sensitive data.",
           "Data Encryption: Implementing data encryption to safeguard data at rest and in transit.",
-          "Data Loss Prevention (DLP): Implementing DLP solutions to prevent data leakage.",
+          "Data Loss Prevention: Implementing DLP solutions to prevent data leakage.",
         ],
       },
       {
