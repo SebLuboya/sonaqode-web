@@ -656,3 +656,11 @@ export const softwareData: IService[] = [
     ],
   },
 ];
+
+export function getServiceData(id: string) {
+  return softwareData.find(
+    (service) =>
+      service.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase() ===
+      id,
+  );
+}

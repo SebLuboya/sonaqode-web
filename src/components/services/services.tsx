@@ -106,7 +106,7 @@ const Services = ({
                 <Link
                   href={`/services/${section}/${service.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`}
                 >
-                  <Button>View</Button>
+                  <Button>Learn More</Button>
                 </Link>
               </div>
             </div>

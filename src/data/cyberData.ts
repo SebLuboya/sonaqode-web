@@ -427,3 +427,11 @@ export const cyberData: IService[] = [
     ],
   },
 ];
+
+export function getServiceData(id: string) {
+  return cyberData.find(
+    (service) =>
+      service.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase() ===
+      id,
+  );
+}

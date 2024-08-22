@@ -395,3 +395,11 @@ export const analyticesData: IService[] = [
     ],
   },
 ];
+
+export function getServiceData(id: string) {
+  return analyticesData.find(
+    (service) =>
+      service.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase() ===
+      id,
+  );
+}

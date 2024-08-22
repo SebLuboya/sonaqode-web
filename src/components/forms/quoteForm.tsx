@@ -131,7 +131,6 @@ const QuoteForm = () => {
         <TextArea
           label="Tell us about your project"
           className="w-full min-h-36"
-          placeholder="Confidentiality of your project is our top priority. The information you provide is protected through our standard NDA"
           error={errors.description}
           {...register("description", { required: "description is required" })}
         />

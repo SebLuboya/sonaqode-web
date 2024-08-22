@@ -40,6 +40,19 @@ const links = [
       },
     ],
   },
+  {
+    label: "Updates",
+    content: [
+      {
+        label: "Blog",
+        link: "/#blog",
+      },
+      {
+        label: "News",
+        link: "/#news",
+      },
+    ],
+  },
 ];
 
 const Footer = () => {
