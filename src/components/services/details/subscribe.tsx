@@ -9,7 +9,8 @@ const Subscribe = ({
   };
 }) => {
   return (
-    <section id="subscribe" className="pt-12 lg:pt-16 px-5">
+    <section className="relative pt-12 lg:pt-16 px-5">
+      <section id="subscribe" className="absolute -top-24"></section>
       <div className="relative w-full max-w-[1260px] mx-auto pt-16 lg:py-14 p-4 rounded-[50px] lg:rounded-[70px] bg-sona-lightdBlue">
         <div className="w-full lg:max-w-[1100px] mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
           <h2 className="font-clash text-3xl lg:text-[40px] text-center font-medium lg:leading-[50px] text-sona-blue">
