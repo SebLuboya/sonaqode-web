@@ -33,7 +33,7 @@ const Subscribe = ({
             {service.partTime && (
               <div className="h-[160px] w-[396px] flex flex-col items-center justify-center bg-white p-8 gap-5 rounded-[40px]">
                 <p className="text-2xl font-semibold text-sona-blue">
-                  Full Time
+                  Part Time
                 </p>
                 <p className="text-2xl font-semibold text-sona-blue">
                   {
