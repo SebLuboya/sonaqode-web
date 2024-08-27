@@ -30,7 +30,7 @@ export const softwareData: IService[] = [
     title: "Mobile App Developer",
     icon: ServiceIcon.AngleBrackets,
     image: ServiceImage.MobileAppDeveloper,
-    price: 2690,
+    price: 2890,
     partTime: 2190,
     description:
       "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
@@ -210,7 +210,7 @@ export const softwareData: IService[] = [
     description:
       "Our front-end developers craft intuitive, efficient, and enjoyable user web and mobile applications by expertly wielding a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They seamlessly integrate design, technology, and usability principles to deliver customised solutions that enhance engagement and accessibility, perfectly aligning with your unique brand needs.",
     price: 2690,
-    partTime: 1275,
+    partTime: 1590,
     icon: ServiceIcon.Js,
     image: ServiceImage.FrontendDeveloper,
     roles: [
@@ -290,7 +290,7 @@ export const softwareData: IService[] = [
     description:
       "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server-side solutions using cutting edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
     price: 2690,
-    partTime: 1275,
+    partTime: 1590,
     icon: ServiceIcon.CodeFolder,
     image: ServiceImage.BackendDeveloper,
     roles: [
