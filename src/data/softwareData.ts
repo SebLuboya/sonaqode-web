@@ -31,7 +31,7 @@ export const softwareData: IService[] = [
     icon: ServiceIcon.AngleBrackets,
     image: ServiceImage.MobileAppDeveloper,
     price: 2690,
-    partTime: 1275,
+    partTime: 2190,
     description:
       "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
     roles: [
