@@ -63,7 +63,7 @@ const Footer = () => {
           Let’s Build Something Great Together
         </p>
       </div>
-      <div className="w-full lg:max-w-[1260px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-0 justify-between py-10">
+      <div className="w-full lg:max-w-[1260px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-0 justify-between py-10">
         <Image
           src={SonaqodeDarkIcon}
           className="h-[70px] w-auto"

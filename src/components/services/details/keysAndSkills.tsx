@@ -17,10 +17,10 @@ const KeysAndSkills = ({
   accent?: string;
 }) => {
   return (
-    <section className="pt-12 lg:pt-16 px-5">
+    <section className="pt-12 lg:pt-16 px-4 lg:px-5">
       <div
         className={cn(
-          "flex flex-col lg:flex-row gap-12 w-full max-w-[1260px] min-h-[450px] mx-auto p-4 ",
+          "flex flex-col lg:flex-row gap-12 w-full max-w-[1260px] min-h-[450px] mx-auto p-0 lg:p-4",
         )}
       >
         <div className="flex-1 flex flex-col items-center">

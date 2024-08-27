@@ -106,7 +106,7 @@ const data = [
   {
     title: "Frontend Developer",
     description:
-      "Our front-end developers excel in mastering a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They actively design intuitive, efficient, and enjoyable user experiences by integrating design, technology, and usability principles. This approach enhances engagement and accessibility, customised to meet your unique brand needs.",
+      "Our front-end developers craft intuitive, efficient, and enjoyable user web and mobile applications by expertly wielding a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They seamlessly integrate design, technology, and usability principles to deliver customised solutions that enhance engagement and accessibility, perfectly aligning with your unique brand needs.",
     price: 2690,
     partTime: 1275,
     icon: Js,
@@ -138,7 +138,7 @@ const data = [
   {
     title: "UI/UX Designer",
     description:
-      "Our innovative designers excel at crafting intuitive designs for applications, software, and websites that are visually appealing, highly functional, and user-friendly. They conduct user research, design interactions, create visuals, and perform usability testing to ensure the product meets user needs and expectations. This process provides your business with a competitive advantage, fosters brand loyalty, and increases engagement.",
+      "Our innovative designers excel at crafting visually appealing, highly functional, and user-friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
     price: 2090,
     partTime: 1390,
     icon: Figma,

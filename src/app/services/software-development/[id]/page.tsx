@@ -38,13 +38,7 @@ const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
                 {service.title}
               </h2>
               <p className="md:text-base text-sm font-light">
-                Engage skilled developers dedicated to crafting robust custom
-                applications tailored to your specific and complex requirements.
-                Our experienced app development team, adept in the latest
-                technologies, excels in creating top-notch mobile apps that
-                captivate users and gather valuable insights. Ensure a strong
-                mobile presence, driving sustained growth and success for your
-                business.
+                {service.description}
               </p>
             </div>
             <a href="#subscribe">
@@ -68,7 +62,7 @@ const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
         <div className="w-full max-w-[1260px] flex flex-col mx-auto pt-12 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
           <div className="w-full mx-auto flex flex-col gap-8 items-center lg:px-10">
             <h1 className="font-clash text-3xl lg:text-[40px] text-center font-medium lg:leading-[50px]">
-              About This role
+              About This Role
             </h1>
             <div className="flex flex-col gap-8">
               {service.roles.map((role, index) => (

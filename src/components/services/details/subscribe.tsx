@@ -16,10 +16,12 @@ const Subscribe = ({
           <h2 className="font-clash text-3xl lg:text-[40px] text-center font-medium lg:leading-[50px] text-sona-blue">
             Subscribe
           </h2>
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-12">
-            <div className="h-[160px] w-[396px] flex flex-col items-center justify-center bg-white p-8 gap-5 rounded-[40px]">
-              <p className="text-2xl font-semibold text-sona-blue">Full Time</p>
-              <p className="text-2xl font-semibold text-sona-blue">
+          <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-12">
+            <div className="h-[160px] w-full lg:w-[396px] flex flex-col items-center justify-center bg-white p-3 lg:p-8 gap-2.5 lg:gap-5 rounded-[40px]">
+              <p className="text-lg lg:text-2xl font-semibold text-sona-blue">
+                Full Time <span className="text-sm">(40 hours/week)</span>
+              </p>
+              <p className="text-[22px] lg:text-2xl font-semibold text-sona-blue">
                 {
                   service.price
                     .toLocaleString("en-US", {
@@ -32,11 +34,11 @@ const Subscribe = ({
               </p>
             </div>
             {service.partTime && (
-              <div className="h-[160px] w-[396px] flex flex-col items-center justify-center bg-white p-8 gap-5 rounded-[40px]">
-                <p className="text-2xl font-semibold text-sona-blue">
-                  Part Time
+              <div className="h-[160px] w-full lg:w-[396px] flex flex-col items-center justify-center bg-white p-3 lg:p-8 gap-2.5 lg:gap-5 rounded-[40px]">
+                <p className="text-lg lg:text-2xl font-semibold text-sona-blue">
+                  Part Time <span className="text-sm">(20 hours/week)</span>
                 </p>
-                <p className="text-2xl font-semibold text-sona-blue">
+                <p className="text-[22px] lg:text-2xl font-semibold text-sona-blue">
                   {
                     service.partTime
                       .toLocaleString("en-US", {

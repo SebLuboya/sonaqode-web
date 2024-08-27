@@ -27,7 +27,7 @@ const faqData = [
   {
     question: "Where is Sonaqode based?",
     answer:
-      "Our headquarters are located in London, UK, while a majority of our developers and engineers operate from Accra, Ghana. We are committed to recruiting top-quality specialists from various countries across the African continent, enabling us to deliver exceptional remote work.",
+      "Our leadership team is based in London, UK, while most of our senior and mid-level engineers operate from Accra, Ghana. We are committed to recruiting top-quality specialists from various countries across the African continent, enabling us to deliver exceptional remote work.",
   },
   {
     question:
