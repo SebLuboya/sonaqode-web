@@ -33,10 +33,10 @@ export default function CorporateCulture() {
               At Sonaqode, we integrate corporate social responsibility into our
               corporate strategy to enrich the lives of our team members and
               uplift the communities where we operate. Therefore, we actively
-              enhance the social, economic, educational, and environmental
-              well-being of our communities and the world. We establish and
-              pursue clear commitments in these areas, demonstrating our
-              dedication to building a thriving workforce.
+              enhance the social, economic, educational, and environmental well
+              being of our communities and the world. We establish and pursue
+              clear commitments in these areas, demonstrating our dedication to
+              building a thriving workforce.
             </p>
           </div>
         </div>

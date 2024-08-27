@@ -6,7 +6,7 @@ import React from "react";
 const whys = [
   {
     label: "Affordable Pricing",
-    desc: "Tap into our exceptional talent pool of skilled professionals at cost-effective rates, boosting your profitability.",
+    desc: "Tap into our exceptional talent pool of skilled professionals at cost effective rates, boosting your profitability.",
     color: "bg-[#8497FF]",
     icon: Affordable,
   },
@@ -18,7 +18,7 @@ const whys = [
   },
   {
     label: "Focus on Quality",
-    desc: "Driving excellence, continuously improving efficiency, and aligning practices with a commitment to long-term success.",
+    desc: "Driving excellence, continuously improving efficiency, and aligning practices with a commitment to long term success.",
     color: "bg-[#FFD556]",
     icon: Focus,
   },
@@ -39,7 +39,7 @@ const WhySonaqode = () => {
             Why SonaQode
           </h2>
           <p className="text-gray-600 text-sm lg:text-base text-center text-balance font-light leading-5 mt-3">
-            Sonaqode is synonymous with top-class quality and reliability. Our
+            Sonaqode is synonymous with top class quality and reliability. Our
             team of specialists brings extensive experience in various verticals
             and is always prepared to address any challenges your business faces
             promptly.

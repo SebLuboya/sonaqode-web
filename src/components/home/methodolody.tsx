@@ -26,7 +26,7 @@ const sections = [
   {
     label: "Scrum Team",
     subLabel: "Agile Methodology",
-    desc: "As your dedicated partner, we fulfil all your bespoke business needs, from ideation and prototyping to launch and ongoing maintenance. For bespoke projects requiring continuous iterations, we develop in two-week sprints. With each sprint, we deliver a finished working product increment.",
+    desc: "As your dedicated partner, we fulfil all your bespoke business needs, from ideation and prototyping to launch and ongoing maintenance. For bespoke projects requiring continuous iterations, we develop in two week sprints. With each sprint, we deliver a finished working product increment.",
     bgcolor: "bg-sona-lightPurple",
     btnClass: "hover:bg-sona-purple text-sona-purple",
 
@@ -70,7 +70,7 @@ const sections = [
       },
       {
         label: "Discovery",
-        desc: "Collaborating with you to shape your idea into a well-planned and practical strategy, we unlock both business and user value for an optimal investment, outlining technical and strategic solutions.",
+        desc: "Collaborating with you to shape your idea into a well planned and practical strategy, we unlock both business and user value for an optimal investment, outlining technical and strategic solutions.",
         circle: Purple40,
       },
       {
@@ -85,7 +85,7 @@ const sections = [
       },
       {
         label: "Support",
-        desc: "Our relationship with you doesn't end once your product is complete. We provide post-deployment technical support to enhance and maintain your software. To guarantee long-term reliability, our technical experts periodically assess the health of your product, evaluating system performance, database integration, and other key functionalities, ensuring it continues to meet your changing requirements.",
+        desc: "Our relationship with you doesn't end once your product is complete. We provide post deployment technical support to enhance and maintain your software. To guarantee long term reliability, our technical experts periodically assess the health of your product, evaluating system performance, database integration, and other key functionalities, ensuring it continues to meet your changing requirements.",
         circle: Purple100,
       },
     ],
@@ -93,13 +93,13 @@ const sections = [
   {
     label: "Monthly Subscription",
     subLabel: "Hourly Based, Ongoing Contract",
-    desc: "Enjoy our subscription-based, on-demand service that connects you with developers and engineers who deliver genuine results within a set monthly package of hours. Experience flexibility and convenience through regular communication with assigned team members and project managers.",
+    desc: "Enjoy our subscription based, on-demand service that connects you with developers and engineers who deliver genuine results within a set monthly package of hours. Experience flexibility and convenience through regular communication with assigned team members and project managers.",
     bgcolor: "bg-sona-lightPink",
     btnClass: "hover:bg-sona-pink text-sona-pink",
     features: [
       {
         icon: Project,
-        label: "Size of the project: Any, long-term support",
+        label: "Size of the project: Any, long term support",
         color: "bg-[#DDF0FF]",
       },
       {

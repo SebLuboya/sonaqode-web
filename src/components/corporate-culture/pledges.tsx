@@ -14,7 +14,7 @@ const data = [
   {
     label: "SDG 3",
     sublabel: "Good Health and Wellbeing",
-    desc: "At the core of our organisation are people, and their well-being is our utmost priority. We strive to foster open discussions about mental health, promote work-life balance, incentivise healthy habits, and engage you with exciting wellness initiatives.",
+    desc: "At the core of our organisation are people, and their well being is our utmost priority. We strive to foster open discussions about mental health, promote work-life balance, incentivise healthy habits, and engage you with exciting wellness initiatives.",
     image: Sdg2,
   },
   {

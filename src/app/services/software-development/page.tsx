@@ -52,12 +52,12 @@ const faqData = [
   {
     question: "Is Sonaqode the best place to hire developers?",
     answer:
-      "Certainly, we believe we excel in providing services. However, to remain objective, we continually strive to deliver world-class standards. Our commitment surpasses meeting expectations; we prioritise client satisfaction.",
+      "Certainly, we believe we excel in providing services. However, to remain objective, we continually strive to deliver world class standards. Our commitment surpasses meeting expectations; we prioritise client satisfaction.",
   },
   {
     question: "How do your engineers and developers ensure code quality?",
     answer:
-      "We prioritise delivering high-quality, efficient, and reliable code. Our rigorous code review process engages multiple reviewers to meticulously detect errors or omissions. This guarantees that any issues are identified and resolved before the code is released.",
+      "We prioritise delivering high quality, efficient, and reliable code. Our rigorous code review process engages multiple reviewers to meticulously detect errors or omissions. This guarantees that any issues are identified and resolved before the code is released.",
   },
   {
     question:
@@ -76,7 +76,7 @@ const data = [
   {
     title: "Mobile App Developer",
     description:
-      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top-notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
+      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
     price: 3090,
     partTime: 2190,
     icon: AngleBrackets,
@@ -91,7 +91,7 @@ const data = [
   {
     title: "Full Stack Developer",
     description:
-      "Access skilled web developers who can construct high-performance, modern web applications from scratch. Our full-stack developers excel in both Front-end and Back-end technologies, delivering fully customised web apps that meet your precise requirements. They ensure excellent performance and provide end-to-end solutions that are reliable and scalable.",
+      "Access skilled web developers who can construct high performance, modern web applications from scratch. Our full-stack developers excel in both Front-end and Back-end technologies, delivering fully customised web apps that meet your precise requirements. They ensure excellent performance and provide end to end solutions that are reliable and scalable.",
     price: 3090,
     partTime: 2190,
     icon: Vscode,
@@ -122,7 +122,7 @@ const data = [
   {
     title: "Backend Developer",
     description:
-      "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server-side solutions using cutting-edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
+      "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server side solutions using cutting edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
     price: 2690,
     partTime: 1275,
     icon: CodeFolder,
@@ -130,7 +130,7 @@ const data = [
       "Education: University Graduate, Degree",
       "Experience: Min 3 years in respective role / industry",
       "Tech tools: Node.js, Python, Ruby on Rails, Laravel, Symfony, ASP.NET Core, SQL/NoSQL Databases, GitHub/GitLab/Bitbucket, RESTful APIs",
-      "Skills: Proficiency in Server-Side Languages, Database Management, API Development &Integration, Scalability &Reliability, Problem-Solving & Analytical Thinking, Security Best Practices.",
+      "Skills: Proficiency in Server Side Languages, Database Management, API Development &Integration, Scalability &Reliability, Problem Solving & Analytical Thinking, Security Best Practices.",
       "Communication: Your preferred communication channel",
       "Language: Fluent English Speaking & Writing",
     ],
@@ -138,7 +138,7 @@ const data = [
   {
     title: "UI/UX Designer",
     description:
-      "Our innovative designers excel at crafting visually appealing, highly functional, and user-friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
+      "Our innovative designers excel at crafting visually appealing, highly functional, and user friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
     price: 2090,
     partTime: 1390,
     icon: Figma,
@@ -169,7 +169,7 @@ const data = [
   {
     title: "QA Tester",
     description:
-      "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting-edge technologies and adhering to industry-leading testing standards. Collaborating with top-notch QA and test automation engineers, going above and beyond to emphasise that quality assurance extends far beyond delivering software devoid of bugs.",
+      "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting edge technologies and adhering to industry leading testing standards. Collaborating with top notch QA and test automation engineers, going above and beyond to emphasise that quality assurance extends far beyond delivering software devoid of bugs.",
     price: 2690,
     partTime: 1690,
     icon: QaTesting,
@@ -184,7 +184,7 @@ const data = [
   {
     title: "IT Support Engineer",
     description:
-      "Our IT Engineers provide comprehensive technical support, collaborating with cross-functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem-solving and proactively identify and implement improvements to enhance overall performance.",
+      "Our IT Engineers provide comprehensive technical support, collaborating with cross functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem solving and proactively identify and implement improvements to enhance overall performance.",
     price: 899,
     partTime: 549,
     icon: ItSupport,
@@ -261,7 +261,7 @@ export default function SoftwareDevelopmentPage() {
       />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
       <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
-      <Faq data={faqData} />
+      <Faq />
     </main>
   );
 }

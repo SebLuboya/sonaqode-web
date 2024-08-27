@@ -13,7 +13,7 @@ import React from "react";
 const whys = [
   {
     label: "Client",
-    desc: "Clients are our most valuable asset. Providing client-centric solutions means actively engaging with our customers, listening to their feedback, and understanding their pain points throughout the evaluation and process.",
+    desc: "Clients are our most valuable asset. Providing client centric solutions means actively engaging with our customers, listening to their feedback, and understanding their pain points throughout the evaluation and process.",
     color: "bg-[#8497FF]",
     icon: AdminMale,
   },
@@ -25,13 +25,13 @@ const whys = [
   },
   {
     label: "Proactive",
-    desc: "We encourage a proactive, innovative, and initiative-driven mindset within our workforce. Our goal is to maintain creativity while delivering services to our clients.",
+    desc: "We encourage a proactive, innovative, and initiative driven mindset within our workforce. Our goal is to maintain creativity while delivering services to our clients.",
     color: "bg-[#FFD556]",
     icon: Conflict,
   },
   {
     label: "Progress",
-    desc: "A value we closely share with our clients is the importance of demonstrating progress throughout our collaboration. As a forward-thinking and pragmatic organisation, we strive to embrace innovation and practicality.",
+    desc: "A value we closely share with our clients is the importance of demonstrating progress throughout our collaboration. As a forward thinking and pragmatic organisation, we strive to embrace innovation and practicality.",
     color: "bg-[#B4E7FF]",
     icon: Progress,
   },

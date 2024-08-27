@@ -31,7 +31,7 @@ const CONSTS = {
 
 const assist = [
   "Thorough security assessments and code reviews.",
-  "Compliance assurance for industry-specific standards.",
+  "Compliance assurance for industry specific standards.",
   "Vulnerability testing and penetration testing.",
   "Incident response planning and execution.",
   "Ongoing monitoring and support for application security.",
@@ -54,12 +54,12 @@ const faqData = [
     question:
       "What type of business can request managed cybersecurity services from you?",
     answer:
-      "We prioritise security for all clients. We work with companies willing to adopt effective security solutions to protect their data, reputation, and clients. Our expertise extends to heavily-regulated industries like fintech and healthcare, ensuring compliance with specific safety requirements and guidelines.",
+      "We prioritise security for all clients. We work with companies willing to adopt effective security solutions to protect their data, reputation, and clients. Our expertise extends to heavily regulated industries like fintech and healthcare, ensuring compliance with specific safety requirements and guidelines.",
   },
   {
     question: "What is SonaQode's policy to ensure confidentiality?",
     answer:
-      "We understand the importance of protecting the valuable information you entrust us with. As per our policy, we sign a non-disclosure agreement (NDA) with you that legally binds us to hold all the information, including any propriety or project-related information exchanged during sales inquiries or over the course of our contract, in strict confidence.",
+      "We understand the importance of protecting the valuable information you entrust us with. As per our policy, we sign a non disclosure agreement (NDA) with you that legally binds us to hold all the information, including any propriety or project related information exchanged during sales inquiries or over the course of our contract, in strict confidence.",
   },
   {
     question:
@@ -103,13 +103,13 @@ const data = [
   {
     title: "Cyber Security Engineer",
     description:
-      "Protect your organisation’s systems, networks, data, and digital assets from cyber threats. Our security engineers excel in identifying vulnerabilities, devising strategies to mitigate risks, and responding to security incidents to enhance the organisation's overall security posture. They leverage digital forensics tools and methodologies and are well-versed in developing security policies and procedures.",
+      "Protect your organisation’s systems, networks, data, and digital assets from cyber threats. Our security engineers excel in identifying vulnerabilities, devising strategies to mitigate risks, and responding to security incidents to enhance the organisation's overall security posture. They leverage digital forensics tools and methodologies and are well versed in developing security policies and procedures.",
     price: 2990,
     icon: TwoStep,
     list: [
       "Education: University Graduate, Degree",
       "Experience: Min 4 years in respective role/Industry.",
-      "Tech tools: Firewalls, IDS/IPS, Antivirus/Anti-Malware, EDR, SIEM, Penetration Testing & Vulnerability Assessment, Threat Intelligence, IAM, Cloud Security, SOAR",
+      "Tech tools: Firewalls, IDS/IPS, Antivirus/Anti Malware, EDR, SIEM, Penetration Testing & Vulnerability Assessment, Threat Intelligence, IAM, Cloud Security, SOAR",
       "Skills: Security Principles, Networking & Network Security, Programming & Scripting, Incident Response & Forensics, Security Architecture & Design, Cloud Security, Threat Intelligence & Analysis.",
       "Communication: Your preferred communication channel",
       "Language: Fluent English Speaking & Writing",
@@ -118,7 +118,7 @@ const data = [
   {
     title: "Data Administrator",
     description:
-      "Effectively manage your data infrastructure with our experts, who actively maintain the security, integrity, and performance of your company's databases, ensuring secure and optimal data storage. They bolster efficient operations and informed decision-making, enabling businesses to achieve cost savings, scalability, and flexibility while ensuring compliance. Through the use of progressive and efficient DB management systems, we facilitate optimal outcomes for your business.",
+      "Effectively manage your data infrastructure with our experts, who actively maintain the security, integrity, and performance of your company's databases, ensuring secure and optimal data storage. They bolster efficient operations and informed decision making, enabling businesses to achieve cost savings, scalability, and flexibility while ensuring compliance. Through the use of progressive and efficient DB management systems, we facilitate optimal outcomes for your business.",
     price: 1499,
     icon: DataAdmin,
     list: [
@@ -133,7 +133,7 @@ const data = [
   {
     title: "Cyber Security Analyst",
     description:
-      "Our Cyber Security Analysts safeguard digital assets against evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. Leveraging a deep understanding of the cybersecurity landscape and strong problem-solving abilities, they monitor and analyse security systems, scrutinise network traffic, identify anomalies, and promptly respond to potential security incidents.",
+      "Our Cyber Security Analysts safeguard digital assets against evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. Leveraging a deep understanding of the cybersecurity landscape and strong problem solving abilities, they monitor and analyse security systems, scrutinise network traffic, identify anomalies, and promptly respond to potential security incidents.",
     price: 2990,
     icon: Security,
     list: [
@@ -148,7 +148,7 @@ const data = [
   {
     title: "Penetration Tester",
     description:
-      "Enhance the security of your system, application, or network by employing our Penetration Tester. Protect your business-critical data from hackers and proactively prevent security breaches and vulnerabilities. Customise testing styles to effortlessly meet your unique requirements. They excel in analysing complex systems, pinpointing weaknesses, and adeptly employing both manual testing techniques and automated tools.",
+      "Enhance the security of your system, application, or network by employing our Penetration Tester. Protect your business critical data from hackers and proactively prevent security breaches and vulnerabilities. Customise testing styles to effortlessly meet your unique requirements. They excel in analysing complex systems, pinpointing weaknesses, and adeptly employing both manual testing techniques and automated tools.",
     price: 2890,
     icon: Password,
     list: [
@@ -225,7 +225,7 @@ export default function CyberSecurityPage() {
       />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
       <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
-      <Faq data={faqData} />
+      <Faq />
     </main>
   );
 }

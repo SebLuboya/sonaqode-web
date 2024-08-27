@@ -11,8 +11,8 @@ export const cyberData: IService[] = [
     icon: ServiceIcon.SecurityWindow,
     image: ServiceImage.ApplicationSecurityEngineer,
     roles: [
-      "Sonaqode's Application Security Engineers leverage advanced tools to craft robust security solutions. Drive business resilience by implementing impenetrable defenses with our Application Security Engineers. A company's security infrastructure can significantly influence its risk profile. Our security engineers develop top-notch security controls and processes for applications that safeguard data and optimise operations. They prioritise vulnerability identification and remediation, applying a keen eye for detail and a commitment to producing outstanding security outcomes that meet your business objectives. \n",
-      "Boost software reliability, speed to market, and customer trust through our security-centric approach. By reducing data breaches, enhancing brand reputation, and minimising financial loss, we deliver a competitive advantage rather than just reactive security measures. Enlist dedicated engineers who are committed to delivering high-value security outcomes, using the best blend of security techniques to build sophisticated defense systems with unmatched protection. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
+      "Sonaqode's Application Security Engineers leverage advanced tools to craft robust security solutions. Drive business resilience by implementing impenetrable defenses with our Application Security Engineers. A company's security infrastructure can significantly influence its risk profile. Our security engineers develop top notch security controls and processes for applications that safeguard data and optimise operations. They prioritise vulnerability identification and remediation, applying a keen eye for detail and a commitment to producing outstanding security outcomes that meet your business objectives. \n",
+      "Boost software reliability, speed to market, and customer trust through our security centric approach. By reducing data breaches, enhancing brand reputation, and minimising financial loss, we deliver a competitive advantage rather than just reactive security measures. Enlist dedicated engineers who are committed to delivering high-value security outcomes, using the best blend of security techniques to build sophisticated defense systems with unmatched protection. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
     ],
     skillSet: [
       {
@@ -34,7 +34,7 @@ export const cyberData: IService[] = [
           "Penetration Testing: Experience conducting penetration tests to identify vulnerabilities.",
           "Incident Response: Handling security incidents and conducting investigations.",
           "Secure Software Development Lifecycle: Integrating security into the development process.",
-          "Cloud Security Architecture: Designing and implementing secure cloud-based applications.",
+          "Cloud Security Architecture: Designing and implementing secure cloud based applications.",
         ],
       },
     ],
@@ -84,7 +84,7 @@ export const cyberData: IService[] = [
     icon: ServiceIcon.Cloud,
     image: ServiceImage.CloudSecuritySpecialist,
     roles: [
-      "Sonaqode's Cloud Security Specialists leverage advanced tools to craft impenetrable defenses that turn potential threats into protection, attracting customer trust and increasing revenue through reduced downtime. They prioritise threat detection and response, applying a keen eye for detail and a commitment to producing outstanding security outcomes that meet your business objectives. Engage dedicated Cloud Security Specialists who are highly experienced in technologies like AWS, Azure, GCP, and cloud security frameworks, with acclaimed expertise in integrating emerging tech trends such as cloud-native security, zero trust architecture, and cloud forensics to achieve top-notch security posture. Boost system reliability, speed of response, and customer confidence with our security-centric approach. \n",
+      "Sonaqode's Cloud Security Specialists leverage advanced tools to craft impenetrable defenses that turn potential threats into protection, attracting customer trust and increasing revenue through reduced downtime. They prioritise threat detection and response, applying a keen eye for detail and a commitment to producing outstanding security outcomes that meet your business objectives. Engage dedicated Cloud Security Specialists who are highly experienced in technologies like AWS, Azure, GCP, and cloud security frameworks, with acclaimed expertise in integrating emerging tech trends such as cloud-native security, zero trust architecture, and cloud forensics to achieve top notch security posture. Boost system reliability, speed of response, and customer confidence with our security centric approach. \n",
       "By reducing data breaches, enhancing brand reputation, and minimising financial loss, we deliver a competitive advantage rather than just reactive security measures. Choosing us means faster incident response, improved cloud compliance, and enhanced business continuity.",
     ],
     skillSet: [
@@ -157,7 +157,7 @@ export const cyberData: IService[] = [
     image: ServiceImage.CyberSecurityEngineer,
     roles: [
       "Our expert cybersecurity engineers bolster IT teams by proactively identifying and neutralizing cyber threats. Rigorous security assessments ensure comprehensive protection for your organization. By reducing data breaches, enhancing brand reputation, and minimising financial loss, we provide a competitive advantage rather than just reactive security measures. Sonaqode's engineers excel in threat intelligence, vulnerability management, incident response, and digital forensics to make your organisation cyber-resilient. \n",
-      "They prioritise threat detection and response, optimising security controls to enhance system protection, applying a keen eye for detail and a commitment to producing outstanding security postures that meet your business objectives. Enlist dedicated engineers who are highly experienced in tools like vulnerability scanners, intrusion detection systems, and security information and event management, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, blockchain, and cloud security to achieve top-notch security outcomes. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
+      "They prioritise threat detection and response, optimising security controls to enhance system protection, applying a keen eye for detail and a commitment to producing outstanding security postures that meet your business objectives. Enlist dedicated engineers who are highly experienced in tools like vulnerability scanners, intrusion detection systems, and security information and event management, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, blockchain, and cloud security to achieve top notch security outcomes. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
     ],
     skillSet: [
       {
@@ -223,13 +223,13 @@ export const cyberData: IService[] = [
   {
     title: "Data Administrator",
     description:
-      "Effectively manage your data infrastructure with our experts, who actively maintain the security, integrity, and performance of your company's databases, ensuring secure and optimal data storage. They bolster efficient operations and informed decision-making, enabling businesses to achieve cost savings, scalability, and flexibility while ensuring compliance. Through the use of progressive and efficient DB management systems, we facilitate optimal outcomes for your business.",
+      "Effectively manage your data infrastructure with our experts, who actively maintain the security, integrity, and performance of your company's databases, ensuring secure and optimal data storage. They bolster efficient operations and informed decision making, enabling businesses to achieve cost savings, scalability, and flexibility while ensuring compliance. Through the use of progressive and efficient DB management systems, we facilitate optimal outcomes for your business.",
     price: 1499,
     icon: ServiceIcon.DataAdmin,
     image: ServiceImage.DataAdministrator,
     roles: [
       "Our experienced and reliable data administrators enhance the work of IT teams by managing and protecting critical data assets. Rigorous data governance by these experts ensures data integrity and compliance for your organisation, bringing data chaos into order with the best blend of technical skills to build robust data infrastructures. They prioritise data quality and accessibility, applying a keen eye for detail and a commitment to producing outstanding data services that meet your business objectives. \n",
-      "Enlist dedicated administrators who are highly experienced in tools like database management systems, data governance platforms, and data quality tools, with acclaimed expertise in integrating emerging tech trends such as cloud data management, data privacy, and data security to achieve top-notch data management outcomes. A company's data management approach can significantly influence operational efficiency. Our data administrators create top-notch data policies and procedures that captivate stakeholders and showcase data reliability. Choosing us means effective data governance, quicker data access, and enhanced operational performance.",
+      "Enlist dedicated administrators who are highly experienced in tools like database management systems, data governance platforms, and data quality tools, with acclaimed expertise in integrating emerging tech trends such as cloud data management, data privacy, and data security to achieve top notch data management outcomes. A company's data management approach can significantly influence operational efficiency. Our data administrators create top notch data policies and procedures that captivate stakeholders and showcase data reliability. Choosing us means effective data governance, quicker data access, and enhanced operational performance.",
     ],
     skillSet: [
       {
@@ -251,7 +251,7 @@ export const cyberData: IService[] = [
           "Data Migration: Experience in migrating data between systems.",
           "Data Quality: Ability to implement data quality checks and improvement processes.",
           "ITIL or other IT Service Management frameworks: Understanding IT service management principles.",
-          "Cloud Platforms: Knowledge of cloud-based database services AWS, Azure, GCP.",
+          "Cloud Platforms: Knowledge of cloud based database services AWS, Azure, GCP.",
         ],
       },
     ],
@@ -296,8 +296,8 @@ export const cyberData: IService[] = [
     icon: ServiceIcon.Security,
     image: ServiceImage.CyberSecurityAnalyst,
     roles: [
-      "Sonaqode's Cyber Security Analysts leverage advanced tools to craft actionable threat intelligence. Committed to delivering high-value security outcomes, they transform raw threat data into sophisticated threat models with unmatched accuracy using the best blend of analytical techniques. They excel in threat hunting, incident response analysis, vulnerability assessment, and threat modeling to make your organisation cyber-resilient. Whether you aim to launch new security initiatives quickly or optimise existing security operations, our professionals use cutting-edge tools and methodologies to provide efficient, cost-effective security solutions. \n",
-      "Enlist dedicated analysts who are highly experienced in tools like SIEM, threat intelligence platforms, and security analytics platforms, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, machine learning, and big data to achieve top-notch threat intelligence output. A company's threat intelligence can significantly influence its security posture. Our Cyber Security Analysts create exceptional threat reports and visualisations that captivate stakeholders and showcase security performance. Choosing us means effective threat hunting, quicker incident response, and enhanced business resilience.",
+      "Sonaqode's Cyber Security Analysts leverage advanced tools to craft actionable threat intelligence. Committed to delivering high-value security outcomes, they transform raw threat data into sophisticated threat models with unmatched accuracy using the best blend of analytical techniques. They excel in threat hunting, incident response analysis, vulnerability assessment, and threat modeling to make your organisation cyber-resilient. Whether you aim to launch new security initiatives quickly or optimise existing security operations, our professionals use cutting edge tools and methodologies to provide efficient, cost effective security solutions. \n",
+      "Enlist dedicated analysts who are highly experienced in tools like SIEM, threat intelligence platforms, and security analytics platforms, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, machine learning, and big data to achieve top notch threat intelligence output. A company's threat intelligence can significantly influence its security posture. Our Cyber Security Analysts create exceptional threat reports and visualisations that captivate stakeholders and showcase security performance. Choosing us means effective threat hunting, quicker incident response, and enhanced business resilience.",
     ],
     skillSet: [
       {
@@ -362,13 +362,13 @@ export const cyberData: IService[] = [
   {
     title: "Penetration Tester",
     description:
-      "Enhance the security of your system, application, or network by employing our Penetration Tester. Protect your business-critical data from hackers and proactively prevent security breaches and vulnerabilities. Customise testing styles to effortlessly meet your unique requirements. They excel in analysing complex systems, pinpointing weaknesses, and adeptly employing both manual testing techniques and automated tools.",
+      "Enhance the security of your system, application, or network by employing our Penetration Tester. Protect your business critical data from hackers and proactively prevent security breaches and vulnerabilities. Customise testing styles to effortlessly meet your unique requirements. They excel in analysing complex systems, pinpointing weaknesses, and adeptly employing both manual testing techniques and automated tools.",
     price: 2890,
     icon: ServiceIcon.Password,
     image: ServiceImage.PenetrationTester,
     roles: [
       "Our experienced and reliable Penetration Testers enhance the work of security teams by identifying and exploiting vulnerabilities. Rigorous penetration testing by these experts ensures robust protection for your organisation. They go beyond treating vulnerability scanning as a discrete function at the end of the development lifecycle, embedding security testing at every IT phase. By reducing the risk of data breaches, enhancing brand reputation, and minimising financial loss, we deliver a competitive advantage by proactively identifying weaknesses. \n",
-      "Our Penetration Testers create top-notch testing methodologies and reports to inform decisions and optimise security operations. Engage dedicated Penetration Testers who are highly experienced in vulnerability scanning, exploitation techniques, and security testing frameworks, with acclaimed expertise in integrating emerging tech trends such as application security testing, cloud penetration testing, and web application security to achieve top-notch security assessment results. Choosing us means faster vulnerability discovery, improved security posture, and enhanced business protection.",
+      "Our Penetration Testers create top notch testing methodologies and reports to inform decisions and optimise security operations. Engage dedicated Penetration Testers who are highly experienced in vulnerability scanning, exploitation techniques, and security testing frameworks, with acclaimed expertise in integrating emerging tech trends such as application security testing, cloud penetration testing, and web application security to achieve top notch security assessment results. Choosing us means faster vulnerability discovery, improved security posture, and enhanced business protection.",
     ],
     skillSet: [
       {

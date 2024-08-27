@@ -9,7 +9,7 @@ export const softwareData: IService[] = [
     price: 2690,
     partTime: 1275,
     description:
-      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top-notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
+      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
     image: ServiceImage.MobileAppDeveloper,
     roles: [""],
     skillSet: [
@@ -33,10 +33,10 @@ export const softwareData: IService[] = [
     price: 2690,
     partTime: 1275,
     description:
-      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top-notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
+      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
     roles: [
-      "Sonaqode's mobile app engineers leverage leading-edge technologies to craft next-gen apps. Committed to delivering high-quality customer satisfaction, they bring your ideas to life with the best blend of user experiences to build sophisticated applications with matchless capabilities. They prioritise user feedback and optimise designs to enhance the user experience, applying a keen eye for detail and a commitment to producing outstanding apps that fulfil the needs of your target audience.",
-      "Engage dedicated app developers highly experienced in technologies like Android, iOS, Xamarin, React Native, and many more, with acclaimed expertise in integrating emerging tech trends such as AI/ML, VR, IoT, and more to achieve top-notch quality output. Smartly navigate the stiff competition of the market with value-led and user-focused mobile applications that give your business and brand a powerful boost. Our developers have created a wide range of scalable and secure mobile app solutions for both niche and global clientele.",
+      "Sonaqode's mobile app engineers leverage leading edge technologies to craft next gen apps. Committed to delivering high quality customer satisfaction, they bring your ideas to life with the best blend of user experiences to build sophisticated applications with matchless capabilities. They prioritise user feedback and optimise designs to enhance the user experience, applying a keen eye for detail and a commitment to producing outstanding apps that fulfil the needs of your target audience.",
+      "Engage dedicated app developers highly experienced in technologies like Android, iOS, Xamarin, React Native, and many more, with acclaimed expertise in integrating emerging tech trends such as AI/ML, VR, IoT, and more to achieve top notch quality output. Smartly navigate the stiff competition of the market with value led and user focused mobile applications that give your business and brand a powerful boost. Our developers have created a wide range of scalable and secure mobile app solutions for both niche and global clientele.",
     ],
     skillSet: [
       {
@@ -44,10 +44,10 @@ export const softwareData: IService[] = [
         values: [
           "Programming languages: Proficient in Node.js, Python with frameworks such as Django, Flask, Ruby on Rails, Java.",
           "Platform-specific knowledge: Deep understanding of iOS and Android ecosystems, including design guidelines, APIs, and development tools.",
-          "UI/UX design: Ability to create visually appealing and user-friendly interfaces. Knowledge of design principles and tools is beneficial.",
+          "UI/UX design: Ability to create visually appealing and user friendly interfaces. Knowledge of design principles and tools is beneficial.",
           "Mobile development frameworks: Proficient in using native development kits Xcode for iOS, Android Studio for Android and cross-platform frameworks.",
           "API integration: Skilled in integrating with backend services and third-party APIs.",
-          "Database management: Good understanding of mobile-friendly databases like SQLite and cloud-based solutions.",
+          "Database management: Good understanding of mobile friendly databases like SQLite and cloud based solutions.",
           "Version control: Proficient in Git and GitHub, managing code changes and collaboration.",
           "Testing and debugging: Ability to write comprehensive test cases and effectively troubleshoot issues.",
           "Performance optimisation: Knowledge of techniques to improve app speed, responsiveness, and battery life.",
@@ -83,7 +83,7 @@ export const softwareData: IService[] = [
         title: "Design and User Experience",
         values: [
           "User Interface Design: Creating the visual elements and layout of the app's interface.",
-          "User Experience Design: Ensuring the app is user-friendly and intuitive.",
+          "User Experience Design: Ensuring the app is user friendly and intuitive.",
         ],
       },
       {
@@ -118,8 +118,8 @@ export const softwareData: IService[] = [
     icon: ServiceIcon.Vscode,
     image: ServiceImage.FullStackDeveloper,
     roles: [
-      "Our experienced and reliable full-stack developers enhance development teams by crafting robust and efficient software solutions. Through rigorous software development, these experts ensure high-quality, functional products for your organisation. They go beyond treating coding as a discrete function at the end of the development lifecycle, embedding user-centric design and technical expertise at every project phase. By boosting product development speed, quality, and user satisfaction—while reducing development costs, enhancing product performance, and minimising time-to-market—they deliver a competitive advantage instead of fragmented development efforts.",
-      "Our developers excel in front-end and back-end development, database management, and cloud integration, ensuring your product's success. Engage dedicated Full Stack Developers with extensive experience in technologies like React, Angular, Node.js, Python, and many more, and benefit from their acclaimed expertise in integrating emerging tech trends such as artificial intelligence, virtual reality, and blockchain to achieve top-notch product quality. Choosing us means faster time-to-market, improved user satisfaction, and a significant business impact.",
+      "Our experienced and reliable full-stack developers enhance development teams by crafting robust and efficient software solutions. Through rigorous software development, these experts ensure high-quality, functional products for your organisation. They go beyond treating coding as a discrete function at the end of the development lifecycle, embedding user centric design and technical expertise at every project phase. By boosting product development speed, quality, and user satisfaction—while reducing development costs, enhancing product performance, and minimising time to market—they deliver a competitive advantage instead of fragmented development efforts.",
+      "Our developers excel in front-end and back-end development, database management, and cloud integration, ensuring your product's success. Engage dedicated Full Stack Developers with extensive experience in technologies like React, Angular, Node.js, Python, and many more, and benefit from their acclaimed expertise in integrating emerging tech trends such as artificial intelligence, virtual reality, and blockchain to achieve top notch product quality. Choosing us means faster time to market, improved user satisfaction, and a significant business impact.",
     ],
     skillSet: [
       {
@@ -177,7 +177,7 @@ export const softwareData: IService[] = [
         title: "Front-end Development",
         values: [
           "User Interface Design: Creating the visual elements and layout of the application.",
-          "User Experience Design: Ensuring the application is user-friendly and intuitive.",
+          "User Experience Design: Ensuring the application is user friendly and intuitive.",
           "Front-end Development: Building the client-side of the application using technologies like HTML, CSS, and JavaScript.",
         ],
       },
@@ -214,8 +214,8 @@ export const softwareData: IService[] = [
     icon: ServiceIcon.Js,
     image: ServiceImage.FrontendDeveloper,
     roles: [
-      "Sonaqode's Frontend Developers leverage advanced tools to create intuitive web and mobile applications that deliver pixel-perfect, interactive user experiences. Committed to delivering high-value outcomes, they bring design concepts to life with the perfect blend of design and development skills, crafting sophisticated user interfaces with unmatched appeal. They prioritise user satisfaction, optimizing interactions to enhance engagement and create top-notch interfaces that influence user behavior and optimise user journeys.",
-      "With a keen eye for detail and a commitment to producing outstanding user experiences that meet the needs of your target audience, our developers understand that a company's user interface can significantly impact its competitiveness. Engage dedicated Frontend Developers who are highly experienced in technologies like React, Angular, Vue, and more, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, virtual reality, and augmented reality to achieve exceptional user experiences. Choosing us means faster time-to-market, improved user satisfaction, and significant business impact.",
+      "Sonaqode's Frontend Developers leverage advanced tools to create intuitive web and mobile applications that deliver pixel-perfect, interactive user experiences. Committed to delivering high-value outcomes, they bring design concepts to life with the perfect blend of design and development skills, crafting sophisticated user interfaces with unmatched appeal. They prioritise user satisfaction, optimizing interactions to enhance engagement and create top notch interfaces that influence user behavior and optimise user journeys.",
+      "With a keen eye for detail and a commitment to producing outstanding user experiences that meet the needs of your target audience, our developers understand that a company's user interface can significantly impact its competitiveness. Engage dedicated Frontend Developers who are highly experienced in technologies like React, Angular, Vue, and more, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, virtual reality, and augmented reality to achieve exceptional user experiences. Choosing us means faster time to market, improved user satisfaction, and significant business impact.",
     ],
     skillSet: [
       {
@@ -225,7 +225,7 @@ export const softwareData: IService[] = [
           "JavaScript Frameworks: Proficient in React, Angular, and Vue.",
           "CSS Preprocessors: Experience with Sass or Less for efficient styling.",
           "Responsive Design: Ability to create websites that adapt to different screen sizes.",
-          "Cross-browser Compatibility: Ensuring websites function correctly across various browsers.",
+          "Cross browser Compatibility: Ensuring websites function correctly across various browsers.",
           "Accessibility: Understanding and implementing accessibility standards WCAG.",
           "Version Control: Proficient in Git and GitHub.",
           "Testing and Debugging: Ability to write tests and effectively troubleshoot issues to ensure code quality.",
@@ -238,7 +238,7 @@ export const softwareData: IService[] = [
       //     "Problem-solving: Ability to find creative solutions to technical challenges.",
       //     "Attention to detail: Ensuring pixel-perfect designs and accurate code.",
       //     "Communication: Effectively collaborating with designers, back-end developers, and stakeholders.",
-      //     "User-centricity: Understanding user needs and designing accordingly.",
+      //     "User centricity: Understanding user needs and designing accordingly.",
       //     "Experience with different frameworks and libraries: Adaptability to different technologies.",
       //     "Collaboration with design teams: Understanding design principles and working closely with other designers.",
       //   ],
@@ -248,7 +248,7 @@ export const softwareData: IService[] = [
         values: [
           "Collaboration: Understanding design principles and working closely with other designers.",
           "Performance optimisation: Ability to improve application speed and scalability to ensure optimal performance.",
-          "Accessibility testing: Ensuring websites are user-friendly and accessible to all users.",
+          "Accessibility testing: Ensuring websites are user friendly and accessible to all users.",
         ],
       },
     ],
@@ -265,7 +265,7 @@ export const softwareData: IService[] = [
         title: "User Experience Focused",
         values: [
           "User Interface Design: Creating the visual elements and layout of the website or application.",
-          "User Experience Design: Ensuring the website or application is user-friendly and intuitive.",
+          "User Experience Design: Ensuring the website or application is user friendly and intuitive.",
           "Responsive Design: Developing websites that adapt to different screen sizes and devices.",
         ],
       },
@@ -279,7 +279,7 @@ export const softwareData: IService[] = [
       {
         title: "Quality Assurance and Optimisation",
         values: [
-          "Cross-Browser Compatibility: Ensuring the website or application works consistently across different browsers.",
+          "Cross Browser Compatibility: Ensuring the website or application works consistently across different browsers.",
           "Performance Optimisation: Improving website or application speed and responsiveness.",
         ],
       },
@@ -288,14 +288,14 @@ export const softwareData: IService[] = [
   {
     title: "Backend Developer",
     description:
-      "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server-side solutions using cutting-edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
+      "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server-side solutions using cutting edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
     price: 2690,
     partTime: 1275,
     icon: ServiceIcon.CodeFolder,
     image: ServiceImage.BackendDeveloper,
     roles: [
-      "Our experienced and reliable backend developers enhance development teams by building robust and scalable applications. Through rigorous code development, these experts ensure high-performance and reliable systems for your organization. By translating application requirements into efficient code, they help attract user engagement and increase revenue through improved performance. Boost software productivity, speed to market, and system performance with our backend-focused approach.",
-      "By reducing technical debt, enhancing application reliability, and minimising downtime, they deliver a competitive advantage instead of fragmented software solutions. Engage dedicated Backend Developers highly experienced in technologies like Node.js, Python, Ruby on Rails, Java, and many more, with acclaimed expertise in integrating emerging tech trends such as microservices, serverless architecture, and cloud computing to achieve top-notch application performance. Choosing us means faster time-to-market, improved application reliability, and enhanced user satisfaction.",
+      "Our experienced and reliable backend developers enhance development teams by building robust and scalable applications. Through rigorous code development, these experts ensure high-performance and reliable systems for your organization. By translating application requirements into efficient code, they help attract user engagement and increase revenue through improved performance. Boost software productivity, speed to market, and system performance with our backend focused approach.",
+      "By reducing technical debt, enhancing application reliability, and minimising downtime, they deliver a competitive advantage instead of fragmented software solutions. Engage dedicated Backend Developers highly experienced in technologies like Node.js, Python, Ruby on Rails, Java, and many more, with acclaimed expertise in integrating emerging tech trends such as microservices, serverless architecture, and cloud computing to achieve top notch application performance. Choosing us means faster time to market, improved application reliability, and enhanced user satisfaction.",
     ],
     skillSet: [
       {
@@ -367,14 +367,14 @@ export const softwareData: IService[] = [
   {
     title: "UI/UX Designer",
     description:
-      "Our innovative designers excel at crafting visually appealing, highly functional, and user-friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
+      "Our innovative designers excel at crafting visually appealing, highly functional, and user friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
     price: 2090,
     partTime: 1390,
     icon: ServiceIcon.Figma,
     image: ServiceImage.UiUxDesigner,
     roles: [
-      "Our experienced and reliable UI/UX designers enhance development teams by crafting intuitive user experiences. Committed to delivering high-value outcomes, they bring design concepts to life with the perfect blend of creative and technical skills, building sophisticated user interfaces with unmatched appeal. They go beyond treating visual aesthetics as a discrete function at the end of the design lifecycle, embedding user-centered design at every development phase. Our designers create top-notch user flows and interactions for web and mobile applications, guiding decisions and optimising user journeys.",
-      "By prioritising user satisfaction and optimising usability, they enhance user engagement with a keen eye for detail and a commitment to producing outstanding designs that meet the needs of your target audience. Engage dedicated UI/UX Designers who are highly experienced in tools like Figma, Sketch, Adobe XD, and more, with acclaimed expertise in integrating emerging tech trends such as augmented reality, virtual reality, and voice interfaces to achieve exceptional design quality. Choosing us means faster time-to-market, improved user satisfaction, and significant business impact.",
+      "Our experienced and reliable UI/UX designers enhance development teams by crafting intuitive user experiences. Committed to delivering high-value outcomes, they bring design concepts to life with the perfect blend of creative and technical skills, building sophisticated user interfaces with unmatched appeal. They go beyond treating visual aesthetics as a discrete function at the end of the design lifecycle, embedding user-centered design at every development phase. Our designers create top notch user flows and interactions for web and mobile applications, guiding decisions and optimising user journeys.",
+      "By prioritising user satisfaction and optimising usability, they enhance user engagement with a keen eye for detail and a commitment to producing outstanding designs that meet the needs of your target audience. Engage dedicated UI/UX Designers who are highly experienced in tools like Figma, Sketch, Adobe XD, and more, with acclaimed expertise in integrating emerging tech trends such as augmented reality, virtual reality, and voice interfaces to achieve exceptional design quality. Choosing us means faster time to market, improved user satisfaction, and significant business impact.",
     ],
     skillSet: [
       {
@@ -383,7 +383,7 @@ export const softwareData: IService[] = [
           "User Research: Ability to demonstrate good techniques in conducting interviews, surveys, testing, and understanding user needs.",
           "Information Architecture: Organising information in a clear and intuitive way.",
           "Wireframing and Prototyping: Creating visual representations of the user interface.",
-          "Visual Design: Creating high-level, aesthetically pleasing, and user-friendly designs.",
+          "Visual Design: Creating high level, aesthetically pleasing, and user friendly designs.",
           "Design Tools: Proficient in Figma, Sketch, Adobe XD, and InVision.",
           "Usability Testing: Evaluating designs through user testing to identify areas for improvement to ensure optimal user experience.",
         ],
@@ -394,7 +394,7 @@ export const softwareData: IService[] = [
           "User research experience: Ability to conduct and analyse user research to inform design decisions.",
           "Prototyping and testing: Creating interactive prototypes and gathering useful user feedback.",
           "Collaboration with development teams: Understanding technical constraints and working closely with developers.",
-          "Design trends: Staying up-to-date with design trends and industry standards.",
+          "Design trends: Staying up to date with design trends and industry standards.",
         ],
       },
     ],
@@ -411,7 +411,7 @@ export const softwareData: IService[] = [
         title: "Information Architecture and Interaction Design",
         values: [
           "Information Architecture: Structuring content and features for easy navigation.",
-          "Wireframes: Creating low-fidelity blueprints of the user interface.",
+          "Wireframes: Creating low fidelity blueprints of the user interface.",
           "User Flows: Mapping out the user's path through the product or service.",
         ],
       },
@@ -419,7 +419,7 @@ export const softwareData: IService[] = [
         title: "Visual Design and Prototyping",
         values: [
           "Visual Design: Creating the aesthetic look and feel of the product.",
-          "Mockups: High-fidelity visual representations of the user interface.",
+          "Mockups: High fidelity visual representations of the user interface.",
           "Interactive Prototypes: Creating clickable prototypes to simulate the user experience.",
         ],
       },
@@ -440,8 +440,8 @@ export const softwareData: IService[] = [
     icon: ServiceIcon.VideoEditor,
     image: ServiceImage.VideoContentEditor,
     roles: [
-      "Sonaqode's Video Content Editors leverage advanced tools to craft compelling visual narratives. Committed to delivering high-value audience engagement, they bring storyboards to life with the perfect blend of creative and technical skills, producing sophisticated video content with unmatched impact. They prioritise visual storytelling and optimise performance to enhance the audience experience, applying a keen eye for detail and a commitment to producing outstanding videos that meet the needs of your target audience. Boost brand awareness, speed to market, and audience retention with our visual-centric approach.",
-      "By reducing production costs, enhancing brand perception, and minimising message confusion, they deliver a competitive advantage instead of generic video content. Experienced in tools like Adobe Premiere Pro, Final Cut Pro, and After Effects, they are proficient in video concept development, scriptwriting, video editing, and motion graphics to make your brand visually compelling. Whether you aim to launch a new product quickly or optimise existing video campaigns, they use cutting-edge tools and methodologies to provide efficient, cost-effective video solutions. Choosing us means effective storytelling, quicker time-to-market, and enhanced audience engagement.",
+      "Sonaqode's Video Content Editors leverage advanced tools to craft compelling visual narratives. Committed to delivering high-value audience engagement, they bring storyboards to life with the perfect blend of creative and technical skills, producing sophisticated video content with unmatched impact. They prioritise visual storytelling and optimise performance to enhance the audience experience, applying a keen eye for detail and a commitment to producing outstanding videos that meet the needs of your target audience. Boost brand awareness, speed to market, and audience retention with our visual centric approach.",
+      "By reducing production costs, enhancing brand perception, and minimising message confusion, they deliver a competitive advantage instead of generic video content. Experienced in tools like Adobe Premiere Pro, Final Cut Pro, and After Effects, they are proficient in video concept development, scriptwriting, video editing, and motion graphics to make your brand visually compelling. Whether you aim to launch a new product quickly or optimise existing video campaigns, they use cutting edge tools and methodologies to provide efficient, cost effective video solutions. Choosing us means effective storytelling, quicker time to market, and enhanced audience engagement.",
     ],
     skillSet: [
       {
@@ -504,24 +504,24 @@ export const softwareData: IService[] = [
   {
     title: "QA Tester",
     description:
-      "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting-edge technologies and adhering to industry-leading testing standards. Collaborating with top-notch QA and test automation engineers, going above and beyond to emphasise that quality assurance extends far beyond delivering software devoid of bugs.",
+      "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting edge technologies and adhering to industry leading testing standards. Collaborating with top notch QA and test automation engineers, going above and beyond to emphasise that quality assurance extends far beyond delivering software devoid of bugs.",
     price: 2690,
     partTime: 1690,
     icon: ServiceIcon.QaTesting,
     image: ServiceImage.QaTester,
     roles: [
-      "Our experienced and reliable QA testers enhance the work of developers and designers by testing across various environments. Through stringent quality tests, these engineers ensure flawless performance for your software or website. They go beyond treating application testing as a discrete function at the end of the application lifecycle, embedding quality at every development phase. Boost software productivity, speed, and quality with our insight-driven testing approach. By reducing development costs, enhancing software quality, and minimising management efforts, we deliver a differentiated app experience rather than just standard workflows.",
-      "Sonaqode excels in automation, QA, continuous testing, and DevOps, making your digital product cutting-edge. Whether you aim to launch a new application quickly or modernise your business processes, our professionals use cutting-edge tools and methodologies to provide efficient, cost-effective testing services. With in-depth expertise and vast experience, they ensure uninterrupted testing in various settings, driving quality enhancements and fostering business growth.",
+      "Our experienced and reliable QA testers enhance the work of developers and designers by testing across various environments. Through stringent quality tests, these engineers ensure flawless performance for your software or website. They go beyond treating application testing as a discrete function at the end of the application lifecycle, embedding quality at every development phase. Boost software productivity, speed, and quality with our insight driven testing approach. By reducing development costs, enhancing software quality, and minimising management efforts, we deliver a differentiated app experience rather than just standard workflows.",
+      "Sonaqode excels in automation, QA, continuous testing, and DevOps, making your digital product cutting edge. Whether you aim to launch a new application quickly or modernise your business processes, our professionals use cutting edge tools and methodologies to provide efficient, cost effective testing services. With in-depth expertise and vast experience, they ensure uninterrupted testing in various settings, driving quality enhancements and fostering business growth.",
     ],
     skillSet: [
       {
         title: "Technical Skills",
         values: [
-          "Testing methodologies: Good understanding of various testing types functional, non-functional, integration and ability to appropriately apply them.",
+          "Testing methodologies: Good understanding of various testing types functional, non functional, integration and ability to appropriately apply them.",
           "Test case creation: Skilled in developing comprehensive test cases to cover all possible scenarios.",
           "Defect tracking: Using bug tracking tools to report and manage defects.",
           "Automation testing: Proficient in Selenium, Appium for efficient testing.",
-          "Database knowledge: Strong understanding of SQL for testing data-driven applications.",
+          "Database knowledge: Strong understanding of SQL for testing data driven applications.",
           "Programming languages: Good knowledge of Python, Java programming languages.",
         ],
       },
@@ -582,13 +582,13 @@ export const softwareData: IService[] = [
   {
     title: "IT Support Engineer",
     description:
-      "Our IT Engineers provide comprehensive technical support, collaborating with cross-functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem-solving and proactively identify and implement improvements to enhance overall performance.",
+      "Our IT Engineers provide comprehensive technical support, collaborating with cross functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem-solving and proactively identify and implement improvements to enhance overall performance.",
     price: 899,
     partTime: 549,
     icon: ServiceIcon.ItSupport,
     image: ServiceImage.ItSupportEngineer,
     roles: [
-      "Sonaqode's IT Support Engineers leverage advanced tools to deliver efficient problem resolutions. Through rigorous problem-solving, these experts ensure smooth operations for your organisation. They go beyond treating incident resolution as a discrete function at the end of the service lifecycle, embedding user satisfaction in every IT interaction. Our IT support engineers develop top-notch incident management processes and knowledge bases to inform decisions and optimise operations. Boost user productivity, service speed, and overall efficiency with our user-centric approach.",
+      "Sonaqode's IT Support Engineers leverage advanced tools to deliver efficient problem resolutions. Through rigorous problem-solving, these experts ensure smooth operations for your organisation. They go beyond treating incident resolution as a discrete function at the end of the service lifecycle, embedding user satisfaction in every IT interaction. Our IT support engineers develop top notch incident management processes and knowledge bases to inform decisions and optimise operations. Boost user productivity, service speed, and overall efficiency with our user centric approach.",
       "By reducing downtime, enhancing user experience, and minimising IT-related risks, they deliver a competitive advantage rather than just reactive IT support. Engage dedicated IT Support Engineers who are highly experienced in troubleshooting, software installation, hardware maintenance, and network support, with acclaimed expertise in integrating emerging tech trends such as cloud computing, remote support, and IT automation to achieve exceptional service delivery. Choosing us means faster incident resolution, improved user satisfaction, and enhanced business continuity.",
     ],
     skillSet: [

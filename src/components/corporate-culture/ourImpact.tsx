@@ -44,7 +44,7 @@ const OurImpact = () => {
           </h2>
           <p className="text-base lg:text-lg font-light text-center leading-5 mt-3">
             Only through collaborative efforts can we generate a ripple effect
-            of prosperity and well-being for all members of the communities we
+            of prosperity and well being for all members of the communities we
             impact. We accomplish this by actively supporting individuals and
             communities in these areas.
           </p>

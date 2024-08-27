@@ -29,7 +29,7 @@ const CONSTS = {
 };
 
 const assist = [
-  "Data-driven strategy development tailored to your business needs.",
+  "Data driven strategy development tailored to your business needs.",
   "Advanced analytics and predictive modeling.",
   "Data warehouse management.",
   "Data analysis and interpretation.",
@@ -73,7 +73,7 @@ const data = [
   {
     title: "Data Engineer",
     description:
-      "Our data engineers design, build, and maintain the data infrastructure and architecture necessary to collect, store, process, and analyse data. They enable real-time data processing, personalise customer experiences, and inform decision-making, making their role vital to any data-driven organisation. Skilled in a diverse range of frameworks and tools, they drive the efficiency and effectiveness of your organisation’s data ecosystem.",
+      "Our data engineers design, build, and maintain the data infrastructure and architecture necessary to collect, store, process, and analyse data. They enable real time data processing, personalise customer experiences, and inform decision making, making their role vital to any data driven organisation. Skilled in a diverse range of frameworks and tools, they drive the efficiency and effectiveness of your organisation’s data ecosystem.",
     price: 2690,
     icon: DataEngineer,
     list: [
@@ -88,7 +88,7 @@ const data = [
   {
     title: "Data Analyst",
     description:
-      "Unlock the potential of raw data by transforming it into valuable insights that enhance decision-making, improve efficiency, and drive business growth. Our talented data analysts excel in interpreting data, generating reports, and creating visualisations, helping businesses stay competitive, gain deeper understanding of customers and markets, and adapt their strategies accordingly. Optimise operations, ensuring sustained success and profitability.",
+      "Unlock the potential of raw data by transforming it into valuable insights that enhance decision making, improve efficiency, and drive business growth. Our talented data analysts excel in interpreting data, generating reports, and creating visualisations, helping businesses stay competitive, gain deeper understanding of customers and markets, and adapt their strategies accordingly. Optimise operations, ensuring sustained success and profitability.",
     price: 2390,
     icon: BarChart,
     list: [
@@ -118,7 +118,7 @@ const data = [
   {
     title: "Business Intelligence Analyst",
     description:
-      "Harness the power of data effectively, drive data-driven decision-making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information.",
+      "Harness the power of data effectively, drive data driven decision making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information.",
     price: 2490,
     icon: BusinessIntelligence,
     list: [
@@ -133,14 +133,14 @@ const data = [
   {
     title: "Automation Engineer",
     description:
-      "Streamline your processes with our dedicated automation engineers. Leverage their proficiency in designing and implementing automated systems to optimise workflows, drive efficiency, enhance quality, and maintain competitiveness in a rapidly evolving market. Utilising cutting-edge technologies and a commitment to innovation, our specialists are ready to revolutionise your workflow.",
+      "Streamline your processes with our dedicated automation engineers. Leverage their proficiency in designing and implementing automated systems to optimise workflows, drive efficiency, enhance quality, and maintain competitiveness in a rapidly evolving market. Utilising cutting edge technologies and a commitment to innovation, our specialists are ready to revolutionise your workflow.",
     price: 2590,
     icon: Automation,
     list: [
       "Education: University Graduate, Degree",
       "Experience: Min 4 years in respective role/Industry.",
       "Tech tools: JavaScript/Node.js, Python, PowerShell, Selenium, TestComplete, Appium, Azure DevOps, GitLab CI/CD, Jenkins, SaltStack, Ansible, Terraform, ARM, AWS CloudFormation",
-      "Skills: Automation Framework Development, Infrastructure Automation, DevOps Practices, Cloud Computing, Problem-Solving & Troubleshooting",
+      "Skills: Automation Framework Development, Infrastructure Automation, DevOps Practices, Cloud Computing, Problem Solving & Troubleshooting",
       "Communication: Your preferred communication channel",
       "Language: Fluent English Speaking & Writing",
     ],
@@ -210,7 +210,7 @@ export default function DataAndAnalytics() {
       />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
       <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
-      <Faq data={faqData} />
+      <Faq />
     </main>
   );
 }

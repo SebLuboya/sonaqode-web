@@ -11,7 +11,7 @@ const steps = [
   {
     circle: Blue50,
     label: "Discovery",
-    desc: "Building on the initial consultation, we embark on constructing a well-planned and practical strategy, mapping out staffing solutions along with the resources, efficiency, and competency required to deliver outstanding results.",
+    desc: "Building on the initial consultation, we embark on constructing a well planned and practical strategy, mapping out staffing solutions along with the resources, efficiency, and competency required to deliver outstanding results.",
   },
   {
     circle: Blue75,
@@ -21,7 +21,7 @@ const steps = [
   {
     circle: Blue100,
     label: "Appraisal",
-    desc: "We understand the value of user insight. Our team assesses the achievement of your engagement against outlined requirements, evaluating performance and other functionalities. This ensures it continues to meet your changing requirements and maximises its positive impact on your processes, guaranteeing quality and long-term reliability.",
+    desc: "We understand the value of user insight. Our team assesses the achievement of your engagement against outlined requirements, evaluating performance and other functionalities. This ensures it continues to meet your changing requirements and maximises its positive impact on your processes, guaranteeing quality and long term reliability.",
   },
 ];
 

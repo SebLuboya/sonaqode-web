@@ -38,7 +38,7 @@ export default function Home() {
               </h2>
               <p className="font-light text-sm lg:text-[17px] text-gray-500 leading-[27px]">
                 We connect you with top-tier tech professionals to build a
-                resilient, extended remote workforce. Our value-driven solutions
+                resilient, extended remote workforce. Our value driven solutions
                 accelerate growth and innovation, propelling your business to
                 new heights. From start-ups to established enterprises, we align
                 your goals with expert teams and professionals through our
@@ -77,7 +77,7 @@ export default function Home() {
               </h2>
               <p className="font-light text-balance">
                 We recognise the unique needs of every business, understanding
-                that a one-size-fits-all approach is inadequate. That&apos;s why
+                that a one size fits all approach is inadequate. That&apos;s why
                 we emphasise simplicity and flexibility in our engagements,
                 tailored to your convenience on demand.
               </p>

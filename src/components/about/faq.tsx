@@ -17,7 +17,7 @@ const faqData = [
   {
     question: "How do we assure privacy and confidentiality?",
     answer:
-      "We prioritise data security and privacy. We employ robust data protection measures, including encryption, secure authentication protocols, and conduct security audits and compliance checks to ensure adherence to industry standards like GDPR & HIPAA. We are open to signing a non-disclosure agreement (NDA) with you that legally binds us to hold all the information, including any proprietary or project-related information exchanged during sales inquiries or over the course of our contract, in strict confidence.",
+      "We prioritise data security and privacy. We employ robust data protection measures, including encryption, secure authentication protocols, and conduct security audits and compliance checks to ensure adherence to industry standards like GDPR & HIPAA. We are open to signing a non disclosure agreement (NDA) with you that legally binds us to hold all the information, including any proprietary or project-related information exchanged during sales inquiries or over the course of our contract, in strict confidence.",
   },
   {
     question: "How does the onboarding process work?",
@@ -27,13 +27,13 @@ const faqData = [
   {
     question: "Where is Sonaqode based?",
     answer:
-      "Our leadership team is based in London, UK, while most of our senior and mid-level engineers operate from Accra, Ghana. We are committed to recruiting top-quality specialists from various countries across the African continent, enabling us to deliver exceptional remote work.",
+      "Our leadership team is based in London, UK, while most of our senior and mid level engineers operate from Accra, Ghana. We are committed to recruiting top-quality specialists from various countries across the African continent, enabling us to deliver exceptional remote work.",
   },
   {
     question:
       "How can I ensure effective communication with a Developer/Engineer?",
     answer:
-      "Maintaining clear and effective communication is crucial for the success of any project. You will have direct communication channels with the dedicated developers working on your project. We establish strong communication channels and regular check-ins from the outset to ensure this. Our toolkit for effective communication usually includes tools Skype, Teams, Email, Zoom, Jira, Confluence, and Slack.",
+      "Maintaining clear and effective communication is crucial for the success of any project. You will have direct communication channels with the dedicated developers working on your project. We establish strong communication channels and regular check ins from the outset to ensure this. Our toolkit for effective communication usually includes tools Skype, Teams, Email, Zoom, Jira, Confluence, and Slack.",
   },
 ];
 
