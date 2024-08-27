@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { cn, isDev } from "@/utils";
+import { cn } from "@/utils";
 import Image, { StaticImageData } from "next/image";
 import Button from "@/components/misc/button";
 import Checkicon from "@/assets/icons/glyphs/Checkicon";
@@ -116,7 +116,6 @@ export default Services;
 const ServiceInfoCard = ({
   service,
   section,
-  setShowModal,
 }: {
   service: {
     title: string;
