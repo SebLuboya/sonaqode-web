@@ -21,10 +21,10 @@ export const analyticesData: IService[] = [
           "Programming: Proficient in Python, Java, and Scala for data processing and manipulation.",
           "SQL: Strong SQL skills for querying and managing relational databases.",
           "Big Data Technologies: Experience with Hadoop, Spark, and other big data frameworks.",
-          "Data Pipelines: Ability to build and maintain ETL/ELT pipelines using tools like Airflow, Luigi, and Kafka.",
+          "Data Pipelines: Ability to build and maintain ETL/ELT pipelines using tools such as Airflow, Luigi, and Kafka.",
           "Cloud Platforms: Good knowledge of cloud-based data services on AWS, Azure, and GCP.",
           "Data Warehousing and Modeling: Good understanding of data warehousing concepts and building dimensional models.",
-          "Data Quality: Ensuring data accuracy, completeness, and consistency.",
+          "Data Quality: Ability to ensure data accuracy, completeness, and consistency.",
         ],
       },
       // {
@@ -43,7 +43,7 @@ export const analyticesData: IService[] = [
           "Data engineering projects: Hands-on experience in building and maintaining data pipelines.",
           "Big data processing: Working with large datasets and distributed systems.",
           "Data warehousing: Designing and implementing data warehouses.",
-          "Cloud technologies: Skilled at utilizing cloud-based data services for efficient data management and migrating data to cloud platforms.",
+          "Cloud technologies: Skilled at utilising cloud-based data services for efficient data management and migrating data to cloud platforms.",
           "Data governance: Implementing data security measures and compliance standards.",
         ],
       },
@@ -76,7 +76,7 @@ export const analyticesData: IService[] = [
         title: "Cloud Integration and Optimisation",
         values: [
           "Cloud Integration: Integrating data solutions with cloud platforms AWS, GCP, Azure.",
-          "Cost Optimization: Optimising data storage and processing costs.",
+          "Cost Optimization (Optimisation): Optimising data storage and processing costs.",
         ],
       },
     ],
@@ -94,11 +94,11 @@ export const analyticesData: IService[] = [
     ],
     skillSet: [
       {
-        title: "Essential Technical Skills",
+        title: "Technical Skills",
         values: [
-          "Data Manipulation: Proficient in SQL, Python with libraries like Pandas, NumPy.",
-          "Data Visualisation: Ability to create compelling visualisations using tools like Tableau, Power BI, or Python libraries Matplotlib, Seaborn.",
-          "Statistical Analysis: Strong analytical skills using statistical methods and tools like Python with libraries like NumPy, Pandas, R, or Excel to draw meaningful insights.",
+          "Data Manipulation: Proficient in SQL, Python with libraries such as Pandas, NumPy.",
+          "Data Visualisation: Ability to create compelling visualisations using tools like Tableau, Power BI, and Python libraries Matplotlib, Seaborn.",
+          "Statistical Analysis: Strong analytical skills using statistical methods and Python with libraries such as NumPy, Pandas, R, and Excel to draw meaningful insights.",
           "Data Modeling: Ability to structure data for analysis e.g. data warehousing, data marts.",
           "Data Mining: Adept at extracting valuable information from large datasets.",
         ],
@@ -117,10 +117,10 @@ export const analyticesData: IService[] = [
         title: "Experience",
         values: [
           "Data analysis projects: Demonstrating practical experience in data-driven problem-solving.",
-          "Industry-specific knowledge: Understanding data from various domains e.g. Finance, marketing, healthcare.",
-          "Data visualisation and storytelling: Creating impactful visualizations and narratives.",
+          "Industry knowledge: Understanding data from various domains e.g. Finance, marketing, healthcare.",
+          "Data visualisation and storytelling: Creating impactful visualisations and narratives.",
           "Data cleaning and preparation: Experience handling messy and incomplete data.",
-          "Business intelligence tools: Proficiency in using BI tools for data exploration and reporting.",
+          "Business intelligence tools: Proficient in using BI tools for data exploration and reporting.",
         ],
       },
     ],
@@ -175,15 +175,15 @@ export const analyticesData: IService[] = [
     ],
     skillSet: [
       {
-        title: "Essential Technical Skills",
+        title: "Technical Skills",
         values: [
-          "Programming: Proficient in Python and R, with knowledge of libraries like Pandas, NumPy, Scikit-learn, TensorFlow, and PyTorch.",
+          "Programming: Proficient in Python and R, with knowledge of libraries such as Pandas, NumPy, Scikit-learn, TensorFlow, and PyTorch.",
           "Statistics and Probability: Strong foundation in statistical methods, hypothesis testing, and probability theory.",
           "Machine Learning: Expertise in various algorithms, including supervised, unsupervised, and reinforcement learning.",
-          "Data Munging and Cleaning: Proficiency in handling messy data, including data cleaning, transformation, and exploration.",
+          "Data Munging and Cleaning: Proficient in handling messy data, including data cleaning, transformation, and exploration.\n",
           "Data Visualisation: Ability to create compelling visualisations using tools like Python libraries Matplotlib, Seaborn or specialised software Tableau, Power BI.",
           "Big Data Technologies: Knowledge of tools like Hadoop, Spark, and cloud-based data platforms.",
-          "Database Management: Proficiency in SQL.",
+          "Database Management: Proficient in SQL.",
           "Cloud Computing: Familiar with cloud platforms AWS, Azure, GCP for data storage and processing.",
         ],
       },
@@ -201,7 +201,7 @@ export const analyticesData: IService[] = [
         values: [
           "Data modeling and analysis projects: Experience in building predictive models and deriving actionable insights.",
           "Machine learning: Ability to build and deploy predictive models.",
-          "Industry-specific knowledge: Understanding data within various domains e.g. Finance, healthcare, marketing.",
+          "Industry-specific knowledge: Good understanding of data within various domains e.g. Finance, healthcare, marketing.",
           "Data engineering experience: Experience with working with large datasets and building data pipelines.",
           "Cloud platform usage: Leveraging cloud-based data services for efficient data processing.",
           "Data visualisation: Creating effective visualisations to communicate findings efficiently.",
@@ -257,7 +257,7 @@ export const analyticesData: IService[] = [
         title: "Technical Skills",
         values: [
           "Data Analysis: Proficient in SQL for data querying and manipulation with knowledge of Python or R for advanced data analysis.",
-          "Data Visualisation: Ability to create compelling and informative visualisations using tools like Tableau, Power BI, or Python libraries Matplotlib, Seaborn.",
+          "Data Visualisation: Ability to create compelling and informative visualisations using Tableau, Power BI, or Python libraries Matplotlib, Seaborn.\n",
           "Data Modeling: Ability to comprehend data structures and relationships, enabling effective analysis.",
           "BI Tools: Expertise in using BI tools Tableau, Power BI, Qlik for data exploration, reporting, and dashboard creation.",
           "Database Management: Knowledge of database systems SQL, NoSQL for data extraction and management.",
@@ -280,7 +280,7 @@ export const analyticesData: IService[] = [
           "Industry Knowledge: Understanding the business domain and its data requirements.",
           "Data Visualisation: Creating impactful dashboards and reports.",
           "Data Modeling: Designing data structures for efficient analysis.",
-          "Business Intelligence Tools: Proficiency in using BI tools for data exploration and reporting.",
+          "Business Intelligence Tools: Proficient in using BI tools for data exploration and reporting.",
         ],
       },
     ],
@@ -330,12 +330,12 @@ export const analyticesData: IService[] = [
     ],
     skillSet: [
       {
-        title: "Essential Technical Skills",
+        title: "Technical Skills",
         values: [
           "Programming: Proficient in Python, Java, C#, or JavaScript for scripting and developing automation frameworks.",
           "Automation Tools: Competent in using automation tools like Selenium, Appium, UiPath, or Robotic Process Automation RPA platforms.",
           "Testing Frameworks: Good knowledge of testing frameworks JUnit, TestNG, pytest for creating and executing test cases.",
-          "Scripting Languages: Proficiency in scripting languages like PowerShell, Bash for system automation.",
+          "Scripting Languages: Proficient in scripting languages such as PowerShell, Bash for system automation.",
           "Continuous Integration/Continuous Delivery: Good understanding of CI/CD pipelines and tools Jenkins, GitLab, Azure DevOps.",
           "Cloud Platforms: Familiar with cloud platforms AWS, Azure, GCP for cloud-based automation.",
         ],
@@ -372,7 +372,7 @@ export const analyticesData: IService[] = [
         ],
       },
       {
-        title: "Testing and Optimization",
+        title: "Testing and Optimisation",
         values: [
           "Test Automation: Developing and executing automated test cases.",
           "Performance Optimisation: Identifying and resolving performance bottlenecks in automated processes.",

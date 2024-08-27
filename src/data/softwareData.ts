@@ -42,7 +42,7 @@ export const softwareData: IService[] = [
       {
         title: "Technical Skills",
         values: [
-          "Programming languages: Proficient in Swift for iOS and Kotlin for Android. Knowledge of cross-platform frameworks like React Native or Flutter is also valuable.",
+          "Programming languages: Proficient in Node.js, Python with frameworks such as Django, Flask, Ruby on Rails, Java.",
           "Platform-specific knowledge: Deep understanding of iOS and Android ecosystems, including design guidelines, APIs, and development tools.",
           "UI/UX design: Ability to create visually appealing and user-friendly interfaces. Knowledge of design principles and tools is beneficial.",
           "Mobile development frameworks: Proficient in using native development kits Xcode for iOS, Android Studio for Android and cross-platform frameworks.",
@@ -222,7 +222,7 @@ export const softwareData: IService[] = [
         title: "Technical Skills",
         values: [
           "HTML, CSS, JavaScript: A solid foundation in these core languages is indispensable.",
-          "JavaScript Frameworks: Proficient in React, Angular, or Vue.",
+          "JavaScript Frameworks: Proficient in React, Angular, and Vue.",
           "CSS Preprocessors: Experience with Sass or Less for efficient styling.",
           "Responsive Design: Ability to create websites that adapt to different screen sizes.",
           "Cross-browser Compatibility: Ensuring websites function correctly across various browsers.",
@@ -378,13 +378,13 @@ export const softwareData: IService[] = [
     ],
     skillSet: [
       {
-        title: "Essential Technical Skills",
+        title: "Technical Skills",
         values: [
-          "User Research: Demonstrate good techniques in conducting interviews, surveys, testing, and understanding user needs.",
+          "User Research: Ability to demonstrate good techniques in conducting interviews, surveys, testing, and understanding user needs.",
           "Information Architecture: Organising information in a clear and intuitive way.",
           "Wireframing and Prototyping: Creating visual representations of the user interface.",
           "Visual Design: Creating high-level, aesthetically pleasing, and user-friendly designs.",
-          "Design Tools: Proficiency in design tools such as Figma, Sketch, Adobe XD, and InVision.",
+          "Design Tools: Proficient in Figma, Sketch, Adobe XD, and InVision.",
           "Usability Testing: Evaluating designs through user testing to identify areas for improvement to ensure optimal user experience.",
         ],
       },
@@ -394,7 +394,7 @@ export const softwareData: IService[] = [
           "User research experience: Ability to conduct and analyse user research to inform design decisions.",
           "Prototyping and testing: Creating interactive prototypes and gathering useful user feedback.",
           "Collaboration with development teams: Understanding technical constraints and working closely with developers.",
-          "Design trends and best practices: Staying up-to-date with design trends and industry standards.",
+          "Design trends: Staying up-to-date with design trends and industry standards.",
         ],
       },
     ],
@@ -449,8 +449,8 @@ export const softwareData: IService[] = [
         values: [
           "Video Editing Software: Proficient in Adobe Premiere Pro, Final Cut Pro, and Avid Media Composer.",
           "Audio Editing: Skilled in Adobe Audition for sound design, mixing, and synchronising audio with visuals.",
-          "Color Correction and Grading: Enhancing visual quality and creating desired moods.",
-          "Motion Graphics and Visual Effects: Create engaging visual elements to complement videos and animations and enhance storytelling.",
+          "Colour Correction and Grading: Ability to enhance visual quality and creating desired moods.",
+          "Motion Graphics and Visual Effects: Adept at creating engaging visual elements to complement videos and animations, enhancing storytelling.",
           "File Formats and Codecs: Understanding different video formats and their characteristics.",
         ],
       },
@@ -518,7 +518,7 @@ export const softwareData: IService[] = [
         title: "Technical Skills",
         values: [
           "Testing methodologies: Good understanding of various testing types functional, non-functional, integration and ability to appropriately apply them.",
-          "Test case creation: Developing comprehensive test cases to cover all possible scenarios.",
+          "Test case creation: Skilled in developing comprehensive test cases to cover all possible scenarios.",
           "Defect tracking: Using bug tracking tools to report and manage defects.",
           "Automation testing: Proficient in Selenium, Appium for efficient testing.",
           "Database knowledge: Strong understanding of SQL for testing data-driven applications.",
@@ -599,7 +599,7 @@ export const softwareData: IService[] = [
           "Network Troubleshooting: Understanding of network fundamentals and ability to diagnose network problems.",
           "Operating Systems: Proficient in Windows, macOS, and Linux environments.",
           "Application Support: Knowledge of common software applications Office suite, email.",
-          "Remote Support Tools: Proficiency in using tools like TeamViewer or Remote Desktop, troubleshoot issues remotely and efficiently guiding users through technical issues.",
+          "Remote Support Tools: Proficient in TeamViewer or Remote Desktop, capable of troubleshooting issues remotely and efficiently guiding users through technical problems.",
           "Ticketing Systems: Experience with help desk software for issue tracking.",
           "Network management: Familiar with network management tools and concepts, such as DNS, DHCP, TCP/IP, and VPN.",
         ],

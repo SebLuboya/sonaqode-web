@@ -4,24 +4,36 @@ import { FaqItem } from "@/components/about/faqItem";
 
 const faqData = [
   {
-    question: "When can we start our work?",
+    question: "How do you select your specialists?",
     answer:
-      "There is no need for delay! Take action immediately. Browse and subscribe or send us your request, and we will promptly get in touch with you.",
+      "We meticulously screen candidates, assessing their industry expertise, experience, and technical proficiency. This ensures our team is composed of individuals with diverse skill sets, fostering a well-rounded approach.",
   },
   {
-    question: "How will I track the progress of my project?",
+    question:
+      "What happens if a team member needs to be replaced or added mid-project?",
     answer:
-      "We utilise various project management tools such as Jira, Notion, GitHub, and others to offer transparent visibility to all stakeholders regarding project progress and developer tasks. These tools enable us to monitor the scope of work, budget, assignments, and ensure alignment with our goals.",
+      "We recognise that project needs can shift. To accommodate changes, we promptly adjust our team by adding or replacing members, minimising disruptions to your project timeline. Our commitment is to remain adaptable and responsive to your evolving requirements.",
   },
   {
-    question: "Where is SonaQode based?",
+    question: "How do we assure privacy and confidentiality?",
     answer:
-      "Our headquarters are located in London, UK, while a majority of our developers and engineers operate from Accra, Ghana. We are committed to recruiting top-notch specialists from various countries across the African continent, enabling us to deliver exceptional remote work.",
+      "We prioritise data security and privacy. We employ robust data protection measures, including encryption, secure authentication protocols, and conduct security audits and compliance checks to ensure adherence to industry standards like GDPR & HIPAA. We are open to signing a non-disclosure agreement (NDA) with you that legally binds us to hold all the information, including any proprietary or project-related information exchanged during sales inquiries or over the course of our contract, in strict confidence.",
   },
   {
-    question: "How do you safeguard my intellectual property?",
+    question: "How does the onboarding process work?",
     answer:
-      "We guarantee comprehensive intellectual property (IP) protection through our Non-Disclosure Agreements (NDAs) and Master Service Agreements (MSAs). As a software development service provider, we operate on a work-for-hire basis, ensuring that our clients retain complete legal ownership of all intellectual property",
+      "Our onboarding process is straightforward. Simply complete the subscription form, and we will contact you within a couple of hours to begin the welcome process. During this process, we will introduce your dedicated professional and establish a roadmap for delivering outstanding results.",
+  },
+  {
+    question: "Where is Sonaqode based?",
+    answer:
+      "Our headquarters are located in London, UK, while a majority of our developers and engineers operate from Accra, Ghana. We are committed to recruiting top-quality specialists from various countries across the African continent, enabling us to deliver exceptional remote work.",
+  },
+  {
+    question:
+      "How can I ensure effective communication with a Developer/Engineer?",
+    answer:
+      "Maintaining clear and effective communication is crucial for the success of any project. You will have direct communication channels with the dedicated developers working on your project. We establish strong communication channels and regular check-ins from the outset to ensure this. Our toolkit for effective communication usually includes tools Skype, Teams, Email, Zoom, Jira, Confluence, and Slack.",
   },
 ];
 
