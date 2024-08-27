@@ -75,21 +75,16 @@ const Services = ({
                   placeholder="blur"
                 />
               </div>
-              <button
-                className={cn("hidden", isDev && "block")}
-                onClick={async () => {
-                  await navigator.clipboard.writeText(
-                    service.title.replaceAll(" ", "-").toLowerCase(),
-                  );
-                }}
-              >
-                {service.title.replaceAll(" ", "-").toLowerCase()}
-              </button>
               <div className="w-fit h-12 flex items-center justify-center px-4 rounded-full bg-sona-blue">
                 <p className="text-white">
+                  {section === "software-development" && (
+                    <span className="text-sm">From </span>
+                  )}
                   {
-                    service.price
-                      .toLocaleString("en-US", {
+                    service[
+                      section === "software-development" ? "partTime" : "price"
+                    ]
+                      ?.toLocaleString("en-US", {
                         style: "currency",
                         currency: "GBP",
                       })
