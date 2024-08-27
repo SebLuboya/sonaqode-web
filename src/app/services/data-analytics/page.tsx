@@ -104,7 +104,7 @@ const data = [
     title: "Data Scientist",
     description:
       "Discover patterns, trends, and correlations in data that reveal insights into customer behavior, market trends, and operational performance. Our data scientists excel in data analysis, predictive modeling, and strategic insights, empowering businesses to optimise operations, innovate products and services, enhance customer experiences, and mitigate risks, thereby maintaining a competitive edge in the market.",
-    price: 2590,
+    price: 2990,
     icon: DataScience,
     list: [
       "Education: University Graduate, Degree",
