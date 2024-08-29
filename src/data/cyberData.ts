@@ -8,6 +8,10 @@ export const cyberData: IService[] = [
     description:
       "Secure software applications from threats throughout their development lifecycle. Our engineers play a vital role in protecting your business’s applications, ensuring regulatory compliance, and maintaining customer trust. They excel in application security practices, software development, and risk management. Their expertise fortifies a more secure and resilient business environment.",
     price: 2990,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C79DM2RG",
+      partTime: "",
+    },
     icon: ServiceIcon.SecurityWindow,
     image: ServiceImage.ApplicationSecurityEngineer,
     roles: [
@@ -81,6 +85,10 @@ export const cyberData: IService[] = [
     description:
       "Cloud Security Engineers are committed to safeguarding your organisation's cloud computing environment. They concentrate on defending cloud infrastructure, data, and applications against potential threats and vulnerabilities. Proficient in designing and implementing comprehensive cloud security strategies, they craft security architectures that align with your business goals and compliance requirements.",
     price: 3190,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C79GSZNY",
+      partTime: "",
+    },
     icon: ServiceIcon.Cloud,
     image: ServiceImage.CloudSecuritySpecialist,
     roles: [
@@ -151,12 +159,16 @@ export const cyberData: IService[] = [
   {
     title: "Cyber Security Engineer",
     description:
-      "Protect your organisation’s systems, networks, data, and digital assets from cyber threats. Our security engineers excel in identifying vulnerabilities, devising strategies to mitigate risks, and responding to security incidents to enhance the organisation's overall security posture. They leverage digital forensics tools and methodologies and are well-versed in developing security policies and procedures.",
+      "Protect your organisation’s systems, networks, data, and digital assets from cyber threats. Our security engineers excel in identifying vulnerabilities, devising strategies to mitigate risks, and responding to security incidents to enhance the organisation's overall security posture. They leverage digital forensics tools and methodologies and are well versed in developing security policies and procedures.",
     price: 2990,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C79N503Q",
+      partTime: "",
+    },
     icon: ServiceIcon.TwoStep,
     image: ServiceImage.CyberSecurityEngineer,
     roles: [
-      "Our expert cybersecurity engineers bolster IT teams by proactively identifying and neutralizing cyber threats. Rigorous security assessments ensure comprehensive protection for your organization. By reducing data breaches, enhancing brand reputation, and minimising financial loss, we provide a competitive advantage rather than just reactive security measures. Sonaqode's engineers excel in threat intelligence, vulnerability management, incident response, and digital forensics to make your organisation cyber-resilient. \n",
+      "Our expert cybersecurity engineers bolster IT teams by proactively identifying cyber threats. Rigorous security assessments ensure comprehensive protection for you. By reducing data breaches, enhancing brand reputation, and minimising financial loss, we provide a competitive advantage rather than just reactive security measures. Sonaqode's engineers excel in threat intelligence, vulnerability management, incident response, and digital forensics to make your organisation cyber resilient. \n",
       "They prioritise threat detection and response, optimising security controls to enhance system protection, applying a keen eye for detail and a commitment to producing outstanding security postures that meet your business objectives. Enlist dedicated engineers who are highly experienced in tools like vulnerability scanners, intrusion detection systems, and security information and event management, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, blockchain, and cloud security to achieve top notch security outcomes. Choosing us means faster incident response, improved security compliance, and enhanced business continuity.",
     ],
     skillSet: [
@@ -225,6 +237,10 @@ export const cyberData: IService[] = [
     description:
       "Effectively manage your data infrastructure with our experts, who actively maintain the security, integrity, and performance of your company's databases, ensuring secure and optimal data storage. They bolster efficient operations and informed decision making, enabling businesses to achieve cost savings, scalability, and flexibility while ensuring compliance. Through the use of progressive and efficient DB management systems, we facilitate optimal outcomes for your business.",
     price: 1499,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C79WG4Z4",
+      partTime: "",
+    },
     icon: ServiceIcon.DataAdmin,
     image: ServiceImage.DataAdministrator,
     roles: [
@@ -293,10 +309,14 @@ export const cyberData: IService[] = [
     description:
       "Our Cyber Security Analysts safeguard digital assets against evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. Leveraging a deep understanding of the cybersecurity landscape and strong problem-solving abilities, they monitor and analyse security systems, scrutinise network traffic, identify anomalies, and promptly respond to potential security incidents.",
     price: 2990,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C7A0Q0P6",
+      partTime: "",
+    },
     icon: ServiceIcon.Security,
     image: ServiceImage.CyberSecurityAnalyst,
     roles: [
-      "Sonaqode's Cyber Security Analysts leverage advanced tools to craft actionable threat intelligence. Committed to delivering high-value security outcomes, they transform raw threat data into sophisticated threat models with unmatched accuracy using the best blend of analytical techniques. They excel in threat hunting, incident response analysis, vulnerability assessment, and threat modeling to make your organisation cyber-resilient. Whether you aim to launch new security initiatives quickly or optimise existing security operations, our professionals use cutting edge tools and methodologies to provide efficient, cost effective security solutions. \n",
+      "Sonaqode's Cyber Security Analysts leverage advanced tools to craft actionable threat intelligence. Committed to delivering high-value security outcomes, they transform raw threat data into sophisticated threat models with unmatched accuracy using the best blend of analytical techniques. They excel in threat hunting, incident response analysis, vulnerability assessment, and threat modeling to make your organisation cyber resilient. Whether you aim to launch new security initiatives quickly or optimise existing security operations, our professionals use cutting edge tools and methodologies to provide efficient, cost effective security solutions. \n",
       "Enlist dedicated analysts who are highly experienced in tools like SIEM, threat intelligence platforms, and security analytics platforms, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, machine learning, and big data to achieve top notch threat intelligence output. A company's threat intelligence can significantly influence its security posture. Our Cyber Security Analysts create exceptional threat reports and visualisations that captivate stakeholders and showcase security performance. Choosing us means effective threat hunting, quicker incident response, and enhanced business resilience.",
     ],
     skillSet: [
@@ -364,6 +384,10 @@ export const cyberData: IService[] = [
     description:
       "Enhance the security of your system, application, or network by employing our Penetration Tester. Protect your business critical data from hackers and proactively prevent security breaches and vulnerabilities. Customise testing styles to effortlessly meet your unique requirements. They excel in analysing complex systems, pinpointing weaknesses, and adeptly employing both manual testing techniques and automated tools.",
     price: 2890,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C7A7C4Y1",
+      partTime: "",
+    },
     icon: ServiceIcon.Password,
     image: ServiceImage.PenetrationTester,
     roles: [

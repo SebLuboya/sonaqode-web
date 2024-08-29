@@ -32,6 +32,10 @@ export const softwareData: IService[] = [
     image: ServiceImage.MobileAppDeveloper,
     price: 2890,
     partTime: 2190,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C4E09X9K",
+      partTime: "https://pay.gocardless.com/BRT0003C75125QD",
+    },
     description:
       "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
     roles: [
@@ -115,10 +119,14 @@ export const softwareData: IService[] = [
       "Access skilled web developers who can construct high-performance, modern web applications from scratch. Our full-stack developers excel in both Front-end and Back-end technologies, delivering fully customised web apps that meet your precise requirements. They ensure excellent performance and provide end-to-end solutions that are reliable and scalable.",
     price: 3090,
     partTime: 2190,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C75BNAKA",
+      partTime: "https://pay.gocardless.com/BRT0003C75GRFMA",
+    },
     icon: ServiceIcon.Vscode,
     image: ServiceImage.FullStackDeveloper,
     roles: [
-      "Our experienced and reliable full-stack developers enhance development teams by crafting robust and efficient software solutions. Through rigorous software development, these experts ensure high-quality, functional products for your organisation. They go beyond treating coding as a discrete function at the end of the development lifecycle, embedding user centric design and technical expertise at every project phase. By boosting product development speed, quality, and user satisfaction—while reducing development costs, enhancing product performance, and minimising time to market—they deliver a competitive advantage instead of fragmented development efforts.",
+      "Our experienced and reliable full-stack developers enhance development teams by crafting robust and efficient software solutions. Through rigorous software development, these experts ensure high-quality, functional products for your organisation. They go beyond treating coding as a discrete function at the end of the development lifecycle, embedding user centric design and technical expertise at every project phase. By boosting product development speed, quality, and user satisfaction while reducing development costs, enhancing product performance, and minimising time to market they deliver a competitive advantage instead of fragmented development efforts.",
       "Our developers excel in front-end and back-end development, database management, and cloud integration, ensuring your product's success. Engage dedicated Full Stack Developers with extensive experience in technologies like React, Angular, Node.js, Python, and many more, and benefit from their acclaimed expertise in integrating emerging tech trends such as artificial intelligence, virtual reality, and blockchain to achieve top notch product quality. Choosing us means faster time to market, improved user satisfaction, and a significant business impact.",
     ],
     skillSet: [
@@ -211,10 +219,14 @@ export const softwareData: IService[] = [
       "Our front-end developers craft intuitive, efficient, and enjoyable user web and mobile applications by expertly wielding a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They seamlessly integrate design, technology, and usability principles to deliver customised solutions that enhance engagement and accessibility, perfectly aligning with your unique brand needs.",
     price: 2690,
     partTime: 1590,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C75R6A51",
+      partTime: "https://pay.gocardless.com/BRT0003C75Y1DFX",
+    },
     icon: ServiceIcon.Js,
     image: ServiceImage.FrontendDeveloper,
     roles: [
-      "Sonaqode's Frontend Developers leverage advanced tools to create intuitive web and mobile applications that deliver pixel-perfect, interactive user experiences. Committed to delivering high-value outcomes, they bring design concepts to life with the perfect blend of design and development skills, crafting sophisticated user interfaces with unmatched appeal. They prioritise user satisfaction, optimizing interactions to enhance engagement and create top notch interfaces that influence user behavior and optimise user journeys.",
+      "Sonaqode's Frontend Developers leverage advanced tools to create intuitive web and mobile applications that deliver pixel perfect, interactive user experiences. Committed to delivering high-value outcomes, they bring design concepts to life with the perfect blend of design and development skills, crafting sophisticated user interfaces with unmatched appeal. They prioritise user satisfaction, interactions to enhance engagement and create top notch interfaces that influence user behavior and optimise user journeys.",
       "With a keen eye for detail and a commitment to producing outstanding user experiences that meet the needs of your target audience, our developers understand that a company's user interface can significantly impact its competitiveness. Engage dedicated Frontend Developers who are highly experienced in technologies like React, Angular, Vue, and more, with acclaimed expertise in integrating emerging tech trends such as artificial intelligence, virtual reality, and augmented reality to achieve exceptional user experiences. Choosing us means faster time to market, improved user satisfaction, and significant business impact.",
     ],
     skillSet: [
@@ -291,6 +303,10 @@ export const softwareData: IService[] = [
       "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server-side solutions using cutting edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
     price: 2690,
     partTime: 1590,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C765F9TB",
+      partTime: "https://pay.gocardless.com/BRT0003C769Q25W",
+    },
     icon: ServiceIcon.CodeFolder,
     image: ServiceImage.BackendDeveloper,
     roles: [
@@ -370,6 +386,10 @@ export const softwareData: IService[] = [
       "Our innovative designers excel at crafting visually appealing, highly functional, and user friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
     price: 2090,
     partTime: 1390,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C76P7FXQ",
+      partTime: "https://pay.gocardless.com/BRT0003C76TFSX5",
+    },
     icon: ServiceIcon.Figma,
     image: ServiceImage.UiUxDesigner,
     roles: [
@@ -437,6 +457,10 @@ export const softwareData: IService[] = [
       "Talented video editors actively cultivate creative and collaborative partnerships to conceptualise captivating animations, motion graphics, and multimedia content that seamlessly align with the company's brand and objectives. They skillfully execute edits that are both current and captivating, drawing upon their versatile expertise in commercial, corporate, and documentary formats.",
     price: 1799,
     partTime: 1189,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C77A53V0",
+      partTime: "https://pay.gocardless.com/BRT0003C77B5QMF",
+    },
     icon: ServiceIcon.VideoEditor,
     image: ServiceImage.VideoContentEditor,
     roles: [
@@ -507,6 +531,10 @@ export const softwareData: IService[] = [
       "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting edge technologies and adhering to industry leading testing standards. Collaborating with top notch QA and test automation engineers, going above and beyond to emphasise that quality assurance extends far beyond delivering software devoid of bugs.",
     price: 2690,
     partTime: 1690,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C77FZP76",
+      partTime: "https://pay.gocardless.com/BRT0003C77K829P",
+    },
     icon: ServiceIcon.QaTesting,
     image: ServiceImage.QaTester,
     roles: [
@@ -585,6 +613,10 @@ export const softwareData: IService[] = [
       "Our IT Engineers provide comprehensive technical support, collaborating with cross functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem-solving and proactively identify and implement improvements to enhance overall performance.",
     price: 899,
     partTime: 549,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C77ZB17H",
+      partTime: "https://pay.gocardless.com/BRT0003C7866MYB",
+    },
     icon: ServiceIcon.ItSupport,
     image: ServiceImage.ItSupportEngineer,
     roles: [

@@ -8,6 +8,10 @@ export const analyticesData: IService[] = [
     description:
       "Our data engineers design, build, and maintain the data infrastructure and architecture necessary to collect, store, process, and analyse data. They enable real-time data processing, personalise customer experiences, and inform , making their role vital to any data driven organisation. Skilled in a diverse range of frameworks and tools, they drive the efficiency and effectiveness of your organisation’s data ecosystem.",
     price: 2690,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C78FB60J",
+      partTime: "",
+    },
     icon: ServiceIcon.DataEngineer,
     image: ServiceImage.DataEngineer,
     roles: [
@@ -86,6 +90,10 @@ export const analyticesData: IService[] = [
     description:
       "Unlock the potential of raw data by transforming it into valuable insights that enhance decision making, improve efficiency, and drive business growth. Our talented data analysts excel in interpreting data, generating reports, and creating visualisations, helping businesses stay competitive, gain deeper understanding of customers and markets, and adapt their strategies accordingly. Optimise operations, ensuring sustained success and profitability.",
     price: 2390,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C78P621E",
+      partTime: "",
+    },
     icon: ServiceIcon.BarChart,
     image: ServiceImage.DataAnalyst,
     roles: [
@@ -167,6 +175,10 @@ export const analyticesData: IService[] = [
     description:
       "Discover patterns, trends, and correlations in data that reveal insights into customer behavior, market trends, and operational performance. Our data scientists excel in data analysis, predictive modeling, and strategic insights, empowering businesses to optimise operations, innovate products and services, enhance customer experiences, and mitigate risks, thereby maintaining a competitive edge in the market.",
     price: 2990,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C78ZS7TT",
+      partTime: "",
+    },
     icon: ServiceIcon.DataScience,
     image: ServiceImage.DataScientist,
     roles: [
@@ -201,7 +213,7 @@ export const analyticesData: IService[] = [
         values: [
           "Data modeling and analysis projects: Experience in building predictive models and deriving actionable insights.",
           "Machine learning: Ability to build and deploy predictive models.",
-          "Industry-specific knowledge: Good understanding of data within various domains e.g. Finance, healthcare, marketing.",
+          "Industry knowledge: Good understanding of data within various domains e.g. Finance, healthcare, marketing.",
           "Data engineering experience: Experience with working with large datasets and building data pipelines.",
           "Cloud platform usage: Leveraging cloud based data services for efficient data processing.",
           "Data visualisation: Creating effective visualisations to communicate findings efficiently.",
@@ -246,6 +258,10 @@ export const analyticesData: IService[] = [
     description:
       "Harness the power of data effectively, drive data driven decision making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information.",
     price: 2490,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C792ZHPZ",
+      partTime: "",
+    },
     icon: ServiceIcon.BusinessIntelligence,
     image: ServiceImage.BusinessIntelligenceAnalyst,
     roles: [
@@ -322,6 +338,10 @@ export const analyticesData: IService[] = [
     description:
       "Streamline your processes with our dedicated automation engineers. Leverage their proficiency in designing and implementing automated systems to optimise workflows, drive efficiency, enhance quality, and maintain competitiveness in a rapidly evolving market. Utilising cutting edge technologies and a commitment to innovation, our specialists are ready to revolutionise your workflow.",
     price: 2590,
+    paymentLink: {
+      fullTime: "https://pay.gocardless.com/BRT0003C798P3TK",
+      partTime: "",
+    },
     icon: ServiceIcon.Automation,
     image: ServiceImage.AutomationEngineer,
     roles: [

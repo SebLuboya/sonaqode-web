@@ -155,7 +155,10 @@ const sections = [
 
 const Methodolody = () => {
   return (
-    <section className="pt-16 lg:pt-28 px-5">
+    <section className="flex flex-col items-center gap-8 pt-16 lg:pt-28 px-5">
+      <h2 className="font-clash text-center text-[50px] font-semibold leading-[60px]">
+        Engagement Models
+      </h2>
       <div className="relative w-full lg:max-w-[1260px] min-h-[650px] mx-auto flex flex-col lg:flex-row gap-10">
         {sections.map((section, idx) => (
           <div key={section.label} className="flex flex-1 flex-col gap-20">

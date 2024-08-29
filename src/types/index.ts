@@ -17,6 +17,10 @@ export type IService = {
   image: StaticImageData;
   price: number;
   partTime?: number;
+  paymentLink?: {
+    fullTime: string;
+    partTime: string;
+  };
   description: string;
   roles: string[];
   skillSet: item[];

@@ -1,12 +1,20 @@
+"use client";
 import React from "react";
 import ArrowLeft from "@/assets/icons/glyphs/ArrowLeft";
+import Dialog from "@/components/misc/dialog";
+import SubscribeModal from "./subscribeModal";
 
 const Subscribe = ({
   service,
 }: {
   service: {
+    title: string;
     price: number;
     partTime?: number;
+    paymentLink?: {
+      fullTime: string;
+      partTime: string;
+    };
   };
 }) => {
   return (
@@ -21,30 +29,25 @@ const Subscribe = ({
             <ArrowLeft className="hidden lg:block h-16" />
           </div>
           <div className="w-full lg:w-fit flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-12">
-            <div className="h-[160px] w-full lg:w-[396px] flex flex-col items-center justify-center bg-white p-3 lg:p-8 gap-2.5 lg:gap-5 rounded-[40px]">
-              <p className="text-lg lg:text-2xl font-semibold text-sona-blue">
-                Full Time <span className="text-sm">(40 hours/week)</span>
-              </p>
-              <p className="text-[22px] lg:text-2xl font-semibold text-sona-blue">
-                {
-                  service.price
-                    .toLocaleString("en-US", {
-                      style: "currency",
-                      currency: "GBP",
-                    })
-                    .split(".")[0]
-                }{" "}
-                / Month + VAT
-              </p>
-            </div>
-            {service.partTime && (
-              <div className="h-[160px] w-full lg:w-[396px] flex flex-col items-center justify-center bg-white p-3 lg:p-8 gap-2.5 lg:gap-5 rounded-[40px]">
-                <p className="text-lg lg:text-2xl font-semibold text-sona-blue">
-                  Part Time <span className="text-sm">(20 hours/week)</span>
+            <Dialog
+              dialogChild={({ onClose }) => (
+                <SubscribeModal
+                  onClose={onClose}
+                  service={{
+                    title: service.title + " (Full Time)",
+                    price: service.price,
+                    link: service.paymentLink?.fullTime || "",
+                  }}
+                />
+              )}
+            >
+              <button className="h-[160px] w-full lg:w-[396px] flex flex-col items-center justify-center bg-white hover:bg-sona-blue text-sona-blue hover:text-white p-3 lg:p-8 gap-2.5 lg:gap-5 rounded-[40px] duration-100">
+                <p className="text-lg lg:text-2xl font-semibold">
+                  Full Time <span className="text-sm">(40 hours/week)</span>
                 </p>
-                <p className="text-[22px] lg:text-2xl font-semibold text-sona-blue">
+                <p className="text-[22px] lg:text-2xl font-semibold">
                   {
-                    service.partTime
+                    service.price
                       .toLocaleString("en-US", {
                         style: "currency",
                         currency: "GBP",
@@ -53,7 +56,38 @@ const Subscribe = ({
                   }{" "}
                   / Month + VAT
                 </p>
-              </div>
+              </button>
+            </Dialog>
+            {service.partTime && (
+              <Dialog
+                dialogChild={({ onClose }) => (
+                  <SubscribeModal
+                    onClose={onClose}
+                    service={{
+                      title: service.title + " (Part Time)",
+                      price: service.partTime ?? 0,
+                      link: service.paymentLink?.partTime || "",
+                    }}
+                  />
+                )}
+              >
+                <button className="h-[160px] w-full lg:w-[396px] flex flex-col items-center justify-center bg-white hover:bg-sona-blue text-sona-blue hover:text-white p-3 lg:p-8 gap-2.5 lg:gap-5 rounded-[40px] duration-100">
+                  <p className="text-lg lg:text-2xl font-semibold">
+                    Part Time <span className="text-sm">(20 hours/week)</span>
+                  </p>
+                  <p className="text-[22px] lg:text-2xl font-semibold">
+                    {
+                      service.partTime
+                        .toLocaleString("en-US", {
+                          style: "currency",
+                          currency: "GBP",
+                        })
+                        .split(".")[0]
+                    }{" "}
+                    / Month + VAT
+                  </p>
+                </button>
+              </Dialog>
             )}
           </div>
         </div>
