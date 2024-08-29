@@ -64,9 +64,9 @@ const SubscribeModal = ({
         <hr className="my-3" />
       </div>
       <p className="text-light text-sm text-[#475467]">
-        To initiate your subscription, kindly click the subscribe button. This
-        will guide you through our streamlined payment procedure, which is
-        secure, quick, and easy.
+        You can cancel your subscription at any time. Cancellation will take
+        effect one month after your next billing cycle, and a final payment will
+        be charged.
       </p>
       <a
         href={service.link}
