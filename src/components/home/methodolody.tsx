@@ -29,6 +29,7 @@ const sections = [
     desc: "Enjoy our subscription based, on-demand service that connects you with developers and engineers who deliver genuine results within a set monthly package of hours. Experience flexibility and convenience through regular communication with assigned team members and project managers.",
     bgcolor: "bg-sona-lightPink",
     btnClass: "hover:bg-sona-pink text-sona-pink",
+    btnLable: "Subscribe",
     features: [
       {
         icon: Project,
@@ -90,7 +91,7 @@ const sections = [
     desc: "As your dedicated partner, we fulfil all your bespoke business needs, from ideation and prototyping to launch and ongoing maintenance. For bespoke projects requiring continuous iterations, we develop in two week sprints. With each sprint, we deliver a finished working product increment.",
     bgcolor: "bg-sona-lightPurple",
     btnClass: "hover:bg-sona-purple text-sona-purple",
-
+    btnLable: "Get a Quote",
     features: [
       {
         icon: Project,
@@ -213,7 +214,7 @@ const Methodolody = () => {
                   We sign NDA for all our projects
                 </p>
               </div>
-              {idx === 0 ? (
+              {idx === 1 ? (
                 <Link href={"/get-a-quote"}>
                   <button
                     className={cn(
