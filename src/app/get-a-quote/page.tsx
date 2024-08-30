@@ -21,7 +21,7 @@ export default function GetAQuote() {
       <Image
         src={GetQuoteBanner}
         alt="how-we-work"
-        className="absolute top-0 left-0 w-full h-full object-cover object-right lg:object-center z-[1]"
+        className="absolute top-0 left-0 w-full h-full object-cover object-[63%_0px] lg:object-center z-[1]"
         placeholder="blur"
       />
       <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>

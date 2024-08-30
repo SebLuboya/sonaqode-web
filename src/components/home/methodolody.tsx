@@ -24,6 +24,67 @@ import Link from "next/link";
 
 const sections = [
   {
+    label: "Monthly Subscription",
+    subLabel: "Hourly Based, Ongoing Contract",
+    desc: "Enjoy our subscription based, on-demand service that connects you with developers and engineers who deliver genuine results within a set monthly package of hours. Experience flexibility and convenience through regular communication with assigned team members and project managers.",
+    bgcolor: "bg-sona-lightPink",
+    btnClass: "hover:bg-sona-pink text-sona-pink",
+    features: [
+      {
+        icon: Project,
+        label: "Size of the project: Any, long term support",
+        color: "bg-[#DDF0FF]",
+      },
+      {
+        icon: Schedule,
+        label: "Scope: Flexible, within allocated hours per month",
+        color: "bg-[#FFB8B3]",
+      },
+      {
+        icon: Approach,
+        label: "Approach: Result driven",
+        color: "bg-[#FFE1B5]",
+      },
+      {
+        icon: Client,
+        label: "Client Control: Full",
+        color: "bg-[#BBCED7]",
+      },
+      {
+        icon: Admin,
+        label: "Flexibility: High",
+        color: "bg-[#9AA9FF]",
+      },
+      {
+        icon: Transparent,
+        label: "Communication: Designated Specialist",
+        color: "bg-[#93FF98]",
+      },
+    ],
+    benefits: [
+      {
+        label: "Subscribe",
+        desc: "Select the service and package that best suit your needs. Follow our quick payment process by providing your company details.",
+        circle: Pink25,
+      },
+      {
+        label: "Engage",
+        desc: "We will schedule a call to ascertain your requirements and expectations and introduce your assigned employee and dedicated manager.",
+        circle: Pink50,
+      },
+      {
+        label: "Cooperate",
+        desc: "Integrate your newly assigned team into your in-house team. Familiarise them with company practices, then assign tasks to unleash their capabilities.",
+        circle: Pink75,
+      },
+      {
+        label: "Commence",
+        desc: "Breathe, your ambitious onboarded team embodies an engineering ethos that embraces adaptability, drives continual improvement, and delivers unparalleled value.",
+        circle: Pink100,
+      },
+    ],
+  },
+  {
     label: "Scrum Team",
     subLabel: "Agile Methodology",
     desc: "As your dedicated partner, we fulfil all your bespoke business needs, from ideation and prototyping to launch and ongoing maintenance. For bespoke projects requiring continuous iterations, we develop in two week sprints. With each sprint, we deliver a finished working product increment.",
@@ -85,69 +146,8 @@ const sections = [
       },
       {
         label: "Support",
-        desc: "Our relationship with you doesn't end once your product is complete. We provide post deployment technical support to enhance and maintain your software. To guarantee long term reliability, our technical experts periodically assess the health of your product, evaluating system performance, database integration, and other key functionalities, ensuring it continues to meet your changing requirements.",
+        desc: "Our relationship with you doesn't end once your product is complete. We provide post deployment technical support to enhance and maintain your software. To guarantee long term reliability, our technical experts periodically assess the health of your product and other key functionalities, ensuring it continues to meet your changing requirements.",
         circle: Purple100,
-      },
-    ],
-  },
-  {
-    label: "Monthly Subscription",
-    subLabel: "Hourly Based, Ongoing Contract",
-    desc: "Enjoy our subscription based, on-demand service that connects you with developers and engineers who deliver genuine results within a set monthly package of hours. Experience flexibility and convenience through regular communication with assigned team members and project managers.",
-    bgcolor: "bg-sona-lightPink",
-    btnClass: "hover:bg-sona-pink text-sona-pink",
-    features: [
-      {
-        icon: Project,
-        label: "Size of the project: Any, long term support",
-        color: "bg-[#DDF0FF]",
-      },
-      {
-        icon: Schedule,
-        label: "Scope: Flexible, within allocated hours per month",
-        color: "bg-[#FFB8B3]",
-      },
-      {
-        icon: Approach,
-        label: "Approach: Result driven",
-        color: "bg-[#FFE1B5]",
-      },
-      {
-        icon: Client,
-        label: "Client Control: Full",
-        color: "bg-[#BBCED7]",
-      },
-      {
-        icon: Admin,
-        label: "Flexibility: High",
-        color: "bg-[#9AA9FF]",
-      },
-      {
-        icon: Transparent,
-        label: "Communication: Designated Specialist",
-        color: "bg-[#93FF98]",
-      },
-    ],
-    benefits: [
-      {
-        label: "Subscribe",
-        desc: "Select the service and package that best suit your needs. Follow our quick payment process by providing your company details.",
-        circle: Pink25,
-      },
-      {
-        label: "Engage",
-        desc: "We will schedule a call to ascertain your requirements and expectations and introduce your assigned employee and dedicated manager.",
-        circle: Pink50,
-      },
-      {
-        label: "Cooperate",
-        desc: "Integrate your newly assigned team into your in-house team. Familiarise them with company practices, then assign tasks to unleash their capabilities.",
-        circle: Pink75,
-      },
-      {
-        label: "Commence",
-        desc: "Breathe, your ambitious onboarded team embodies an engineering ethos that embraces adaptability, drives continual improvement, and delivers unparalleled value.",
-        circle: Pink100,
       },
     ],
   },
@@ -236,6 +236,16 @@ const Methodolody = () => {
                   </button>
                 </a>
               )}
+            </div>
+            <div className="relative w-full hidden lg:block">
+              <h2
+                className={cn(
+                  "absolute font-clash text-center text-[50px] w-full font-semibold leading-[60px] top-1/2 -translate-y-1/2 right-1/2 translate-x-[100%]",
+                  idx === 1 && "hidden",
+                )}
+              >
+                Onboarding Steps
+              </h2>
             </div>
             <div className="flex flex-col">
               {section.benefits.map((benefit, i) => (

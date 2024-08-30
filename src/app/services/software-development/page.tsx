@@ -46,6 +46,7 @@ const assist = [
   "E-commerce Solutions",
   "B2B Portal Development",
   "MVP Development",
+  "A/B testing",
 ];
 
 const faqData = [

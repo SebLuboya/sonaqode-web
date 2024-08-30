@@ -33,7 +33,7 @@ const assist = [
   "Thorough security assessments and code reviews.",
   "Compliance assurance for industry specific standards.",
   "Vulnerability testing and penetration testing.",
-  "Incident response planning and execution.",
+  "Auditing and reporting.",
   "Ongoing monitoring and support for application security.",
   "Security infrastructure design and deployment.",
   "Data protection and encryption mechanisms.",
