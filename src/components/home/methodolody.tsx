@@ -208,10 +208,10 @@ const Methodolody = () => {
                 <p
                   className={cn(
                     "text-sm lg:text-base text-center font-medium",
-                    idx === 1 && "opacity-0",
+                    idx === 0 && "opacity-0",
                   )}
                 >
-                  We sign NDA for all our projects
+                  We’re open to signing an NDA, if needed.
                 </p>
               </div>
               {idx === 1 ? (
