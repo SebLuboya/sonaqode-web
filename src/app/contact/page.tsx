@@ -34,7 +34,7 @@ export default function ContactUs() {
                 Have A Project?
               </h1>
               <p className="text-balance text-center text-sm lg:text-base">
-                Let’s connect
+                Let&apos;s connect
               </p>
             </div>
             <div className="w-full flex flex-col items-start gap-4 mt-5">
