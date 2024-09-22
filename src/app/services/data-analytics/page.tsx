@@ -74,7 +74,7 @@ const data = [
     title: "Data Engineer",
     description:
       "Our data engineers design, build, and maintain the data infrastructure and architecture necessary to collect, store, process, and analyse data. They enable real time data processing, personalise customer experiences, and inform decision making, making their role vital to any data driven organisation. Skilled in a diverse range of frameworks and tools, they drive the efficiency and effectiveness of your organisation’s data ecosystem.",
-    price: 2690,
+    price: 3490,
     icon: DataEngineer,
     list: [
       "Education: University Graduate, Degree",
@@ -89,7 +89,7 @@ const data = [
     title: "Data Analyst",
     description:
       "Unlock the potential of raw data by transforming it into valuable insights that enhance decision making, improve efficiency, and drive business growth. Our talented data analysts excel in interpreting data, generating reports, and creating visualisations, helping businesses stay competitive, gain deeper understanding of customers and markets, and adapt their strategies accordingly. Optimise operations, ensuring sustained success and profitability.",
-    price: 2390,
+    price: 2690,
     icon: BarChart,
     list: [
       "Education: University Graduate, Degree",
@@ -104,7 +104,7 @@ const data = [
     title: "Data Scientist",
     description:
       "Discover patterns, trends, and correlations in data that reveal insights into customer behavior, market trends, and operational performance. Our data scientists excel in data analysis, predictive modeling, and strategic insights, empowering businesses to optimise operations, innovate products and services, enhance customer experiences, and mitigate risks, thereby maintaining a competitive edge in the market.",
-    price: 2990,
+    price: 3790,
     icon: DataScience,
     list: [
       "Education: University Graduate, Degree",
@@ -119,7 +119,7 @@ const data = [
     title: "Business Intelligence Analyst",
     description:
       "Harness the power of data effectively, drive data driven decision making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information.",
-    price: 2490,
+    price: 2690,
     icon: BusinessIntelligence,
     list: [
       "Education: University Graduate, Degree",
@@ -134,7 +134,7 @@ const data = [
     title: "Automation Engineer",
     description:
       "Streamline your processes with our dedicated automation engineers. Leverage their proficiency in designing and implementing automated systems to optimise workflows, drive efficiency, enhance quality, and maintain competitiveness in a rapidly evolving market. Utilising cutting edge technologies and a commitment to innovation, our specialists are ready to revolutionise your workflow.",
-    price: 2590,
+    price: 3390,
     icon: Automation,
     list: [
       "Education: University Graduate, Degree",

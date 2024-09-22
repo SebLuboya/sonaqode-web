@@ -49,29 +49,29 @@ const assist = [
   "A/B testing",
 ];
 
-const faqData = [
-  {
-    question: "Is Sonaqode the best place to hire developers?",
-    answer:
-      "Certainly, we believe we excel in providing services. However, to remain objective, we continually strive to deliver world class standards. Our commitment surpasses meeting expectations; we prioritise client satisfaction.",
-  },
-  {
-    question: "How do your engineers and developers ensure code quality?",
-    answer:
-      "We prioritise delivering high quality, efficient, and reliable code. Our rigorous code review process engages multiple reviewers to meticulously detect errors or omissions. This guarantees that any issues are identified and resolved before the code is released.",
-  },
-  {
-    question:
-      "Who will be my main point of contact? Do I work directly with the developers?",
-    answer:
-      "We will provide you with a dedicated project manager and a team of professionals. Communication channels include phone, email, live chat, or messaging. Collaboration tools like Google Meet and Zoom will be used for effective communication and project management.",
-  },
-  {
-    question: "Can SonaQode build a Minimum Viable Product (MVP)?",
-    answer:
-      "Our software engineers have the capability to rapidly develop a minimum viable product (MVP) for your company, tailored to meet project requirements and timeline.",
-  },
-];
+// const faqData = [
+//   {
+//     question: "Is Sonaqode the best place to hire developers?",
+//     answer:
+//       "Certainly, we believe we excel in providing services. However, to remain objective, we continually strive to deliver world class standards. Our commitment surpasses meeting expectations; we prioritise client satisfaction.",
+//   },
+//   {
+//     question: "How do your engineers and developers ensure code quality?",
+//     answer:
+//       "We prioritise delivering high quality, efficient, and reliable code. Our rigorous code review process engages multiple reviewers to meticulously detect errors or omissions. This guarantees that any issues are identified and resolved before the code is released.",
+//   },
+//   {
+//     question:
+//       "Who will be my main point of contact? Do I work directly with the developers?",
+//     answer:
+//       "We will provide you with a dedicated project manager and a team of professionals. Communication channels include phone, email, live chat, or messaging. Collaboration tools like Google Meet and Zoom will be used for effective communication and project management.",
+//   },
+//   {
+//     question: "Can SonaQode build a Minimum Viable Product (MVP)?",
+//     answer:
+//       "Our software engineers have the capability to rapidly develop a minimum viable product (MVP) for your company, tailored to meet project requirements and timeline.",
+//   },
+// ];
 
 const data = [
   {
