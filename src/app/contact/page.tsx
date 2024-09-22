@@ -39,7 +39,7 @@ export default function ContactUs() {
             </div>
             <div className="w-full flex flex-col items-start gap-4 mt-5">
               <p className="text-balance text-center text-sm lg:text-base font-light">
-                Send your details and we’ll get in touch
+                Send your details and we&apos;ll get in touch
               </p>
               {data.map((item) => (
                 <div key={item} className="flex flex-row items-center gap-4">
