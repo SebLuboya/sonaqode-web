@@ -19,6 +19,7 @@ export const FaqItem = ({
       className={cn(
         "flex flex-row items-start gap-5 lg:gap-6 p-6 lg:p-8 rounded-[30px] cursor-pointer duration-150",
         isOpen && "bg-white",
+        isOpen ? "py-6 lg:py-8" : "py-2 lg:py-4",
       )}
     >
       <button onClick={() => setisOpen((prev) => !prev)}>
