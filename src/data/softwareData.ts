@@ -30,8 +30,8 @@ export const softwareData: IService[] = [
     title: "Mobile App Developer",
     icon: ServiceIcon.AngleBrackets,
     image: ServiceImage.MobileAppDeveloper,
-    price: 2890,
-    partTime: 2190,
+    price: 3180,
+    partTime: 2080,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C4E09X9K",
       partTime: "https://pay.gocardless.com/BRT0003C75125QD",
@@ -117,8 +117,8 @@ export const softwareData: IService[] = [
     title: "Full Stack Developer",
     description:
       "Access skilled web developers who can construct high-performance, modern web applications from scratch. Our full-stack developers excel in both Front-end and Back-end technologies, delivering fully customised web apps that meet your precise requirements. They ensure excellent performance and provide end-to-end solutions that are reliable and scalable.",
-    price: 3090,
-    partTime: 2190,
+    price: 3180,
+    partTime: 2145,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C75BNAKA",
       partTime: "https://pay.gocardless.com/BRT0003C75GRFMA",
@@ -217,8 +217,8 @@ export const softwareData: IService[] = [
     title: "Frontend Developer",
     description:
       "Our front-end developers craft intuitive, efficient, and enjoyable user web and mobile applications by expertly wielding a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They seamlessly integrate design, technology, and usability principles to deliver customised solutions that enhance engagement and accessibility, perfectly aligning with your unique brand needs.",
-    price: 2690,
-    partTime: 1590,
+    price: 2780,
+    partTime: 1780,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C75R6A51",
       partTime: "https://pay.gocardless.com/BRT0003C75Y1DFX",
@@ -301,8 +301,8 @@ export const softwareData: IService[] = [
     title: "Backend Developer",
     description:
       "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server-side solutions using cutting edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
-    price: 2690,
-    partTime: 1590,
+    price: 2780,
+    partTime: 1780,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C765F9TB",
       partTime: "https://pay.gocardless.com/BRT0003C769Q25W",
@@ -384,7 +384,7 @@ export const softwareData: IService[] = [
     title: "UI/UX Designer",
     description:
       "Our innovative designers excel at crafting visually appealing, highly functional, and user friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
-    price: 2090,
+    price: 2180,
     partTime: 1390,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C76P7FXQ",
