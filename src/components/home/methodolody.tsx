@@ -65,7 +65,7 @@ const sections = [
     benefits: [
       {
         label: "Subscribe",
-        desc: "Select the service and package that best suit your needs. Follow our quick payment process by providing your company details.",
+        desc: "Select the service and package that best suits your needs. Follow our quick payment process by providing your company details.",
         circle: Pink25,
       },
       {

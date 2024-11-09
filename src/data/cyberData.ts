@@ -307,7 +307,7 @@ export const cyberData: IService[] = [
   {
     title: "Cyber Security Analyst",
     description:
-      "Our Cyber Security Analysts safeguard digital assets against evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. Leveraging a deep understanding of the cybersecurity landscape and strong problem-solving abilities, they monitor and analyse security systems, scrutinise network traffic, identify anomalies, and promptly respond to potential security incidents.",
+      "Our Cyber Security Analysts safeguard digital assets against evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. Leveraging a deep understanding of the cybersecurity landscape and strong problem solving abilities, they monitor and analyse security systems, scrutinise network traffic, identify anomalies, and promptly respond to potential security incidents.",
     price: 2990,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C7A0Q0P6",

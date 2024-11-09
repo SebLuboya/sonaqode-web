@@ -12,7 +12,7 @@ const whys = [
   },
   {
     label: "Elevating Communities",
-    desc: "As a people-first company, we value our local community and actively support it by investing in the tools, skills, and education needed to create communities that are inspired, capable, and confident in driving change.",
+    desc: "As a people first company, we value our local community and actively support it by investing in the tools, skills, and education needed to create communities that are inspired, capable, and confident in driving change.",
     color: "bg-[#93FF98]",
     icon: Crowd,
   },

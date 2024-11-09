@@ -31,7 +31,7 @@ const faqData = [
   },
   {
     question:
-      "How can I ensure effective communication with a Developer/Engineer?",
+      "How can I ensure effective communication with a Developer & Engineer?",
     answer:
       "Maintaining clear and effective communication is crucial for the success of any project. You will have direct communication channels with the dedicated developers working on your project. We establish strong communication channels and regular check ins from the outset to ensure this. Our toolkit for effective communication usually includes tools Skype, Teams, Email, Zoom, Jira, Confluence, and Slack.",
   },

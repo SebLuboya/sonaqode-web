@@ -65,7 +65,7 @@ const faqData = [
     question:
       "Who will be my main point of contact? Do I work directly with the developers?",
     answer:
-      "We will assign a relevant professional either a project manager or developer/engineer. Our team will be available to you at all times via any communication channel of your choice. We also use different collaboration tools, such as Redmine, to communicate with our customers.",
+      "We will assign a relevant professional either a project manager or developer & Engineer. Our team will be available to you at all times via any communication channel of your choice. We also use different collaboration tools, such as Redmine, to communicate with our customers.",
   },
 ];
 

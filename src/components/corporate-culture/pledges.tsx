@@ -8,19 +8,19 @@ const data = [
   {
     label: "SDG 8",
     sublabel: "Decent Work and Economic Growth",
-    desc: "We commit to investing in training and professional qualifications to empower team members to advance into senior and higher-paying roles. Additionally, we will bolster the growth of our operational digital economy by enhancing citizen services and facilitating improved access to online services.",
+    desc: "We commit to investing in training and professional qualifications to empower team members to advance into senior and higher paying roles. Additionally, we will bolster the growth of our operational digital economy by enhancing citizen services and facilitating improved access to online services.",
     image: Sdg1,
   },
   {
     label: "SDG 3",
     sublabel: "Good Health and Wellbeing",
-    desc: "At the core of our organisation are people, and their well being is our utmost priority. We strive to foster open discussions about mental health, promote work-life balance, incentivise healthy habits, and engage you with exciting wellness initiatives.",
+    desc: "At the core of our organisation are people, and their well being is our utmost priority. We strive to foster open discussions about mental health, promote work life balance, incentivise healthy habits, and engage you with exciting wellness initiatives.",
     image: Sdg2,
   },
   {
     label: "SDG 5",
     sublabel: "Gender Equality",
-    desc: "We position ourselves as a progressive company and actively champion gender equality by promoting women's participation in the workforce and leadership roles. Fostering a diverse and inclusive workplace broadens perspectives, stimulates innovation, and enhances  problem-solving capabilities within the company.",
+    desc: "We position ourselves as a progressive company and actively champion gender equality by promoting women's participation in the workforce and leadership roles. Fostering a diverse and inclusive workplace broadens perspectives, stimulates innovation, and enhances  problem solving capabilities within the company.",
     image: Sdg3,
   },
   {

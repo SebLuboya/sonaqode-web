@@ -2,7 +2,6 @@ import { GlobalReach, People } from "@/assets/images";
 import OurImpact from "@/components/corporate-culture/ourImpact";
 import Pledges from "@/components/corporate-culture/pledges";
 import WeAchieve from "@/components/corporate-culture/weAchieve";
-import Button from "@/components/misc/button";
 import { cn } from "@/utils";
 import Image from "next/image";
 import React from "react";
@@ -29,14 +28,15 @@ export default function CorporateCulture() {
             <h1 className="font-clash text-2xl md:text-4xl xl:text-[56px] font-semibold xl:leading-[68px] md:w-[400px] xl:w-[634px]">
               Corporate Culture
             </h1>
-            <p className="text-sm xl:text-lg md:max-w-[550px] xl:max-w-[680px] font-light">
+            <p className="text-sm md:text-base xl:text-lg md:max-w-[550px] xl:max-w-[680px] font-light">
               At Sonaqode, we integrate corporate social responsibility into our
-              corporate strategy to enrich the lives of our team members and
-              uplift the communities where we operate. Therefore, we actively
-              enhance the social, economic, educational, and environmental well
-              being of our communities and the world. We establish and pursue
-              clear commitments in these areas, demonstrating our dedication to
-              building a thriving workforce.
+              strategy to enrich the lives of our team members and uplift the
+              communities in which we operate. We demonstrate our commitment
+              through proactive initiatives that promote social, economic,
+              educational, and environmental well-being at both local and global
+              levels. By establishing and pursuing clear objectives in these
+              areas, we reinforce our dedication to nurturing a thriving and
+              responsible workforce.
             </p>
           </div>
         </div>

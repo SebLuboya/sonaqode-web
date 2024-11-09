@@ -60,7 +60,7 @@ export const softwareData: IService[] = [
       // {
       //   title: "Soft Skills",
       //   values: [
-      //     "Problem-solving: Ability to break down complex problems into smaller, manageable steps.",
+      //     "problem solving: Ability to break down complex problems into smaller, manageable steps.",
       //     "Communication: Effective collaboration with designers, backend developers, and other team members.",
       //     "Time management: Ability to meet deadlines and prioritise tasks efficiently.",
       //     "Adaptability: Staying updated with the latest mobile development trends and technologies.",
@@ -163,7 +163,7 @@ export const softwareData: IService[] = [
       // {
       //   title: "Soft Skills",
       //   values: [
-      //     "Problem-solving: Ability to break down complex issues and find effective solutions.",
+      //     "problem solving: Ability to break down complex issues and find effective solutions.",
       //     "Design thinking: Understanding user needs and creating intuitive user experiences.",
       //     "Communication: Effectively collaborating with different teams and stakeholders.",
       //     "Time management: Ability to prioritise tasks and meet deadlines.",
@@ -247,7 +247,7 @@ export const softwareData: IService[] = [
       // {
       //   title: "Soft Skills",
       //   values: [
-      //     "Problem-solving: Ability to find creative solutions to technical challenges.",
+      //     "problem solving: Ability to find creative solutions to technical challenges.",
       //     "Attention to detail: Ensuring pixel-perfect designs and accurate code.",
       //     "Communication: Effectively collaborating with designers, back-end developers, and stakeholders.",
       //     "User centricity: Understanding user needs and designing accordingly.",
@@ -321,7 +321,7 @@ export const softwareData: IService[] = [
           "Databases: Strong understanding of both SQL MySQL, PostgreSQL and NoSQL MongoDB, Cassandra databases.",
           "Server-side frameworks: Experienced with Django, Flask, Ruby on Rails, Express.js.",
           "API development: Ability to build RESTful or GraphQL APIs for data exchange.",
-          "Data structures and algorithms: A good understanding of core data structures and algorithms for efficient problem-solving.",
+          "Data structures and algorithms: A good understanding of core data structures and algorithms for efficient problem solving.",
           "Version control: Proficient in Git and GitHub.",
           "Testing: Ability to write tests and effectively troubleshoot issues to ensure code quality.",
           "Cloud platforms: Familiar with AWS, Azure, and GCP for deployment and scaling.",
@@ -330,7 +330,7 @@ export const softwareData: IService[] = [
       // {
       //   title: "Soft Skills",
       //   values: [
-      //     "Problem-solving: Ability to analyse complex issues and find effective solutions.",
+      //     "problem solving: Ability to analyse complex issues and find effective solutions.",
       //     "System design: Proficient in designing scalable and efficient backend systems.",
       //     "Data analysis: Strong understanding of data and the ability to derive insights from it.",
       //     "Communication: Effectively collaborating with front-end developers and other team members.",
@@ -559,7 +559,7 @@ export const softwareData: IService[] = [
       //     "Analytical Thinking: Identifying potential issues and root causes.",
       //     "Attention to Detail: Thoroughness in testing to uncover defects.",
       //     "Communication: Effectively conveying test results and issues.",
-      //     "Problem-solving: Finding solutions to complex testing challenges.",
+      //     "problem solving: Finding solutions to complex testing challenges.",
       //     "Teamwork: Collaborating with developers, project managers, and other stakeholders.",
       //   ],
       // },
@@ -610,7 +610,7 @@ export const softwareData: IService[] = [
   {
     title: "IT Support Engineer",
     description:
-      "Our IT Engineers provide comprehensive technical support, collaborating with cross functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem-solving and proactively identify and implement improvements to enhance overall performance.",
+      "Our IT Engineers provide comprehensive technical support, collaborating with cross functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem solving and proactively identify and implement improvements to enhance overall performance.",
     price: 899,
     partTime: 549,
     paymentLink: {
@@ -620,7 +620,7 @@ export const softwareData: IService[] = [
     icon: ServiceIcon.ItSupport,
     image: ServiceImage.ItSupportEngineer,
     roles: [
-      "Sonaqode's IT Support Engineers leverage advanced tools to deliver efficient problem resolutions. Through rigorous problem-solving, these experts ensure smooth operations for your organisation. They go beyond treating incident resolution as a discrete function at the end of the service lifecycle, embedding user satisfaction in every IT interaction. Our IT support engineers develop top notch incident management processes and knowledge bases to inform decisions and optimise operations. Boost user productivity, service speed, and overall efficiency with our user centric approach.",
+      "Sonaqode's IT Support Engineers leverage advanced tools to deliver efficient problem resolutions. Through rigorous problem solving, these experts ensure smooth operations for your organisation. They go beyond treating incident resolution as a discrete function at the end of the service lifecycle, embedding user satisfaction in every IT interaction. Our IT support engineers develop top notch incident management processes and knowledge bases to inform decisions and optimise operations. Boost user productivity, service speed, and overall efficiency with our user centric approach.",
       "By reducing downtime, enhancing user experience, and minimising IT-related risks, they deliver a competitive advantage rather than just reactive IT support. Engage dedicated IT Support Engineers who are highly experienced in troubleshooting, software installation, hardware maintenance, and network support, with acclaimed expertise in integrating emerging tech trends such as cloud computing, remote support, and IT automation to achieve exceptional service delivery. Choosing us means faster incident resolution, improved user satisfaction, and enhanced business continuity.",
     ],
     skillSet: [
@@ -639,7 +639,7 @@ export const softwareData: IService[] = [
       // {
       //   title: "Soft Skills",
       //   values: [
-      //     "Problem-solving: Ability to diagnose and resolve technical issues efficiently.",
+      //     "problem solving: Ability to diagnose and resolve technical issues efficiently.",
       //     "Customer Service: Excellent communication and interpersonal skills, providing clear and helpful explanations to users.",
       //     "Time Management: Prioritising tasks and managing multiple requests.",
       //     "Attention to Detail: Accurate documentation of issues and solutions.",

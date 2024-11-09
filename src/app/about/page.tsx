@@ -34,9 +34,9 @@ export default function AboutUs() {
               helping businesses scale and grow. We focus on optimising budgets,
               accelerating growth, and avoiding the pitfalls of traditional
               outsourcing. By providing efficient, on-demand access to top-tier
-              talent, we empower you to achieve exceptional results swiftly. Our
-              professionals seamlessly integrate, mirroring the dedication of
-              your in-house team.
+              talent from across Africa, we empower you to achieve exceptional
+              results swiftly. Our professionals seamlessly integrate, mirroring
+              the dedication of your in-house team.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function AboutUs() {
             <div>
               <p className="text-sm lg:text-lg text-gray-600">
                 To spearhead and propel digital services through AI and
-                Technology from Africa to the world.
+                technology from Africa to the world.
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function AboutUs() {
             </div>
             <div>
               <p className="text-sm lg:text-lg text-gray-600">
-                To be the leading Technology staffing company committed in
+                To be the leading technology staffing company committed in
                 solving deep tech industry challenges.
               </p>
             </div>
