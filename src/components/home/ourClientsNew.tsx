@@ -2,33 +2,8 @@
 import React, { useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { cn } from "@/utils";
-
-const data = [
-  {
-    name: "John Doe",
-    position: "CEO, Company",
-    review: "",
-    country: "",
-  },
-  {
-    name: "John Doe",
-    position: "CEO, Company",
-    review: "",
-    country: "",
-  },
-  {
-    name: "John Doe",
-    position: "CEO, Company",
-    review: "",
-    country: "",
-  },
-  {
-    name: "John Doe",
-    position: "CEO, Company",
-    review: "",
-    country: "",
-  },
-];
+import { clientData } from "@/components/home/clientData";
+import Image from "next/image";
 
 const OurClientsNew = () => {
   const [offset, setOffset] = useState(false);
@@ -47,7 +22,7 @@ const OurClientsNew = () => {
           </p>
         </div>
 
-        <div className="relative flex flex-row w-full justify-between items-center mt-24 overflow-clip pt-[97.5px] overflow-x-scroll scrollbar-none">
+        <div className="relative flex flex-row w-full justify-between items-stretch mt-16 overflow-clip pt-[97.5px] overflow-x-scroll scrollbar-none">
           <button
             disabled={!offset}
             onClick={() => {
@@ -66,31 +41,30 @@ const OurClientsNew = () => {
           >
             <ArrowRight />
           </button>
-          {data.map((item, i) => (
+          {clientData.map((item, i) => (
             <div
               key={i}
               className={cn(
-                "flex shrink-0 flex-col gap-3 relative bg-white rounded-[50px] w-[calc(33%-7px)] mr-4 px-6 pb-14 duration-150",
+                "flex shrink-0 flex-col gap-3 relative bg-white rounded-[50px] w-[calc(33%-7px)] mr-4 px-6 pb-14 duration-300",
                 offset && "-translate-x-[calc(100%+16px)]",
               )}
             >
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[115px] h-[115px] justify-center items-center p-3 bg-[#EFF4FF] rounded-full"></div>
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[115px] h-[115px] justify-center items-center p-3 bg-[#EFF4FF] rounded-full">
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-full rounded-full object-contain"
+                />
+              </div>
               <div className="flex flex-row justify-between mt-20">
                 <div className="flex flex-col">
-                  <p className="font-semibold text-xl">Fizel Nejabat {i}</p>
-                  <p className="text-sm">CEO, Performr Group ltd</p>
+                  <p className="font-semibold text-xl">{item.name}</p>
+                  <p className="text-sm">{item.position}</p>
                 </div>
-                <p className="text-sm">UK 🇬🇧</p>
+                <p className="text-sm">{item.country}</p>
               </div>
               <p className="text-sm leading-[26px] text-[#667085] font-light">
-                I approached Sonaqode with a tight timeline to develop version 1
-                of our MVP. From the outset of the onboarding process, I was
-                immediately impressed by their professionalism and thoroughness.
-                They selected the most suitable candidates who demonstrated a
-                clear understanding of our requirements and delivered on them
-                effectively, maintaining excellent communication throughout. We
-                were thrilled with the quality of the product delivered and are
-                now collaborating on version 2.
+                {item.review}
               </p>
             </div>
           ))}
