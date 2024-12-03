@@ -34,7 +34,7 @@ export default function Home() {
           <div className="w-full lg:w-3/5 flex flex-col gap-10 h-full">
             <div className="flex flex-col gap-2">
               <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] capitalize mb-3">
-                We provide top-tier tech professionals
+                On-demand talent solution helping you thrive
               </h2>
               <p className="font-light text-sm lg:text-[17px] text-gray-500 leading-[27px]">
                 We connect you with top-tier tech professionals to build a

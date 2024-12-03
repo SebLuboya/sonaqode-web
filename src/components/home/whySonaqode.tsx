@@ -39,10 +39,10 @@ const WhySonaqode = () => {
             Why SonaQode
           </h2>
           <p className="text-gray-600 text-sm lg:text-base text-center text-balance font-light leading-5 mt-3">
-            Sonaqode is synonymous with top class quality and reliability. Our
-            team of specialists brings extensive experience in various verticals
-            and is always prepared to address any challenges your business faces
-            promptly.
+            Sonaqode is synonymous with top class quality and reliability,
+            featuring specialists with extensive experience across various
+            industries who are always prepared to address any challenges your
+            business faces promptly.
           </p>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 mt-14 gap-5 lg:gap-12">
             {whys.map((why) => (

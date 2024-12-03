@@ -15,9 +15,9 @@ const faqData = [
       "We recognise that project needs can shift. To accommodate changes, we promptly adjust our team by adding or replacing members, minimising disruptions to your project timeline. Our commitment is to remain adaptable and responsive to your evolving requirements.",
   },
   {
-    question: "How do we assure privacy and confidentiality?",
+    question: "How experienced are your professionals?",
     answer:
-      "We prioritise data security and privacy. We employ robust data protection measures, including encryption, secure authentication protocols, and conduct security audits and compliance checks to ensure adherence to industry standards like GDPR & HIPAA. We are open to signing a non disclosure agreement (NDA) with you that legally binds us to hold all the information, including any proprietary or project-related information exchanged during sales inquiries or over the course of our contract, in strict confidence.",
+      "Our professionals are highly experienced and have a proven track record in their respective fields. All are university graduates and bring a minimum of three years of industry experience to the table. They combine a strong educational foundation with practical expertise, empowering them to craft high quality solutions tailored to your business's unique needs.",
   },
   {
     question: "How does the onboarding process work?",
@@ -34,6 +34,11 @@ const faqData = [
       "How can I ensure effective communication with a Developer & Engineer?",
     answer:
       "Maintaining clear and effective communication is crucial for the success of any project. You will have direct communication channels with the dedicated developers working on your project. We establish strong communication channels and regular check ins from the outset to ensure this. Our toolkit for effective communication usually includes tools Skype, Teams, Email, Zoom, Jira, Confluence, and Slack.",
+  },
+  {
+    question: "Are your professionals fluent in English?",
+    answer:
+      "Yes, all our professionals are fluent in English, ensuring clear and effective communication throughout every stage of your project. This proficiency enables seamless collaboration and a thorough understanding of your requirements.",
   },
 ];
 

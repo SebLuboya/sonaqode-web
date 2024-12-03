@@ -35,8 +35,13 @@ export default function AboutUs() {
               accelerating growth, and avoiding the pitfalls of traditional
               outsourcing. By providing efficient, on-demand access to top-tier
               talent from across Africa, we empower you to achieve exceptional
-              results swiftly. Our professionals seamlessly integrate, mirroring
-              the dedication of your in-house team.
+              results swiftly. Allowing you to focus on growing your business
+              while we expertly manage your staffing needs.
+            </p>
+            <p className="text-sm md:text-base xl:text-lg md:max-w-[550px] xl:max-w-[680px] font-light">
+              We understand that achieving your success means securing the best
+              talent, and our dedicated team of specialists stands ready to
+              support you at every step.
             </p>
           </div>
         </div>
@@ -111,12 +116,12 @@ export default function AboutUs() {
                 Global Reach
               </h2>
               <p className="text-sm lg:text-lg font-light text-balance">
-                With our roots in the UK we cater to the needs of global
-                entities. Continuously learning from our clients, our mature
-                collaboration strategies enable us to overcome geographic,
-                language and cultural barriers, to communicate and coordinate
-                inter-team dependencies efficiently within the shared
-                infrastructure and across multiple locations.
+                With our roots in the UK and Ghana's alignment with the GMT time
+                zone, we cater to the needs of global entities. Our specialists
+                work within your business hours, and our mature collaboration
+                strategies enable us to overcome geographic, language, and
+                cultural barriers, ensuring cohesive communication and
+                exceptional results.
               </p>
             </div>
           </div>
