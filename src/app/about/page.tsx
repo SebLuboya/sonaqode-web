@@ -35,8 +35,7 @@ export default function AboutUs() {
               accelerating growth, and avoiding the pitfalls of traditional
               outsourcing. By providing efficient, on-demand access to top-tier
               talent from across Africa, we empower you to achieve exceptional
-              results swiftly. Allowing you to focus on growing your business
-              while we expertly manage your staffing needs.
+              results swiftly.
             </p>
             <p className="text-sm md:text-base xl:text-lg md:max-w-[550px] xl:max-w-[680px] font-light">
               We understand that achieving your success means securing the best
