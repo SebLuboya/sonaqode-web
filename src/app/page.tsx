@@ -4,9 +4,9 @@ import HomeImageCarosel from "@/components/misc/homeImageCarosel";
 import OurServices from "@/components/home/ourServices";
 import WhySonaqode from "@/components/home/whySonaqode";
 import Methodolody from "@/components/home/methodolody";
-import OurClients from "@/components/home/ourClients";
 import Button from "@/components/misc/button";
 import Link from "next/link";
+import OurClientsNew from "@/components/home/ourClientsNew";
 
 export default function Home() {
   return (
@@ -89,7 +89,7 @@ export default function Home() {
         </div>
       </section>
       <Methodolody />
-      <OurClients />
+      <OurClientsNew />
     </main>
   );
 }
