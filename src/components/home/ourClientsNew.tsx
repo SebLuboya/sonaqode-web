@@ -6,7 +6,7 @@ import { clientData } from "@/components/home/clientData";
 import Image from "next/image";
 
 const OurClientsNew = () => {
-  const [offset, setOffset] = useState(false);
+  const [offset, setOffset] = useState(0);
 
   return (
     <section className="py-16 lg:py-28 px-5">
@@ -22,31 +22,42 @@ const OurClientsNew = () => {
           </p>
         </div>
 
-        <div className="relative flex flex-row w-full justify-between items-stretch mt-16 overflow-clip pt-[97.5px] overflow-x-scroll scrollbar-none">
+        <div className="relative flex flex-row w-full justify-start items-stretch mt-16 overflow-clip pt-[97.5px] scrollbar-none">
           <button
-            disabled={!offset}
+            disabled={offset === 0}
             onClick={() => {
-              setOffset(false);
+              setOffset((prev) => prev - 1);
             }}
             className="absolute top-0 left-5 w-12 h-12 flex items-center justify-center rounded bg-white text-sona-blue disabled:opacity-60 hover:shadow-xl shadow-black/30 duration-100"
           >
             <ArrowLeft />
           </button>
           <button
-            disabled={offset}
+            disabled={clientData.length % 3 === offset}
             onClick={() => {
-              setOffset(true);
+              setOffset((prev) => prev + 1);
             }}
-            className="absolute top-0 right-5 w-12 h-12 flex items-center justify-center rounded bg-white text-sona-blue disabled:opacity-60 hover:shadow-xl shadow-black/30 duration-100"
+            className="absolute top-0 right-5 w-12 h-12 hidden lg:flex items-center justify-center rounded bg-white text-sona-blue disabled:opacity-60 hover:shadow-xl shadow-black/30 duration-100"
+          >
+            <ArrowRight />
+          </button>
+          <button
+            disabled={clientData.length - 1 === offset}
+            onClick={() => {
+              setOffset((prev) => prev + 1);
+            }}
+            className="absolute top-0 right-5 w-12 h-12 flex lg:hidden items-center justify-center rounded bg-white text-sona-blue disabled:opacity-60 hover:shadow-xl shadow-black/30 duration-100"
           >
             <ArrowRight />
           </button>
           {clientData.map((item, i) => (
             <div
               key={i}
+              style={{
+                transform: `translateX(calc(${offset * -100}% - ${offset * 16}px))`,
+              }}
               className={cn(
-                "flex shrink-0 flex-col gap-3 relative bg-white rounded-[50px] w-[calc(33%-7px)] mr-4 px-6 pb-14 duration-300",
-                offset && "-translate-x-[calc(100%+16px)]",
+                "flex shrink-0 flex-col gap-3 relative bg-white rounded-[50px] w-[calc(100%)] lg:w-[calc(33.33333%-11.5px)] mr-4 px-6 pb-14 duration-300",
               )}
             >
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[115px] h-[115px] justify-center items-center p-3 bg-[#EFF4FF] rounded-full">
