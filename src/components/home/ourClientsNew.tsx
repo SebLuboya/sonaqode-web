@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { cn } from "@/utils";
 import { clientData } from "@/components/home/clientData";
 import Image from "next/image";
+import ReactCountryFlag from "react-country-flag";
 
 const OurClientsNew = () => {
   const [offset, setOffset] = useState(0);
@@ -72,7 +73,12 @@ const OurClientsNew = () => {
                   <p className="font-semibold text-xl">{item.name}</p>
                   <p className="text-sm">{item.position}</p>
                 </div>
-                <p className="text-sm">{item.country}</p>
+                <p className="text-sm">
+                  {item.country}
+                  <span>
+                    <ReactCountryFlag countryCode={item.countryCode} svg />
+                  </span>
+                </p>
               </div>
               <p className="text-sm leading-[26px] text-[#667085] font-light">
                 {item.review}
