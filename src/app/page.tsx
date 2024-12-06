@@ -42,7 +42,7 @@ export default function Home() {
                 accelerate growth and innovation, propelling your business to
                 new heights. From start-ups to established enterprises, we align
                 your goals with expert teams and professionals through our
-                seamless, comprehensive model.
+                seamless and flexible model.
               </p>{" "}
               <p className="font-light text-sm lg:text-[17px] text-gray-500 leading-[27px]">
                 Allowing you to focus on growing your business while we expertly
