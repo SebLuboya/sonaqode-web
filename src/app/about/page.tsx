@@ -9,6 +9,8 @@ import React from "react";
 
 export const metadata = {
   title: "About Us – Sonaqode",
+  description:
+    "We connect you with top-tier tech professionals to build a resilient, extended remote workforce.",
 };
 
 export default function AboutUs() {
