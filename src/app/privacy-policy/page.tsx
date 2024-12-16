@@ -2,6 +2,8 @@ import React from "react";
 
 export const metadata = {
   title: "Privacy Policy – Sonaqode",
+  description:
+    "We connect you with top-tier tech professionals to build a resilient, extended remote workforce.",
 };
 
 const data = [

@@ -4,29 +4,6 @@ import * as ServiceImage from "@/assets/images/services";
 
 export const softwareData: IService[] = [
   {
-    title: "Mobile App Developer2",
-    icon: ServiceIcon.AngleBrackets,
-    price: 2690,
-    partTime: 1275,
-    description:
-      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
-    image: ServiceImage.MobileAppDeveloper,
-    roles: [""],
-    skillSet: [
-      {
-        title: "Technical Skills",
-        values: [""],
-      },
-      { title: "Experience", values: [""] },
-    ],
-    keyDeliverables: [
-      {
-        title: "",
-        values: [""],
-      },
-    ],
-  },
-  {
     title: "Mobile App Developer",
     icon: ServiceIcon.AngleBrackets,
     image: ServiceImage.MobileAppDeveloper,
