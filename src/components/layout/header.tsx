@@ -1,5 +1,5 @@
 "use client";
-import { Chart, Code, Password, SonaqodeDarkIcon } from "@/assets/icons";
+import { Chart, Code, SonaqodeDarkIcon } from "@/assets/icons";
 import ChevronDown from "@/assets/icons/glyphs/ChevronDown";
 import CloseIcon from "@/assets/icons/glyphs/CloseIcon";
 import Menu from "@/assets/icons/glyphs/Menu";
@@ -34,12 +34,12 @@ const links = [
         color: "bg-[#FFE1A5]",
         icon: Chart,
       },
-      {
-        label: "Cyber Security",
-        link: "/services/cyber-security",
-        color: "bg-[#93FF98]",
-        icon: Password,
-      },
+      // {
+      //   label: "Cyber Security",
+      //   link: "/services/cyber-security",
+      //   color: "bg-[#93FF98]",
+      //   icon: Password,
+      // },
     ],
   },
   {

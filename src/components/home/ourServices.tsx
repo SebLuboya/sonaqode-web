@@ -1,6 +1,6 @@
 "use client";
 import {
-  CyberSecurity,
+  // CyberSecurity,
   DataAnalytics,
   SoftwareDevelopment,
 } from "@/assets/images";
@@ -26,14 +26,14 @@ const services = [
     color: "bg-sona-lightPink",
     btncolor: "bg-sona-midPink",
   },
-  {
-    label: "Cyber Security",
-    image: CyberSecurity,
-    desc: "At Sonaqode we offer top-tier cybersecurity specialists who are dedicated to safeguarding your company's digital assets, minimising the risk of cyber threats, and ensuring the confidentiality and integrity of your data.",
-    link: "/services/cyber-security",
-    color: "bg-sona-lightGreen",
-    btncolor: "bg-sona-midGreen",
-  },
+  // {
+  //   label: "Cyber Security",
+  //   image: CyberSecurity,
+  //   desc: "At Sonaqode we offer top-tier cybersecurity specialists who are dedicated to safeguarding your company's digital assets, minimising the risk of cyber threats, and ensuring the confidentiality and integrity of your data.",
+  //   link: "/services/cyber-security",
+  //   color: "bg-sona-lightGreen",
+  //   btncolor: "bg-sona-midGreen",
+  // },
 ];
 
 const OurServices = () => {
@@ -45,7 +45,7 @@ const OurServices = () => {
       <h2 className="font-clash text-[50px] font-semibold leading-[60px]">
         Our Services
       </h2>
-      <div className="relative w-full lg:max-w-[1260px] mx-auto flex flex-col items-center gap-11 md:gap-8 xl:gap-11 lg:flex-row justify-between">
+      <div className="relative w-full lg:max-w-[1260px] mx-auto flex flex-col items-center gap-11 md:gap-8 xl:gap-11 lg:flex-row justify-center">
         {services.map((service) => (
           <div
             key={service.label}

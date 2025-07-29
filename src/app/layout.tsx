@@ -5,6 +5,7 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import Providers from "@/app/providers";
 import { baseUrl } from "@/utils";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Sonaqode - Aligning Talent",
@@ -66,6 +67,7 @@ export default function RootLayout({
         <Header />
         <Providers>{children}</Providers>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
