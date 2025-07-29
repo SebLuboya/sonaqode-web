@@ -26,10 +26,10 @@ const links = [
   {
     label: "Services",
     content: [
-      {
-        label: "Cybersecurity",
-        link: "/services/cyber-security",
-      },
+      // {
+      //   label: "Cybersecurity",
+      //   link: "/services/cyber-security",
+      // },
       {
         label: "Data Analytics",
         link: "/services/data-analytics",

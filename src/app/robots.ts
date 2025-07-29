@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { baseUrl } from "@/utils";
-import { cyberData } from "@/data/cyberData";
+// import { cyberData } from "@/data/cyberData";
 import { analyticesData } from "@/data/analyticesData";
 import { softwareData } from "@/data/softwareData";
 
@@ -15,10 +15,10 @@ export default function robots(): MetadataRoute.Robots {
       `/services/data-analytics/${item.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`,
   );
 
-  const cyberServices = cyberData.map(
-    (item) =>
-      `/services/cyber-security/${item.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`,
-  );
+  // const cyberServices = cyberData.map(
+  //   (item) =>
+  //     `/services/cyber-security/${item.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`,
+  // );
 
   return {
     rules: {
@@ -35,7 +35,7 @@ export default function robots(): MetadataRoute.Robots {
         "/services/data-analytics",
         ...sweServices,
         ...analyticsServices,
-        ...cyberServices,
+        // ...cyberServices,
       ],
     },
     sitemap: `${baseUrl}/sitemap.xml`,

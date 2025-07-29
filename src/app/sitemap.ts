@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { baseUrl } from "@/utils";
-import { cyberData } from "@/data/cyberData";
+// import { cyberData } from "@/data/cyberData";
 import { analyticesData } from "@/data/analyticesData";
 import { softwareData } from "@/data/softwareData";
 
@@ -19,11 +19,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }),
   );
 
-  const cyberServices: MetadataRoute.Sitemap = cyberData.map((item) => ({
-    url: `${baseUrl}/services/cyber-security/${item.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`,
-    lastModified: new Date(),
-    changeFrequency: "yearly",
-  }));
+  // const cyberServices: MetadataRoute.Sitemap = cyberData.map((item) => ({
+  //   url: `${baseUrl}/services/cyber-security/${item.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase()}`,
+  //   lastModified: new Date(),
+  //   changeFrequency: "yearly",
+  // }));
 
   return [
     {
@@ -71,6 +71,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...analyticsServices,
     ...sweServices,
-    ...cyberServices,
+    // ...cyberServices,
   ];
 }

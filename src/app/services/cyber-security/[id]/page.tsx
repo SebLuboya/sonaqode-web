@@ -2,15 +2,18 @@ import React from "react";
 import { cn } from "@/utils";
 import Image from "next/image";
 import Subscribe from "@/components/services/details/subscribe";
-import { cyberData, getServiceData } from "@/data/cyberData";
+import {
+  // cyberData,
+  getServiceData,
+} from "@/data/cyberData";
 import NotFound from "next/dist/client/components/not-found-error";
 import KeysAndSkills from "@/components/services/details/keysAndSkills";
 
-export async function generateStaticParams() {
-  return cyberData.map((service, i) => ({
-    id: service.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase(),
-  }));
-}
+// export async function generateStaticParams() {
+//   return cyberData.map((service, i) => ({
+//     id: service.title.replaceAll(" ", "-").replaceAll("/", "-").toLowerCase(),
+//   }));
+// }
 
 const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
   const service = getServiceData(params.id);
