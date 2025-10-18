@@ -4,7 +4,7 @@ import ChevronDown from "@/assets/icons/glyphs/ChevronDown";
 import CloseIcon from "@/assets/icons/glyphs/CloseIcon";
 import Menu from "@/assets/icons/glyphs/Menu";
 import { cn } from "@/utils";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -47,8 +47,8 @@ const links = [
     link: "/corporate-culture",
   },
   {
-    label: "Contact Us",
-    link: "/contact",
+    label: "Updates",
+    link: "/blog",
   },
 ];
 
@@ -75,6 +75,9 @@ const Header = () => {
               className={cn(
                 "text-sm flex flex-row items-center gap-1 hover:text-[#c5e0ff] duration-100 cursor-pointer",
                 isActive(link.link ?? "none") && "text-[#0E6BA4]",
+                isActive(link.link ?? "none") &&
+                  link.link === links[4].link &&
+                  "text-[#30a9f4]",
               )}
             >
               {link.sub === undefined ? (
@@ -148,10 +151,10 @@ const Header = () => {
           ))}
         </ul>
         <Link
-          href="/get-a-quote"
+          href="/contact"
           className="w-[150px] xl:w-[170px] h-11 xl:h-[50px] hidden lg:flex items-center justify-center rounded-full bg-white text-sona-blue hover:bg-sona-blue hover:text-white duration-150"
         >
-          Get a Quote
+          Contact Us
         </Link>
         <button
           onClick={() => setIsOpen((prev) => !prev)}
@@ -168,7 +171,7 @@ const Header = () => {
           x: isOpen ? "0%" : "100%",
         }}
         transition={{
-          type: "just",
+          type: "tween",
         }}
         className="fixed top-0 left-0 w-screen h-screen flex flex-col p-9 gap-4 bg-sona-lightBlue text-sona-blue"
       >
@@ -243,11 +246,11 @@ const Header = () => {
           </li>
         ))}
         <Link
-          href="/get-a-quote"
+          href="/contact"
           onClick={() => setIsOpen(false)}
           className="w-[170px] h-[50px] flex items-center justify-center mt-6 rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150 "
         >
-          Get a Quote
+          Contact Us
         </Link>
       </motion.div>
     </header>

@@ -43,7 +43,7 @@ const AnalyticsDetailsPage = ({ params }: { params: { id: string } }) => {
             </div>
             <a href="#subscribe">
               <button className="w-[190px] h-[60px] rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150 mt-6">
-                Subscribe
+                Learn More
               </button>
             </a>
           </div>

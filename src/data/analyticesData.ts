@@ -6,7 +6,7 @@ export const analyticesData: IService[] = [
   {
     title: "Data Engineer",
     description:
-      "Our data engineers design, build, and maintain the data infrastructure and architecture necessary to collect, store, process, and analyse data. They enable real-time data processing, personalise customer experiences, and inform , making their role vital to any data driven organisation. Skilled in a diverse range of frameworks and tools, they drive the efficiency and effectiveness of your organisation’s data ecosystem.",
+      "Our data engineers design, build, and maintain the robust data infrastructure that collects, stores, processes, and analyses your most critical asset information. They enable real time processing, power personalised customer experiences, and provide the foundation for data driven decision making. Their expertise in diverse frameworks and tools is vital for enhancing the efficiency of your entire data ecosystem.",
     price: 3490,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C78FB60J",
@@ -15,8 +15,8 @@ export const analyticesData: IService[] = [
     icon: ServiceIcon.DataEngineer,
     image: ServiceImage.DataEngineer,
     roles: [
-      "Enhance your data driven  with robust data engineering and drive business growth by delivering actionable insights through our Data Engineers. Hire a data engineer from Sonaqode to provide unparalleled data solutions. Our top data engineers transform raw data into valuable assets, attracting new opportunities and increasing revenue like never before. A company's data infrastructure can significantly impact its ability to compete. Our data engineers create top notch data pipelines and models for web and mobile applications that inform decisions and optimise operations.",
-      "They prioritise data quality and performance to enhance data accessibility, applying a keen eye for detail and a commitment to producing outstanding data products that meet your business objectives. Engage dedicated data engineers who are highly experienced in technologies like SQL, Python, Spark, Hadoop, and more, with acclaimed expertise in integrating emerging tech trends such as cloud computing, machine learning, and big data to achieve exceptional data quality. Choosing us means faster time to market, improved data quality, and significant business impact.",
+      "Sonaqode's Data Engineers build the robust data infrastructure that fuels business growth, transforming raw data into strategic assets, unlocking new opportunities, and driving measurable revenue. Our experts design and implement sophisticated data pipelines and models that turn complex information into actionable insights for smarter decision-making and optimised operations.",
+      "They prioritise data integrity and system performance to ensure reliable accessibility, applying meticulous attention to detail and a commitment to delivering data solutions that directly support your business objectives. Our dedicated engineers bring deep expertise in SQL, Python, Spark, and Hadoop, with proven experience integrating cloud platforms, machine learning, and big data technologies to achieve exceptional data quality and reliability.",
     ],
     skillSet: [
       {
@@ -88,7 +88,7 @@ export const analyticesData: IService[] = [
   {
     title: "Data Analyst",
     description:
-      "Unlock the potential of raw data by transforming it into valuable insights that enhance decision making, improve efficiency, and drive business growth. Our talented data analysts excel in interpreting data, generating reports, and creating visualisations, helping businesses stay competitive, gain deeper understanding of customers and markets, and adapt their strategies accordingly. Optimise operations, ensuring sustained success and profitability.",
+      "Unlock the potential of your data into valuable insights to drive smarter decisions, greater efficiency, and accelerated growth. Our analysts specialise in interpreting complex data, generating reports, and building visualisations that provide a deeper understanding of your customers and markets. We help you optimise operations and adapt strategies to secure long term profitability.",
     price: 2690,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C78P621E",
@@ -97,8 +97,8 @@ export const analyticesData: IService[] = [
     icon: ServiceIcon.BarChart,
     image: ServiceImage.DataAnalyst,
     roles: [
-      "Our experienced and reliable data analysts enhance the work of business teams by extracting actionable insights from complex datasets. Through rigorous data analysis, these experts ensure informed decision making for your organisation. They go beyond treating data extraction as a discrete function at the end of the data lifecycle, embedding data driven insights at every business phase. Boost business productivity, speed, and efficiency with our data centric approach.",
-      "By reducing operational costs, enhancing business performance, and minimising risk, we deliver a competitive advantage rather than just standard data reports. Sonaqode excels in data mining, statistical analysis, data visualisation, and predictive modeling to make your business data driven. Whether you aim to launch a new product quickly or optimise existing operations, our professionals use cutting edge tools and methodologies to provide efficient, cost effective data solutions. With in-depth expertise and vast experience, they ensure accurate data analysis across various business domains, driving data informed decisions and fostering business growth.",
+      "Our experienced data analysts partner with your business teams to transform complex datasets into actionable strategic insights. Through rigorous analytical techniques, they empower your organisation with the clarity needed for confident, data driven decision making. We integrate analysis throughout your entire business lifecycle, embedding insights into every strategic phase rather than treating data as an afterthought. This data centric approach directly enhances productivity, accelerates processes, and optimises operational efficiency.",
+      "By reducing operational costs, enhancing performance, and minimising strategic risk, we deliver a decisive competitive advantage, moving beyond standard reporting to proactive intelligence. Our analysts specialise in data mining, statistical analysis, data visualisation, and predictive modelling to create truly data driven organisations. Whether launching new products or optimising existing operations, our professionals leverage cutting edge tools and methodologies to deliver efficient, cost-effective solutions. With deep cross domain expertise, we ensure accurate, relevant analysis that drives informed decisions and sustains business growth.",
     ],
     skillSet: [
       {
@@ -173,7 +173,7 @@ export const analyticesData: IService[] = [
   {
     title: "Data Scientist",
     description:
-      "Discover patterns, trends, and correlations in data that reveal insights into customer behavior, market trends, and operational performance. Our data scientists excel in data analysis, predictive modeling, and strategic insights, empowering businesses to optimise operations, innovate products and services, enhance customer experiences, and mitigate risks, thereby maintaining a competitive edge in the market.",
+      "Our data scientists uncover critical patterns, trends, and correlations that provide deep insights into customer behavior, market dynamics, and operational performance. By mastering data analysis and predictive modeling, they deliver the strategic insights you need to optimise operations, drive innovation, enhance customer experiences, and mitigate risk securing a lasting competitive advantage.",
     price: 3790,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C78ZS7TT",
@@ -182,8 +182,8 @@ export const analyticesData: IService[] = [
     icon: ServiceIcon.DataScience,
     image: ServiceImage.DataScientist,
     roles: [
-      "Sonaqode's Data Scientists leverage cutting edge methodologies to craft predictive models. Committed to delivering high-value business insights, they transform raw data into sophisticated predictive models with unmatched accuracy by blending advanced statistical techniques. They prioritise data quality and optimise algorithms to enhance model performance, applying a keen eye for detail and a commitment to producing outstanding insights that meet your business objectives. \n",
-      "Engage dedicated data scientists who are highly experienced in techniques such as machine learning, deep learning, statistical modeling, and more, with acclaimed expertise in integrating emerging tech trends like AI, NLP, and big data to achieve top notch analytical output. Smartly navigate the complex business landscape with data driven, insight focused solutions that give your business a competitive advantage. Our data scientists have created a wide range of scalable and robust data models for both niche and global enterprises, using advanced tools and methodologies to provide efficient, cost effective analytical services.",
+      "Sonaqode's Data Scientists transform complex data into a decisive competitive advantage. They build sophisticated predictive models using cutting-edge machine learning and statistical techniques to deliver high value business insights with exceptional accuracy. Our approach is rooted in meticulous data quality and continuous algorithm optimisation, ensuring every model delivers reliable, actionable intelligence tailored to your strategic objectives.",
+      "Our dedicated team brings deep expertise in machine learning, deep learning, and statistical modeling, enhanced by specialised knowledge in AI, NLP, and large scale data ecosystems. They provide more than just analysis; they deliver data driven strategies that help you navigate market complexity and seize new opportunities. With a proven track record of building scalable, robust analytical solutions for both niche markets and global enterprises, we equip your business with the intelligence to lead. Partner with us to make data your most powerful asset.",
     ],
     skillSet: [
       {
@@ -256,7 +256,7 @@ export const analyticesData: IService[] = [
   {
     title: "Business Intelligence Analyst",
     description:
-      "Harness the power of data effectively, drive data driven decision making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information.",
+      "Harness the power of your data to drive informed decision making and enhance business performance. Our talented analysts employ advanced tools to uncover critical trends, patterns, and correlations. This deep analysis provides a clearer understanding of your operations and market landscape, enabling you to identify opportunities, develop data-backed strategies, and secure a competitive advantage.",
     price: 2690,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C792ZHPZ",
@@ -265,8 +265,8 @@ export const analyticesData: IService[] = [
     icon: ServiceIcon.BusinessIntelligence,
     image: ServiceImage.BusinessIntelligenceAnalyst,
     roles: [
-      "Sonaqode's Business Intelligence Analysts leverage advanced tools to craft actionable insights. Committed to delivering high-value business outcomes, they transform raw data into sophisticated data models with unmatched accuracy by applying the best analytical techniques. They prioritise data quality and optimise visualisations to enhance decision making, using a keen eye for detail and a commitment to producing outstanding insights that meet your business objectives. \n",
-      "Enlist dedicated analysts who are highly experienced in tools like SQL, Python, Tableau, Power BI, and more, with acclaimed expertise in integrating emerging tech trends such as data mining, machine learning, and big data to achieve top notch analytical output. A company's data presentation can significantly influence decision making. Our business intelligence developers create exceptional dashboards and reports that captivate stakeholders and showcase business performance. Choosing us means effective data storytelling, quicker decision making, and significant business impact.",
+      "Sonaqode's Business Intelligence Analysts transform complex data into actionable strategies that drive high value business outcomes. They develop sophisticated data models and visualisations using advanced analytical techniques, ensuring accuracy and clarity for informed decision making. Their meticulous approach to data quality and dashboard design delivers outstanding insights that directly support your strategic objectives.",
+      "Our dedicated analysts bring deep expertise in SQL, Python, Tableau, and Power BI, enhanced by specialised knowledge in data mining, machine learning, and big data technologies. We understand that compelling data presentation is crucial for stakeholder engagement and strategic alignment. That's why we create exceptional dashboards and reports that not only showcase performance but also tell a compelling story of opportunities and outcomes. Partnering with us means faster, more effective decision making, powerful data storytelling, and measurable business impact.",
     ],
     skillSet: [
       {
@@ -336,7 +336,7 @@ export const analyticesData: IService[] = [
   {
     title: "Automation Engineer",
     description:
-      "Streamline your processes with our dedicated automation engineers. Leverage their proficiency in designing and implementing automated systems to optimise workflows, drive efficiency, enhance quality, and maintain competitiveness in a rapidly evolving market. Utilising cutting edge technologies and a commitment to innovation, our specialists are ready to revolutionise your workflow.",
+      "Streamline your processes with our dedicated automation engineers. They design and implement sophisticated automated systems to optimise workflows, drive efficiency, and enhance quality, ensuring your competitiveness in a rapidly evolving market. Utilising cutting edge technologies and a commitment to innovation, our specialists are ready to revolutionise your operations.",
     price: 3390,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C798P3TK",
@@ -345,8 +345,8 @@ export const analyticesData: IService[] = [
     icon: ServiceIcon.Automation,
     image: ServiceImage.AutomationEngineer,
     roles: [
-      "Boost your operational efficiency with robust automation engineering. Our experienced and reliable automation engineers enhance the work of development and operations teams by streamlining complex processes. Committed to delivering high-value operational outcomes, they automate manual tasks using the best blend of techniques to build sophisticated workflows with unmatched efficiency. They prioritize process optimisation and productivity enhancement, applying a keen eye for detail and a commitment to producing outstanding automation solutions that meet your business objectives. \n",
-      "Engage dedicated automation engineers who are highly experienced in technologies like Selenium, Python, RPA, and more, with acclaimed expertise in integrating emerging tech trends such as AI, machine learning, and cloud computing to achieve top notch automation results. Choosing us means faster time to market, improved operational efficiency, and significant cost savings.",
+      "Sonaqode's automation engineers transform complex operational challenges into streamlined, efficient workflows. They specialise in replacing manual tasks with sophisticated automation solutions that enhance collaboration between development and operations teams, delivering measurable gains in productivity and reliability. They combine meticulous process analysis with robust technical execution, ensuring every automated workflow is optimised for maximum efficiency and aligned with your strategic business objectives.",
+      "Our dedicated engineers bring deep expertise in Selenium, Python, and RPA, enhanced by advanced capabilities in AI, machine learning, and cloud native automation. They move beyond basic scripting to create intelligent, scalable systems that drive continuous improvement. Partnering with us accelerates your time to market, significantly reduces operational costs, and creates a foundation for sustained growth through enterprise grade automation.",
     ],
     skillSet: [
       {

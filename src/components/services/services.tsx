@@ -4,7 +4,7 @@ import { cn } from "@/utils";
 import Image, { StaticImageData } from "next/image";
 import Button from "@/components/misc/button";
 import Checkicon from "@/assets/icons/glyphs/Checkicon";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 
 const Services = ({

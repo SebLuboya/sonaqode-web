@@ -26,7 +26,7 @@ const sections = [
   {
     label: "Monthly Subscription",
     subLabel: "Hourly Based, Ongoing Contract",
-    desc: "Enjoy our subscription based, on-demand service that connects you with developers and engineers who deliver genuine results within a set monthly package of hours. Experience flexibility and convenience through regular communication with assigned team members and project managers.",
+    desc: "Our subscription based model provides on-demand access to expert developers and engineers who deliver tangible results within a fixed monthly hours package. Benefit from the flexibility and convenience of dedicated team members, supported by consistent communication.",
     bgcolor: "bg-sona-lightPink",
     btnClass: "hover:bg-sona-pink text-sona-pink",
     btnLable: "Subscribe",
@@ -70,17 +70,17 @@ const sections = [
       },
       {
         label: "Engage",
-        desc: "We will schedule a call to ascertain your requirements and expectations and introduce your assigned employee and dedicated manager.",
+        desc: "We will schedule a call to understand your requirements, align on expectations, and start the process of matching you with the ideal candidate.",
         circle: Pink50,
       },
       {
         label: "Cooperate",
-        desc: "Integrate your newly assigned team into your in-house team. Familiarise them with company practices, then assign tasks to unleash their capabilities.",
+        desc: "Once you've subscribed we'll present you with shortlisted pre-vetted candidates. Once you've made your selection, we'll arrange an interview.",
         circle: Pink75,
       },
       {
         label: "Commence",
-        desc: "Breathe, your ambitious onboarded team embodies an engineering ethos that embraces adaptability, drives continual improvement, and delivers unparalleled value.",
+        desc: "With your candidate chosen, we'll schedule a call to onboard your new team member so you can start delegating effectively immediately. We then provide regular check-ins to ensure seamless progress and continuously align on delivering maximum value.",
         circle: Pink100,
       },
     ],
@@ -88,10 +88,10 @@ const sections = [
   {
     label: "Scrum Team",
     subLabel: "Agile Methodology",
-    desc: "As your dedicated partner, we fulfil all your bespoke business needs, from ideation and prototyping to launch and ongoing maintenance. For bespoke projects requiring continuous iterations, we develop in two week sprints. With each sprint, we deliver a finished working product increment.",
+    desc: "Partner with us for bespoke development, from ideation and prototyping to launch and maintenance. Our agile process utilises two-week sprints for projects requiring iteration, ensuring a working product increment is delivered consistently, enabling rapid progress and continuous feedback.",
     bgcolor: "bg-sona-lightPurple",
     btnClass: "hover:bg-sona-purple text-sona-purple",
-    btnLable: "Get a Quote",
+    btnLable: "Contact Us",
     features: [
       {
         icon: Project,
@@ -127,27 +127,27 @@ const sections = [
     benefits: [
       {
         label: "Pre-engagement",
-        desc: "Laying the groundwork for a strong partnership, we conduct a holistic analysis of your vision, uncovering goals, challenges, and resource considerations.",
+        desc: "Our partnership begins with a holistic analysis of your vision to clarify your goals, pinpoint challenges, and assess resource requirements.",
         circle: Purple20,
       },
       {
         label: "Discovery",
-        desc: "Collaborating with you to shape your idea into a well planned and practical strategy, we unlock both business and user value for an optimal investment, outlining technical and strategic solutions.",
+        desc: "We collaborate with you to transform your idea into an actionable strategy. By defining precise technical and strategic solutions, we unlock significant business and user value, maximising your investment.",
         circle: Purple40,
       },
       {
         label: "Proposal",
-        desc: "After thoroughly understanding your business needs, we finalise our proposal and send it to you for review. It outlines the main value proposition, details the scope, timelines, and the terms and conditions. Additionally, we evaluate potential risks and create a mitigation plan.",
+        desc: "Following a thorough analysis of your business needs, we will deliver a detailed proposal for your review. It clearly defines the value proposition, project scope, timelines, and terms, and includes a risk assessment with mitigation strategies.",
         circle: Purple60,
       },
       {
         label: "Development",
-        desc: "Once all project specifics are agreed upon, we formalise our commitment by signing an MSA. Now, we assemble a robust delivery team and begin building your product. This phase focuses on coding, rigorous testing, and transforming your concept into a tangible reality.",
+        desc: "After aligning on all project details and formalising our commitment with an MSA, we assemble your dedicated team to start development. This stage turns your concept into a working product, driven by a focus on high quality coding and comprehensive testing.",
         circle: Purple80,
       },
       {
         label: "Support",
-        desc: "Our relationship with you doesn't end once your product is complete. We provide post deployment technical support to enhance and maintain your software. To guarantee long term reliability, our technical experts periodically assess the health of your product and other key functionalities, ensuring it continues to meet your changing requirements.",
+        desc: "Our commitment extends long after your product launch. We provide post deployment support to maintain and enhance your software, ensuring its long-term success. Our experts conduct regular health assessments to guarantee reliability and adapt the product to your evolving needs.",
         circle: Purple100,
       },
     ],
@@ -215,14 +215,14 @@ const Methodolody = () => {
                 </p>
               </div>
               {idx === 1 ? (
-                <Link href={"/get-a-quote"}>
+                <Link href={"/contact"}>
                   <button
                     className={cn(
                       "w-[190px] h-14 bg-white hover:text-white duration-75 rounded-full",
                       section.btnClass,
                     )}
                   >
-                    Get a Quote
+                    Contact Us
                   </button>
                 </Link>
               ) : (

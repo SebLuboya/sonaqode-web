@@ -29,14 +29,13 @@ export default function CorporateCulture() {
               Corporate Culture
             </h1>
             <p className="text-sm md:text-base xl:text-lg md:max-w-[550px] xl:max-w-[680px] font-light">
-              At Sonaqode, we integrate corporate social responsibility into our
-              strategy to enrich the lives of our team members and uplift the
-              communities in which we operate. We demonstrate our commitment
-              through proactive initiatives that promote social, economic,
-              educational, and environmental well-being at both local and global
-              levels. By establishing and pursuing clear objectives in these
-              areas, we reinforce our dedication to nurturing a thriving and
-              responsible workforce.
+              At Sonaqode, corporate social responsibility (CSR) is woven into
+              our strategic fabric. We are committed to enriching the lives of
+              our team members and uplifting our communities through proactive
+              initiatives that promote social, economic, educational, and
+              environmental well being. By setting and pursuing clear
+              objectives, we committed to building a thriving, responsible
+              workforce and contribute positively to the world around us.
             </p>
           </div>
         </div>
@@ -48,14 +47,12 @@ export default function CorporateCulture() {
               People
             </h2>
             <p className="text-base xl:text-lg font-light">
-              We cultivate a supportive and inclusive working environment that
-              embodies our mission and values. We commit to continual
-              improvement and development, believing in the power of
-              individuals. By creating personal development plans, we unlock the
-              true potential of every team member and are thrilled to be a
-              company that attracts unique individuals who share a passion for
-              tech and dream of making it more accessible to businesses needing
-              support in today&apos;s worldwide digital transformation.
+              Our culture is built on a supportive, inclusive environment and a
+              commitment to continuous development. We invest in personalised
+              growth plans to unlock every team member&apos;s potential. This
+              empowers us to attract passionate individuals dedicated to a
+              shared goal, making technology accessible to businesses worldwide
+              in an era of digital transformation.
             </p>
           </div>
           <Image

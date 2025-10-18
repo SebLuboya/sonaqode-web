@@ -43,10 +43,10 @@ const OurImpact = () => {
             Our Impact On Community
           </h2>
           <p className="text-base lg:text-lg font-light text-center leading-5 mt-3">
-            Only through collaborative efforts can we generate a ripple effect
-            of prosperity and well being for all members of the communities we
-            impact. We accomplish this by actively supporting individuals and
-            communities in these areas.
+            Through collaboration we create a ripple effect of prosperity and
+            well being throughout our communities. We actively partner and
+            support individuals and local communities to turn this belief into
+            tangible impact.
           </p>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 mt-14 gap-5 lg:gap-12">
             {data.map((impact) => (

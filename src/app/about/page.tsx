@@ -47,6 +47,24 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
+      <section className="pt-12 lg:pt-20 px-5">
+        <div className="w-full lg:max-w-[1260px] mx-auto space-y-4 gap-10 px-8 py-11 rounded-[30px] overflow-clip bg-sona-lightBlue text-lg font-light">
+          <p>
+            We provide on-demand access to a talent pool of over 5,000 vetted
+            professionals from across Africa, packaged at cost-effective rates
+            with uncompromising quality. This gives you the elite talent you
+            need without the overhead and traditional complexities.
+          </p>
+          <p>
+            We&apos;re building the future of work by unlocking Africa&apos;s
+            vast potential and creating exceptional opportunities for growth and
+            innovation. Our specialists have a proven track record of delivering
+            results for international companies. With Sonaqode&apos;s ongoing
+            support, we guide you every step of the way to transform your ideas
+            and challenges into outstanding results.
+          </p>
+        </div>
+      </section>
       <section className="pt-16 lg:pt-28 px-5">
         <div className="relative w-full max-w-[1260px] flex flex-col lg:flex-row gap-5 lg:gap-8 mx-auto">
           <div className="w-full bg-[#CDCBFF] flex flex-col rounded-[40px] p-8 gap-5">
@@ -68,8 +86,8 @@ export default function AboutUs() {
             </div>
             <div>
               <p className="text-sm lg:text-lg text-gray-600">
-                To spearhead and propel digital services through AI and
-                technology from Africa to the world.
+                Delivering the future of digital solutions, powered by African
+                talent and AI.
               </p>
             </div>
           </div>
@@ -92,8 +110,8 @@ export default function AboutUs() {
             </div>
             <div>
               <p className="text-sm lg:text-lg text-gray-600">
-                To be the leading technology staffing company committed in
-                solving deep tech industry challenges.
+                To be the essential partner for visionary companies through
+                building teams that solve foundational tech challenges.
               </p>
             </div>
           </div>
@@ -117,12 +135,12 @@ export default function AboutUs() {
                 Global Reach
               </h2>
               <p className="text-sm lg:text-lg font-light text-balance">
-                With our roots in the UK and Ghana's alignment with the GMT time
-                zone, we cater to the needs of global entities. Our specialists
-                work within your business hours, and our mature collaboration
-                strategies enable us to overcome geographic, language, and
-                cultural barriers, ensuring cohesive communication and
-                exceptional results.
+                With our roots in the UK and Ghana&apos;s alignment with the GMT
+                time zone, we cater to the needs of global entities. Our
+                specialists work within your business hours, and our mature
+                collaboration strategies enable us to overcome geographic,
+                language, and cultural barriers, ensuring cohesive communication
+                and exceptional results.
               </p>
             </div>
           </div>

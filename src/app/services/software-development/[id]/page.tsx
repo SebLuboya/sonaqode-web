@@ -41,9 +41,9 @@ const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
                 {service.description}
               </p>
             </div>
-            <a href="#subscribe">
+            <a href="#services">
               <button className="w-[190px] h-[60px] rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150 mt-6">
-                Subscribe
+                Learn More
               </button>
             </a>
           </div>
@@ -55,6 +55,7 @@ const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
           />
         </div>
       </section>
+
       <section
         id="services"
         className="flex flex-col items-center gap-8 px-5 pt-12 lg:pt-16"
@@ -75,6 +76,16 @@ const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
         </div>
       </section>
       <Subscribe service={service} />
+      <section className="flex flex-col items-center gap-8 px-5 pt-8 lg:pt-12">
+        <a
+          href="https://cal.com/sonaqodeuk"
+          target="_blank"
+          className="h-[60px] px-10 rounded-full hover:bg-white hover:text-sona-blue bg-sona-blue text-white duration-150 mt-6"
+          rel="noreferrer"
+        >
+          Book a consultation
+        </a>
+      </section>
       <KeysAndSkills service={service} />
     </main>
   );

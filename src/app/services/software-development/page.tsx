@@ -208,14 +208,13 @@ export default function SoftwareDevelopmentPage() {
                 Software Development
               </h2>
               <p className="md:text-base xl:text-lg text-sm font-light">
-                Connect with our skilled tech specialists, ready to expedite
-                your objectives. Whether it&apos;s customising a running
-                developing prototype applications, or implementing complex
-                technology solutions, our expert team is equipped to deliver
-                rapid and reliable results. Proficient in top programming
-                languages, they adapt and collaborate with your business to
-                address any complexity, meet your requirements, and bring your
-                vision to life.
+                Connect with our skilled tech specialists to accelerate your
+                objectives. Whether you need to customise an existing platform,
+                develop prototype applications, or implement complex technology
+                solutions, our expert team delivers rapid, reliable results.
+                Proficient in top programming languages, we adapt to your
+                business needs to tackle complexity, meet your requirements, and
+                bring your vision to life.
               </p>
               <a href="#services">
                 <Button className={cn("mt-2", CONSTS.text, CONSTS.hoverbg)}>

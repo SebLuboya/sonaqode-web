@@ -43,31 +43,31 @@ const assist = [
   "Data integrity and quality management.",
 ];
 
-const faqData = [
-  {
-    question: "When can you start work on Data & Analytics for my business?",
-    answer:
-      "Once we grasp your needs, our engineers will provide comprehensive consultation services. We use appropriate tools tailored to your business needs, sign an NDA to protect your information, and begin development upon contract signing.",
-  },
-  {
-    question:
-      "How do Data Analysist's/Engineers communicate with their clients?",
-    answer:
-      "Our developers are comfortable and ready to use your preferred communication channel if it provides the required level of data safety.",
-  },
-  {
-    question:
-      "What are the terms of data security? I need an NDA for my project.",
-    answer:
-      "All our projects are protected and supported with a mandatory signed NDA before initiation. You can be sure that all your information is securely protected.",
-  },
-  {
-    question:
-      "Who will be my main point of contact? Do I work directly with the developers?",
-    answer:
-      "We will assign a relevant professional either a project manager or developer & Engineer. Our team will be available to you at all times via any communication channel of your choice. We also use different collaboration tools, such as Redmine, to communicate with our customers.",
-  },
-];
+// const faqData = [
+//   {
+//     question: "When can you start work on Data & Analytics for my business?",
+//     answer:
+//       "Once we grasp your needs, our engineers will provide comprehensive consultation services. We use appropriate tools tailored to your business needs, sign an NDA to protect your information, and begin development upon contract signing.",
+//   },
+//   {
+//     question:
+//       "How do Data Analysist's/Engineers communicate with their clients?",
+//     answer:
+//       "Our developers are comfortable and ready to use your preferred communication channel if it provides the required level of data safety.",
+//   },
+//   {
+//     question:
+//       "What are the terms of data security? I need an NDA for my project.",
+//     answer:
+//       "All our projects are protected and supported with a mandatory signed NDA before initiation. You can be sure that all your information is securely protected.",
+//   },
+//   {
+//     question:
+//       "Who will be my main point of contact? Do I work directly with the developers?",
+//     answer:
+//       "We will assign a relevant professional either a project manager or developer & Engineer. Our team will be available to you at all times via any communication channel of your choice. We also use different collaboration tools, such as Redmine, to communicate with our customers.",
+//   },
+// ];
 
 const data = [
   {
@@ -181,12 +181,13 @@ export default function DataAndAnalytics() {
                 Data & Analytics
               </h2>
               <p className="md:text-base xl:text-lg text-sm font-light">
-                Leverage the power of data with our analysts and engineers to
-                turn data into value. Competent in delivering analytics
-                solutions that help you process and interpret your data assets,
-                shedding light on key business dynamics, they transform projects
-                and processes to supercharge operations with targeted insights,
-                liberating your teams from repetitive processes.
+                Leverage the power of your data with our analysts and engineers
+                to unlock tangible business value. We deliver advanced analytics
+                solutions that process and interpret your data assets,
+                illuminating key business dynamics. By transforming projects and
+                processes with targeted insights, we enhance operations and
+                automate repetitive tasks, allowing your teams to focus on
+                strategic growth.
               </p>
 
               <a href="#services">
