@@ -7,14 +7,21 @@ export const softwareData: IService[] = [
     title: "Mobile App Developer",
     icon: ServiceIcon.AngleBrackets,
     image: ServiceImage.MobileAppDeveloper,
-    price: 3180,
-    partTime: 2080,
+    price: 2800,
+    partTime: 1900,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C4E09X9K",
       partTime: "https://pay.gocardless.com/BRT0003C75125QD",
     },
     description:
       "Engage our skilled developers to build robust, custom applications engineered for your most complex requirements. Our experienced team, proficient in the latest technologies, specialises in creating top quality mobile apps that captivate users and generate valuable insights. We ensure a powerful mobile presence that drives sustained growth and long term success for your business.",
+    list: [
+      "Education: University Graduate, Degree",
+      "Experience: Min 3 years in respective role / industry",
+      "Tech tools: iOS, Flutter, Java, Kotlin, React Native, Android, Swift",
+      "Communication: Your preferred communication channel",
+      "Language: Fluent English Speaking & Writing",
+    ],
     roles: [
       "Sonaqode's Mobile App Engineers transform your vision into sophisticated, high-performance applications using cutting edge technologies. They specialise in both native and cross platform development, crafting intuitive user experiences that bring innovative ideas to life. By prioritising user feedback and refining designs with meticulous attention to detail, they create outstanding apps that precisely meet your audience's needs and exceed their expectations.",
       "Our dedicated developers are highly experienced across Android, iOS, React Native, and Xamarin, and integrate emerging technologies like AI, IoT, and VR to ensure top-tier performance and innovation. With a proven track record of creating secure, scalable apps for both niche markets and global clients, they deliver value-driven mobile solutions that elevate your brand and sharpen your competitive edge.",
@@ -94,14 +101,21 @@ export const softwareData: IService[] = [
     title: "Full Stack Developer",
     description:
       "Access skilled web developers who build high performance, modern web applications from the ground up. Our full-stack experts master both front-end and back-end technologies to deliver fully customised solutions that meet your precise requirements. Ensuring exceptional performance and provide reliable, scalable, end to end solutions for your business.",
-    price: 3180,
-    partTime: 2145,
+    price: 2800,
+    partTime: 1900,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C75BNAKA",
       partTime: "https://pay.gocardless.com/BRT0003C75GRFMA",
     },
     icon: ServiceIcon.Vscode,
     image: ServiceImage.FullStackDeveloper,
+    list: [
+      "Education: University Graduate, Degree",
+      "Experience: Min 3 years in respective role",
+      "Tech tools: NodeJs, ExpressJs, Django, Angular, ReactJs, Bootstrap, Ruby On Rails,Flask, Jquery, Mongo DB",
+      "Communication: Your preferred communication channel",
+      "Language: Fluent English Speaking & Writing",
+    ],
     roles: [
       "Our full-stack developers integrate seamlessly with your team to build robust, end to end software solutions. They ensure the delivery of high quality, functional products by embedding user-centric design and technical excellence throughout the entire development lifecycle. This holistic approach accelerates development, enhances product performance, and elevates user satisfaction all while reducing costs and minimising time to market to deliver a decisive competitive advantage.",
       "Our developers possess comprehensive expertise in front-end and back-end technologies, database architecture, and cloud integration. They are proficient in modern frameworks including React, Angular, Node.js, and Python, with advanced capabilities in emerging fields like AI, VR, and blockchain.",
@@ -194,14 +208,22 @@ export const softwareData: IService[] = [
     title: "Frontend Developer",
     description:
       "Our Front-End developers craft intuitive and engaging web and mobile applications using a powerful suite of technologies, including JavaScript, Vue.js, CSS, and HTML. They exquisitely blend design, technology, and usability to build customised solutions that captivate user engagement, ensure accessibility, and perfectly align with your unique brand identity.",
-    price: 2780,
-    partTime: 1780,
+    price: 2550,
+    partTime: 1550,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C75R6A51",
       partTime: "https://pay.gocardless.com/BRT0003C75Y1DFX",
     },
     icon: ServiceIcon.Js,
     image: ServiceImage.FrontendDeveloper,
+    list: [
+      "Education: University Graduate, Degree",
+      "Experience: Min 3 years in respective role / industry",
+      "Tech tools: HTML5, Sass, CSS3, JavaScript (ES6+), React, Angular, Vue.js, jQuery, npm",
+      "Skills: HTML/CSS Proficiency, JavaScript Expertise, Frameworks and Libraries, Responsive Design and Cross-Browser Compatibility, Performance Optimisation, User Experience (UX) Principles.",
+      "Communication: Your preferred communication channel",
+      "Language: Fluent English Speaking & Writing",
+    ],
     roles: [
       "Sonaqode's Frontend Developers build intuitive web and mobile applications that deliver pixel-perfect, engaging user experiences. They transform design concepts into sophisticated interfaces through a seamless blend of design sensibility and technical expertise, creating digital products that captivate users and drive meaningful interaction. Our focus on user centered design ensures every interface optimises user journeys and influences behavior to achieve your business objectives.",
       "We recognise that a superior user interface provides a powerful competitive advantage. Our dedicated developers bring deep expertise in React, Angular, and Vue, along with specialised knowledge in emerging technologies like AI, VR, and AR. This enables them to create exceptional, future ready experiences that set your brand apart.",
@@ -278,14 +300,22 @@ export const softwareData: IService[] = [
     title: "Backend Developer",
     description:
       "Elevate your project with Back-End developers who deliver robust architecture and peak performance. They specialise in building secure, scalable systems using modern tools like Java, Python, and Ruby. As experts in both SQL and NoSQL databases, they ensure consistent data flow and deliver impeccable back-end systems tailored to your exact business needs.",
-    price: 2780,
-    partTime: 1780,
+    price: 2550,
+    partTime: 1550,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C765F9TB",
       partTime: "https://pay.gocardless.com/BRT0003C769Q25W",
     },
     icon: ServiceIcon.CodeFolder,
     image: ServiceImage.BackendDeveloper,
+    list: [
+      "Education: University Graduate, Degree",
+      "Experience: Min 3 years in respective role / industry",
+      "Tech tools: Node.js, Python, PHP, Java, C#, .NET, Ruby, Go, SQL, NoSQL, RESTful APIs, GraphQL, Docker, Kubernetes",
+      "Skills: Server-Side Programming, Database Management, API Development, Security Best Practices, Performance Optimisation, Version Control (Git)",
+      "Communication: Your preferred communication channel",
+      "Language: Fluent English Speaking & Writing",
+    ],
     roles: [
       "Our backend developers build the robust, scalable foundation that powers your digital products. They engineer high performance systems that ensure reliability and drive user engagement by translating complex requirements into efficient, maintainable code. This backend-focused approach accelerates your time to market and enhances overall software productivity.",
       "They specialise in reducing technical debt, strengthening application reliability, and minimizing downtime to deliver a distinct competitive advantage. Our dedicated developers are highly skilled in Node.js, Python, Ruby on Rails, and Java, with proven expertise in implementing modern architectures like microservices, serverless computing, and cloud-native solutions. Partnering with us means achieving faster deployment cycles, superior application performance, and enhanced user satisfaction through engineering excellence.",
@@ -361,14 +391,22 @@ export const softwareData: IService[] = [
     title: "UI/UX Designer",
     description:
       "Our innovative designers craft visually appealing and highly user friendly experiences for applications, software, and websites. They translate your vision into compelling designs with meticulous attention to detail, enhancing audience engagement. Delivering outstanding products that resonate with your target audience and strengthen brand loyalty, providing a distinct competitive advantage.",
-    price: 2180,
-    partTime: 1390,
+    price: 2100,
+    partTime: 1100,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C76P7FXQ",
       partTime: "https://pay.gocardless.com/BRT0003C76TFSX5",
     },
     icon: ServiceIcon.Figma,
     image: ServiceImage.UiUxDesigner,
+    list: [
+      "Education: University Graduate, Degree",
+      "Experience: Min 3 years in respective role / industry",
+      "Tech tools: Figma, Sketch, Adobe XD, InVision, Photoshop, Illustrator, Zeplin, Miro, UserTesting, Hotjar",
+      "Skills: User Research, Information Architecture, Wireframing and Prototyping, Visual Design, Usability Testing, Design Systems, Accessibility Standards",
+      "Communication: Your preferred communication channel",
+      "Language: Fluent English Speaking & Writing",
+    ],
     roles: [
       "Our experienced and reliable UI/UX designers enhance development teams by crafting intuitive user experiences. Committed to delivering high value outcomes, they bring design concepts to life with the perfect blend of creative and technical skills, building sophisticated user interfaces with unmatched appeal. They go beyond treating visual aesthetics as a discrete function at the end of the design lifecycle, embedding user centered design at every development phase. Our designers create quality user flows and interactions for web and mobile applications, guiding decisions and optimising user journeys.",
       "By prioritising user satisfaction and optimising usability, they enhance user engagement with a keen eye for detail and a commitment to producing outstanding designs that meet the needs of your target audience. Engage dedicated UI/UX Designers who are highly experienced in tools like Figma, Sketch, Adobe XD, and more, with acclaimed expertise in integrating emerging tech trends such as augmented reality, virtual reality, and voice interfaces to achieve exceptional design quality.",
@@ -432,14 +470,22 @@ export const softwareData: IService[] = [
     title: "Video Content Editor",
     description:
       "Drive your brand forward with video content that captivates. Our editors become skilled partners, developing captivating animations, motion graphics, and multimedia content that align perfectly with your brand and strategic goals. They bring versatile expertise across commercial, corporate, and documentary formats to every project, ensuring the final edits are both contemporary and compelling.",
-    price: 1799,
-    partTime: 1189,
+    price: 1550,
+    partTime: 950,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C77A53V0",
       partTime: "https://pay.gocardless.com/BRT0003C77B5QMF",
     },
     icon: ServiceIcon.VideoEditor,
     image: ServiceImage.VideoContentEditor,
+    list: [
+      "Education: University Graduate, Degree",
+      "Experience: Min 3 years in respective role / industry",
+      "Tech tools: Adobe Premiere Pro, Final Cut Pro, After Effects, Adobe Audition, DaVinci Resolve, Avid Media Composer",
+      "Skills: Video Editing, Audio Editing, Color Correction, Motion Graphics, Visual Effects, Storytelling, Creative Direction",
+      "Communication: Your preferred communication channel",
+      "Language: Fluent English Speaking & Writing",
+    ],
     roles: [
       "Sonaqode's Video Content Editors transform concepts into compelling visual narratives using industry leading tools. Committed to maximising engagements, they blend artistic vision with technical expertise to produce sophisticated videos that capture attention and drive results. They prioritise dynamic storytelling and seamless execution, applying a meticulous eye for detail to create outstanding content that resonates deeply with your target audience. Elevate your brand awareness, accelerate speed to market, and strengthen audience retention through our strategically focused visual approach.",
       "Our editors deliver a distinct competitive advantage by moving beyond generic content to enhance brand perception, clarify your message, and optimise production efficiency. Skilled in Adobe Premiere Pro, Final Cut Pro, and After Effects, they offer comprehensive expertise from concept development and scriptwriting to precision editing and motion graphics ensuring your brand stands out. Whether rapidly launching a new product or refining existing campaigns, they employ cutting edge methodologies to deliver efficient, high impact video solutions.",
@@ -506,14 +552,22 @@ export const softwareData: IService[] = [
     title: "QA Tester",
     description:
       "Our QA team comprises seasoned experts who develop streamlined testing and quality management procedures for your project. They leverage cutting edge technologies and adhere to industry leading standards. We emphasise that quality assurance extends far beyond delivering bug free software it's about ensuring excellence, reliability, and a superior user experience.",
-    price: 2690,
-    partTime: 1690,
+    price: 2350,
+    partTime: 1350,
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C77FZP76",
       partTime: "https://pay.gocardless.com/BRT0003C77K829P",
     },
     icon: ServiceIcon.QaTesting,
     image: ServiceImage.QaTester,
+    list: [
+      "Education: University Graduate, Degree",
+      "Experience: Min 3 years in respective role / industry",
+      "Tech tools: Selenium, Appium, JIRA, TestRail, Postman, JMeter, BrowserStack, Jenkins, Git",
+      "Skills: Manual Testing, Automated Testing, Test Case Creation, Defect Tracking, Performance Testing, API Testing, Database Testing",
+      "Communication: Your preferred communication channel",
+      "Language: Fluent English Speaking & Writing",
+    ],
     roles: [
       "Our experienced QA engineers strengthen development teams by conducting comprehensive testing across diverse environments. Through rigorous quality assurance, they ensure your software and websites perform flawlessly. They integrate testing throughout the entire development lifecycle, embedding quality at every phase rather than treating it as a final step. This insight driven approach boosts development productivity, accelerates release speed, and elevates product quality.",
       "By reducing development costs, enhancing software reliability, and minimising management overhead, we deliver a superior user experience that stands out in the marketplace. Our experts excel in automation, continuous testing, and DevOps, using cutting edge tools to deliver efficient, comprehensive testing. Whether you're launching a new application or modernising business processes, the result is a superior, market ready product that drives user satisfaction and fosters sustainable business growth.",
@@ -596,6 +650,14 @@ export const softwareData: IService[] = [
     },
     icon: ServiceIcon.ItSupport,
     image: ServiceImage.ItSupportEngineer,
+    list: [
+      "Education: University Graduate, Degree",
+      "Experience: Min 3 years in respective role / industry",
+      "Tech tools: Windows, macOS, Linux, Active Directory, Microsoft 365, Azure AD, VMware, Cisco, TeamViewer, Remote Desktop",
+      "Skills: Software Troubleshooting, Network Troubleshooting, Hardware Support, System Administration, Security Best Practices, Help Desk Support",
+      "Communication: Your preferred communication channel",
+      "Language: Fluent English Speaking & Writing",
+    ],
     roles: [
       "Sonaqode's IT Support Engineers leverage advanced tools to deliver rapid and effective problem resolution. Through systematic troubleshooting, these experts ensure seamless daily operations across your organisation. They go beyond reactive incident management by embedding proactive support and user satisfaction into every IT interaction. Our engineers develop robust incident management processes and comprehensive knowledge bases to streamline decisions and enhance system performance. This user centric methodology directly boosts productivity, accelerates service delivery, and strengthens operational efficiency.",
       "By minimising downtime, improving the digital employee experience, and reducing IT related risks, they deliver a strategic advantage instead of merely addressing tickets. Our dedicated engineers are highly skilled in troubleshooting, software deployment, hardware maintenance, and network support, with proven expertise in emerging technologies like cloud computing, remote support solutions, and IT automation.",

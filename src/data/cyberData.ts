@@ -8,6 +8,7 @@ export const cyberData: IService[] = [
     description:
       "Secure software applications from threats throughout their development lifecycle. Our engineers play a vital role in protecting your business’s applications, ensuring regulatory compliance, and maintaining customer trust. They excel in application security practices, software development, and risk management. Their expertise fortifies a more secure and resilient business environment.",
     price: 2990,
+    list: [],
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C79DM2RG",
       partTime: "",
@@ -85,6 +86,7 @@ export const cyberData: IService[] = [
     description:
       "Cloud Security Engineers are committed to safeguarding your organisation's cloud computing environment. They concentrate on defending cloud infrastructure, data, and applications against potential threats and vulnerabilities. Proficient in designing and implementing comprehensive cloud security strategies, they craft security architectures that align with your business goals and compliance requirements.",
     price: 3190,
+    list: [],
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C79GSZNY",
       partTime: "",
@@ -161,6 +163,7 @@ export const cyberData: IService[] = [
     description:
       "Protect your organisation’s systems, networks, data, and digital assets from cyber threats. Our security engineers excel in identifying vulnerabilities, devising strategies to mitigate risks, and responding to security incidents to enhance the organisation's overall security posture. They leverage digital forensics tools and methodologies and are well versed in developing security policies and procedures.",
     price: 2990,
+    list: [],
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C79N503Q",
       partTime: "",
@@ -237,6 +240,7 @@ export const cyberData: IService[] = [
     description:
       "Effectively manage your data infrastructure with our experts, who actively maintain the security, integrity, and performance of your company's databases, ensuring secure and optimal data storage. They bolster efficient operations and informed decision making, enabling businesses to achieve cost savings, scalability, and flexibility while ensuring compliance. Through the use of progressive and efficient DB management systems, we facilitate optimal outcomes for your business.",
     price: 1499,
+    list: [],
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C79WG4Z4",
       partTime: "",
@@ -309,6 +313,7 @@ export const cyberData: IService[] = [
     description:
       "Our Cyber Security Analysts safeguard digital assets against evolving threats. They enhance security, ensure regulatory compliance, manage risks, and maintain trust and confidence. Leveraging a deep understanding of the cybersecurity landscape and strong problem solving abilities, they monitor and analyse security systems, scrutinise network traffic, identify anomalies, and promptly respond to potential security incidents.",
     price: 2990,
+    list: [],
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C7A0Q0P6",
       partTime: "",
@@ -384,6 +389,7 @@ export const cyberData: IService[] = [
     description:
       "Enhance the security of your system, application, or network by employing our Penetration Tester. Protect your business critical data from hackers and proactively prevent security breaches and vulnerabilities. Customise testing styles to effortlessly meet your unique requirements. They excel in analysing complex systems, pinpointing weaknesses, and adeptly employing both manual testing techniques and automated tools.",
     price: 2890,
+    list: [],
     paymentLink: {
       fullTime: "https://pay.gocardless.com/BRT0003C7A7C4Y1",
       partTime: "",

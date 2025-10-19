@@ -35,7 +35,7 @@ const SubscribeModal = ({
             1 item
           </div>
           <p className="text-xl font-semibold">
-            {formatCurrency(service.price + vat)}
+            {formatCurrency(service.price)}
           </p>
         </div>
         <hr className="my-3" />
@@ -48,16 +48,16 @@ const SubscribeModal = ({
               {formatCurrency(service.price)}
             </p>
           </div>
-          <div className="w-full flex flex-row items-start justify-between">
+          {/* <div className="w-full flex flex-row items-start justify-between">
             <p className="font-medium text-sm text-[#344054]">VAT</p>
             <p className="font-normal text-sm text-[#344054]">
               {formatCurrency(vat)}
             </p>
-          </div>
+          </div> */}
           <div className="w-full flex flex-row items-start justify-between">
             <p className="font-medium text-sm text-[#344054]">Total Due</p>
             <p className="font-normal text-sm text-[#344054]">
-              {formatCurrency(service.price + vat)}
+              {formatCurrency(service.price)}
             </p>
           </div>
         </div>

@@ -2,6 +2,7 @@ import { Goal, Vision } from "@/assets/icons";
 import { AboutBanner, GlobalReach } from "@/assets/images";
 import Faq from "@/components/about/faq";
 import HowItWorks from "@/components/about/howItWorks";
+import Industries from "@/components/about/industries";
 import OurValues from "@/components/about/ourValues";
 import { cn } from "@/utils";
 import Image from "next/image";
@@ -119,33 +120,7 @@ export default function AboutUs() {
       </section>
       <OurValues />
       <HowItWorks />
-      <section className="pt-16 lg:pt-28 px-5">
-        <div className="relative w-full lg:max-w-[1260px] md:min-h-[550px] xl:min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
-          <Image
-            src={GlobalReach}
-            alt="how-we-work"
-            className="object-cover z-[1]"
-            layout="fill"
-            placeholder="blur"
-          />
-          <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>
-          <div className="lg:w-[790px] w-full flex flex-col gap-8 lg:gap-10 h-full z-[3]">
-            <div className="flex flex-col gap-2">
-              <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-1 lg:mb-3">
-                Global Reach
-              </h2>
-              <p className="text-sm lg:text-lg font-light text-balance">
-                With our roots in the UK and Ghana&apos;s alignment with the GMT
-                time zone, we cater to the needs of global entities. Our
-                specialists work within your business hours, and our mature
-                collaboration strategies enable us to overcome geographic,
-                language, and cultural barriers, ensuring cohesive communication
-                and exceptional results.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Industries />
       <Faq />
     </main>
   );

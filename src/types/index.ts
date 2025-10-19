@@ -22,6 +22,7 @@ export type IService = {
     partTime: string;
   };
   description: string;
+  list: string[];
   roles: string[];
   skillSet: item[];
   keyDeliverables: {
