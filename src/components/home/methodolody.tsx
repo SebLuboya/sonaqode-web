@@ -86,7 +86,7 @@ const sections = [
     ],
   },
   {
-    label: "Scrum Team",
+    label: "Agile Team",
     subLabel: "Agile Methodology",
     desc: "Partner with us for bespoke development, from ideation and prototyping to launch and maintenance. Our agile process utilises two-week sprints for projects requiring iteration, ensuring a working product increment is delivered consistently, enabling rapid progress and continuous feedback.",
     bgcolor: "bg-sona-lightPurple",

@@ -1,5 +1,5 @@
 import { Goal, Vision } from "@/assets/icons";
-import { AboutBanner, GlobalReach } from "@/assets/images";
+import { AboutBanner } from "@/assets/images";
 import Faq from "@/components/about/faq";
 import HowItWorks from "@/components/about/howItWorks";
 import Industries from "@/components/about/industries";
@@ -29,21 +29,14 @@ export default function AboutUs() {
         <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-[2]"></div>
         <div className="flex flex-col gap-9 lg:gap-16 z-[3] w-full lg:max-w-[1260px] mx-auto">
           <div className="flex flex-col gap-2">
-            <h1 className="font-clash text-2xl md:text-4xl xl:text-[56px] font-semibold xl:leading-[68px] md:w-[400px] xl:w-[634px]">
-              About Us
+            <h1 className="font-clash text-2xl md:text-4xl xl:text-[56px] font-semibold xl:leading-[68px] md:w-[400px] xl:w-[734px]">
+              Talent dots, Connected.
             </h1>
             <p className="text-sm md:text-base xl:text-lg md:max-w-[550px] xl:max-w-[680px] font-light">
-              Sonaqode is a tech professional staffing company dedicated to
-              helping businesses scale and grow. We focus on optimising budgets,
-              accelerating growth, and avoiding the pitfalls of traditional
-              outsourcing. By providing efficient, on-demand access to top-tier
-              talent from across Africa, we empower you to achieve exceptional
-              results swiftly.
-            </p>
-            <p className="text-sm md:text-base xl:text-lg md:max-w-[550px] xl:max-w-[680px] font-light">
-              We understand that achieving your success means securing the best
-              talent, and our dedicated team of specialists stands ready to
-              support you at every step.
+              We believe a proficient workforce is the foundation of your
+              success. That’s why our mission is clear, to connect ambitious
+              companies with top-tier talent, empowering you to scale and grow
+              with efficiency, flexibility, and convenience.
             </p>
           </div>
         </div>
