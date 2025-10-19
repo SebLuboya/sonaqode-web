@@ -18,7 +18,8 @@ export default function Home() {
         <div className="flex flex-col gap-9 xl:gap-16 z-[3] w-full xl:max-w-[1260px] mx-auto">
           <div className="flex flex-col gap-2">
             <h1 className="font-clash text-2xl md:text-4xl xl:text-[56px] font-semibold xl:leading-[68px] md:w-[400px] xl:w-[634px]">
-              Empowered by tech. Powered by talent.
+              Empowered by tech. <br />
+              Powered by talent.
             </h1>
             <p className="md:max-w-[450px] xl:max-w-[520px] font-light">
               We empower organisations to integrate remote support, accelerating
