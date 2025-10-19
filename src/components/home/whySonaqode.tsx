@@ -5,26 +5,26 @@ import React from "react";
 
 const whys = [
   {
-    label: "Affordable Pricing",
-    desc: "Tap into our exceptional talent pool of skilled professionals at cost effective rates, boosting your profitability.",
+    label: "Cost-Effective Pricing",
+    desc: "Boost your profitability by tapping into our pool of exceptional, skilled professionals at cost-effective rates with no hidden fees.",
     color: "bg-[#8497FF]",
     icon: Affordable,
   },
   {
     label: "Transparent Communication",
-    desc: "We believe in trust, accountability, and practicing clear and cohesive engagements with clients.",
+    desc: "Our client engagements are defined by trust, accountability, and seamless collaboration.",
     color: "bg-[#93FF98]",
     icon: Transparent,
   },
   {
     label: "Focus on Quality",
-    desc: "Driving excellence, continuously improving efficiency, and aligning practices with a commitment to long term success.",
+    desc: "We are dedicated to driving excellence, improving efficiency, and aligning our practices with a commitment to long-term success.",
     color: "bg-[#FFD556]",
     icon: Focus,
   },
   {
     label: "Team Extension",
-    desc: "Connecting you with top-tier talents, seamlessly integrating them into your team, and ensuring effective contributions.",
+    desc: "We connect you with top-tier talent, seamlessly integrate them into your team, and drive effective contributions to accelerate your goals.",
     color: "bg-[#B4E7FF]",
     icon: Extension,
   },

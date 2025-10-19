@@ -6,25 +6,25 @@ import React from "react";
 const whys = [
   {
     label: "Cultivating Alliances",
-    desc: "Working with our partners to encourage investment and empowerment into communities and individuals with a focus on generating positive social and environmental outcomes.",
+    desc: "We work with our partners to encourage investments that empower communities and individuals, focusing on generating positive social and environmental outcomes.",
     color: "bg-[#8497FF]",
     icon: Alliance,
   },
   {
     label: "Elevating Communities",
-    desc: "As a people first company, we value our local community and actively support it by investing in the tools, skills, and education needed to create communities that are inspired, capable, and confident in driving change.",
+    desc: "Our people first ethos extends to our local community. We invest in the tools, skills, and education that empower individuals, fostering a collective that is inspired and capable of creating meaningful change.",
     color: "bg-[#93FF98]",
     icon: Crowd,
   },
   {
     label: "Amplifying Talents",
-    desc: "We support diverse talent to excel in their fields and become value driven role models and leaders who uplift and inspire their communities. These achievements are facilitated by offering individuals free opportunities for networking, internships, and personal development.",
+    desc: "Our mission is to cultivate the next generation of value driven leaders from diverse backgrounds. By offering free networking, internships, and personal development, we equip talented individuals to excel in their fields and become inspirational forces in their communities.",
     color: "bg-[#FFD556]",
     icon: Creativity,
   },
   {
     label: "Supporting Charitable Causes",
-    desc: "As part of our mission to positively impact work, people, and the planet, we actively support charitable causes and none profit organisations. This includes staging fundraising events and providing material assistance to orphanages and children's facilities in various regions where we are present.",
+    desc: "We fulfill our mission to impact work, people, and the planet by partnering with non-profits and supporting charitable causes. Our efforts include fundraising and providing direct material support to orphanages and children's facilities in the communities we serve.",
     color: "bg-[#B4E7FF]",
     icon: Support,
   },

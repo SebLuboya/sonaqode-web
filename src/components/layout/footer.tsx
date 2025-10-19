@@ -64,11 +64,16 @@ const Footer = () => {
         </p>
       </div>
       <div className="w-full lg:max-w-[1260px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-0 justify-between py-10">
-        <Image
-          src={SonaqodeDarkIcon}
-          className="h-[70px] w-auto"
-          alt="sonaqode-dark-icon"
-        />
+        <div className="relative h-[70px] w-auto">
+          <Image
+            src={SonaqodeDarkIcon}
+            className="h-[70px] w-auto"
+            alt="sonaqode-dark-icon"
+          />
+          <p className="text-[8px] relative bottom-4 left-[88px]">
+            Empowered by tech. Powered by talent.
+          </p>
+        </div>
         {links.map((link) => (
           <div
             key={link.label}

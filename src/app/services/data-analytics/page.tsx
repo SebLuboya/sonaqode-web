@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Analytics,
-  Automation,
-  BarChart,
-  BusinessIntelligence,
-  DataEngineer,
-  DataScience,
-  Mysql,
-  Python,
-} from "@/assets/icons/services";
+import { Analytics, Mysql, Python } from "@/assets/icons/services";
 import { cn } from "@/utils";
 import Button from "@/components/misc/button";
 import Image from "next/image";
@@ -17,6 +8,7 @@ import Services from "@/components/services/services";
 import AssistanceWith from "@/components/services/assistanceWith";
 import HowToInitiate from "@/components/services/howToInitiate";
 import Faq from "@/components/about/faq";
+import { analyticesData } from "@/data/analyticesData";
 
 export const metadata = {
   title: "Data & Analytics – Sonaqode",
@@ -43,109 +35,7 @@ const assist = [
   "Data integrity and quality management.",
 ];
 
-const faqData = [
-  {
-    question: "When can you start work on Data & Analytics for my business?",
-    answer:
-      "Once we grasp your needs, our engineers will provide comprehensive consultation services. We use appropriate tools tailored to your business needs, sign an NDA to protect your information, and begin development upon contract signing.",
-  },
-  {
-    question:
-      "How do Data Analysist's/Engineers communicate with their clients?",
-    answer:
-      "Our developers are comfortable and ready to use your preferred communication channel if it provides the required level of data safety.",
-  },
-  {
-    question:
-      "What are the terms of data security? I need an NDA for my project.",
-    answer:
-      "All our projects are protected and supported with a mandatory signed NDA before initiation. You can be sure that all your information is securely protected.",
-  },
-  {
-    question:
-      "Who will be my main point of contact? Do I work directly with the developers?",
-    answer:
-      "We will assign a relevant professional either a project manager or developer & Engineer. Our team will be available to you at all times via any communication channel of your choice. We also use different collaboration tools, such as Redmine, to communicate with our customers.",
-  },
-];
-
-const data = [
-  {
-    title: "Data Engineer",
-    description:
-      "Our data engineers design, build, and maintain the data infrastructure and architecture necessary to collect, store, process, and analyse data. They enable real time data processing, personalise customer experiences, and inform decision making, making their role vital to any data driven organisation. Skilled in a diverse range of frameworks and tools, they drive the efficiency and effectiveness of your organisation’s data ecosystem.",
-    price: 3490,
-    icon: DataEngineer,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 4 years in respective role/Industry.",
-      "Tech tools: AWS, GCP, Azure, Python, Java, Scala, SQL, Hadoop, Spark, ETL, Prometheus, NoSQL, Apache Hadoop, Apache Kafka",
-      "Skills: Database Design & Architecture, Data Modeling, Data Warehousing, Programming & Scripting, Governance and Security",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "Data Analyst",
-    description:
-      "Unlock the potential of raw data by transforming it into valuable insights that enhance decision making, improve efficiency, and drive business growth. Our talented data analysts excel in interpreting data, generating reports, and creating visualisations, helping businesses stay competitive, gain deeper understanding of customers and markets, and adapt their strategies accordingly. Optimise operations, ensuring sustained success and profitability.",
-    price: 2690,
-    icon: BarChart,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 4 years in respective role/Industry.",
-      "Tech tools: Tableau, Power BI, QlikView/Qlik Sense, Google Data Studio, Python, JavaScript, SAS, SPSS, SQL, Oracle Database, Hive",
-      "Skills: Proficiency in Excel, Data Cleaning & Preparation, Statistical Analysis, Data Visualisation Principles, Programming & Scripting, Database Management.",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "Data Scientist",
-    description:
-      "Discover patterns, trends, and correlations in data that reveal insights into customer behavior, market trends, and operational performance. Our data scientists excel in data analysis, predictive modeling, and strategic insights, empowering businesses to optimise operations, innovate products and services, enhance customer experiences, and mitigate risks, thereby maintaining a competitive edge in the market.",
-    price: 3790,
-    icon: DataScience,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 4 years in respective role/Industry.",
-      "Tech tools: Python, R, SQL, Tableau, Power BI, Matplotlib & Seaborn, Apache Hadoop, Hive, PyTorch, Scikit-learn, Keras, Pandas, NumPy, AWS, GCP, SQL/NoSQLDatabases",
-      "Skills: Probability & Statistics, Mathematics, Machine Learning & AI, Data Cleaning & Preprocessing, Data Visualisation",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "Business Intelligence Analyst",
-    description:
-      "Harness the power of data effectively, drive data driven decision making, and enhance performance across various areas. Our talented analysts leverage your data to gain a deeper understanding of your business. They employ analytical tools and techniques to uncover trends, patterns, and correlations within the data, identifying market gaps and developing strategies based on objective information.",
-    price: 2690,
-    icon: BusinessIntelligence,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 4 years in respective role/Industry.",
-      "Tech tools: Tableau, Python, R, Power BI, Looker, QlikView/Qlik Sense, SSIS, Informatica, Alteryx, SQL, PostgreSQL, Microsoft SQL Server, Apache Spark",
-      "Skills: Data Analysis, Data Visualisation, SQL, Database Management/Warehousing, Statistical Analysis, Critical Thinking, Report Writing",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "Automation Engineer",
-    description:
-      "Streamline your processes with our dedicated automation engineers. Leverage their proficiency in designing and implementing automated systems to optimise workflows, drive efficiency, enhance quality, and maintain competitiveness in a rapidly evolving market. Utilising cutting edge technologies and a commitment to innovation, our specialists are ready to revolutionise your workflow.",
-    price: 3390,
-    icon: Automation,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 4 years in respective role/Industry.",
-      "Tech tools: JavaScript/Node.js, Python, PowerShell, Selenium, TestComplete, Appium, Azure DevOps, GitLab CI/CD, Jenkins, SaltStack, Ansible, Terraform, ARM, AWS CloudFormation",
-      "Skills: Automation Framework Development, Infrastructure Automation, DevOps Practices, Cloud Computing, Problem Solving & Troubleshooting",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-];
+const data = analyticesData;
 
 export default function DataAndAnalytics() {
   return (
@@ -181,12 +71,13 @@ export default function DataAndAnalytics() {
                 Data & Analytics
               </h2>
               <p className="md:text-base xl:text-lg text-sm font-light">
-                Leverage the power of data with our analysts and engineers to
-                turn data into value. Competent in delivering analytics
-                solutions that help you process and interpret your data assets,
-                shedding light on key business dynamics, they transform projects
-                and processes to supercharge operations with targeted insights,
-                liberating your teams from repetitive processes.
+                Leverage the power of your data with our analysts and engineers
+                to unlock tangible business value. We deliver advanced analytics
+                solutions that process and interpret your data assets,
+                illuminating key business dynamics. By transforming projects and
+                processes with targeted insights, we enhance operations and
+                automate repetitive tasks, allowing your teams to focus on
+                strategic growth.
               </p>
 
               <a href="#services">

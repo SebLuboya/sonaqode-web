@@ -54,7 +54,7 @@ const Subscribe = ({
                       })
                       .split(".")[0]
                   }{" "}
-                  / Month + VAT
+                  / Month
                 </p>
               </button>
             </Dialog>
@@ -84,7 +84,7 @@ const Subscribe = ({
                         })
                         .split(".")[0]
                     }{" "}
-                    / Month + VAT
+                    / Month
                   </p>
                 </button>
               </Dialog>

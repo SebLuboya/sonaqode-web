@@ -219,7 +219,7 @@ export default function CyberSecurityPage() {
         </div>
       </section>
       <Services
-        data={data}
+        data={[]}
         sectionTitle="Cyber Security"
         section="cyber-security"
       />

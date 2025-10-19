@@ -2,6 +2,7 @@ import { Goal, Vision } from "@/assets/icons";
 import { AboutBanner, GlobalReach } from "@/assets/images";
 import Faq from "@/components/about/faq";
 import HowItWorks from "@/components/about/howItWorks";
+import Industries from "@/components/about/industries";
 import OurValues from "@/components/about/ourValues";
 import { cn } from "@/utils";
 import Image from "next/image";
@@ -47,6 +48,24 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
+      <section className="pt-12 lg:pt-20 px-5">
+        <div className="w-full lg:max-w-[1260px] mx-auto space-y-4 gap-10 px-8 py-11 rounded-[30px] overflow-clip bg-sona-lightBlue text-lg font-light">
+          <p>
+            We provide on-demand access to a talent pool of over 5,000 vetted
+            professionals from across Africa, packaged at cost-effective rates
+            with uncompromising quality. This gives you the elite talent you
+            need without the overhead and traditional complexities.
+          </p>
+          <p>
+            We&apos;re building the future of work by unlocking Africa&apos;s
+            vast potential and creating exceptional opportunities for growth and
+            innovation. Our specialists have a proven track record of delivering
+            results for international companies. With Sonaqode&apos;s ongoing
+            support, we guide you every step of the way to transform your ideas
+            and challenges into outstanding results.
+          </p>
+        </div>
+      </section>
       <section className="pt-16 lg:pt-28 px-5">
         <div className="relative w-full max-w-[1260px] flex flex-col lg:flex-row gap-5 lg:gap-8 mx-auto">
           <div className="w-full bg-[#CDCBFF] flex flex-col rounded-[40px] p-8 gap-5">
@@ -68,8 +87,8 @@ export default function AboutUs() {
             </div>
             <div>
               <p className="text-sm lg:text-lg text-gray-600">
-                To spearhead and propel digital services through AI and
-                technology from Africa to the world.
+                Delivering the future of digital solutions, powered by African
+                talent and AI.
               </p>
             </div>
           </div>
@@ -92,8 +111,8 @@ export default function AboutUs() {
             </div>
             <div>
               <p className="text-sm lg:text-lg text-gray-600">
-                To be the leading technology staffing company committed in
-                solving deep tech industry challenges.
+                To be the essential partner for visionary companies through
+                building teams that solve foundational tech challenges.
               </p>
             </div>
           </div>
@@ -101,33 +120,7 @@ export default function AboutUs() {
       </section>
       <OurValues />
       <HowItWorks />
-      <section className="pt-16 lg:pt-28 px-5">
-        <div className="relative w-full lg:max-w-[1260px] md:min-h-[550px] xl:min-h-[630px] mx-auto flex flex-row items-end px-5 pb-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
-          <Image
-            src={GlobalReach}
-            alt="how-we-work"
-            className="object-cover z-[1]"
-            layout="fill"
-            placeholder="blur"
-          />
-          <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-[2]"></div>
-          <div className="lg:w-[790px] w-full flex flex-col gap-8 lg:gap-10 h-full z-[3]">
-            <div className="flex flex-col gap-2">
-              <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-1 lg:mb-3">
-                Global Reach
-              </h2>
-              <p className="text-sm lg:text-lg font-light text-balance">
-                With our roots in the UK and Ghana's alignment with the GMT time
-                zone, we cater to the needs of global entities. Our specialists
-                work within your business hours, and our mature collaboration
-                strategies enable us to overcome geographic, language, and
-                cultural barriers, ensuring cohesive communication and
-                exceptional results.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Industries />
       <Faq />
     </main>
   );

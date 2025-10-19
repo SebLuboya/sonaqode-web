@@ -14,17 +14,17 @@ const steps = [
   {
     circle: Circle50,
     label: "Engage",
-    desc: "We will schedule a call to ascertain your requirements and expectations and introduce your assigned employee and dedicated manager.",
+    desc: "We will schedule a call to understand your requirements, align on expectations, and start the process of matching you with the ideal candidate.",
   },
   {
     circle: Circle75,
     label: "Cooperate",
-    desc: "Integrate your newly assigned team into your in-house team. Familiarise them with company practices, then assign tasks to unleash their capabilities.",
+    desc: "Once you've subscribed we'll present you with shortlisted pre-vetted candidates. Once you've made your selection, we'll arrange an interview.",
   },
   {
     circle: Circle100,
     label: "Commence",
-    desc: "Breathe, your ambitious onboarded team embodies an engineering ethos that embraces adaptability, drives continual improvement, and delivers unparalleled value.",
+    desc: "With your candidate chosen, we'll schedule a call to onboard your new team member so you can start delegating effectively immediately. We then provide regular check-ins to ensure seamless progress and continuously align on delivering maximum value.",
   },
 ];
 

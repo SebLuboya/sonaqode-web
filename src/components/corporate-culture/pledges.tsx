@@ -1,6 +1,6 @@
 "use client";
 import { Sdg1, Sdg2, Sdg3, Sdg4 } from "@/assets/images";
-import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
+import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -8,25 +8,25 @@ const data = [
   {
     label: "SDG 8",
     sublabel: "Decent Work and Economic Growth",
-    desc: "We commit to investing in training and professional qualifications to empower team members to advance into senior and higher paying roles. Additionally, we will bolster the growth of our operational digital economy by enhancing citizen services and facilitating improved access to online services.",
+    desc: "We are dedicated to empowerment on two fronts: internally, by investing in training and qualifications that enable our team to advance into senior roles and externally, by bolstering the digital economy to enhance citizen services and improve online access for all.",
     image: Sdg1,
   },
   {
     label: "SDG 3",
     sublabel: "Good Health and Wellbeing",
-    desc: "At the core of our organisation are people, and their well being is our utmost priority. We strive to foster open discussions about mental health, promote work life balance, incentivise healthy habits, and engage you with exciting wellness initiatives.",
+    desc: "We put our people first and their well-being is our utmost priority. We actively foster a culture that encourages open dialogue about mental health, promotes a healthy work life balance, incentivises wellness, and engages everyone with meaningful initiatives.",
     image: Sdg2,
   },
   {
     label: "SDG 5",
     sublabel: "Gender Equality",
-    desc: "We position ourselves as a progressive company and actively champion gender equality by promoting women's participation in the workforce and leadership roles. Fostering a diverse and inclusive workplace broadens perspectives, stimulates innovation, and enhances  problem solving capabilities within the company.",
+    desc: "We actively champion gender equality by promoting women's advancement into leadership and across all levels of our workforce. We know that fostering a diverse and inclusive workplace broadens perspectives, stimulates innovation, and enhances our problem solving capabilities.",
     image: Sdg3,
   },
   {
     label: "SDG 10",
     sublabel: "Reduced Inequalities",
-    desc: "We aim to create equal opportunities by educating youth about digital careers and providing mentorship to job seekers from underprivileged backgrounds, thereby leveling the playing field.",
+    desc: "We build pathways to digital careers for underrepresented communities. Through youth education and mentorship for underprivileged job seekers, we work to level the playing field and foster inclusive economic growth.",
     image: Sdg4,
   },
 ];
@@ -40,9 +40,10 @@ const Pledges = () => {
             Pledges
           </h2>
           <p className="text-base lg:text-lg font-light text-center text-balance leading-5 mt-3">
-            Our company&apos;s commitments are aligned with several United
-            Nations Sustainable Development Goals (SDGs), a set of 17 objectives
-            designed to promote global peace and prosperity.
+            Our core commitments align with the United Nations Sustainable
+            Development Goals (SDGs). This global blueprint of 17 objectives
+            guides our efforts to create lasting value for both society and our
+            business.
           </p>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 mt-14 gap-5 lg:gap-12">
             {data.map((pledge) => (

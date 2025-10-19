@@ -13,7 +13,7 @@ const services = [
   {
     label: "Software Development",
     image: SoftwareDevelopment,
-    desc: "At Sonaqode, we understand that developing robust and scalable software solutions is the backbone of every successful business. That's why we offer you access to our talented and highly skilled software engineers.",
+    desc: "At Sonaqode, we understand that developing robust and scalable software solutions is the backbone of every successful business. That's why we offer you access to our talented and highly skilled software specialists.",
     link: "/services/software-development",
     color: "bg-sona-lightPurple",
     btncolor: "bg-sona-midPurple",
@@ -21,7 +21,7 @@ const services = [
   {
     label: "Data & Analytics",
     image: DataAnalytics,
-    desc: "At Sonaqode, we offer you the expertise of our talented data scientists, who can help you unlock the full potential of your data and derive actionable insights to drive business growth.",
+    desc: "Unlock the full potential of your data with Sonaqode. We partner with you to derive actionable insights that inform strategy, optimise operations, and accelerate your business growth.",
     link: "/services/data-analytics",
     color: "bg-sona-lightPink",
     btncolor: "bg-sona-midPink",

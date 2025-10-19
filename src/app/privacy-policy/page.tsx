@@ -108,13 +108,11 @@ export default function PrivacyPolicy() {
               Privacy Policy
             </h1>
             <p className="text-center text-sm lg:text-lg font-light">
-              We greatly appreciate your visit to our website, and thank you for
-              your interest in our company, our products, and our web pages. We
-              take your privacy seriously and are committed to protecting your
-              personal information when you use our website. We will always
-              process your personal data lawfully, fairly and transparently and
-              in the same manner that we would expect others to process our
-              personal data.
+              Thank you for visiting our website. At Sonaqode, we take your
+              privacy seriously. We are committed to processing your personal
+              data lawfully, fairly, and transparently, guided by the principle
+              of treating your information with the same respect we expect for
+              our own.
             </p>
           </div>
         </div>

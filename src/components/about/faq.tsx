@@ -6,23 +6,23 @@ const faqData = [
   {
     question: "How do you select your specialists?",
     answer:
-      "We meticulously screen candidates, assessing their industry expertise, experience, and technical proficiency. This ensures our team is composed of individuals with diverse skill sets, fostering a well-rounded approach.",
+      "Our rigorous screening process evaluates candidates technical skills, industry knowledge, and practical experience. This ensures we form teams with diverse capabilities, fostering the well rounded perspective needed to solve complex challenges.",
   },
   {
     question:
       "What happens if a team member needs to be replaced or added mid-project?",
     answer:
-      "We recognise that project needs can shift. To accommodate changes, we promptly adjust our team by adding or replacing members, minimising disruptions to your project timeline. Our commitment is to remain adaptable and responsive to your evolving requirements.",
+      "As your project needs shift, we adapt instantly. We minimise timeline disruptions by promptly adding or replacing team members, ensuring we remain fully aligned with your evolving goals.",
   },
   {
     question: "How experienced are your professionals?",
     answer:
-      "Our professionals are highly experienced and have a proven track record in their respective fields. All are university graduates and bring a minimum of three years of industry experience. They combine a strong educational foundation with practical expertise, empowering them to craft high quality solutions tailored to your business's unique needs.",
+      "Backed by university degrees and a minimum of three years' industry experience, ensuring they can deliver high quality, tailored solutions your business requires.",
   },
   {
     question: "How does the onboarding process work?",
     answer:
-      "Our onboarding process is straightforward. Simply complete the subscription form, and we will contact you within a couple of hours to begin the welcome process. During this process, we will introduce your dedicated professional and establish a roadmap for delivering outstanding results.",
+      "Simply complete your subscription form, and we will contact you within two hours to initiate the welcome process. In this initial call, we'll discuss your business needs and objectives. We will then shortlist and present a qualified candidate. Once you approve, we'll arrange an interview. If you're satisfied, your new hire can integrate into your workflow immediately, allowing you to delegate tasks and see results from day one.",
   },
   {
     question: "Where is Sonaqode based?",
@@ -33,7 +33,7 @@ const faqData = [
     question:
       "How can I ensure effective communication with a Developer & Engineer?",
     answer:
-      "Maintaining clear and effective communication is crucial for the success of any project. You will have direct communication channels with the dedicated developers working on your project. We establish strong communication channels and regular check ins from the outset to ensure this. Our toolkit for effective communication usually includes tools Skype, Teams, Email, Zoom, Jira, Confluence, and Slack.",
+      "ou will have direct lines to your dedicated developers, supported by a structured framework of regular check-ins and progress updates. We ensure seamless collaboration through established communication channels and regular sync-ups, using the tools that work best for you including Slack, Teams, Zoom, and Jira.",
   },
   {
     question: "Are your professionals fluent in English?",

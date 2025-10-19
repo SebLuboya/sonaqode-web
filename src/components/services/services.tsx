@@ -1,11 +1,12 @@
 "use client";
 import React, { useState } from "react";
 import { cn } from "@/utils";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import Button from "@/components/misc/button";
 import Checkicon from "@/assets/icons/glyphs/Checkicon";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
+import { IService } from "@/types";
 
 const Services = ({
   section,
@@ -14,14 +15,7 @@ const Services = ({
 }: {
   section: string;
   sectionTitle?: string;
-  data?: {
-    title: string;
-    description: string;
-    price: number;
-    partTime?: number;
-    icon: StaticImageData;
-    list: string[];
-  }[];
+  data?: IService[];
 }) => {
   const [showModal, setShowModal] = useState("");
 
@@ -54,11 +48,7 @@ const Services = ({
                     onClick={() => setShowModal("")}
                     className="absolute top-0 left-0 w-full h-full bg-black/30 z-[30]"
                   ></div>
-                  <ServiceInfoCard
-                    service={service}
-                    section={section}
-                    setShowModal={setShowModal}
-                  />
+                  <ServiceInfoCard service={service} section={section} />
                 </motion.div>
               )}
             </AnimatePresence>
@@ -77,13 +67,9 @@ const Services = ({
               </div>
               <div className="w-fit h-12 flex items-center justify-center px-4 rounded-full bg-sona-blue">
                 <p className="text-white">
-                  {section === "software-development" && (
-                    <span className="text-sm">From </span>
-                  )}
+                  <span className="text-sm">From </span>
                   {
-                    service[
-                      section === "software-development" ? "partTime" : "price"
-                    ]
+                    service["partTime"]
                       ?.toLocaleString("en-US", {
                         style: "currency",
                         currency: "GBP",
@@ -117,16 +103,8 @@ const ServiceInfoCard = ({
   service,
   section,
 }: {
-  service: {
-    title: string;
-    description: string;
-    price: number;
-    partTime?: number;
-    icon: StaticImageData;
-    list: string[];
-  };
+  service: IService;
   section: string;
-  setShowModal: (value: string) => void;
 }) => {
   const [activeTab, setActiveTab] = useState("40");
 
@@ -176,7 +154,7 @@ const ServiceInfoCard = ({
             },
           ).split(".")[0]
         }{" "}
-        / Month + VAT
+        / Month
       </p>
       <div className={"flex flex-col gap-2 w-full md:w-[440px] xl:w-[470px]"}>
         {service.list.map((item) => {

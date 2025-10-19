@@ -1,4 +1,4 @@
-import { HowWeWork, WomanStanding } from "@/assets/images";
+import { GlobalReach, HowWeWork, WomanStanding } from "@/assets/images";
 import Image from "next/image";
 import HomeImageCarosel from "@/components/misc/homeImageCarosel";
 import OurServices from "@/components/home/ourServices";
@@ -7,6 +7,7 @@ import Methodolody from "@/components/home/methodolody";
 import Button from "@/components/misc/button";
 import Link from "next/link";
 import OurClientsNew from "@/components/home/ourClientsNew";
+import Metrics from "@/components/home/metrics";
 
 export default function Home() {
   return (
@@ -19,9 +20,9 @@ export default function Home() {
             <h1 className="font-clash text-2xl md:text-4xl xl:text-[56px] font-semibold xl:leading-[68px] md:w-[400px] xl:w-[634px]">
               Empowered by tech. Powered by talent.
             </h1>
-            <p className="md:max-w-[450px] xl:max-w-[507px] font-light">
-              We help organisations integrate remote support, accelerating
-              progress and uncovering opportunities.
+            <p className="md:max-w-[450px] xl:max-w-[520px] font-light">
+              We empower organisations to integrate remote support, accelerating
+              their progress and unlocking new opportunities for growth.
             </p>
           </div>
           <Link href="/about">
@@ -38,15 +39,13 @@ export default function Home() {
               </h2>
               <p className="font-light text-sm lg:text-[17px] text-gray-500 leading-[27px]">
                 We connect you with top-tier tech professionals to build a
-                resilient, extended remote workforce. Our value driven solutions
-                accelerate growth and innovation, propelling your business to
-                new heights. From start-ups to established enterprises, we align
-                your goals with expert teams and professionals through our
-                seamless and flexible model.
-              </p>{" "}
+                resilient, extended remote workforce. Our value-driven solutions
+                and flexible model seamlessly integrates expert talent with your
+                operations, allowing you to focus on your strategic goals while
+                we manage the staffing needs.
+              </p>
               <p className="font-light text-sm lg:text-[17px] text-gray-500 leading-[27px]">
-                Allowing you to focus on growing your business while we expertly
-                manage your staffing needs.
+                Discover a smarter way to scale.
               </p>
             </div>
             <Link href="/about">
@@ -64,11 +63,12 @@ export default function Home() {
       </section>
       <OurServices />
       <WhySonaqode />
+      <Metrics />
       <section className="pt-16 lg:pt-28 px-5">
         <div className="relative w-full lg:max-w-[1260px] md:min-h-[550px] xl:min-h-[630px] mx-auto flex flex-row items-end px-5 py-12 lg:pb-16 lg:pl-16 rounded-[35px] lg:rounded-[100px] overflow-clip bg-sona-lightBlue text-white">
           <Image
-            src={HowWeWork}
-            alt="how-we-work"
+            src={GlobalReach}
+            alt="global-reach"
             className="object-cover z-[1]"
             layout="fill"
             placeholder="blur"
@@ -77,13 +77,14 @@ export default function Home() {
           <div className="lg:w-3/6 w-full flex flex-col gap-8 lg:gap-10 h-full z-[3]">
             <div className="flex flex-col gap-2">
               <h2 className="font-clash text-3xl lg:text-[50px] font-semibold lg:leading-[60px] mb-1 lg:mb-3">
-                How We Work
+                Global Reach
               </h2>
               <p className="font-light text-balance">
-                We recognise the unique needs of every business, understanding
-                that a one size fits all approach is inadequate. That&apos;s why
-                we emphasise simplicity and flexibility in our engagements,
-                tailored to your convenience on demand.
+                Experience seamless support. With teams in the UK and Ghana
+                operating in the GMT zone, we work within your business hours.
+                Our collaboration practices effortlessly transcend geographic,
+                language, and cultural differences, delivering clear
+                communication and outstanding results.
               </p>
             </div>
             <Link href="/about">

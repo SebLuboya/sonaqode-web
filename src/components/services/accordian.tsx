@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { cn } from "@/utils";
 import MinusCircle from "@/assets/icons/glyphs/MinusCircle";
 import PlusCircle from "@/assets/icons/glyphs/PlusCircle";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { item } from "@/types";
 
 export const Accordian = ({

@@ -17,9 +17,9 @@ const OurClientsNew = () => {
             What Our Clients Say
           </h2>
           <p className="text-sm lg:text-base text-gray-600 text-center font-light mt-3">
-            Our testimonials highlight the trust, quality, and satisfaction that
-            define our work. Discover why our clients choose us to deliver
-            excellence.
+            The trust, quality, and satisfaction echoed in our client
+            testimonials define the experience of partnering with us. Explore
+            and discover the standard of excellence we deliver.
           </p>
         </div>
 

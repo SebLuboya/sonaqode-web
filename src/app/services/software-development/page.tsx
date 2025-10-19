@@ -6,19 +6,9 @@ import HowToInitiate from "@/components/services/howToInitiate";
 import { cn } from "@/utils";
 import AssistanceWith from "@/components/services/assistanceWith";
 import Faq from "@/components/about/faq";
-import {
-  AngleBrackets,
-  CodeFolder,
-  CurlyBrackets,
-  Figma,
-  ItSupport,
-  Js,
-  ManSocialMedia,
-  QaTesting,
-  VideoEditor,
-  Vscode,
-} from "@/assets/icons/services";
+import { CurlyBrackets, Js, ManSocialMedia } from "@/assets/icons/services";
 import Services from "@/components/services/services";
+import { softwareData } from "@/data/softwareData";
 
 export const metadata = {
   title: "Software Development – Sonaqode",
@@ -49,131 +39,8 @@ const assist = [
   "A/B testing",
 ];
 
-const data = [
-  {
-    title: "Mobile App Developer",
-    description:
-      "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
-    price: 3180,
-    partTime: 2080,
-    icon: AngleBrackets,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 3 years in respective role / industry",
-      "Tech tools: iOS, Flutter, Java, Kotlin, React Native, Android, Swift",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    description:
-      "Access skilled web developers who can construct high performance, modern web applications from scratch. Our full-stack developers excel in both Front-end and Back-end technologies, delivering fully customised web apps that meet your precise requirements. They ensure excellent performance and provide end to end solutions that are reliable and scalable.",
-    price: 3180,
-    partTime: 2145,
-    icon: Vscode,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 3 years in respective role",
-      "Tech tools: NodeJs, ExpressJs, Django, Angular, ReactJs, Bootstrap, Ruby On Rails,Flask, Jquery, Mongo DB",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    description:
-      "Our front-end developers craft intuitive, efficient, and enjoyable user web and mobile applications by expertly wielding a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They seamlessly integrate design, technology, and usability principles to deliver customised solutions that enhance engagement and accessibility, perfectly aligning with your unique brand needs.",
-    price: 2780,
-    partTime: 1780,
-    icon: Js,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 3 years in respective role / industry",
-      "Tech tools: HTML5, Sass, CSS3, JavaScript (ES6+), React, Angular, Vue.js, jQuery, npm",
-      "Skills: HTML/CSS Proficiency, JavaScript Expertise, Frameworks and Libraries, Responsive Design and Cross-Browser Compatibility, Performance Optimisation, User Experience (UX) Principles.",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    description:
-      "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server side solutions using cutting edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
-    price: 2780,
-    partTime: 1780,
-    icon: CodeFolder,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 3 years in respective role / industry",
-      "Tech tools: Node.js, Python, Ruby on Rails, Laravel, Symfony, ASP.NET Core, SQL/NoSQL Databases, GitHub/GitLab/Bitbucket, RESTful APIs",
-      "Skills: Proficiency in Server Side Languages, Database Management, API Development &Integration, Scalability &Reliability, Problem Solving & Analytical Thinking, Security Best Practices.",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "UI/UX Designer",
-    description:
-      "Our innovative designers excel at crafting visually appealing, highly functional, and user friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
-    price: 2180,
-    partTime: 1390,
-    icon: Figma,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 3 years in respective role",
-      "Tech tools: Figma, Adobe Xd",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "Video Content Editor",
-    description:
-      "Talented video editors actively cultivate creative and collaborative partnerships to conceptualise captivating animations, motion graphics, and multimedia content that seamlessly align with the company's brand and objectives. They skillfully execute edits that are both current and captivating, drawing upon their versatile expertise in commercial, corporate, and documentary formats.",
-    price: 1799,
-    partTime: 1189,
-    icon: VideoEditor,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 3 years in respective role / industry",
-      "Tech tools: Adobe Premiere Pro, Final Cut Pro X, DaVinci Resolve, Adobe After Effects, Adobe Audition",
-      "Tech tools: Creative Eye, Adaptability, Storyboarding and Scripting, Motion Graphics and Visual Effects, Audio Editing and Mixing",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "QA Tester",
-    description:
-      "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting edge technologies and adhering to industry leading testing standards. Collaborating with top notch QA and test automation engineers, going above and beyond to emphasise that quality assurance extends far beyond delivering software devoid of bugs.",
-    price: 2690,
-    partTime: 1690,
-    icon: QaTesting,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 3 years in respective role",
-      "Tech tools: Java, JDBC, Java Script, HTML, CSS, XML, JSON, XPath, SOA and Web Services",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-  {
-    title: "IT Support Engineer",
-    description:
-      "Our IT Engineers provide comprehensive technical support, collaborating with cross functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem solving and proactively identify and implement improvements to enhance overall performance.",
-    price: 899,
-    partTime: 549,
-    icon: ItSupport,
-    list: [
-      "Education: University Graduate, Degree",
-      "Experience: Min 3 years in respective role",
-      "Tech tools: Your preferred communication channel",
-      "Communication: Your preferred communication channel",
-      "Language: Fluent English Speaking & Writing",
-    ],
-  },
-];
+const data = softwareData;
+
 export default function SoftwareDevelopmentPage() {
   return (
     <main className="pt-4 lg:pt-8 pb-20 lg:pb-24">
@@ -208,14 +75,13 @@ export default function SoftwareDevelopmentPage() {
                 Software Development
               </h2>
               <p className="md:text-base xl:text-lg text-sm font-light">
-                Connect with our skilled tech specialists, ready to expedite
-                your objectives. Whether it&apos;s customising a running
-                developing prototype applications, or implementing complex
-                technology solutions, our expert team is equipped to deliver
-                rapid and reliable results. Proficient in top programming
-                languages, they adapt and collaborate with your business to
-                address any complexity, meet your requirements, and bring your
-                vision to life.
+                Connect with our skilled tech specialists to accelerate your
+                objectives. Whether you need to customise an existing platform,
+                develop prototype applications, or implement complex technology
+                solutions, our expert team delivers rapid, reliable results.
+                Proficient in top programming languages, we adapt to your
+                business needs to tackle complexity, meet your requirements, and
+                bring your vision to life.
               </p>
               <a href="#services">
                 <Button className={cn("mt-2", CONSTS.text, CONSTS.hoverbg)}>
