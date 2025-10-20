@@ -17,8 +17,8 @@ const Page = () => {
   return (
     <main className="pt-4 lg:pt-8 pb-20 lg:pb-24">
       <section className="flex flex-col items-end w-full px-6">
-        <div className="h-20 md:h-24 lg:h-28 shrink-0 mb-11 lg:mb-12"></div>
-        <div className="w-full max-w-[1260px] flex flex-col lg:gap-10 mx-auto pt-12 lg:py-14 p-4 rounded-[50px] lg:rounded-[100px] bg-sona-lightBlue">
+        <div className="h-20 md:h-24 lg:h-24 shrink-0 mb-10 "></div>
+        <div className="w-full max-w-[1260px] flex flex-col lg:gap-10 mx-auto pt-12 lg:py-10 p-4 rounded-[50px] lg:rounded-[80px] bg-sona-lightBlue">
           <div className="w-full mx-auto flex flex-col gap-8 items-center lg:px-10">
             <h1 className="font-clash text-3xl lg:text-[50px] text-center font-semibold lg:leading-[60px]">
               Blog & News
@@ -50,7 +50,7 @@ const Page = () => {
         ))}
       </div>
 
-      <section className="pt-16 lg:pt-28 px-5">
+      <section className="pt-16 lg:pt-16 px-5">
         <div className="grid gap-10 grid-cols-1 lg:grid-cols-3 lg:gap-8 mx-auto max-w-[1260px]">
           {data.length === 0 ? (
             <div className="col-span-1 lg:col-span-3 flex flex-col items-center justify-center gap-6 p-10 bg-neutral-50 rounded-[30px]">
@@ -75,9 +75,9 @@ const Page = () => {
           ) : (
             data.map((item, idx) => (
               <article key={idx} className="rounded-[30px] overflow-hidden">
-                <div className="w-full h-[320px] bg-sona-lightBlue">
+                <div className="w-full h-[200px] bg-sona-lightBlue">
                   <Image
-                    className="w-full h-full"
+                    className="w-full h-full object-cover"
                     src={item.image}
                     alt="image"
                   />

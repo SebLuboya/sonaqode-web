@@ -1,27 +1,22 @@
-import { Blue100, Blue25, Blue50, Blue75 } from "@/assets/icons/circles";
-import Image from "next/image";
 import React from "react";
+import CircleLoader from "../misc/CircleLoader";
 
 const steps = [
   {
-    circle: Blue25,
     label: "Initiation",
-    desc: "We begin with an introductory call, diving into the intricate details of your organisation. Through dynamic brainstorming sessions, we uncover your specific staffing requirements, ethos, and expectations, accurately matching them with suitable professionals to provide solutions to your challenges.",
+    desc: "We start with an introductory call to deeply understand of your organisation. We then facilitate brainstorming sessions to pinpoint your exact staffing requirements, cultural ethos, and strategic expectations. This thorough discovery process is the foundation for accurately matching you with the right professionals to address your challenges.",
   },
   {
-    circle: Blue50,
     label: "Discovery",
-    desc: "Building on the initial consultation, we embark on constructing a well planned and practical strategy, mapping out staffing solutions along with the resources, efficiency, and competency required to deliver outstanding results.",
+    desc: "Following the initial consultation, we co-create a practical, well planned strategy for you. This blueprint details the specific staffing solutions, resources, and competencies required to efficiently deliver your desired results.",
   },
   {
-    circle: Blue75,
     label: "Application",
-    desc: "This phase is dedicated to finding the ideal candidate for your organisation. We conduct a thorough vetting process, rigorously shortlisting the most compatible professionals who will seamlessly integrate with and complement your in-house team, delivering tangible results that align with your outlined expectations.",
+    desc: "Here, we focus on identifying the ideal candidate for you. Through a rigorous vetting process, we shortlist professionals who are not only a perfect fit for your team's culture but are also poised to deliver immediate, positive impact and achieve your outlined goals.",
   },
   {
-    circle: Blue100,
     label: "Appraisal",
-    desc: "We understand the value of user insight. Our team assesses the achievement of your engagement against outlined requirements, evaluating performance and other functionalities. This ensures it continues to meet your changing requirements and maximises its positive impact on your processes, guaranteeing quality and long term reliability.",
+    desc: "After you select your preferred candidate, we facilitate the final introduction and then support their seamless integration into your team, allowing for a swift transition to productive task delegation. Our partnership continues with a commitment to your success. Through regular performance reviews, we assess the achievement of your goals, gather your insights, and ensure every aspect of the engagement is functioning optimally.",
   },
 ];
 
@@ -34,12 +29,12 @@ const HowItWorks = () => {
             How It Works
           </h2>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
-            {steps.map((step) => (
+            {steps.map((step, idx) => (
               <div key={step.label} className="flex flex-row gap-4 lg:gap-10">
-                <Image
-                  src={step.circle}
-                  className="w-16 h-16 lg:w-20 lg:h-20"
-                  alt="circle"
+                <CircleLoader
+                  outerColor="hsla(203, 84%, 35%, 1)"
+                  innerColor="#fff"
+                  percentage={(idx + 1) * 25}
                 />
                 <div className="flex flex-col">
                   <h3 className="text-base lg:text-xl font-medium mb-1">

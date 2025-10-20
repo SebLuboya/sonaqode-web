@@ -100,7 +100,7 @@ export default function DataAndAnalytics() {
         section="data-analytics"
       />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
-      <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
+      <HowToInitiate text={CONSTS.text} fill="#FF728D" bgColor={CONSTS.bg} />
       <Faq />
     </main>
   );

@@ -19,9 +19,14 @@ const KeysAndSkills = ({
   return (
     <>
       <section className="flex flex-col items-center gap-8 px-5 pt-8 lg:pt-12">
-        <button className="h-[60px] flex items-center justify-center px-10 rounded-full hover:bg-sona-lightBlue hover:text-sona-blue bg-sona-blue text-white duration-150 mt-6">
+        <a
+          href="https://cal.com/sonaqode"
+          target="_blank"
+          className="h-[60px] flex items-center justify-center px-10 rounded-full hover:bg-sona-lightBlue hover:text-sona-blue bg-sona-blue text-white duration-150 mt-6"
+          rel="noreferrer"
+        >
           Book a consultation
-        </button>
+        </a>
       </section>
 
       <section className="pt-12 lg:pt-16 px-4 lg:px-5">

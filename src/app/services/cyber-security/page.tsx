@@ -15,6 +15,7 @@ export const metadata = {
 
 const CONSTS = {
   text: "text-sona-green",
+  fill: "fill-sona-green",
   bg: "bg-sona-lightGreen",
   hoverbg: "hover:bg-sona-green",
 };
@@ -96,7 +97,7 @@ export default function CyberSecurityPage() {
         section="cyber-security"
       />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
-      <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
+      <HowToInitiate text={CONSTS.text} fill="#FF728D" bgColor={CONSTS.bg} />
       <Faq />
     </main>
   );
