@@ -45,7 +45,7 @@ const Industries = () => {
             {data.map((item, index) => (
               <div
                 key={index}
-                className="w-[200px] h-auto aspect-[20/17] flex flex-col items-center justify-center gap-4 bg-white rounded-2xl"
+                className="w-[200px] h-auto aspect-[20/17] flex flex-col items-center justify-center gap-4 bg-white hover:border hover:border-sona-blue hover:scale-[1.05] duration-150 rounded-2xl"
               >
                 <Image src={item.icon} className="w-11 h-11" alt="icon" />
                 <h3 className="text-lg text-sona-blue font-medium text-center">

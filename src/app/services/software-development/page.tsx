@@ -16,6 +16,7 @@ export const metadata = {
 
 const CONSTS = {
   text: "text-sona-purple",
+  fill: "fill-sona-purple",
   bg: "bg-sona-lightPurple",
   hoverbg: "hover:bg-sona-purple",
 };
@@ -103,7 +104,7 @@ export default function SoftwareDevelopmentPage() {
         section="software-development"
       />
       <AssistanceWith text={CONSTS.text} bgColor={CONSTS.bg} data={assist} />
-      <HowToInitiate text={CONSTS.text} bgColor={CONSTS.bg} />
+      <HowToInitiate text={CONSTS.text} fill="#A855F7" bgColor={CONSTS.bg} />
       <Faq />
     </main>
   );

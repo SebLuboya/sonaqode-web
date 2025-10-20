@@ -81,11 +81,11 @@ export default function Home() {
                 Global Reach
               </h2>
               <p className="font-light text-balance">
-                Experience seamless support. With teams in the UK and Ghana
-                operating in the GMT zone, we work within your business hours.
-                Our collaboration practices effortlessly transcend geographic,
-                language, and cultural differences, delivering clear
-                communication and outstanding results.
+                Experience seamless support from teams in the UK and Ghana.
+                Operating within the GMT time zone, we work during your business
+                hours. Our collaborative practices effortlessly bridge
+                geographic, language, and cultural differences to ensure clear
+                communication and achieve transformative results.
               </p>
             </div>
             <Link href="/about">

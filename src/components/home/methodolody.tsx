@@ -6,85 +6,13 @@ import {
   Schedule,
   Transparent,
 } from "@/assets/icons";
-import {
-  Pink100,
-  Pink25,
-  Pink50,
-  Pink75,
-  Purple100,
-  Purple20,
-  Purple40,
-  Purple60,
-  Purple80,
-} from "@/assets/icons/circles";
 import { cn } from "@/utils";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import CircleLoader from "../misc/CircleLoader";
 
 const sections = [
-  {
-    label: "Monthly Subscription",
-    subLabel: "Hourly Based, Ongoing Contract",
-    desc: "Our subscription based model provides on-demand access to expert developers and engineers who deliver tangible results within a fixed monthly hours package. Benefit from the flexibility and convenience of dedicated team members, supported by consistent communication.",
-    bgcolor: "bg-sona-lightPink",
-    btnClass: "hover:bg-sona-pink text-sona-pink",
-    btnLable: "Subscribe",
-    features: [
-      {
-        icon: Project,
-        label: "Size of the project: Any, long term support",
-        color: "bg-[#DDF0FF]",
-      },
-      {
-        icon: Schedule,
-        label: "Scope: Flexible, within allocated hours per month",
-        color: "bg-[#FFB8B3]",
-      },
-      {
-        icon: Approach,
-        label: "Approach: Result driven",
-        color: "bg-[#FFE1B5]",
-      },
-      {
-        icon: Client,
-        label: "Client Control: Full",
-        color: "bg-[#BBCED7]",
-      },
-      {
-        icon: Admin,
-        label: "Flexibility: High",
-        color: "bg-[#9AA9FF]",
-      },
-      {
-        icon: Transparent,
-        label: "Communication: Designated Specialist",
-        color: "bg-[#93FF98]",
-      },
-    ],
-    benefits: [
-      {
-        label: "Subscribe",
-        desc: "Select the service and package that best suits your needs. Follow our quick payment process by providing your company details.",
-        circle: Pink25,
-      },
-      {
-        label: "Engage",
-        desc: "We will schedule a call to understand your requirements, align on expectations, and start the process of matching you with the ideal candidate.",
-        circle: Pink50,
-      },
-      {
-        label: "Cooperate",
-        desc: "Once you've subscribed we'll present you with shortlisted pre-vetted candidates. Once you've made your selection, we'll arrange an interview.",
-        circle: Pink75,
-      },
-      {
-        label: "Commence",
-        desc: "With your candidate chosen, we'll schedule a call to onboard your new team member so you can start delegating effectively immediately. We then provide regular check-ins to ensure seamless progress and continuously align on delivering maximum value.",
-        circle: Pink100,
-      },
-    ],
-  },
   {
     label: "Agile Team",
     subLabel: "Agile Methodology",
@@ -128,27 +56,80 @@ const sections = [
       {
         label: "Pre-engagement",
         desc: "Our partnership begins with a holistic analysis of your vision to clarify your goals, pinpoint challenges, and assess resource requirements.",
-        circle: Purple20,
       },
       {
         label: "Discovery",
         desc: "We collaborate with you to transform your idea into an actionable strategy. By defining precise technical and strategic solutions, we unlock significant business and user value, maximising your investment.",
-        circle: Purple40,
       },
       {
         label: "Proposal",
         desc: "Following a thorough analysis of your business needs, we will deliver a detailed proposal for your review. It clearly defines the value proposition, project scope, timelines, and terms, and includes a risk assessment with mitigation strategies.",
-        circle: Purple60,
       },
       {
         label: "Development",
         desc: "After aligning on all project details and formalising our commitment with an MSA, we assemble your dedicated team to start development. This stage turns your concept into a working product, driven by a focus on high quality coding and comprehensive testing.",
-        circle: Purple80,
       },
       {
         label: "Support",
         desc: "Our commitment extends long after your product launch. We provide post deployment support to maintain and enhance your software, ensuring its long-term success. Our experts conduct regular health assessments to guarantee reliability and adapt the product to your evolving needs.",
-        circle: Purple100,
+      },
+    ],
+  },
+  {
+    label: "Monthly Subscription",
+    subLabel: "Hourly Based, Ongoing Contract",
+    desc: "Our subscription based model provides on-demand access to expert developers and engineers who deliver tangible results within a fixed monthly hours package. Benefit from the flexibility and convenience of dedicated team members, supported by consistent communication.",
+    bgcolor: "bg-sona-lightPink",
+    btnClass: "hover:bg-sona-pink text-sona-pink",
+    btnLable: "Subscribe",
+    features: [
+      {
+        icon: Project,
+        label: "Size of the project: Any, long term support",
+        color: "bg-[#DDF0FF]",
+      },
+      {
+        icon: Schedule,
+        label: "Scope: Flexible, within allocated hours per month",
+        color: "bg-[#FFB8B3]",
+      },
+      {
+        icon: Approach,
+        label: "Approach: Result driven",
+        color: "bg-[#FFE1B5]",
+      },
+      {
+        icon: Client,
+        label: "Client Control: Full",
+        color: "bg-[#BBCED7]",
+      },
+      {
+        icon: Admin,
+        label: "Flexibility: High",
+        color: "bg-[#9AA9FF]",
+      },
+      {
+        icon: Transparent,
+        label: "Communication: Designated Specialist",
+        color: "bg-[#93FF98]",
+      },
+    ],
+    benefits: [
+      {
+        label: "Subscribe",
+        desc: "Select the service and package that best suits your needs. Follow our quick payment process by providing your company details.",
+      },
+      {
+        label: "Engage",
+        desc: "We will schedule a call to understand your requirements, align on expectations, and start the process of matching you with the ideal candidate.",
+      },
+      {
+        label: "Cooperate",
+        desc: "Once you've subscribed we'll present you with shortlisted pre-vetted candidates. Once you've made your selection, we'll arrange an interview.",
+      },
+      {
+        label: "Commence",
+        desc: "With your candidate chosen, we'll schedule a call to onboard your new team member so you can start delegating effectively immediately. We then provide regular check-ins to ensure seamless progress and continuously align on delivering maximum value.",
       },
     ],
   },
@@ -261,10 +242,18 @@ const Methodolody = () => {
                         i === 0 && "opacity-0",
                       )}
                     ></div>
-                    <Image
-                      src={benefit.circle}
-                      className="w-16 lg:w-20 h-16 lg:h-20 shrink-0"
-                      alt="icon"
+                    <CircleLoader
+                      innerColor={
+                        idx === 0
+                          ? "hsla(340, 100%, 80%, 1)"
+                          : "hsla(266, 100%, 64%, 1)"
+                      }
+                      outerColor={
+                        idx === 0
+                          ? "hsla(340, 100%, 90%, 1)"
+                          : "hsla(242, 100%, 90%, 1)"
+                      }
+                      percentage={((i + 1) / section.benefits.length) * 100}
                     />
                     <div
                       className={cn(
