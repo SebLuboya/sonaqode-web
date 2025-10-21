@@ -24,7 +24,7 @@ export const clientData = [
     name: "Amisi Kalonda",
     position: "Tech lead, My Tech Partner",
     review:
-      "Sonaqode has been an outstanding partner. They quickly integrated into our workflow, fostering a collaborative and fruitful relationship. Their team is highly proactive and hands on, providing exceptionally qualified back-end engineers. Despite complex and evolving requirements, they demonstrated remarkable adaptability and commitment, delivering quality results without fail.",
+      "Sonaqode has been an outstanding partner. They quickly integrated into our workflow, supporting a collaborative relationship. Their team is highly proactive and hands on, providing exceptionally qualified back-end engineers. Despite complex and evolving requirements, they demonstrated remarkable adaptability and commitment, delivering quality results without fail.",
     country: "NETHERLANDS ",
     countryCode: "NL",
     image: Mytech,
