@@ -14,19 +14,19 @@ const data = [
   {
     label: "SDG 3",
     sublabel: "Good Health and Wellbeing",
-    desc: "We put our people first and their well-being is our utmost priority. We actively foster a culture that encourages open dialogue about mental health, promotes a healthy work life balance, incentivises wellness, and engages everyone with meaningful initiatives.",
+    desc: "We put our people first and their well-being is our utmost priority. We actively support a culture that encourages open dialogue about mental health, promotes a healthy work life balance, incentivises wellness, and engages everyone with meaningful initiatives.",
     image: Sdg2,
   },
   {
     label: "SDG 5",
     sublabel: "Gender Equality",
-    desc: "We actively champion gender equality by promoting women's advancement into leadership and across all levels of our workforce. We know that fostering a diverse and inclusive workplace broadens perspectives, stimulates innovation, and enhances our problem solving capabilities.",
+    desc: "We actively champion gender equality by promoting women's advancement into leadership and across all levels of our workforce. We know that upholding a diverse and inclusive workplace broadens perspectives, stimulates innovation, and enhances our problem solving capabilities.",
     image: Sdg3,
   },
   {
     label: "SDG 10",
     sublabel: "Reduced Inequalities",
-    desc: "We build pathways to digital careers for underrepresented communities. Through youth education and mentorship for underprivileged job seekers, we work to level the playing field and foster inclusive economic growth.",
+    desc: "We build pathways to digital careers for underrepresented communities. Through youth education and mentorship for underprivileged job seekers, we work to level the playing field and promote inclusive economic growth.",
     image: Sdg4,
   },
 ];
