@@ -1,6 +1,6 @@
 import React from "react";
 
-function FacebookIcon(props: JSX.IntrinsicElements["svg"]) {
+function FacebookIcon(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg
       width="22"

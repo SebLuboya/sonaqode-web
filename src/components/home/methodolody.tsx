@@ -133,7 +133,7 @@ const sections = [
       },
     ],
   },
-];
+].reverse();
 
 const Methodolody = () => {
   return (
@@ -264,7 +264,7 @@ const Methodolody = () => {
                   </div>
                   <div
                     className={cn(
-                      idx === 0 ? "py-5" : "py-10",
+                      idx === 0 ? "py-10" : "py-5",
                       i === 0 && "pt-0",
                     )}
                   >

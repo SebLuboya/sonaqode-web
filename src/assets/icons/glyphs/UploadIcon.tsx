@@ -1,6 +1,6 @@
 import React from "react";
 
-function UploadIcon(props: JSX.IntrinsicElements["svg"]) {
+function UploadIcon(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg
       width="46"

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
+import React from "react";
 import { EmailTemplate } from "@/components/templates/email-template";
 import { QuoteFormInput } from "@/types";
 
@@ -22,12 +23,11 @@ export async function POST(request: NextRequest) {
     form[typedKey] = value as string;
   });
 
-  // @ts-ignore
   const { data, error } = await resend.emails.send({
     from: "Sonaqode <notif@sonaqode.co.uk>",
     to: ["info@sonaqode.co.uk"],
     subject: `Sonaqode Contact Enquiry - ${form.subject}`,
-    react: EmailTemplate({
+    react: React.createElement(EmailTemplate, {
       name: form.name,
       content: form.description,
       phone: form.phone,

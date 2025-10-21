@@ -1,6 +1,6 @@
 import React from "react";
 
-function Menu(props: JSX.IntrinsicElements["svg"]) {
+function Menu(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg
       width="37"

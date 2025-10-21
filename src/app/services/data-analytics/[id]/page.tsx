@@ -3,8 +3,8 @@ import { cn } from "@/utils";
 import Image from "next/image";
 import Subscribe from "@/components/services/details/subscribe";
 import { getServiceData, analyticesData } from "@/data/analyticesData";
-import NotFound from "next/dist/client/components/not-found-error";
 import KeysAndSkills from "@/components/services/details/keysAndSkills";
+import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
   return analyticesData.map((service, i) => ({
@@ -12,10 +12,11 @@ export async function generateStaticParams() {
   }));
 }
 
-const AnalyticsDetailsPage = ({ params }: { params: { id: string } }) => {
+const AnalyticsDetailsPage = async (props: { params: Promise<{ id: string }> }) => {
+  const params = await props.params;
   const service = getServiceData(params.id);
 
-  if (!service) return NotFound();
+  if (!service) return notFound();
 
   return (
     <main className="pt-4 lg:pt-8 pb-20 lg:pb-24">

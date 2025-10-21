@@ -1,4 +1,4 @@
-function Checkicon(props: JSX.IntrinsicElements["svg"]) {
+function Checkicon(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg
       width="24"

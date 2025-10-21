@@ -51,7 +51,7 @@ export default function AboutUs() {
           </p>
           <p>
             We&apos;re building the future of work by unlocking Africa&apos;s
-            vast potential and creating exceptional opportunities for growth and
+            digital potential and creating exceptional opportunities for growth and
             innovation. Our specialists have a proven track record of delivering
             results for international companies. With Sonaqode&apos;s ongoing
             support, we guide you every step of the way to transform your ideas

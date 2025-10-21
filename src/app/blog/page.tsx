@@ -1,14 +1,21 @@
 "use client";
 import { Sdg2 } from "@/assets/images";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 
-const Page = () => {
-  const [filter, setFilter] = useState("");
+const Page = ({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string }>;
+}) => {
+  const search = use(searchParams);
+  const [filter, setFilter] = useState(
+    search.filter ? search.filter : "",
+  );
 
   const data = [
     {
-      type: "Blog",
+      type: "blog",
       title:
         "Lorem ipsum dolor sit amet consectetur. At metus amet amet felis massa a massa. Cras quam vel nam auctor turpis.",
       image: Sdg2,
@@ -31,12 +38,12 @@ const Page = () => {
         <div className="w-full max-w-[1260px] flex flex-col gap-11 lg:gap-16 pt-10 lg:pt-12 mx-auto"></div>
       </section>
       <div className="w-full flex flex-row items-center justify-center gap-11">
-        {["Blog", "News"].map((item) => (
+        {["blog", "news"].map((item) => (
           <button
             key={item}
             className={`h-11 px-5 border border-gray-800 rounded-full ${
               filter === item ? "bg-gray-800 text-white" : "bg-white"
-            } duration-150`}
+            } duration-150 capitalize`}
             onClick={() => {
               if (filter === item) {
                 setFilter("");

@@ -1,6 +1,6 @@
 import React from "react";
 
-function GithubIcon(props: JSX.IntrinsicElements["svg"]) {
+function GithubIcon(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg
       width="22"
