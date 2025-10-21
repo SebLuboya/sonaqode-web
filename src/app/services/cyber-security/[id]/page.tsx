@@ -6,8 +6,8 @@ import {
   // cyberData,
   getServiceData,
 } from "@/data/cyberData";
-import NotFound from "next/dist/client/components/not-found-error";
 import KeysAndSkills from "@/components/services/details/keysAndSkills";
+import { notFound } from "next/navigation";
 
 // export async function generateStaticParams() {
 //   return cyberData.map((service, i) => ({
@@ -15,10 +15,11 @@ import KeysAndSkills from "@/components/services/details/keysAndSkills";
 //   }));
 // }
 
-const SWEDetailsPage = ({ params }: { params: { id: string } }) => {
+const SWEDetailsPage = async (props: { params: Promise<{ id: string }> }) => {
+  const params = await props.params;
   const service = getServiceData(params.id);
 
-  if (!service) return NotFound();
+  if (!service) return notFound();
 
   return (
     <main className="pt-4 lg:pt-8 pb-20 lg:pb-24">

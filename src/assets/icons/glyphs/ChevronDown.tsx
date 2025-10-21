@@ -1,6 +1,6 @@
 import React from "react";
 
-function ChevronDown(props: JSX.IntrinsicElements["svg"]) {
+function ChevronDown(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg
       width="16"

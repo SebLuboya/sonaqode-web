@@ -1,6 +1,6 @@
 import React from "react";
 
-function ArrowLeft(props: JSX.IntrinsicElements["svg"]) {
+function ArrowLeft(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg viewBox="7 7 18 18" xmlns="http://www.w3.org/2000/svg" {...props}>
       <g id="arrowRight">

@@ -88,9 +88,16 @@ export default function Home() {
                 communication and achieve transformative results.
               </p>
             </div>
-            <Link href="/about">
-              <Button>Learn more</Button>
-            </Link>
+            <div className="flex items-start">
+              <a
+                href="https://cal.com/sonaqode"
+                target="_blank"
+                className="h-[60px] flex items-center justify-center px-10 rounded-full hover:bg-sona-lightBlue hover:text-sona-blue bg-sona-blue text-white duration-150 mt-6"
+                rel="noreferrer"
+                >
+                Book a consultation
+              </a>
+            </div>
           </div>
         </div>
       </section>

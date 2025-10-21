@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, RefObject } from "react";
 import useEventListener from "./useEventListener";
 
 export default function useMouseOverCallback(
-  elementRef: React.MutableRefObject<null>,
+  elementRef: RefObject<any>,
   ...args: any[]
 ) {
   const [isOver, setIsOver] = useState(false);

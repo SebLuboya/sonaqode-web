@@ -1,6 +1,6 @@
 import React from "react";
 
-function LinkedInIcon(props: JSX.IntrinsicElements["svg"]) {
+function LinkedInIcon(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg
       width="21"

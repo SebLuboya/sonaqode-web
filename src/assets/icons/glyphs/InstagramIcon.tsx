@@ -1,4 +1,4 @@
-function InstagramIcon(props: JSX.IntrinsicElements["svg"]) {
+function InstagramIcon(props: React.JSX.IntrinsicElements["svg"]) {
   return (
     <svg
       viewBox="0 0 600 600"

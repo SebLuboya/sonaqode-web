@@ -45,11 +45,11 @@ const links = [
     content: [
       {
         label: "Blog",
-        link: "/#blog",
+        link: "/blog?filter=blog",
       },
       {
         label: "News",
-        link: "/#news",
+        link: "/blog?filter=news",
       },
     ],
   },
